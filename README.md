@@ -59,4 +59,5 @@ This tool generates structured workout templates using YAML input data. It calcu
 
 ## Screenshot
 
-![image](https://github.com/user-attachments/assets/46294717-7413-40d7-8a7a-b1e511dae3ad)
+![image](https://github.com/user-attachments/assets/72365b5c-1801-45e5-91f0-9af3ade5b55b)
+
