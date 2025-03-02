@@ -119,7 +119,7 @@
           sets:
             - notes: Keep volume and maintain strict form.
               percentage_1rm: 42
-              reps: "3x8"
+              reps: "5x8"
               weight: "50kg"
         - name: Band Pull-Aparts
           sets:
@@ -181,7 +181,7 @@
           sets:
             - notes: Keep strict form under volume stress.
               percentage_1rm: 42
-              reps: "3x8"
+              reps: "5x8"
               weight: "50kg"
         - name: Band Pull-Aparts
           sets:
@@ -189,130 +189,129 @@
               percentage_1rm: 42
               reps: "2x8"
               weight: "50kg"
-
 - week_3:
-    # Further progression – volume is maintained with slight increases in load for additional capacity.
+    # Progressive Volume Block – Continue building on Week 2's success with a modest load increase.
     - weekday: Tuesday
-      session: Lower Body (Volume)
+      session: Lower Body (Volume Progression)
       exercises:
         - name: Squat
           sets:
-            - notes: Continue progression while keeping form strict.
-              percentage_1rm: 64
+            - notes: Standard – increase load for continued progression.
+              percentage_1rm: 65
               reps: "3x5"
-            - notes: Paused variant.
-              percentage_1rm: 59
+            - notes: Paused variant – focus on control.
+              percentage_1rm: 60
               reps: "2x2"
-            - notes: Explosive variant.
-              percentage_1rm: 59
+            - notes: Explosive variant – emphasize power while maintaining form.
+              percentage_1rm: 60
               reps: "2x3"
         - name: Leg Press
           sets:
-            - notes: Maintain high volume; focus on smooth movement.
+            - notes: Increase load slightly while keeping rep scheme steady.
               reps: "2x12"
         - name: Hamstring Leg Curls
           sets:
-            - notes: Maintain controlled tempo.
+            - notes: Maintain a controlled tempo; consider a small load bump.
               reps: "2x12"
         - name: Leg Extension
           sets:
-            - notes: Emphasize slow eccentrics.
+            - notes: Keep execution smooth; adjust load if needed.
               reps: "2x12"
         - name: Glute Bridges
           sets:
-            - notes: Hold for 1–2 seconds at peak contraction.
+            - notes: Emphasize the hip squeeze with a consistent pace.
               reps: "2x12"
     - weekday: Thursday
-      session: Upper Body (Volume)
+      session: Upper Body (Volume Progression)
       exercises:
         - name: Weighted Muscle-Ups
           sets:
-            - notes: Continue increasing work capacity.
-              percentage_1rm: 64
+            - notes: Increase load slightly; focus on smooth, controlled movement.
+              percentage_1rm: 65
               reps: "3x5"
         - name: Weighted Pull-Ups
           sets:
-            - notes: Increase intensity while maintaining quality.
-              percentage_1rm: 69
+            - notes: Maintain quality reps; increase load.
+              percentage_1rm: 70
               reps: "3x5"
               weight: "52.5kg"
         - name: Weighted Pull-Ups
           sets:
-            - notes: Paused – focus on peak contraction.
-              percentage_1rm: 69
+            - notes: Paused variant – really focus on the contraction.
+              percentage_1rm: 70
               reps: "2x5"
               weight: "52.5kg"
         - name: Weighted Ring Dips
           sets:
-            - notes: Increase intensity slightly.
-              percentage_1rm: 44
-              reps: "3x8"
+            - notes: Maintain strict form under a slightly increased load.
+              percentage_1rm: 45
+              reps: "6x8"
               weight: "52.5kg"
         - name: Band Pull-Aparts
           sets:
-            - notes: Maintain full range with scapular focus.
-              percentage_1rm: 44
+            - notes: Emphasize scapular control; adjust tension/load accordingly.
+              percentage_1rm: 45
               reps: "2x8"
               weight: "52.5kg"
     - weekday: Saturday
-      session: Lower Body (Volume)
+      session: Lower Body (Volume Progression)
       exercises:
         - name: Squat
           sets:
-            - notes: Consistent progression – maintain quality reps.
-              percentage_1rm: 64
+            - notes: Repeat Tuesday’s structure for consistency.
+              percentage_1rm: 65
               reps: "3x5"
             - notes: Paused variant.
-              percentage_1rm: 59
+              percentage_1rm: 60
               reps: "2x2"
             - notes: Explosive variant.
-              percentage_1rm: 59
+              percentage_1rm: 60
               reps: "2x3"
         - name: Leg Press
           sets:
-            - notes: Keep volume steady.
+            - notes: Focus on full range of motion with a slight load increase.
               reps: "2x12"
         - name: Hamstring Leg Curls
           sets:
-            - notes: Controlled pace.
+            - notes: Continue with controlled execution.
               reps: "2x12"
         - name: Leg Extension
           sets:
-            - notes: Focus on technique.
+            - notes: Keep form consistent; adjust load as needed.
               reps: "2x12"
         - name: Glute Bridges
           sets:
-            - notes: Maintain a strong hip squeeze.
+            - notes: Keep emphasizing a strong hip squeeze.
               reps: "2x12"
     - weekday: Sunday
-      session: Upper Body (Volume)
+      session: Upper Body (Volume Progression)
       exercises:
         - name: Weighted Muscle-Ups
           sets:
-            - notes: Steady progression with quality reps.
-              percentage_1rm: 64
+            - notes: Increase load and focus on quality reps.
+              percentage_1rm: 65
               reps: "3x5"
         - name: Weighted Pull-Ups
           sets:
-            - notes: Maintain quality under increased load.
-              percentage_1rm: 69
+            - notes: Continue with quality volume and a slight load bump.
+              percentage_1rm: 70
               reps: "3x5"
               weight: "52.5kg"
         - name: Weighted Pull-Ups
           sets:
-            - notes: Paused – focus on strong contraction.
-              percentage_1rm: 69
+            - notes: Paused variant – concentrate on peak contraction.
+              percentage_1rm: 70
               reps: "2x5"
               weight: "52.5kg"
         - name: Weighted Ring Dips
           sets:
-            - notes: Keep strict form.
-              percentage_1rm: 44
-              reps: "3x8"
+            - notes: Keep strict form; manage increased load.
+              percentage_1rm: 45
+              reps: "6x8"
               weight: "52.5kg"
         - name: Band Pull-Aparts
           sets:
-            - notes: Emphasize full range and control.
-              percentage_1rm: 44
+            - notes: Full range with emphasis on scapular control.
+              percentage_1rm: 45
               reps: "2x8"
               weight: "52.5kg"

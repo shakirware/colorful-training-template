@@ -224,6 +224,14 @@
         percentage_1rm: 42
         reps: 8
         weight: 25.2kg
+      - notes: Keep volume and maintain strict form.
+        percentage_1rm: 42
+        reps: 8
+        weight: 25.2kg
+      - notes: Keep volume and maintain strict form.
+        percentage_1rm: 42
+        reps: 8
+        weight: 25.2kg
     - name: Band Pull-Aparts
       sets:
       - notes: Emphasize full range of motion.
@@ -334,6 +342,14 @@
         weight: 50kg
     - name: Weighted Ring Dips
       sets:
+      - notes: Keep strict form under volume stress.
+        percentage_1rm: 42
+        reps: 8
+        weight: 25.2kg
+      - notes: Keep strict form under volume stress.
+        percentage_1rm: 42
+        reps: 8
+        weight: 25.2kg
       - notes: Keep strict form under volume stress.
         percentage_1rm: 42
         reps: 8
@@ -362,244 +378,268 @@
   - exercises:
     - name: Squat
       sets:
-      - notes: Continue progression while keeping form strict.
-        percentage_1rm: 64
+      - notes: "Standard \u2013 increase load for continued progression."
+        percentage_1rm: 65
         reps: 5
-        weight: 120kg
-      - notes: Continue progression while keeping form strict.
-        percentage_1rm: 64
+        weight: 122.5kg
+      - notes: "Standard \u2013 increase load for continued progression."
+        percentage_1rm: 65
         reps: 5
-        weight: 120kg
-      - notes: Continue progression while keeping form strict.
-        percentage_1rm: 64
+        weight: 122.5kg
+      - notes: "Standard \u2013 increase load for continued progression."
+        percentage_1rm: 65
         reps: 5
-        weight: 120kg
-      - notes: Paused variant.
-        percentage_1rm: 59
+        weight: 122.5kg
+      - notes: "Paused variant \u2013 focus on control."
+        percentage_1rm: 60
         reps: 2
-        weight: 120kg
-      - notes: Paused variant.
-        percentage_1rm: 59
+        weight: 122.5kg
+      - notes: "Paused variant \u2013 focus on control."
+        percentage_1rm: 60
         reps: 2
+        weight: 122.5kg
+      - notes: "Explosive variant \u2013 emphasize power while maintaining form."
+        percentage_1rm: 60
+        reps: 3
         weight: 120kg
-      - notes: Explosive variant.
-        percentage_1rm: 59
+      - notes: "Explosive variant \u2013 emphasize power while maintaining form."
+        percentage_1rm: 60
         reps: 3
-        weight: 117.5kg
-      - notes: Explosive variant.
-        percentage_1rm: 59
-        reps: 3
-        weight: 117.5kg
+        weight: 120kg
     - name: Leg Press
       sets:
-      - notes: Maintain high volume; focus on smooth movement.
+      - notes: Increase load slightly while keeping rep scheme steady.
         reps: 12
-      - notes: Maintain high volume; focus on smooth movement.
+      - notes: Increase load slightly while keeping rep scheme steady.
         reps: 12
     - name: Hamstring Leg Curls
       sets:
-      - notes: Maintain controlled tempo.
+      - notes: Maintain a controlled tempo; consider a small load bump.
         reps: 12
-      - notes: Maintain controlled tempo.
+      - notes: Maintain a controlled tempo; consider a small load bump.
         reps: 12
     - name: Leg Extension
       sets:
-      - notes: Emphasize slow eccentrics.
+      - notes: Keep execution smooth; adjust load if needed.
         reps: 12
-      - notes: Emphasize slow eccentrics.
+      - notes: Keep execution smooth; adjust load if needed.
         reps: 12
     - name: Glute Bridges
       sets:
-      - notes: "Hold for 1\u20132 seconds at peak contraction."
+      - notes: Emphasize the hip squeeze with a consistent pace.
         reps: 12
-      - notes: "Hold for 1\u20132 seconds at peak contraction."
+      - notes: Emphasize the hip squeeze with a consistent pace.
         reps: 12
-    session: Lower Body (Volume)
+    session: Lower Body (Volume Progression)
     weekday: Tuesday
   - exercises:
     - name: Weighted Muscle-Ups
       sets:
-      - notes: Continue increasing work capacity.
-        percentage_1rm: 64
+      - notes: Increase load slightly; focus on smooth, controlled movement.
+        percentage_1rm: 65
         reps: 5
         weight: 10kg
-      - notes: Continue increasing work capacity.
-        percentage_1rm: 64
+      - notes: Increase load slightly; focus on smooth, controlled movement.
+        percentage_1rm: 65
         reps: 5
         weight: 10kg
-      - notes: Continue increasing work capacity.
-        percentage_1rm: 64
+      - notes: Increase load slightly; focus on smooth, controlled movement.
+        percentage_1rm: 65
         reps: 5
         weight: 10kg
     - name: Weighted Pull-Ups
       sets:
-      - notes: Increase intensity while maintaining quality.
-        percentage_1rm: 69
+      - notes: Maintain quality reps; increase load.
+        percentage_1rm: 70
         reps: 5
         weight: 52.5kg
-      - notes: Increase intensity while maintaining quality.
-        percentage_1rm: 69
+      - notes: Maintain quality reps; increase load.
+        percentage_1rm: 70
         reps: 5
         weight: 52.5kg
-      - notes: Increase intensity while maintaining quality.
-        percentage_1rm: 69
+      - notes: Maintain quality reps; increase load.
+        percentage_1rm: 70
         reps: 5
         weight: 52.5kg
     - name: Weighted Pull-Ups
       sets:
-      - notes: "Paused \u2013 focus on peak contraction."
-        percentage_1rm: 69
+      - notes: "Paused variant \u2013 really focus on the contraction."
+        percentage_1rm: 70
         reps: 5
         weight: 52.5kg
-      - notes: "Paused \u2013 focus on peak contraction."
-        percentage_1rm: 69
+      - notes: "Paused variant \u2013 really focus on the contraction."
+        percentage_1rm: 70
         reps: 5
         weight: 52.5kg
     - name: Weighted Ring Dips
       sets:
-      - notes: Increase intensity slightly.
-        percentage_1rm: 44
+      - notes: Maintain strict form under a slightly increased load.
+        percentage_1rm: 45
         reps: 8
-        weight: 26.5kg
-      - notes: Increase intensity slightly.
-        percentage_1rm: 44
+        weight: 27kg
+      - notes: Maintain strict form under a slightly increased load.
+        percentage_1rm: 45
         reps: 8
-        weight: 26.5kg
-      - notes: Increase intensity slightly.
-        percentage_1rm: 44
+        weight: 27kg
+      - notes: Maintain strict form under a slightly increased load.
+        percentage_1rm: 45
         reps: 8
-        weight: 26.5kg
+        weight: 27kg
+      - notes: Maintain strict form under a slightly increased load.
+        percentage_1rm: 45
+        reps: 8
+        weight: 27kg
+      - notes: Maintain strict form under a slightly increased load.
+        percentage_1rm: 45
+        reps: 8
+        weight: 27kg
+      - notes: Maintain strict form under a slightly increased load.
+        percentage_1rm: 45
+        reps: 8
+        weight: 27kg
     - name: Band Pull-Aparts
       sets:
-      - notes: Maintain full range with scapular focus.
-        percentage_1rm: 44
+      - notes: Emphasize scapular control; adjust tension/load accordingly.
+        percentage_1rm: 45
         reps: 8
         weight: 52.5kg
-      - notes: Maintain full range with scapular focus.
-        percentage_1rm: 44
+      - notes: Emphasize scapular control; adjust tension/load accordingly.
+        percentage_1rm: 45
         reps: 8
         weight: 52.5kg
-    session: Upper Body (Volume)
+    session: Upper Body (Volume Progression)
     weekday: Thursday
   - exercises:
     - name: Squat
       sets:
-      - notes: "Consistent progression \u2013 maintain quality reps."
-        percentage_1rm: 64
+      - notes: "Repeat Tuesday\u2019s structure for consistency."
+        percentage_1rm: 65
         reps: 5
-        weight: 120kg
-      - notes: "Consistent progression \u2013 maintain quality reps."
-        percentage_1rm: 64
+        weight: 122.5kg
+      - notes: "Repeat Tuesday\u2019s structure for consistency."
+        percentage_1rm: 65
         reps: 5
-        weight: 120kg
-      - notes: "Consistent progression \u2013 maintain quality reps."
-        percentage_1rm: 64
+        weight: 122.5kg
+      - notes: "Repeat Tuesday\u2019s structure for consistency."
+        percentage_1rm: 65
         reps: 5
-        weight: 120kg
+        weight: 122.5kg
       - notes: Paused variant.
-        percentage_1rm: 59
+        percentage_1rm: 60
         reps: 2
-        weight: 120kg
+        weight: 122.5kg
       - notes: Paused variant.
-        percentage_1rm: 59
+        percentage_1rm: 60
         reps: 2
+        weight: 122.5kg
+      - notes: Explosive variant.
+        percentage_1rm: 60
+        reps: 3
         weight: 120kg
       - notes: Explosive variant.
-        percentage_1rm: 59
+        percentage_1rm: 60
         reps: 3
-        weight: 117.5kg
-      - notes: Explosive variant.
-        percentage_1rm: 59
-        reps: 3
-        weight: 117.5kg
+        weight: 120kg
     - name: Leg Press
       sets:
-      - notes: Keep volume steady.
+      - notes: Focus on full range of motion with a slight load increase.
         reps: 12
-      - notes: Keep volume steady.
+      - notes: Focus on full range of motion with a slight load increase.
         reps: 12
     - name: Hamstring Leg Curls
       sets:
-      - notes: Controlled pace.
+      - notes: Continue with controlled execution.
         reps: 12
-      - notes: Controlled pace.
+      - notes: Continue with controlled execution.
         reps: 12
     - name: Leg Extension
       sets:
-      - notes: Focus on technique.
+      - notes: Keep form consistent; adjust load as needed.
         reps: 12
-      - notes: Focus on technique.
+      - notes: Keep form consistent; adjust load as needed.
         reps: 12
     - name: Glute Bridges
       sets:
-      - notes: Maintain a strong hip squeeze.
+      - notes: Keep emphasizing a strong hip squeeze.
         reps: 12
-      - notes: Maintain a strong hip squeeze.
+      - notes: Keep emphasizing a strong hip squeeze.
         reps: 12
-    session: Lower Body (Volume)
+    session: Lower Body (Volume Progression)
     weekday: Saturday
   - exercises:
     - name: Weighted Muscle-Ups
       sets:
-      - notes: Steady progression with quality reps.
-        percentage_1rm: 64
+      - notes: Increase load and focus on quality reps.
+        percentage_1rm: 65
         reps: 5
         weight: 10kg
-      - notes: Steady progression with quality reps.
-        percentage_1rm: 64
+      - notes: Increase load and focus on quality reps.
+        percentage_1rm: 65
         reps: 5
         weight: 10kg
-      - notes: Steady progression with quality reps.
-        percentage_1rm: 64
+      - notes: Increase load and focus on quality reps.
+        percentage_1rm: 65
         reps: 5
         weight: 10kg
     - name: Weighted Pull-Ups
       sets:
-      - notes: Maintain quality under increased load.
-        percentage_1rm: 69
+      - notes: Continue with quality volume and a slight load bump.
+        percentage_1rm: 70
         reps: 5
         weight: 52.5kg
-      - notes: Maintain quality under increased load.
-        percentage_1rm: 69
+      - notes: Continue with quality volume and a slight load bump.
+        percentage_1rm: 70
         reps: 5
         weight: 52.5kg
-      - notes: Maintain quality under increased load.
-        percentage_1rm: 69
+      - notes: Continue with quality volume and a slight load bump.
+        percentage_1rm: 70
         reps: 5
         weight: 52.5kg
     - name: Weighted Pull-Ups
       sets:
-      - notes: "Paused \u2013 focus on strong contraction."
-        percentage_1rm: 69
+      - notes: "Paused variant \u2013 concentrate on peak contraction."
+        percentage_1rm: 70
         reps: 5
         weight: 52.5kg
-      - notes: "Paused \u2013 focus on strong contraction."
-        percentage_1rm: 69
+      - notes: "Paused variant \u2013 concentrate on peak contraction."
+        percentage_1rm: 70
         reps: 5
         weight: 52.5kg
     - name: Weighted Ring Dips
       sets:
-      - notes: Keep strict form.
-        percentage_1rm: 44
+      - notes: Keep strict form; manage increased load.
+        percentage_1rm: 45
         reps: 8
-        weight: 26.5kg
-      - notes: Keep strict form.
-        percentage_1rm: 44
+        weight: 27kg
+      - notes: Keep strict form; manage increased load.
+        percentage_1rm: 45
         reps: 8
-        weight: 26.5kg
-      - notes: Keep strict form.
-        percentage_1rm: 44
+        weight: 27kg
+      - notes: Keep strict form; manage increased load.
+        percentage_1rm: 45
         reps: 8
-        weight: 26.5kg
+        weight: 27kg
+      - notes: Keep strict form; manage increased load.
+        percentage_1rm: 45
+        reps: 8
+        weight: 27kg
+      - notes: Keep strict form; manage increased load.
+        percentage_1rm: 45
+        reps: 8
+        weight: 27kg
+      - notes: Keep strict form; manage increased load.
+        percentage_1rm: 45
+        reps: 8
+        weight: 27kg
     - name: Band Pull-Aparts
       sets:
-      - notes: Emphasize full range and control.
-        percentage_1rm: 44
+      - notes: Full range with emphasis on scapular control.
+        percentage_1rm: 45
         reps: 8
         weight: 52.5kg
-      - notes: Emphasize full range and control.
-        percentage_1rm: 44
+      - notes: Full range with emphasis on scapular control.
+        percentage_1rm: 45
         reps: 8
         weight: 52.5kg
-    session: Upper Body (Volume)
+    session: Upper Body (Volume Progression)
     weekday: Sunday
