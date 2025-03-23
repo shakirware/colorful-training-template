@@ -315,3 +315,256 @@
               percentage_1rm: 45
               reps: "2x8"
               weight: "52.5kg"
+- week_4:
+    # Deload Week – Recovery Focus: reduce load & volume while keeping technique sharp.
+    - weekday: Tuesday
+      session: Lower Body (Deload)
+      exercises:
+        - name: Squat
+          sets:
+            - notes: "Standard – focus on technique at reduced load."
+              percentage_1rm: 60
+              reps: "2x5"
+            - notes: "Paused variant – emphasize control with lighter weight."
+              percentage_1rm: 55
+              reps: "2x2"
+            - notes: "Explosive variant – maintain speed with reduced intensity."
+              percentage_1rm: 55
+              reps: "2x3"
+        - name: Leg Press
+          sets:
+            - notes: "Focus on full range of motion with moderate reps."
+              reps: "2x10"
+        - name: Hamstring Leg Curls
+          sets:
+            - notes: "Maintain controlled tempo."
+              reps: "2x10"
+        - name: Leg Extension
+          sets:
+            - notes: "Moderate load – focus on smooth execution."
+              reps: "2x10"
+        - name: Glute Bridges
+          sets:
+            - notes: "Emphasize the hip squeeze."
+              reps: "2x10"
+    - weekday: Thursday
+      session: Upper Body (Deload)
+      exercises:
+        - name: Weighted Muscle-Ups
+          sets:
+            - notes: "Keep it moderate; focus on smooth movement."
+              percentage_1rm: 60
+              reps: "2x5"
+        - name: Weighted Pull-Ups
+          sets:
+            - notes: "Standard execution – controlled quality reps."
+              percentage_1rm: 65
+              reps: "2x5"
+              weight: "47.5kg"
+        - name: Weighted Pull-Ups
+          sets:
+            - notes: "Paused variant – focus on contraction."
+              percentage_1rm: 65
+              reps: "1x5"
+              weight: "47.5kg"
+        - name: Weighted Ring Dips
+          sets:
+            - notes: "Maintain strict form at a lighter load."
+              percentage_1rm: 40
+              reps: "3x8"
+              weight: "47.5kg"
+        - name: Band Pull-Aparts
+          sets:
+            - notes: "Full range with scapular focus."
+              percentage_1rm: 40
+              reps: "2x8"
+              weight: "47.5kg"
+    - weekday: Saturday
+      session: Lower Body (Deload)
+      exercises:
+        - name: Squat
+          sets:
+            - notes: "Standard – reduced load version."
+              percentage_1rm: 60
+              reps: "2x5"
+            - notes: "Paused variant."
+              percentage_1rm: 55
+              reps: "2x2"
+            - notes: "Explosive variant."
+              percentage_1rm: 55
+              reps: "2x3"
+        - name: Leg Press
+          sets:
+            - notes: "Maintain full range; moderate volume."
+              reps: "2x10"
+        - name: Hamstring Leg Curls
+          sets:
+            - notes: "Controlled execution."
+              reps: "2x10"
+        - name: Leg Extension
+          sets:
+            - notes: "Moderate load; focus on form."
+              reps: "2x10"
+        - name: Glute Bridges
+          sets:
+            - notes: "Focus on a strong hip squeeze."
+              reps: "2x10"
+    - weekday: Sunday
+      session: Upper Body (Deload)
+      exercises:
+        - name: Weighted Muscle-Ups
+          sets:
+            - notes: "Continue quality reps at reduced intensity."
+              percentage_1rm: 60
+              reps: "2x5"
+        - name: Weighted Pull-Ups
+          sets:
+            - notes: "Maintain quality volume."
+              percentage_1rm: 65
+              reps: "2x5"
+              weight: "47.5kg"
+        - name: Weighted Pull-Ups
+          sets:
+            - notes: "Paused variant – focus on peak contraction."
+              percentage_1rm: 65
+              reps: "1x5"
+              weight: "47.5kg"
+        - name: Weighted Ring Dips
+          sets:
+            - notes: "Strict form; moderate load."
+              percentage_1rm: 40
+              reps: "3x8"
+              weight: "47.5kg"
+        - name: Band Pull-Aparts
+          sets:
+            - notes: "Emphasize scapular control."
+              percentage_1rm: 40
+              reps: "2x8"
+              weight: "47.5kg"
+
+- week_5:
+    # Progressive Block – Resume progression after deload with modest load increases.
+    - weekday: Tuesday
+      session: Lower Body (Progression)
+      exercises:
+        - name: Squat
+          sets:
+            - notes: "Standard – increase load for continued progression."
+              percentage_1rm: 67
+              reps: "3x5"
+            - notes: "Paused variant – focus on control."
+              percentage_1rm: 62
+              reps: "2x2"
+            - notes: "Explosive variant – emphasize power while maintaining form."
+              percentage_1rm: 62
+              reps: "2x3"
+        - name: Leg Press
+          sets:
+            - notes: "Increase load slightly while keeping rep scheme steady."
+              reps: "2x12"
+        - name: Hamstring Leg Curls
+          sets:
+            - notes: "Maintain controlled tempo; slight load bump."
+              reps: "2x12"
+        - name: Leg Extension
+          sets:
+            - notes: "Keep execution smooth; adjust load if needed."
+              reps: "2x12"
+        - name: Glute Bridges
+          sets:
+            - notes: "Emphasize a strong, consistent hip squeeze."
+              reps: "2x12"
+    - weekday: Thursday
+      session: Upper Body (Progression)
+      exercises:
+        - name: Weighted Muscle-Ups
+          sets:
+            - notes: "Increase load slightly; focus on smooth, controlled movement."
+              percentage_1rm: 67
+              reps: "3x5"
+        - name: Weighted Pull-Ups
+          sets:
+            - notes: "Maintain quality reps; increase load."
+              percentage_1rm: 70
+              reps: "3x5"
+              weight: "52.5kg"
+        - name: Weighted Pull-Ups
+          sets:
+            - notes: "Paused variant – focus on strong contraction."
+              percentage_1rm: 70
+              reps: "2x5"
+              weight: "52.5kg"
+        - name: Weighted Ring Dips
+          sets:
+            - notes: "Maintain strict form with a slightly increased load."
+              percentage_1rm: 45
+              reps: "6x8"
+              weight: "52.5kg"
+        - name: Band Pull-Aparts
+          sets:
+            - notes: "Emphasize scapular control; adjust tension/load accordingly."
+              percentage_1rm: 45
+              reps: "2x8"
+              weight: "52.5kg"
+    - weekday: Saturday
+      session: Lower Body (Progression)
+      exercises:
+        - name: Squat
+          sets:
+            - notes: "Repeat Tuesday’s structure for consistency."
+              percentage_1rm: 67
+              reps: "3x5"
+            - notes: "Paused variant."
+              percentage_1rm: 62
+              reps: "2x2"
+            - notes: "Explosive variant."
+              percentage_1rm: 62
+              reps: "2x3"
+        - name: Leg Press
+          sets:
+            - notes: "Focus on full range of motion with a slight load increase."
+              reps: "2x12"
+        - name: Hamstring Leg Curls
+          sets:
+            - notes: "Continue with controlled execution."
+              reps: "2x12"
+        - name: Leg Extension
+          sets:
+            - notes: "Keep form consistent; adjust load as needed."
+              reps: "2x12"
+        - name: Glute Bridges
+          sets:
+            - notes: "Maintain a strong hip squeeze."
+              reps: "2x12"
+    - weekday: Sunday
+      session: Upper Body (Progression)
+      exercises:
+        - name: Weighted Muscle-Ups
+          sets:
+            - notes: "Increase load and focus on quality reps."
+              percentage_1rm: 60
+              reps: "3x5"
+        - name: Weighted Pull-Ups
+          sets:
+            - notes: "Maintain quality volume; slight load bump."
+              percentage_1rm: 63
+              reps: "3x5"
+              weight: "52.5kg"
+        - name: Weighted Pull-Ups
+          sets:
+            - notes: "Paused variant – concentrate on peak contraction."
+              percentage_1rm: 63
+              reps: "2x5"
+              weight: "52.5kg"
+        - name: Weighted Ring Dips
+          sets:
+            - notes: "Keep strict form; manage increased load."
+              percentage_1rm: 40
+              reps: "6x8"
+              weight: "52.5kg"
+        - name: Band Pull-Aparts
+          sets:
+            - notes: "Full range with emphasis on scapular control."
+              percentage_1rm: 40
+              reps: "2x8"
+              weight: "52.5kg"
