@@ -150,8 +150,8 @@ def update_workout_data_with_rep_max():
         "Weighted Ring Dips": 60,
     }
     exercise_aliases = {
-        "Back Squats": "Squat",
-        "Paused Squats": "Squat",
+        "Back Squat": "Squat",
+        "Paused Squat": "Squat",
         "Dynamic Effort Squats": "Squat",
         "Weighted (Ring) Dips": "Weighted Dips",
     }
