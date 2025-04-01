@@ -49,3 +49,54 @@
         - name: Mobility & Recovery Work
           sets:
             - notes: "25 minutes of dynamic stretching, handstands, foam rolling, and mobility drills."
+- week_2:
+    # Strength Block – Advanced split with progressive overload
+    - weekday: Tuesday
+      session: Lower Body Strength
+      exercises:
+        - name: Back Squat
+          sets:
+            - notes: "Increase load slightly (approx. +2.5–5%) while maintaining explosive power with a controlled descent."
+              percentage_1rm: 82.5
+              reps: "4x3"
+        - name: Paused Squat
+          sets:
+            - notes: "Maintain stability with a controlled pause; load increased slightly."
+              percentage_1rm: 77.5
+              reps: "2x3"
+        - name: Leg Press
+          sets:
+            - notes: "Moderately increase load while focusing on full range of motion and controlled execution."
+              reps: "3x8"
+        - name: Leg Extensions
+          sets:
+            - notes: "Keep a smooth, controlled movement; adjust load if technique is solid."
+              reps: "3x10"
+        - name: Leg Curls
+          sets:
+            - notes: "Maintain controlled tempo; load may be increased modestly."
+              reps: "3x10"
+    - weekday: Thursday
+      session: Upper Body Strength
+      exercises:
+        - name: Weighted Pull-Ups
+          sets:
+            - notes: "Slightly increase the load while emphasizing strict form and full range of motion."
+              percentage_1rm: 82.5
+              reps: "4x3"
+        - name: Weighted Muscle-Ups
+          sets:
+            - notes: "Focus on explosive yet controlled movement; load increased moderately."
+              percentage_1rm: 82.5
+              reps: "3x3"
+        - name: Weighted Ring Dips
+          sets:
+            - notes: "Maintain strict technique; if form is consistent, increase the load slightly."
+              percentage_1rm: 77.5
+              reps: "3x6"
+    - weekday: Saturday
+      session: Active Recovery / Mobility
+      exercises:
+        - name: Mobility & Recovery Work
+          sets:
+            - notes: "Extend the session to 30 minutes; include dynamic stretching, foam rolling, and mobility drills."
