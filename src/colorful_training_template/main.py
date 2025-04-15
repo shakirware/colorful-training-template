@@ -29,7 +29,7 @@ def generate_workout_workbook(updated_workout_data):
         start_row=2,
         start_col=2,
         num_boxes=len(updated_workout_data),
-        num_sets=4,
+        num_sets=5,
         num_exercises=8,
         space_between=3,
         set_width=4,

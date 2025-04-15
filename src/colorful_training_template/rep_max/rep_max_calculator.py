@@ -142,12 +142,12 @@ def update_workout_data_with_rep_max():
         "Close Grip Bench Press": "data/one_rep_max_data_cgbp_90kg.xlsx",
     }
     one_rep_max_values = {
-        "Weighted Pull-Ups": 100,
-        "Weighted Muscle-Ups": 33.75,
-        "Weighted Dips": 90,
-        "Squat": 210,
+        "Weighted Pull-Ups": 90,
+        "Weighted Muscle-Ups": 25,
+        "Weighted Dips": 80,
+        "Squat": 190,
         "Close Grip Bench Press": 125,
-        "Weighted Ring Dips": 60,
+        "Weighted Ring Dips": 65,
     }
     exercise_aliases = {
         "Back Squat": "Squat",

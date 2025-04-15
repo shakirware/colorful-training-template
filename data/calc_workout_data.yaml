@@ -1,112 +1,169 @@
 - week_1:
   - exercises:
-    - name: Back Squat
+    - name: Weighted Pull-Ups
       sets:
-      - notes: Focus on explosive power with controlled descent.
+      - notes: "Wave 1 \u2013 Controlled explosive reps; full ROM."
         percentage_1rm: 80
         reps: 3
-        weight: 157.5kg
-      - notes: Focus on explosive power with controlled descent.
-        percentage_1rm: 80
+        weight: 62.5kg
+      - notes: "Wave 1 \u2013 Maintain bar speed and tight form."
+        percentage_1rm: 85
         reps: 3
-        weight: 157.5kg
-      - notes: Focus on explosive power with controlled descent.
-        percentage_1rm: 80
+        weight: 67.5kg
+      - notes: "Wave 1 \u2013 Top triple; stay clean under fatigue."
+        percentage_1rm: 90
         reps: 3
-        weight: 157.5kg
-      - notes: Focus on explosive power with controlled descent.
-        percentage_1rm: 80
-        reps: 3
-        weight: 157.5kg
-    - name: Paused Squat
+        weight: 72.5kg
+      - notes: "Wave 2 \u2013 Match previous intensity with sharp reps."
+        percentage_1rm: 85
+        reps: 2
+        weight: 72.5kg
+      - notes: "Wave 2 \u2013 Push but no grind; clean finish."
+        percentage_1rm: 90
+        reps: 2
+        weight: 75kg
+    - name: Weighted Dips
       sets:
-      - notes: Emphasize a strong pause at the bottom for stability.
-        percentage_1rm: 75
-        reps: 3
-        weight: 147.5kg
-      - notes: Emphasize a strong pause at the bottom for stability.
-        percentage_1rm: 75
-        reps: 3
-        weight: 147.5kg
-    - name: Leg Press
-      sets:
-      - notes: Focus on full range of motion and controlled execution.
-        reps: 8
-      - notes: Focus on full range of motion and controlled execution.
-        reps: 8
-      - notes: Focus on full range of motion and controlled execution.
-        reps: 8
-    - name: Leg Extensions
-      sets:
-      - notes: Moderate load; smooth, controlled movement.
-        reps: 10
-      - notes: Moderate load; smooth, controlled movement.
-        reps: 10
-      - notes: Moderate load; smooth, controlled movement.
-        reps: 10
-    - name: Leg Curls
-      sets:
-      - notes: Maintain a controlled tempo to target the hamstrings.
-        reps: 10
-      - notes: Maintain a controlled tempo to target the hamstrings.
-        reps: 10
-      - notes: Maintain a controlled tempo to target the hamstrings.
-        reps: 10
-    session: Lower Body Strength
+      - notes: Smooth controlled descent; avoid flaring.
+        percentage_1rm: 65
+        reps: 6
+        weight: 32.5kg
+      - notes: Smooth controlled descent; avoid flaring.
+        percentage_1rm: 65
+        reps: 6
+        weight: 32.5kg
+      - notes: Smooth controlled descent; avoid flaring.
+        percentage_1rm: 65
+        reps: 6
+        weight: 32.5kg
+      - notes: Smooth controlled descent; avoid flaring.
+        percentage_1rm: 65
+        reps: 6
+        weight: 32.5kg
+    session: Pull Strength + Push Volume
     weekday: Tuesday
+  - exercises:
+    - name: Squat
+      sets:
+      - notes: "Wave 1 \u2013 Maintain bracing and depth."
+        percentage_1rm: 80
+        reps: 3
+        weight: 142.5kg
+      - notes: "Wave 1 \u2013 Build pressure from the hole."
+        percentage_1rm: 85
+        reps: 3
+        weight: 152.5kg
+      - notes: "Wave 1 \u2013 Top triple; aggressive bar speed."
+        percentage_1rm: 90
+        reps: 3
+        weight: 162.5kg
+      - notes: "Wave 2 \u2013 Repeat with speed and stability."
+        percentage_1rm: 85
+        reps: 2
+        weight: 157.5kg
+      - notes: "Wave 2 \u2013 Final top double with crisp form."
+        percentage_1rm: 90
+        reps: 2
+        weight: 165kg
+    - name: Weighted Muscle-Ups
+      sets:
+      - notes: Controlled swing, fast transition over bar.
+        percentage_1rm: 85
+        reps: 2
+        weight: 17.5kg
+      - notes: Controlled swing, fast transition over bar.
+        percentage_1rm: 85
+        reps: 2
+        weight: 17.5kg
+      - notes: Explosive power with clean lockout.
+        percentage_1rm: 90
+        reps: 2
+        weight: 20kg
+      - notes: Explosive power with clean lockout.
+        percentage_1rm: 90
+        reps: 2
+        weight: 20kg
+    session: Lower Strength + Muscle-Up (Heavy)
+    weekday: Thursday
   - exercises:
     - name: Weighted Pull-Ups
       sets:
-      - notes: Focus on strict form and full range of motion.
+      - notes: Tight scap engagement, even pull.
+        percentage_1rm: 75
+        reps: 4
+        weight: 55kg
+      - notes: Tight scap engagement, even pull.
+        percentage_1rm: 75
+        reps: 4
+        weight: 55kg
+      - notes: Tight scap engagement, even pull.
+        percentage_1rm: 75
+        reps: 4
+        weight: 55kg
+      - notes: Tight scap engagement, even pull.
+        percentage_1rm: 75
+        reps: 4
+        weight: 55kg
+    - name: Weighted Dips
+      sets:
+      - notes: Controlled descent, strong lockout.
         percentage_1rm: 80
         reps: 3
-        weight: 70kg
-      - notes: Focus on strict form and full range of motion.
+        weight: 55kg
+      - notes: Controlled descent, strong lockout.
         percentage_1rm: 80
         reps: 3
-        weight: 70kg
-      - notes: Focus on strict form and full range of motion.
+        weight: 55kg
+      - notes: Controlled descent, strong lockout.
         percentage_1rm: 80
         reps: 3
-        weight: 70kg
-      - notes: Focus on strict form and full range of motion.
+        weight: 55kg
+      - notes: Controlled descent, strong lockout.
         percentage_1rm: 80
         reps: 3
-        weight: 70kg
+        weight: 55kg
+      - notes: Controlled descent, strong lockout.
+        percentage_1rm: 80
+        reps: 3
+        weight: 55kg
+    session: Upper Volume Pull + Dip Heavy
+    weekday: Friday
+  - exercises:
+    - name: Squat
+      sets:
+      - notes: Tempo 3-0-1 or paused squats, stay snappy.
+        percentage_1rm: 60
+        reps: 5
+        weight: 102.5kg
+      - notes: Tempo 3-0-1 or paused squats, stay snappy.
+        percentage_1rm: 60
+        reps: 5
+        weight: 102.5kg
+      - notes: Tempo 3-0-1 or paused squats, stay snappy.
+        percentage_1rm: 60
+        reps: 5
+        weight: 102.5kg
     - name: Weighted Muscle-Ups
       sets:
-      - notes: Perform with explosive yet controlled movement.
-        percentage_1rm: 80
-        reps: 3
-        weight: 20kg
-      - notes: Perform with explosive yet controlled movement.
-        percentage_1rm: 80
-        reps: 3
-        weight: 20kg
-      - notes: Perform with explosive yet controlled movement.
-        percentage_1rm: 80
-        reps: 3
-        weight: 20kg
-    - name: Weighted Ring Dips
-      sets:
-      - notes: Keep strict technique under load.
-        percentage_1rm: 75
-        reps: 6
-        weight: 45kg
-      - notes: Keep strict technique under load.
-        percentage_1rm: 75
-        reps: 6
-        weight: 45kg
-      - notes: Keep strict technique under load.
-        percentage_1rm: 75
-        reps: 6
-        weight: 45kg
-    session: Upper Body Strength
-    weekday: Thursday
-  - exercises:
-    - name: Mobility & Recovery Work
-      sets:
-      - notes: 25 minutes of dynamic stretching, handstands, foam rolling, and mobility
-          drills.
-    session: Active Recovery / Mobility
-    weekday: Saturday
+      - notes: Every minute on the minute; crisp and fast reps.
+        percentage_1rm: 65
+        reps: 1
+        weight: 16.2kg
+      - notes: Every minute on the minute; crisp and fast reps.
+        percentage_1rm: 65
+        reps: 1
+        weight: 16.2kg
+      - notes: Every minute on the minute; crisp and fast reps.
+        percentage_1rm: 65
+        reps: 1
+        weight: 16.2kg
+      - notes: Every minute on the minute; crisp and fast reps.
+        percentage_1rm: 65
+        reps: 1
+        weight: 16.2kg
+      - notes: Every minute on the minute; crisp and fast reps.
+        percentage_1rm: 65
+        reps: 1
+        weight: 16.2kg
+    session: Recovery Squat + Speed Muscle-Up
+    weekday: Sunday
