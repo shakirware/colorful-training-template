@@ -82,3 +82,172 @@
             - notes: "Every minute on the minute; crisp and fast reps."
               percentage_1rm: 65
               reps: "5x1"
+- week_2:
+    # Strength Block – Wave & Linear Progression (Week 2 Progression)
+    - weekday: Tuesday
+      session: Pull Strength + Push Volume
+      exercises:
+        - name: Weighted Pull-Ups
+          sets:
+            - notes: "Wave 1 – Controlled reps; higher intensity."
+              percentage_1rm: 82
+              reps: "1x3"
+            - notes: "Wave 1 – Maintain clean bar path and tempo."
+              percentage_1rm: 87
+              reps: "1x2"
+            - notes: "Wave 1 – Strong finish, no grind."
+              percentage_1rm: 92
+              reps: "1x1"
+            - notes: "Wave 2 – Push with perfect form."
+              percentage_1rm: 87
+              reps: "1x2"
+            - notes: "Wave 2 – Final double with focus on bar speed."
+              percentage_1rm: 92
+              reps: "1x1"
+        - name: Weighted Dips
+          sets:
+            - notes: "Volume-style; increase TUT slightly."
+              percentage_1rm: 67
+              reps: "4x7"
+
+    - weekday: Thursday
+      session: Lower Strength + Muscle-Up (Heavy)
+      exercises:
+        - name: Squat
+          sets:
+            - notes: "Wave 1 – Controlled reps at slightly higher load."
+              percentage_1rm: 82
+              reps: "1x3"
+            - notes: "Wave 1 – Drive from the hole, maintain upright posture."
+              percentage_1rm: 87
+              reps: "1x2"
+            - notes: "Wave 1 – Top single; aggressive but clean."
+              percentage_1rm: 92
+              reps: "1x1"
+            - notes: "Wave 2 – Stay tight, avoid fatigue breakdown."
+              percentage_1rm: 87
+              reps: "1x2"
+            - notes: "Wave 2 – Final single with intent."
+              percentage_1rm: 92
+              reps: "1x1"
+        - name: Weighted Muscle-Ups
+          sets:
+            - notes: "Keep transition smooth under higher load."
+              percentage_1rm: 87
+              reps: "2x2"
+            - notes: "Strong pull with full lockout."
+              percentage_1rm: 92
+              reps: "2x1"
+
+    - weekday: Friday
+      session: Upper Volume Pull + Dip Heavy
+      exercises:
+        - name: Weighted Pull-Ups
+          sets:
+            - notes: "Reinforce bar path and consistency."
+              percentage_1rm: 77
+              reps: "4x4"
+        - name: Weighted Dips
+          sets:
+            - notes: "Heavier triples; maintain technique and tightness."
+              percentage_1rm: 82
+              reps: "5x3"
+
+    - weekday: Sunday
+      session: Recovery Squat + Speed Muscle-Up
+      exercises:
+        - name: Squat
+          sets:
+            - notes: "Tempo or pause squats; slightly heavier than Week 1."
+              percentage_1rm: 62
+              reps: "3x5"
+        - name: Weighted Muscle-Ups
+          sets:
+            - notes: "EMOM – Crisp explosive reps, no form breakdown."
+              percentage_1rm: 67
+              reps: "5x1"
+
+- week_3:
+    # Strength Block – Week 3: Peak Intensity Before Deload
+    - weekday: Tuesday
+      session: Pull Strength + Push Volume
+      exercises:
+        - name: Weighted Pull-Ups
+          sets:
+            - notes: "Wave 1 – Controlled reps with strong intent."
+              percentage_1rm: 85
+              reps: "1x3"
+            - notes: "Wave 1 – Focus on clean bar path and power."
+              percentage_1rm: 90
+              reps: "1x2"
+            - notes: "Wave 1 – Top single; crisp with no breakdown."
+              percentage_1rm: 95
+              reps: "1x1"
+            - notes: "Wave 2 – Clean reps at high intensity."
+              percentage_1rm: 90
+              reps: "1x2"
+            - notes: "Wave 2 – Final single, no grinders."
+              percentage_1rm: 95
+              reps: "1x1"
+        - name: Weighted Dips
+          sets:
+            - notes: "Push light day volume with clean form."
+              percentage_1rm: 68
+              reps: "4x8"
+
+    - weekday: Thursday
+      session: Lower Strength + Muscle-Up (Heavy)
+      exercises:
+        - name: Squat
+          sets:
+            - notes: "Wave 1 – Strong triples, maintain bracing."
+              percentage_1rm: 85
+              reps: "1x3"
+            - notes: "Wave 1 – Push into heavier intensity with power."
+              percentage_1rm: 90
+              reps: "1x2"
+            - notes: "Wave 1 – Top single; clean and confident."
+              percentage_1rm: 95
+              reps: "1x1"
+            - notes: "Wave 2 – Repeat with same focus and precision."
+              percentage_1rm: 90
+              reps: "1x2"
+            - notes: "Wave 2 – Final heavy single with intent."
+              percentage_1rm: 95
+              reps: "1x1"
+        - name: Weighted Muscle-Ups
+          sets:
+            - notes: "Tight kip, clean over-bar transition."
+              percentage_1rm: 90
+              reps: "2x2"
+            - notes: "Top singles – explosive but clean."
+              percentage_1rm: 95
+              reps: "2x1"
+
+    - weekday: Friday
+      session: Upper Volume Pull + Dip Heavy
+      exercises:
+        - name: Weighted Pull-Ups
+          sets:
+            - notes: "Hold volume steady; bar speed is priority."
+              percentage_1rm: 77
+              reps: "4x4"
+        - name: Weighted Dips
+          sets:
+            - notes: "Maintain control and joint stability."
+              percentage_1rm: 82
+              reps: "5x3"
+
+    - weekday: Sunday
+      session: Recovery Squat + Speed Muscle-Up
+      exercises:
+        - name: Squat
+          sets:
+            - notes: "Pause squats or tempo reps; maintain fluid motion."
+              percentage_1rm: 65
+              reps: "3x5"
+        - name: Weighted Muscle-Ups
+          sets:
+            - notes: "EMOM — crisp reps, short range of fatigue."
+              percentage_1rm: 70
+              reps: "5x1"

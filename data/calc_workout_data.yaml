@@ -48,23 +48,23 @@
       - notes: "Wave 1 \u2013 Maintain bracing and depth."
         percentage_1rm: 80
         reps: 3
-        weight: 142.5kg
+        weight: 147.5kg
       - notes: "Wave 1 \u2013 Build pressure from the hole."
         percentage_1rm: 85
         reps: 3
-        weight: 152.5kg
+        weight: 157.5kg
       - notes: "Wave 1 \u2013 Top triple; aggressive bar speed."
         percentage_1rm: 90
         reps: 3
-        weight: 162.5kg
+        weight: 165kg
       - notes: "Wave 2 \u2013 Repeat with speed and stability."
         percentage_1rm: 85
         reps: 2
-        weight: 157.5kg
+        weight: 160kg
       - notes: "Wave 2 \u2013 Final top double with crisp form."
         percentage_1rm: 90
         reps: 2
-        weight: 165kg
+        weight: 170kg
     - name: Weighted Muscle-Ups
       sets:
       - notes: Controlled swing, fast transition over bar.
@@ -134,15 +134,15 @@
       - notes: Tempo 3-0-1 or paused squats, stay snappy.
         percentage_1rm: 60
         reps: 5
-        weight: 102.5kg
+        weight: 105kg
       - notes: Tempo 3-0-1 or paused squats, stay snappy.
         percentage_1rm: 60
         reps: 5
-        weight: 102.5kg
+        weight: 105kg
       - notes: Tempo 3-0-1 or paused squats, stay snappy.
         percentage_1rm: 60
         reps: 5
-        weight: 102.5kg
+        weight: 105kg
     - name: Weighted Muscle-Ups
       sets:
       - notes: Every minute on the minute; crisp and fast reps.
@@ -165,5 +165,343 @@
         percentage_1rm: 65
         reps: 1
         weight: 16.2kg
+    session: Recovery Squat + Speed Muscle-Up
+    weekday: Sunday
+- week_2:
+  - exercises:
+    - name: Weighted Pull-Ups
+      sets:
+      - notes: "Wave 1 \u2013 Controlled reps; higher intensity."
+        percentage_1rm: 82
+        reps: 3
+        weight: 65kg
+      - notes: "Wave 1 \u2013 Maintain clean bar path and tempo."
+        percentage_1rm: 87
+        reps: 2
+        weight: 72.5kg
+      - notes: "Wave 1 \u2013 Strong finish, no grind."
+        percentage_1rm: 92
+        reps: 1
+        weight: 82.8kg
+      - notes: "Wave 2 \u2013 Push with perfect form."
+        percentage_1rm: 87
+        reps: 2
+        weight: 72.5kg
+      - notes: "Wave 2 \u2013 Final double with focus on bar speed."
+        percentage_1rm: 92
+        reps: 1
+        weight: 82.8kg
+    - name: Weighted Dips
+      sets:
+      - notes: Volume-style; increase TUT slightly.
+        percentage_1rm: 67
+        reps: 7
+        weight: 30kg
+      - notes: Volume-style; increase TUT slightly.
+        percentage_1rm: 67
+        reps: 7
+        weight: 30kg
+      - notes: Volume-style; increase TUT slightly.
+        percentage_1rm: 67
+        reps: 7
+        weight: 30kg
+      - notes: Volume-style; increase TUT slightly.
+        percentage_1rm: 67
+        reps: 7
+        weight: 30kg
+    session: Pull Strength + Push Volume
+    weekday: Tuesday
+  - exercises:
+    - name: Squat
+      sets:
+      - notes: "Wave 1 \u2013 Controlled reps at slightly higher load."
+        percentage_1rm: 82
+        reps: 3
+        weight: 150kg
+      - notes: "Wave 1 \u2013 Drive from the hole, maintain upright posture."
+        percentage_1rm: 87
+        reps: 2
+        weight: 165kg
+      - notes: "Wave 1 \u2013 Top single; aggressive but clean."
+        percentage_1rm: 92
+        reps: 1
+        weight: 179.5kg
+      - notes: "Wave 2 \u2013 Stay tight, avoid fatigue breakdown."
+        percentage_1rm: 87
+        reps: 2
+        weight: 165kg
+      - notes: "Wave 2 \u2013 Final single with intent."
+        percentage_1rm: 92
+        reps: 1
+        weight: 179.5kg
+    - name: Weighted Muscle-Ups
+      sets:
+      - notes: Keep transition smooth under higher load.
+        percentage_1rm: 87
+        reps: 2
+        weight: 17.5kg
+      - notes: Keep transition smooth under higher load.
+        percentage_1rm: 87
+        reps: 2
+        weight: 17.5kg
+      - notes: Strong pull with full lockout.
+        percentage_1rm: 92
+        reps: 1
+        weight: 23kg
+      - notes: Strong pull with full lockout.
+        percentage_1rm: 92
+        reps: 1
+        weight: 23kg
+    session: Lower Strength + Muscle-Up (Heavy)
+    weekday: Thursday
+  - exercises:
+    - name: Weighted Pull-Ups
+      sets:
+      - notes: Reinforce bar path and consistency.
+        percentage_1rm: 77
+        reps: 4
+        weight: 55kg
+      - notes: Reinforce bar path and consistency.
+        percentage_1rm: 77
+        reps: 4
+        weight: 55kg
+      - notes: Reinforce bar path and consistency.
+        percentage_1rm: 77
+        reps: 4
+        weight: 55kg
+      - notes: Reinforce bar path and consistency.
+        percentage_1rm: 77
+        reps: 4
+        weight: 55kg
+    - name: Weighted Dips
+      sets:
+      - notes: Heavier triples; maintain technique and tightness.
+        percentage_1rm: 82
+        reps: 3
+        weight: 57.5kg
+      - notes: Heavier triples; maintain technique and tightness.
+        percentage_1rm: 82
+        reps: 3
+        weight: 57.5kg
+      - notes: Heavier triples; maintain technique and tightness.
+        percentage_1rm: 82
+        reps: 3
+        weight: 57.5kg
+      - notes: Heavier triples; maintain technique and tightness.
+        percentage_1rm: 82
+        reps: 3
+        weight: 57.5kg
+      - notes: Heavier triples; maintain technique and tightness.
+        percentage_1rm: 82
+        reps: 3
+        weight: 57.5kg
+    session: Upper Volume Pull + Dip Heavy
+    weekday: Friday
+  - exercises:
+    - name: Squat
+      sets:
+      - notes: Tempo or pause squats; slightly heavier than Week 1.
+        percentage_1rm: 62
+        reps: 5
+        weight: 107.5kg
+      - notes: Tempo or pause squats; slightly heavier than Week 1.
+        percentage_1rm: 62
+        reps: 5
+        weight: 107.5kg
+      - notes: Tempo or pause squats; slightly heavier than Week 1.
+        percentage_1rm: 62
+        reps: 5
+        weight: 107.5kg
+    - name: Weighted Muscle-Ups
+      sets:
+      - notes: "EMOM \u2013 Crisp explosive reps, no form breakdown."
+        percentage_1rm: 67
+        reps: 1
+        weight: 16.8kg
+      - notes: "EMOM \u2013 Crisp explosive reps, no form breakdown."
+        percentage_1rm: 67
+        reps: 1
+        weight: 16.8kg
+      - notes: "EMOM \u2013 Crisp explosive reps, no form breakdown."
+        percentage_1rm: 67
+        reps: 1
+        weight: 16.8kg
+      - notes: "EMOM \u2013 Crisp explosive reps, no form breakdown."
+        percentage_1rm: 67
+        reps: 1
+        weight: 16.8kg
+      - notes: "EMOM \u2013 Crisp explosive reps, no form breakdown."
+        percentage_1rm: 67
+        reps: 1
+        weight: 16.8kg
+    session: Recovery Squat + Speed Muscle-Up
+    weekday: Sunday
+- week_3:
+  - exercises:
+    - name: Weighted Pull-Ups
+      sets:
+      - notes: "Wave 1 \u2013 Controlled reps with strong intent."
+        percentage_1rm: 85
+        reps: 3
+        weight: 67.5kg
+      - notes: "Wave 1 \u2013 Focus on clean bar path and power."
+        percentage_1rm: 90
+        reps: 2
+        weight: 75kg
+      - notes: "Wave 1 \u2013 Top single; crisp with no breakdown."
+        percentage_1rm: 95
+        reps: 1
+        weight: 85.5kg
+      - notes: "Wave 2 \u2013 Clean reps at high intensity."
+        percentage_1rm: 90
+        reps: 2
+        weight: 75kg
+      - notes: "Wave 2 \u2013 Final single, no grinders."
+        percentage_1rm: 95
+        reps: 1
+        weight: 85.5kg
+    - name: Weighted Dips
+      sets:
+      - notes: Push light day volume with clean form.
+        percentage_1rm: 68
+        reps: 8
+        weight: 27.5kg
+      - notes: Push light day volume with clean form.
+        percentage_1rm: 68
+        reps: 8
+        weight: 27.5kg
+      - notes: Push light day volume with clean form.
+        percentage_1rm: 68
+        reps: 8
+        weight: 27.5kg
+      - notes: Push light day volume with clean form.
+        percentage_1rm: 68
+        reps: 8
+        weight: 27.5kg
+    session: Pull Strength + Push Volume
+    weekday: Tuesday
+  - exercises:
+    - name: Squat
+      sets:
+      - notes: "Wave 1 \u2013 Strong triples, maintain bracing."
+        percentage_1rm: 85
+        reps: 3
+        weight: 157.5kg
+      - notes: "Wave 1 \u2013 Push into heavier intensity with power."
+        percentage_1rm: 90
+        reps: 2
+        weight: 170kg
+      - notes: "Wave 1 \u2013 Top single; clean and confident."
+        percentage_1rm: 95
+        reps: 1
+        weight: 185.2kg
+      - notes: "Wave 2 \u2013 Repeat with same focus and precision."
+        percentage_1rm: 90
+        reps: 2
+        weight: 170kg
+      - notes: "Wave 2 \u2013 Final heavy single with intent."
+        percentage_1rm: 95
+        reps: 1
+        weight: 185.2kg
+    - name: Weighted Muscle-Ups
+      sets:
+      - notes: Tight kip, clean over-bar transition.
+        percentage_1rm: 90
+        reps: 2
+        weight: 20kg
+      - notes: Tight kip, clean over-bar transition.
+        percentage_1rm: 90
+        reps: 2
+        weight: 20kg
+      - notes: "Top singles \u2013 explosive but clean."
+        percentage_1rm: 95
+        reps: 1
+        weight: 23.8kg
+      - notes: "Top singles \u2013 explosive but clean."
+        percentage_1rm: 95
+        reps: 1
+        weight: 23.8kg
+    session: Lower Strength + Muscle-Up (Heavy)
+    weekday: Thursday
+  - exercises:
+    - name: Weighted Pull-Ups
+      sets:
+      - notes: Hold volume steady; bar speed is priority.
+        percentage_1rm: 77
+        reps: 4
+        weight: 55kg
+      - notes: Hold volume steady; bar speed is priority.
+        percentage_1rm: 77
+        reps: 4
+        weight: 55kg
+      - notes: Hold volume steady; bar speed is priority.
+        percentage_1rm: 77
+        reps: 4
+        weight: 55kg
+      - notes: Hold volume steady; bar speed is priority.
+        percentage_1rm: 77
+        reps: 4
+        weight: 55kg
+    - name: Weighted Dips
+      sets:
+      - notes: Maintain control and joint stability.
+        percentage_1rm: 82
+        reps: 3
+        weight: 57.5kg
+      - notes: Maintain control and joint stability.
+        percentage_1rm: 82
+        reps: 3
+        weight: 57.5kg
+      - notes: Maintain control and joint stability.
+        percentage_1rm: 82
+        reps: 3
+        weight: 57.5kg
+      - notes: Maintain control and joint stability.
+        percentage_1rm: 82
+        reps: 3
+        weight: 57.5kg
+      - notes: Maintain control and joint stability.
+        percentage_1rm: 82
+        reps: 3
+        weight: 57.5kg
+    session: Upper Volume Pull + Dip Heavy
+    weekday: Friday
+  - exercises:
+    - name: Squat
+      sets:
+      - notes: Pause squats or tempo reps; maintain fluid motion.
+        percentage_1rm: 65
+        reps: 5
+        weight: 112.5kg
+      - notes: Pause squats or tempo reps; maintain fluid motion.
+        percentage_1rm: 65
+        reps: 5
+        weight: 112.5kg
+      - notes: Pause squats or tempo reps; maintain fluid motion.
+        percentage_1rm: 65
+        reps: 5
+        weight: 112.5kg
+    - name: Weighted Muscle-Ups
+      sets:
+      - notes: "EMOM \u2014 crisp reps, short range of fatigue."
+        percentage_1rm: 70
+        reps: 1
+        weight: 17.5kg
+      - notes: "EMOM \u2014 crisp reps, short range of fatigue."
+        percentage_1rm: 70
+        reps: 1
+        weight: 17.5kg
+      - notes: "EMOM \u2014 crisp reps, short range of fatigue."
+        percentage_1rm: 70
+        reps: 1
+        weight: 17.5kg
+      - notes: "EMOM \u2014 crisp reps, short range of fatigue."
+        percentage_1rm: 70
+        reps: 1
+        weight: 17.5kg
+      - notes: "EMOM \u2014 crisp reps, short range of fatigue."
+        percentage_1rm: 70
+        reps: 1
+        weight: 17.5kg
     session: Recovery Squat + Speed Muscle-Up
     weekday: Sunday

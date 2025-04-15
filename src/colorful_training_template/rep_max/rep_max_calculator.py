@@ -145,7 +145,7 @@ def update_workout_data_with_rep_max():
         "Weighted Pull-Ups": 90,
         "Weighted Muscle-Ups": 25,
         "Weighted Dips": 80,
-        "Squat": 190,
+        "Squat": 195,
         "Close Grip Bench Press": 125,
         "Weighted Ring Dips": 65,
     }
