@@ -23,80 +23,83 @@ def parse_reps(reps_value):
             return (1, 0)
     try:
         return (1, int(reps_value))
-    except Exception:
+    except (ValueError, TypeError):
         return (1, 0)
 
 
 def get_chart_data_from_yaml(yaml_path):
     """
     Loads workout data from the YAML file and computes three metrics per week:
-      - Stress Level: average %1RM across all sets (ignoring sets with null percentage)
-      - Volume: Sum over all sets of (set_count × reps_per_set × weight)
-      - Intensity: average %1RM (using the same value as stress here)
-
-    Returns:
-      (weeks, stress_levels, volumes, intensities)
+      - Stress Level: average %1RM across all sets
+      - Volume: Sum over all sets of (sets × reps × weight)
+      - Intensity: Same as stress level
     """
     with open(yaml_path, "r") as file:
         data = yaml.safe_load(file)
-    # Handle both cases: data is a dict with a "weeks" key or data is a list
+
+    # This logic correctly finds the list of weeks from your YAML
+    weeks_list = []
     if isinstance(data, dict):
-        weeks_list = data.get("weeks", [])
+        weeks_list = data.get("custom_program", [])
     elif isinstance(data, list):
         weeks_list = data
-    else:
-        weeks_list = []
 
     week_numbers = []
     stress_levels = []
     volumes = []
     intensities = []
-    week_index = 1
 
-    # Iterate over each week.
-    for week_dict in weeks_list:
-        # week_dict is expected to be a dict with one key (e.g. "week_1")
-        for week_name, days in week_dict.items():
-            week_numbers.append(week_index)
-            week_index += 1
-            set_percentages = []
-            total_volume = 0
-            # Loop through each day in the week.
-            for day in days:
-                exercises = day.get("exercises", [])
-                for exercise in exercises:
-                    for set_entry in exercise.get("sets", []):
-                        # Process percentage if available.
-                        perc = set_entry.get("percentage_1rm")
-                        if perc is not None:
-                            try:
-                                perc_val = float(perc)
-                                set_percentages.append(perc_val)
-                            except Exception:
-                                pass
-                        # Process volume data.
-                        reps_val = set_entry.get("reps")
-                        weight_val = set_entry.get("weight")
-                        if reps_val is not None and weight_val is not None:
-                            try:
-                                # Extract numeric portion from weight (e.g., "47.5kg").
-                                weight_num = float(
-                                    "".join(
-                                        c for c in weight_val if c.isdigit() or c == "."
-                                    )
-                                )
-                            except Exception:
-                                weight_num = 0
+    # Iterate over each week in the program
+    for week_index, week_data in enumerate(weeks_list):
+        week_name = list(week_data.keys())[0]  # e.g., "week_1"
+        days = week_data[week_name]
+
+        week_numbers.append(week_index + 1)
+
+        set_percentages = []
+        total_volume = 0
+
+        # Loop through each day in the week
+        for day in days:
+            for exercise in day.get("exercises", []):
+                # We need to parse each set entry individually now
+                for set_entry in exercise.get("sets", []):
+                    # Process percentage for stress/intensity
+                    perc = set_entry.get("percentage_1rm")
+                    if perc is not None:
+                        try:
+                            set_percentages.append(float(perc))
+                        except (ValueError, TypeError):
+                            pass
+
+                    # Process volume data
+                    reps_val = set_entry.get("reps")
+                    weight_val = set_entry.get("weight")
+
+                    if reps_val is not None and weight_val is not None:
+                        try:
+                            # Use your existing parse_reps for the "NxM" format
                             count, reps_per_set = parse_reps(reps_val)
+
+                            weight_str = str(weight_val).replace("kg", "").strip()
+                            weight_num = float(weight_str)
+
                             total_volume += count * reps_per_set * weight_num
-            # Compute averages. If no set percentages are available, use 0.
-            if set_percentages:
-                avg_stress = sum(set_percentages) / len(set_percentages)
-            else:
-                avg_stress = 0
-            stress_levels.append(avg_stress)
-            intensities.append(avg_stress)  # Can be adjusted for a different measure.
-            volumes.append(total_volume)
+                        except (ValueError, TypeError, IndexError) as e:
+                            logger.warning(
+                                "Could not parse volume for set (%s, %s): %s",
+                                reps_val,
+                                weight_val,
+                                e,
+                            )
+
+        # Compute averages for the week
+        avg_stress = (
+            sum(set_percentages) / len(set_percentages) if set_percentages else 0
+        )
+        stress_levels.append(avg_stress)
+        intensities.append(avg_stress)
+        volumes.append(total_volume)
 
     return week_numbers, stress_levels, volumes, intensities
 

@@ -9,6 +9,40 @@ from colorful_training_template.rep_max.data_loader import (
 
 logger = logging.getLogger(__name__)
 
+# ========== CONFIG ==========
+# If False (default), weights are computed as: weight = TM * (%/100), rounded down.
+# If True, will try rep-max table lookup first (not recommended for your block),
+# then fall back to % of TM if needed.
+USE_REP_MAX_TABLES = False
+
+# Use Training Max anchors (True) vs raw table 1RMs (False)
+USE_TRAINING_MAX = True
+
+# Round down to this increment (microplates). 1.25kg = 0.25*5.
+ROUNDING_INCREMENT_KG = 1.25
+ROUNDING_MODE = "down"  # "down" | "nearest"
+
+# Preferred: directamente set Training Maxes per lift (these are THE anchors)
+TRAINING_MAX_OVERRIDE = {
+    "Weighted Pull-Ups": 75.0,  # added load
+    "Weighted Dips": 85.0,  # added load
+    "Weighted Muscle-Ups": 28.0,  # added load
+    "Squat": 195.0,  # barbell load
+    "Close Grip Bench Press": 115.0,  # barbell load
+    "Weighted Ring Dips": 57.5,  # added load (if used)
+}
+
+# If you don’t override, we can derive TM from your table 1RM via factors.
+TM_FACTORS_DEFAULT = {
+    "Weighted Pull-Ups": 0.88,  # ~75 from 85
+    "Weighted Dips": 0.944,  # ~85 from 90
+    "Weighted Muscle-Ups": 1.00,
+    "Squat": 1.00,
+    "Close Grip Bench Press": 0.92,  # ~115 from 125
+    "Weighted Ring Dips": 0.944,
+}
+# ===========================
+
 
 def find_weight_for_reps(df, target_1rm, reps):
     try:
@@ -27,113 +61,146 @@ def find_weight_for_reps(df, target_1rm, reps):
     return df.loc[closest_row_index, "Weight (kg)"]
 
 
-def round_to_nearest_1_25(value):
-    return round(value * 4) / 4
+def round_to_increment(value: float, inc: float, mode: str = "down") -> float:
+    if inc <= 0:
+        return value
+    if mode == "down":
+        # always bias a touch conservative
+        steps = int(value // inc)
+        return steps * inc
+    # default to nearest
+    return round(value / inc) * inc
 
 
 def format_weight(weight):
-    return f"{int(weight)}kg" if weight.is_integer() else f"{weight:.1f}kg"
+    w = float(weight)
+    return f"{int(w)}kg" if w.is_integer() else f"{w:.1f}kg"
 
 
 def expand_sets(exercise):
-    """
-    Expands any set specification in an exercise where the "reps" field
-    is provided in the format "NxM" (e.g. "3x8" means 3 sets of 8 reps).
-    Each such set is replaced by N separate set dictionaries with reps=M.
-    """
     expanded_sets = []
     for set_data in exercise.get("sets", []):
         reps_val = set_data.get("reps")
-        if isinstance(reps_val, str) and "x" in reps_val:
+        if isinstance(reps_val, str) and "x" in reps_val.lower():
             try:
-                parts = reps_val.lower().split("x")
-                num_sets = int(parts[0].strip())
-                reps_per_set = int(parts[1].strip())
+                n, r = reps_val.lower().split("x")
+                num_sets = int(n.strip())
+                reps_per_set = int(r.strip())
+                for _ in range(num_sets):
+                    new_set = set_data.copy()
+                    new_set["reps"] = reps_per_set
+                    expanded_sets.append(new_set)
             except Exception as e:
                 logger.error("Error parsing reps from '%s': %s", reps_val, e)
-                continue
-            logger.info(
-                "Expanding set '%s' into %d sets of %d reps",
-                reps_val,
-                num_sets,
-                reps_per_set,
-            )
-            for _ in range(num_sets):
-                new_set = set_data.copy()
-                new_set["reps"] = reps_per_set
-                expanded_sets.append(new_set)
+                expanded_sets.append(set_data)
         else:
             expanded_sets.append(set_data)
     exercise["sets"] = expanded_sets
 
 
-def process_exercise(exercise, rep_max_data, one_rep_max_values, exercise_aliases):
+def compute_effective_maxes(
+    one_rep_max_values, use_training_max=True, tm_factors=None, tm_override=None
+):
+    tm_factors = tm_factors or TM_FACTORS_DEFAULT
+    tm_override = tm_override or {}
+    effective = {}
+    for lift, table_1rm in one_rep_max_values.items():
+        if use_training_max and lift in tm_override:
+            effective[lift] = float(tm_override[lift])
+            src = "OVERRIDE"
+        elif use_training_max:
+            factor = tm_factors.get(lift, 0.90)
+            effective[lift] = table_1rm * factor
+            src = f"FACTOR({factor:.3f})"
+        else:
+            effective[lift] = float(table_1rm)
+            src = "RAW_1RM"
+        logger.info("Anchor for %-25s = %7.2f kg  [%s]", lift, effective[lift], src)
+    return effective
+
+
+def process_exercise(exercise, rep_max_data, effective_max_values, exercise_aliases):
     exercise_name = exercise.get("name", "Unnamed Exercise")
     canonical_exercise = exercise_aliases.get(exercise_name, exercise_name)
     logger.info(
         "Processing exercise '%s' (mapped to '%s')", exercise_name, canonical_exercise
     )
 
-    # Expand sets from "NxM" notation.
-    expand_sets(exercise)
+    original_sets = exercise.get("sets", [])
+    expanded_sets = []
 
-    # Attempt to get the rep max table; if none exists, we'll use the fallback.
+    # expand NxM
+    for set_data in original_sets:
+        reps_val = set_data.get("reps")
+        if isinstance(reps_val, str) and "x" in reps_val.lower():
+            try:
+                n, r = reps_val.lower().split("x")
+                for _ in range(int(n.strip())):
+                    new_set = set_data.copy()
+                    new_set["reps"] = int(r.strip())
+                    expanded_sets.append(new_set)
+            except Exception as e:
+                logger.error("Error parsing reps from '%s': %s", reps_val, e)
+                expanded_sets.append(set_data)
+        else:
+            expanded_sets.append(set_data)
+
+    # calculate
     df = rep_max_data.get(canonical_exercise)
+    max_anchor = effective_max_values.get(canonical_exercise)
 
-    # Get the one rep max value (you can set this to 50kg for weighted ring dips).
-    if canonical_exercise in one_rep_max_values:
-        max_1rm = one_rep_max_values[canonical_exercise]
-    else:
-        logger.warning(
-            "No one rep max value available for exercise '%s'", exercise_name
-        )
+    if not max_anchor:
+        logger.warning("No max value for exercise '%s'", canonical_exercise)
+        exercise["sets"] = expanded_sets
         return
 
-    for set_data in exercise.get("sets", []):
-        percentage = set_data.get("percentage_1rm")
-        if percentage is None:
+    for set_data in expanded_sets:
+        pct = set_data.get("percentage_1rm")
+        if pct is None:
             continue
         try:
-            target_1rm = max_1rm * (float(percentage) / 100)
-        except Exception as e:
-            logger.error("Error computing target 1RM for %s: %s", exercise_name, e)
-            continue
+            reps_int = int(set_data["reps"])
+        except Exception:
+            reps_int = None
 
-        reps = set_data.get("reps")
-        if reps is None:
-            logger.warning(
-                "No reps value found for a set in %s. Skipping set.", exercise_name
-            )
-            continue
+        target = max_anchor * (float(pct) / 100.0)
 
-        try:
-            reps_int = int(reps)
-        except Exception as e:
-            logger.error(
-                "Error converting reps '%s' to int for %s: %s", reps, exercise_name, e
-            )
-            continue
+        weight = None
+        if (
+            USE_REP_MAX_TABLES
+            and df is not None
+            and reps_int is not None
+            and reps_int in df.columns
+        ):
+            # Table-based suggestion (optional path)
+            weight = find_weight_for_reps(df, target, reps_int)
 
-        # If a rep max table exists and contains the rep column, use it; otherwise, fallback.
-        if df is not None and reps_int in df.columns:
-            weight = find_weight_for_reps(df, target_1rm, reps_int)
-            if weight is not None:
-                set_data["weight"] = format_weight(weight)
-                logger.debug("Set weight for %s: %s", exercise_name, set_data["weight"])
-        else:
-            fallback_weight = round_to_nearest_1_25(target_1rm)
-            set_data["weight"] = format_weight(fallback_weight)
-            logger.debug(
-                "Fallback set weight for %s: %s", exercise_name, set_data["weight"]
+        if weight is None:
+            # Pure % of TM, rounded down (recommended path)
+            weight = round_to_increment(
+                target, ROUNDING_INCREMENT_KG, mode=ROUNDING_MODE
             )
 
+        set_data["weight"] = format_weight(weight)
 
-def update_workout_data_with_rep_max():
+    exercise["sets"] = expanded_sets
+
+
+def update_workout_data_with_rep_max(
+    use_training_max: bool = USE_TRAINING_MAX,
+    tm_factors: dict | None = None,
+    rounding_increment: float = ROUNDING_INCREMENT_KG,
+    use_rep_max_tables: bool = USE_REP_MAX_TABLES,
+    tm_override: dict | None = TRAINING_MAX_OVERRIDE,
+):
     """
-    Loads the workout data, calculates weights based on rep max files,
-    sorts each week’s days based on the 'weekday' key, updates the workout data in memory,
-    optionally writes it to a file, and returns the updated workout data.
+    Calculate set weights from % of Training Max (recommended) or optionally via rep-max tables.
+    Writes 'data/calc_workout_data.yaml'.
     """
+    global ROUNDING_INCREMENT_KG, USE_REP_MAX_TABLES
+    ROUNDING_INCREMENT_KG = rounding_increment
+    USE_REP_MAX_TABLES = use_rep_max_tables
+
     rep_max_files = {
         "Weighted Pull-Ups": "data/one_rep_max_data_pullups_90kg.xlsx",
         "Weighted Muscle-Ups": "data/one_rep_max_data_muscleups_90kg.xlsx",
@@ -141,11 +208,12 @@ def update_workout_data_with_rep_max():
         "Squat": "data/one_rep_max_data_squat_90kg.xlsx",
         "Close Grip Bench Press": "data/one_rep_max_data_cgbp_90kg.xlsx",
     }
+    # NOTE: Added load for WP/Dips/MU; barbell loads for Squat/Bench.
     one_rep_max_values = {
-        "Weighted Pull-Ups": 100,
-        "Weighted Muscle-Ups": 33.75,
+        "Weighted Pull-Ups": 85,
+        "Weighted Muscle-Ups": 28,
         "Weighted Dips": 90,
-        "Squat": 210,
+        "Squat": 195,
         "Close Grip Bench Press": 125,
         "Weighted Ring Dips": 60,
     }
@@ -156,14 +224,17 @@ def update_workout_data_with_rep_max():
         "Weighted (Ring) Dips": "Weighted Dips",
     }
 
+    # Load tables only if we plan to use them
     rep_max_data = {}
-    for exercise, file_path in rep_max_files.items():
-        try:
-            rep_max_data[exercise] = load_rep_max_excel(file_path)
-            logger.info("Loaded rep max data for %s", exercise)
-        except Exception as e:
-            logger.error("Error loading rep max data for %s: %s", exercise, e)
+    if use_rep_max_tables:
+        for exercise, file_path in rep_max_files.items():
+            try:
+                rep_max_data[exercise] = load_rep_max_excel(file_path)
+                logger.info("Loaded rep max data for %s", exercise)
+            except Exception as e:
+                logger.error("Error loading rep max data for %s: %s", exercise, e)
 
+    # Load program YAML
     try:
         workout_data = load_workout_data("data/workout_data.yaml")
         logger.info("Loaded workout YAML data successfully.")
@@ -175,7 +246,14 @@ def update_workout_data_with_rep_max():
         logger.error("Workout data is not in the expected list format.")
         return None
 
-    # Define weekday order mapping (Monday=1, Tuesday=2, ... Sunday=7)
+    # Compute anchors (TM or raw 1RM, with optional override)
+    effective_max_values = compute_effective_maxes(
+        one_rep_max_values,
+        use_training_max=use_training_max,
+        tm_factors=tm_factors,
+        tm_override=tm_override,
+    )
+
     WEEKDAY_ORDER = {
         "Monday": 1,
         "Tuesday": 2,
@@ -186,6 +264,7 @@ def update_workout_data_with_rep_max():
         "Sunday": 7,
     }
 
+    # Process each week/day
     for week in workout_data:
         if not isinstance(week, dict):
             logger.warning(
@@ -199,12 +278,10 @@ def update_workout_data_with_rep_max():
                 logger.warning("Days for %s should be a list. Skipping.", week_name)
                 continue
 
-            # Sort the list of days based on the weekday order.
             sorted_day_list = sorted(
                 day_list, key=lambda d: WEEKDAY_ORDER.get(d.get("weekday", ""), 99)
             )
             week[week_name] = sorted_day_list
-            logger.info("Sorted days for %s using weekday order.", week_name)
 
             for day_data in sorted_day_list:
                 day_label = day_data.get("weekday", "Unknown")
@@ -215,9 +292,10 @@ def update_workout_data_with_rep_max():
                     continue
                 for exercise in exercises:
                     process_exercise(
-                        exercise, rep_max_data, one_rep_max_values, exercise_aliases
+                        exercise, rep_max_data, effective_max_values, exercise_aliases
                     )
 
+    # Save
     try:
         with open("data/calc_workout_data.yaml", "w") as file:
             yaml.dump(workout_data, file, default_flow_style=False)
@@ -229,12 +307,16 @@ def update_workout_data_with_rep_max():
 
 
 if __name__ == "__main__":
-    import logging
-
     logging.basicConfig(
         level=logging.DEBUG,
         format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
     )
-    updated_data = update_workout_data_with_rep_max()
+    updated_data = update_workout_data_with_rep_max(
+        use_training_max=USE_TRAINING_MAX,
+        tm_factors=TM_FACTORS_DEFAULT,
+        rounding_increment=ROUNDING_INCREMENT_KG,
+        use_rep_max_tables=USE_REP_MAX_TABLES,
+        tm_override=TRAINING_MAX_OVERRIDE,
+    )
     if updated_data is not None:
         logger.info("Workout data updated successfully.")

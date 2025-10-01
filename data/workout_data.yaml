@@ -1,318 +1,356 @@
 - week_1:
-    # Transitional Week – Ease into the volume block with 2 sessions.
-    - weekday: Friday
-      session: Lower Body (Volume Intro)
+    # Week 1 (Calendar): Starts mid-week. Contains only the sessions for this calendar week.
+    - weekday: Thursday
+      session: WP Heavy + Dip Volume
       exercises:
-        - name: Squat
+        - name: Weighted Pull-Ups
           sets:
-            - notes: Standard – focus on technique and controlled pace.
-              percentage_1rm: 60
-              reps: "2x5"
-            - notes: Paused variation – emphasize control.
-              percentage_1rm: 55
-              reps: "2x2"
-            - notes: Explosive reps – maintain speed without sacrificing form.
-              percentage_1rm: 55
-              reps: "2x3"
-        - name: Leg Press
+            - reps: "1x1"
+              percentage_1rm: 85
+              notes: "Heavy single to start the week."
+            - reps: "4x3"
+              percentage_1rm: 80
+              notes: "Back-off sets. Rest 2-3 mins."
+        - name: Weighted Dips
           sets:
-            - notes: Focus on full range of motion.
-              reps: "2x10"
-        - name: Hamstring Leg Curls
+            - reps: "4x5"
+              percentage_1rm: 70
+              notes: "Volume work. Keep reps clean. Rest 2 mins."
+        - name: Optional Cuff/Face-Pulls
           sets:
-            - notes: Maintain controlled tempo.
-              reps: "2x10"
-        - name: Leg Extension
-          sets:
-            - notes: Moderate load – focus on smooth execution.
-              reps: "2x10"
-        - name: Glute Bridges
-          sets:
-            - notes: Emphasize the hip squeeze.
-              reps: "2x10"
+            - reps: "2x15"
+              notes: "Focus on shoulder health. Not for fatigue."
     - weekday: Saturday
-      session: Upper Body (Volume Intro)
+      session: Dip Heavy + WP Volume + MU Tech
       exercises:
+        - name: Weighted Dips
+          sets:
+            - reps: "1x1"
+              percentage_1rm: 87.5
+              notes: "Heavy single."
+            - reps: "4x3"
+              percentage_1rm: 82.5
+              notes: "Back-off sets. Rest 2-3 mins."
+        - name: Weighted Pull-Ups
+          sets:
+            - reps: "3x5"
+              percentage_1rm: 70
+              notes: "Volume work. Keep reps clean. Rest 2 mins."
         - name: Weighted Muscle-Ups
           sets:
-            - notes: Keep it moderate; focus on smooth movement.
+            - reps: "6x1"
               percentage_1rm: 60
-              reps: "2x5"
-        - name: Weighted Pull-Ups
-          sets:
-            - notes: Standard execution – controlled and quality reps.
-              percentage_1rm: 65
-              reps: "3x5"
-              weight: "47.5kg"
-        - name: Weighted Pull-Ups
-          sets:
-            - notes: Paused version – really focus on contraction.
-              percentage_1rm: 65
-              reps: "2x5"
-              weight: "47.5kg"
-        - name: Weighted Ring Dips
-          sets:
-            - notes: Maintain strict form.
-              percentage_1rm: 40
-              reps: "3x8"
-              weight: "47.5kg"
-        - name: Band Pull-Aparts
-          sets:
-            - notes: Full range with scapular focus.
-              percentage_1rm: 40 # increased from 35%
-              reps: "2x8"
-              weight: "47.5kg"
+              notes: "Technique singles. Take long rests (2-3 mins)."
 
 - week_2:
-    # Full Volume Block – 4 sessions: Tuesday (Lower), Thursday (Upper), Saturday (Lower), Sunday (Upper).
-    - weekday: Tuesday
-      session: Lower Body (Volume)
+    # Week 2 (Calendar): Begins with Monday's session from Training Cycle 1, then starts Training Cycle 2.
+    - weekday: Monday
+      session: Squat Heavy + Hinge
       exercises:
         - name: Squat
           sets:
-            - notes: Standard – increase volume with an extra set.
-              percentage_1rm: 62
-              reps: "3x5"
-            - notes: Paused variant – maintain control.
-              percentage_1rm: 57
-              reps: "2x2"
-            - notes: Explosive variant – focus on power.
-              percentage_1rm: 57
-              reps: "2x3"
-        - name: Leg Press
+            - reps: "1x1"
+              percentage_1rm: 85
+              notes: "Heavy single to complete Training Cycle 1."
+            - reps: "1x4"
+              percentage_1rm: 80
+              notes: "Top set of 4."
+            - reps: "3x4"
+              percentage_1rm: 75
+              notes: "Volume back-off sets. Rest 3-4 mins."
+        - name: RDL/SLDL
           sets:
-            - notes: Increase reps for more volume.
-              reps: "2x12"
-        - name: Hamstring Leg Curls
-          sets:
-            - notes: Keep a controlled tempo.
-              reps: "2x12"
-        - name: Leg Extension
-          sets:
-            - notes: Maintain consistent form.
-              reps: "2x12"
-        - name: Glute Bridges
-          sets:
-            - notes: Add a brief 1-second hold at the top.
-              reps: "2x12"
+            - reps: "2x6"
+              notes: "Use a weight leaving 2-3 Reps in Reserve (RIR)."
     - weekday: Thursday
-      session: Upper Body (Volume)
+      session: WP Heavy + Dip Volume
       exercises:
-        - name: Weighted Muscle-Ups
-          sets:
-            - notes: Increase volume slightly.
-              percentage_1rm: 62
-              reps: "3x5"
         - name: Weighted Pull-Ups
           sets:
-            - notes: Continue quality reps with a small load bump.
-              percentage_1rm: 67
-              reps: "3x5"
-              weight: "50kg"
-        - name: Weighted Pull-Ups
+            - reps: "1x1"
+              percentage_1rm: 87.5
+              notes: "Single +2.5% from last week."
+            - reps: "4x3"
+              percentage_1rm: 82.5
+              notes: "Back-offs +2.5%. If neck/elbows >4/10, hold last week's load and do 3 sets instead of 4."
+        - name: Weighted Dips
           sets:
-            - notes: Paused – focus on a strong contraction.
-              percentage_1rm: 67
-              reps: "2x5"
-              weight: "50kg"
-        - name: Weighted Ring Dips
+            - reps: "4x5"
+              percentage_1rm: 72.5
+              notes: "Volume work +2.5%."
+        - name: Optional Cuff/Face-Pulls
           sets:
-            - notes: Keep volume and maintain strict form.
-              percentage_1rm: 42
-              reps: "3x8"
-              weight: "50kg"
-        - name: Band Pull-Aparts
-          sets:
-            - notes: Emphasize full range of motion.
-              percentage_1rm: 42
-              reps: "2x8"
-              weight: "50kg"
+            - reps: "2x15"
+              notes: "Focus on shoulder health."
     - weekday: Saturday
-      session: Lower Body (Volume)
+      session: Dip Heavy + WP Volume + MU Tech
       exercises:
-        - name: Squat
+        - name: Weighted Dips
           sets:
-            - notes: Repeat Tuesday’s structure for consistency.
-              percentage_1rm: 62
-              reps: "3x5"
-            - notes: Paused variant.
-              percentage_1rm: 57
-              reps: "2x2"
-            - notes: Explosive variant.
-              percentage_1rm: 57
-              reps: "2x3"
-        - name: Leg Press
+            - reps: "1x1"
+              percentage_1rm: 90
+              notes: "Single +2.5% from last week."
+            - reps: "4x3"
+              percentage_1rm: 85
+              notes: "Back-offs +2.5%. If neck/elbows >4/10, hold last week's load and do 3 sets instead of 4."
+        - name: Weighted Pull-Ups
           sets:
-            - notes: Keep volume high; focus on steady form.
-              reps: "2x12"
-        - name: Hamstring Leg Curls
-          sets:
-            - notes: Maintain control.
-              reps: "2x12"
-        - name: Leg Extension
-          sets:
-            - notes: Focus on consistency.
-              reps: "2x12"
-        - name: Glute Bridges
-          sets:
-            - notes: Focus on a strong hip squeeze.
-              reps: "2x12"
-    - weekday: Sunday
-      session: Upper Body (Volume)
-      exercises:
+            - reps: "3x5"
+              percentage_1rm: 72.5
+              notes: "Volume work +2.5%."
         - name: Weighted Muscle-Ups
           sets:
-            - notes: Continue progression with quality reps.
-              percentage_1rm: 62
-              reps: "3x5"
-        - name: Weighted Pull-Ups
-          sets:
-            - notes: Maintain quality volume.
-              percentage_1rm: 67
-              reps: "3x5"
-              weight: "50kg"
-        - name: Weighted Pull-Ups
-          sets:
-            - notes: Paused – focus on peak contraction.
-              percentage_1rm: 67
-              reps: "2x5"
-              weight: "50kg"
-        - name: Weighted Ring Dips
-          sets:
-            - notes: Keep strict form under volume stress.
-              percentage_1rm: 42
-              reps: "3x8"
-              weight: "50kg"
-        - name: Band Pull-Aparts
-          sets:
-            - notes: Emphasize scapular control.
-              percentage_1rm: 42
-              reps: "2x8"
-              weight: "50kg"
+            - reps: "6x1"
+              percentage_1rm: 60
+              notes: "Technique singles. Long rests, crisp turnover."
 
 - week_3:
-    # Further progression – volume is maintained with slight increases in load for additional capacity.
-    - weekday: Tuesday
-      session: Lower Body (Volume)
+    # Week 3 (Calendar): Completes Training Cycle 2, starts Training Cycle 3 (Peak).
+    - weekday: Monday
+      session: Squat Heavy + Hinge
       exercises:
         - name: Squat
           sets:
-            - notes: Continue progression while keeping form strict.
-              percentage_1rm: 64
-              reps: "3x5"
-            - notes: Paused variant.
-              percentage_1rm: 59
-              reps: "2x2"
-            - notes: Explosive variant.
-              percentage_1rm: 59
-              reps: "2x3"
-        - name: Leg Press
+            - reps: "1x1"
+              percentage_1rm: 87.5
+              notes: "Single +2.5% from last week."
+            - reps: "1x4"
+              percentage_1rm: 82.5
+              notes: "Top set +2.5%."
+            - reps: "3x4"
+              percentage_1rm: 77.5
+              notes: "Back-offs +2.5%."
+        - name: RDL/SLDL
           sets:
-            - notes: Maintain high volume; focus on smooth movement.
-              reps: "2x12"
-        - name: Hamstring Leg Curls
-          sets:
-            - notes: Maintain controlled tempo.
-              reps: "2x12"
-        - name: Leg Extension
-          sets:
-            - notes: Emphasize slow eccentrics.
-              reps: "2x12"
-        - name: Glute Bridges
-          sets:
-            - notes: Hold for 1–2 seconds at peak contraction.
-              reps: "2x12"
+            - reps: "2x6"
+              notes: "Use a weight leaving 2-3 RIR."
     - weekday: Thursday
-      session: Upper Body (Volume)
+      session: WP Heavy + Dip Volume
       exercises:
+        - name: Weighted Pull-Ups
+          sets:
+            - reps: "1x1"
+              percentage_1rm: 90
+              notes: "Single at 90% if bar speed is good; otherwise hold at 87.5%."
+            - reps: "4-5x3"
+              percentage_1rm: 82.5
+              notes: "Add one extra set ONLY if this is your better-recovering lift. Otherwise do 4x3."
+        - name: Weighted Dips
+          sets:
+            - reps: "4x5"
+              percentage_1rm: 75
+              notes: "Volume work."
+        - name: Optional Cuff/Face-Pulls
+          sets:
+            - reps: "2x15"
+              notes: "Focus on shoulder health."
+    - weekday: Saturday
+      session: Dip Heavy + WP Volume + MU Tech
+      exercises:
+        - name: Weighted Dips
+          sets:
+            - reps: "1x1"
+              percentage_1rm: 92.5
+              notes: "Single at 92.5% if bar speed is good; otherwise hold at 90%."
+            - reps: "4-5x3"
+              percentage_1rm: 85
+              notes: "Add one extra set ONLY if this is your better-recovering lift. Otherwise do 4x3."
+        - name: Weighted Pull-Ups
+          sets:
+            - reps: "3x5"
+              percentage_1rm: 72.5
+              notes: "Volume work."
         - name: Weighted Muscle-Ups
           sets:
-            - notes: Continue increasing work capacity.
-              percentage_1rm: 64
-              reps: "3x5"
-        - name: Weighted Pull-Ups
-          sets:
-            - notes: Increase intensity while maintaining quality.
-              percentage_1rm: 69
-              reps: "3x5"
-              weight: "52.5kg"
-        - name: Weighted Pull-Ups
-          sets:
-            - notes: Paused – focus on peak contraction.
-              percentage_1rm: 69
-              reps: "2x5"
-              weight: "52.5kg"
-        - name: Weighted Ring Dips
-          sets:
-            - notes: Increase intensity slightly.
-              percentage_1rm: 44
-              reps: "3x8"
-              weight: "52.5kg"
-        - name: Band Pull-Aparts
-          sets:
-            - notes: Maintain full range with scapular focus.
-              percentage_1rm: 44
-              reps: "2x8"
-              weight: "52.5kg"
-    - weekday: Saturday
-      session: Lower Body (Volume)
+            - reps: "6x1"
+              percentage_1rm: 65
+              notes: "Technique singles. Long rests."
+
+- week_4:
+    # Week 4 (Calendar): Completes Training Cycle 3, starts Training Cycle 4 (Reload).
+    - weekday: Monday
+      session: Squat Heavy + Hinge
       exercises:
         - name: Squat
           sets:
-            - notes: Consistent progression – maintain quality reps.
-              percentage_1rm: 64
-              reps: "3x5"
-            - notes: Paused variant.
-              percentage_1rm: 59
-              reps: "2x2"
-            - notes: Explosive variant.
-              percentage_1rm: 59
-              reps: "2x3"
-        - name: Leg Press
+            - reps: "1x1"
+              percentage_1rm: 90
+              notes: "Single at 90% if bar speed is good; otherwise hold at 87.5%."
+            - reps: "1x4"
+              percentage_1rm: 82.5
+              notes: "Top set."
+            - reps: "3x4"
+              percentage_1rm: 77.5
+              notes: "Back-off sets."
+        - name: RDL/SLDL
           sets:
-            - notes: Keep volume steady.
-              reps: "2x12"
-        - name: Hamstring Leg Curls
-          sets:
-            - notes: Controlled pace.
-              reps: "2x12"
-        - name: Leg Extension
-          sets:
-            - notes: Focus on technique.
-              reps: "2x12"
-        - name: Glute Bridges
-          sets:
-            - notes: Maintain a strong hip squeeze.
-              reps: "2x12"
-    - weekday: Sunday
-      session: Upper Body (Volume)
+            - reps: "2x6"
+              notes: "RIR 2-3."
+    - weekday: Thursday
+      session: WP + Dip (Reload)
       exercises:
+        - name: Weighted Pull-Ups
+          sets:
+            - reps: "1x1"
+              percentage_1rm: 80
+              notes: "Easy single. No sets above RPE 7."
+            - reps: "2x3"
+              percentage_1rm: 75
+              notes: "Reduced volume back-offs."
+        - name: Weighted Dips
+          sets:
+            - reps: "2x5"
+              percentage_1rm: 65
+              notes: "Reduced volume. Stay well below RPE 7."
+    - weekday: Saturday
+      session: Dip + WP + MU (Reload)
+      exercises:
+        - name: Weighted Dips
+          sets:
+            - reps: "1x1"
+              percentage_1rm: 80
+              notes: "Easy single. No sets above RPE 7."
+            - reps: "2x3"
+              percentage_1rm: 75
+              notes: "Reduced volume back-offs."
+        - name: Weighted Pull-Ups
+          sets:
+            - reps: "2x5"
+              percentage_1rm: 65
+              notes: "Reduced volume."
         - name: Weighted Muscle-Ups
           sets:
-            - notes: Steady progression with quality reps.
-              percentage_1rm: 64
-              reps: "3x5"
+            - reps: "4x1"
+              percentage_1rm: 55
+              notes: "Light technique work only."
+
+- week_5:
+    # Week 5 (Calendar): Completes Training Cycle 4, starts Training Cycle 5 (Intensify).
+    - weekday: Monday
+      session: Squat (Reload)
+      exercises:
+        - name: Squat
+          sets:
+            - reps: "1x1"
+              percentage_1rm: 80
+              notes: "Easy single. No sets above RPE 7."
+            - reps: "2x4"
+              percentage_1rm: 70
+              notes: "Reduced volume back-offs."
+    - weekday: Thursday
+      session: WP Priority
+      exercises:
         - name: Weighted Pull-Ups
           sets:
-            - notes: Maintain quality under increased load.
-              percentage_1rm: 69
-              reps: "3x5"
-              weight: "52.5kg"
+            - reps: "1x1"
+              percentage_1rm: 92.5
+              notes: "Heavy single."
+            - reps: "3x2-3"
+              percentage_1rm: 85
+              notes: "Low-rep strength back-offs."
+        - name: Weighted Dips
+          sets:
+            - reps: "3x5"
+              percentage_1rm: 70
+              notes: "Volume/maintenance work. Keep it snappy."
+    - weekday: Saturday
+      session: Dip Priority
+      exercises:
+        - name: Weighted Dips
+          sets:
+            - reps: "1x1"
+              percentage_1rm: 92.5
+              notes: "Heavy single."
+            - reps: "3x2-3"
+              percentage_1rm: 85
+              notes: "Low-rep strength back-offs."
         - name: Weighted Pull-Ups
           sets:
-            - notes: Paused – focus on strong contraction.
-              percentage_1rm: 69
-              reps: "2x5"
-              weight: "52.5kg"
-        - name: Weighted Ring Dips
+            - reps: "3x4"
+              percentage_1rm: 72.5
+              notes: "Volume/maintenance work."
+        - name: Weighted Muscle-Ups
           sets:
-            - notes: Keep strict form.
-              percentage_1rm: 44
-              reps: "3x8"
-              weight: "52.5kg"
-        - name: Band Pull-Aparts
+            - reps: "5x1"
+              percentage_1rm: 65
+              notes: "Crisp singles. Rest as needed."
+
+- week_6:
+    # Week 6 (Calendar): Completes Training Cycle 5, starts Training Cycle 6 (Intensify 2).
+    - weekday: Monday
+      session: Squat Priority
+      exercises:
+        - name: Squat
           sets:
-            - notes: Emphasize full range and control.
-              percentage_1rm: 44
-              reps: "2x8"
-              weight: "52.5kg"
+            - reps: "1x1"
+              percentage_1rm: 90
+              notes: "Heavy single."
+            - reps: "3x3"
+              percentage_1rm: 82.5
+              notes: "Strength back-off sets."
+        - name: Light Hinge (RDL/SLDL)
+          sets:
+            - reps: "2x5"
+              percentage_1rm: 70
+              notes: "Light technique focus, RIR 3."
+    - weekday: Thursday
+      session: WP Priority
+      exercises:
+        - name: Weighted Pull-Ups
+          sets:
+            - reps: "1x1"
+              percentage_1rm: 95
+              notes: "Bump +1-2.5% from W5 single if it was <= RPE 8. Otherwise, repeat W5."
+            - reps: "3x2"
+              percentage_1rm: 87.5
+              notes: "Back-offs are doubles. No grinding."
+        - name: Weighted Dips
+          sets:
+            - reps: "3x5"
+              percentage_1rm: 70
+              notes: "Volume/maintenance."
+    - weekday: Saturday
+      session: Dip Priority
+      exercises:
+        - name: Weighted Dips
+          sets:
+            - reps: "1x1"
+              percentage_1rm: 95
+              notes: "Bump +1-2.5% from W5 single if it was <= RPE 8. Otherwise, repeat W5."
+            - reps: "3x2"
+              percentage_1rm: 87.5
+              notes: "Back-offs are doubles. No grinding."
+        - name: Weighted Pull-Ups
+          sets:
+            - reps: "3x4"
+              percentage_1rm: 72.5
+              notes: "Volume/maintenance work."
+        - name: Weighted Muscle-Ups
+          sets:
+            - reps: "3-4x1"
+              percentage_1rm: 60
+              notes: "Light singles only."
+        - name: Confidence Singles (WP or Dip)
+          sets:
+            - reps: "1x1"
+              percentage_1rm: 95
+              notes: "OPTIONAL. Take a single at 92.5-95% ONLY IF it would feel like RPE 8 or less."
+
+- week_7:
+    # Week 7 (Calendar): Contains the final session of the 6-week training block.
+    - weekday: Monday
+      session: Squat Priority
+      exercises:
+        - name: Squat
+          sets:
+            - reps: "1x1"
+              percentage_1rm: 92.5
+              notes: "Bump +1-2.5% from W5 single if it was <= RPE 8. Otherwise, repeat W5."
+            - reps: "3x3"
+              percentage_1rm: 85
+              notes: "Strength back-off sets."
+        - name: Light Hinge (RDL/SLDL)
+          sets:
+            - reps: "2x5"
+              percentage_1rm: 70
+              notes: "Light technique focus."

@@ -1,605 +1,733 @@
 - week_1:
   - exercises:
-    - name: Squat
+    - name: Weighted Pull-Ups
       sets:
-      - notes: "Standard \u2013 focus on technique and controlled pace."
-        percentage_1rm: 60
-        reps: 5
-        weight: 112.5kg
-      - notes: "Standard \u2013 focus on technique and controlled pace."
-        percentage_1rm: 60
-        reps: 5
-        weight: 112.5kg
-      - notes: "Paused variation \u2013 emphasize control."
-        percentage_1rm: 55
-        reps: 2
-        weight: 112.5kg
-      - notes: "Paused variation \u2013 emphasize control."
-        percentage_1rm: 55
-        reps: 2
-        weight: 112.5kg
-      - notes: "Explosive reps \u2013 maintain speed without sacrificing form."
-        percentage_1rm: 55
+      - notes: Heavy single to start the week.
+        percentage_1rm: 85
+        reps: 1
+        weight: 63.8kg
+      - notes: Back-off sets. Rest 2-3 mins.
+        percentage_1rm: 80
         reps: 3
-        weight: 110kg
-      - notes: "Explosive reps \u2013 maintain speed without sacrificing form."
-        percentage_1rm: 55
+        weight: 60kg
+      - notes: Back-off sets. Rest 2-3 mins.
+        percentage_1rm: 80
         reps: 3
-        weight: 110kg
-    - name: Leg Press
+        weight: 60kg
+      - notes: Back-off sets. Rest 2-3 mins.
+        percentage_1rm: 80
+        reps: 3
+        weight: 60kg
+      - notes: Back-off sets. Rest 2-3 mins.
+        percentage_1rm: 80
+        reps: 3
+        weight: 60kg
+    - name: Weighted Dips
       sets:
-      - notes: Focus on full range of motion.
-        reps: 10
-      - notes: Focus on full range of motion.
-        reps: 10
-    - name: Hamstring Leg Curls
+      - notes: Volume work. Keep reps clean. Rest 2 mins.
+        percentage_1rm: 70
+        reps: 5
+        weight: 58.8kg
+      - notes: Volume work. Keep reps clean. Rest 2 mins.
+        percentage_1rm: 70
+        reps: 5
+        weight: 58.8kg
+      - notes: Volume work. Keep reps clean. Rest 2 mins.
+        percentage_1rm: 70
+        reps: 5
+        weight: 58.8kg
+      - notes: Volume work. Keep reps clean. Rest 2 mins.
+        percentage_1rm: 70
+        reps: 5
+        weight: 58.8kg
+    - name: Optional Cuff/Face-Pulls
       sets:
-      - notes: Maintain controlled tempo.
-        reps: 10
-      - notes: Maintain controlled tempo.
-        reps: 10
-    - name: Leg Extension
-      sets:
-      - notes: "Moderate load \u2013 focus on smooth execution."
-        reps: 10
-      - notes: "Moderate load \u2013 focus on smooth execution."
-        reps: 10
-    - name: Glute Bridges
-      sets:
-      - notes: Emphasize the hip squeeze.
-        reps: 10
-      - notes: Emphasize the hip squeeze.
-        reps: 10
-    session: Lower Body (Volume Intro)
-    weekday: Friday
+      - notes: Focus on shoulder health. Not for fatigue.
+        reps: 15
+      - notes: Focus on shoulder health. Not for fatigue.
+        reps: 15
+    session: WP Heavy + Dip Volume
+    weekday: Thursday
   - exercises:
+    - name: Weighted Dips
+      sets:
+      - notes: Heavy single.
+        percentage_1rm: 87.5
+        reps: 1
+        weight: 73.8kg
+      - notes: Back-off sets. Rest 2-3 mins.
+        percentage_1rm: 82.5
+        reps: 3
+        weight: 70kg
+      - notes: Back-off sets. Rest 2-3 mins.
+        percentage_1rm: 82.5
+        reps: 3
+        weight: 70kg
+      - notes: Back-off sets. Rest 2-3 mins.
+        percentage_1rm: 82.5
+        reps: 3
+        weight: 70kg
+      - notes: Back-off sets. Rest 2-3 mins.
+        percentage_1rm: 82.5
+        reps: 3
+        weight: 70kg
+    - name: Weighted Pull-Ups
+      sets:
+      - notes: Volume work. Keep reps clean. Rest 2 mins.
+        percentage_1rm: 70
+        reps: 5
+        weight: 52.5kg
+      - notes: Volume work. Keep reps clean. Rest 2 mins.
+        percentage_1rm: 70
+        reps: 5
+        weight: 52.5kg
+      - notes: Volume work. Keep reps clean. Rest 2 mins.
+        percentage_1rm: 70
+        reps: 5
+        weight: 52.5kg
     - name: Weighted Muscle-Ups
       sets:
-      - notes: Keep it moderate; focus on smooth movement.
+      - notes: Technique singles. Take long rests (2-3 mins).
         percentage_1rm: 60
-        reps: 5
-        weight: 7.5kg
-      - notes: Keep it moderate; focus on smooth movement.
+        reps: 1
+        weight: 16.2kg
+      - notes: Technique singles. Take long rests (2-3 mins).
         percentage_1rm: 60
-        reps: 5
-        weight: 7.5kg
-    - name: Weighted Pull-Ups
-      sets:
-      - notes: "Standard execution \u2013 controlled and quality reps."
-        percentage_1rm: 65
-        reps: 5
-        weight: 47.5kg
-      - notes: "Standard execution \u2013 controlled and quality reps."
-        percentage_1rm: 65
-        reps: 5
-        weight: 47.5kg
-      - notes: "Standard execution \u2013 controlled and quality reps."
-        percentage_1rm: 65
-        reps: 5
-        weight: 47.5kg
-    - name: Weighted Pull-Ups
-      sets:
-      - notes: "Paused version \u2013 really focus on contraction."
-        percentage_1rm: 65
-        reps: 5
-        weight: 47.5kg
-      - notes: "Paused version \u2013 really focus on contraction."
-        percentage_1rm: 65
-        reps: 5
-        weight: 47.5kg
-    - name: Weighted Ring Dips
-      sets:
-      - notes: Maintain strict form.
-        percentage_1rm: 40
-        reps: 8
-        weight: 24kg
-      - notes: Maintain strict form.
-        percentage_1rm: 40
-        reps: 8
-        weight: 24kg
-      - notes: Maintain strict form.
-        percentage_1rm: 40
-        reps: 8
-        weight: 24kg
-    - name: Band Pull-Aparts
-      sets:
-      - notes: Full range with scapular focus.
-        percentage_1rm: 40
-        reps: 8
-        weight: 47.5kg
-      - notes: Full range with scapular focus.
-        percentage_1rm: 40
-        reps: 8
-        weight: 47.5kg
-    session: Upper Body (Volume Intro)
+        reps: 1
+        weight: 16.2kg
+      - notes: Technique singles. Take long rests (2-3 mins).
+        percentage_1rm: 60
+        reps: 1
+        weight: 16.2kg
+      - notes: Technique singles. Take long rests (2-3 mins).
+        percentage_1rm: 60
+        reps: 1
+        weight: 16.2kg
+      - notes: Technique singles. Take long rests (2-3 mins).
+        percentage_1rm: 60
+        reps: 1
+        weight: 16.2kg
+      - notes: Technique singles. Take long rests (2-3 mins).
+        percentage_1rm: 60
+        reps: 1
+        weight: 16.2kg
+    session: Dip Heavy + WP Volume + MU Tech
     weekday: Saturday
 - week_2:
   - exercises:
     - name: Squat
       sets:
-      - notes: "Standard \u2013 increase volume with an extra set."
-        percentage_1rm: 62
-        reps: 5
-        weight: 115kg
-      - notes: "Standard \u2013 increase volume with an extra set."
-        percentage_1rm: 62
-        reps: 5
-        weight: 115kg
-      - notes: "Standard \u2013 increase volume with an extra set."
-        percentage_1rm: 62
-        reps: 5
-        weight: 115kg
-      - notes: "Paused variant \u2013 maintain control."
-        percentage_1rm: 57
-        reps: 2
-        weight: 117.5kg
-      - notes: "Paused variant \u2013 maintain control."
-        percentage_1rm: 57
-        reps: 2
-        weight: 117.5kg
-      - notes: "Explosive variant \u2013 focus on power."
-        percentage_1rm: 57
-        reps: 3
-        weight: 112.5kg
-      - notes: "Explosive variant \u2013 focus on power."
-        percentage_1rm: 57
-        reps: 3
-        weight: 112.5kg
-    - name: Leg Press
+      - notes: Heavy single to complete Training Cycle 1.
+        percentage_1rm: 85
+        reps: 1
+        weight: 165kg
+      - notes: Top set of 4.
+        percentage_1rm: 80
+        reps: 4
+        weight: 155kg
+      - notes: Volume back-off sets. Rest 3-4 mins.
+        percentage_1rm: 75
+        reps: 4
+        weight: 146.2kg
+      - notes: Volume back-off sets. Rest 3-4 mins.
+        percentage_1rm: 75
+        reps: 4
+        weight: 146.2kg
+      - notes: Volume back-off sets. Rest 3-4 mins.
+        percentage_1rm: 75
+        reps: 4
+        weight: 146.2kg
+    - name: RDL/SLDL
       sets:
-      - notes: Increase reps for more volume.
-        reps: 12
-      - notes: Increase reps for more volume.
-        reps: 12
-    - name: Hamstring Leg Curls
-      sets:
-      - notes: Keep a controlled tempo.
-        reps: 12
-      - notes: Keep a controlled tempo.
-        reps: 12
-    - name: Leg Extension
-      sets:
-      - notes: Maintain consistent form.
-        reps: 12
-      - notes: Maintain consistent form.
-        reps: 12
-    - name: Glute Bridges
-      sets:
-      - notes: Add a brief 1-second hold at the top.
-        reps: 12
-      - notes: Add a brief 1-second hold at the top.
-        reps: 12
-    session: Lower Body (Volume)
-    weekday: Tuesday
+      - notes: Use a weight leaving 2-3 Reps in Reserve (RIR).
+        reps: 6
+      - notes: Use a weight leaving 2-3 Reps in Reserve (RIR).
+        reps: 6
+    session: Squat Heavy + Hinge
+    weekday: Monday
   - exercises:
-    - name: Weighted Muscle-Ups
-      sets:
-      - notes: Increase volume slightly.
-        percentage_1rm: 62
-        reps: 5
-        weight: 7.5kg
-      - notes: Increase volume slightly.
-        percentage_1rm: 62
-        reps: 5
-        weight: 7.5kg
-      - notes: Increase volume slightly.
-        percentage_1rm: 62
-        reps: 5
-        weight: 7.5kg
     - name: Weighted Pull-Ups
       sets:
-      - notes: Continue quality reps with a small load bump.
-        percentage_1rm: 67
-        reps: 5
-        weight: 50kg
-      - notes: Continue quality reps with a small load bump.
-        percentage_1rm: 67
-        reps: 5
-        weight: 50kg
-      - notes: Continue quality reps with a small load bump.
-        percentage_1rm: 67
-        reps: 5
-        weight: 50kg
-    - name: Weighted Pull-Ups
+      - notes: Single +2.5% from last week.
+        percentage_1rm: 87.5
+        reps: 1
+        weight: 65kg
+      - notes: Back-offs +2.5%. If neck/elbows >4/10, hold last week's load and do
+          3 sets instead of 4.
+        percentage_1rm: 82.5
+        reps: 3
+        weight: 61.2kg
+      - notes: Back-offs +2.5%. If neck/elbows >4/10, hold last week's load and do
+          3 sets instead of 4.
+        percentage_1rm: 82.5
+        reps: 3
+        weight: 61.2kg
+      - notes: Back-offs +2.5%. If neck/elbows >4/10, hold last week's load and do
+          3 sets instead of 4.
+        percentage_1rm: 82.5
+        reps: 3
+        weight: 61.2kg
+      - notes: Back-offs +2.5%. If neck/elbows >4/10, hold last week's load and do
+          3 sets instead of 4.
+        percentage_1rm: 82.5
+        reps: 3
+        weight: 61.2kg
+    - name: Weighted Dips
       sets:
-      - notes: "Paused \u2013 focus on a strong contraction."
-        percentage_1rm: 67
+      - notes: Volume work +2.5%.
+        percentage_1rm: 72.5
         reps: 5
-        weight: 50kg
-      - notes: "Paused \u2013 focus on a strong contraction."
-        percentage_1rm: 67
+        weight: 61.2kg
+      - notes: Volume work +2.5%.
+        percentage_1rm: 72.5
         reps: 5
-        weight: 50kg
-    - name: Weighted Ring Dips
+        weight: 61.2kg
+      - notes: Volume work +2.5%.
+        percentage_1rm: 72.5
+        reps: 5
+        weight: 61.2kg
+      - notes: Volume work +2.5%.
+        percentage_1rm: 72.5
+        reps: 5
+        weight: 61.2kg
+    - name: Optional Cuff/Face-Pulls
       sets:
-      - notes: Keep volume and maintain strict form.
-        percentage_1rm: 42
-        reps: 8
-        weight: 25.2kg
-      - notes: Keep volume and maintain strict form.
-        percentage_1rm: 42
-        reps: 8
-        weight: 25.2kg
-      - notes: Keep volume and maintain strict form.
-        percentage_1rm: 42
-        reps: 8
-        weight: 25.2kg
-    - name: Band Pull-Aparts
-      sets:
-      - notes: Emphasize full range of motion.
-        percentage_1rm: 42
-        reps: 8
-        weight: 50kg
-      - notes: Emphasize full range of motion.
-        percentage_1rm: 42
-        reps: 8
-        weight: 50kg
-    session: Upper Body (Volume)
+      - notes: Focus on shoulder health.
+        reps: 15
+      - notes: Focus on shoulder health.
+        reps: 15
+    session: WP Heavy + Dip Volume
     weekday: Thursday
   - exercises:
-    - name: Squat
+    - name: Weighted Dips
       sets:
-      - notes: "Repeat Tuesday\u2019s structure for consistency."
-        percentage_1rm: 62
-        reps: 5
-        weight: 115kg
-      - notes: "Repeat Tuesday\u2019s structure for consistency."
-        percentage_1rm: 62
-        reps: 5
-        weight: 115kg
-      - notes: "Repeat Tuesday\u2019s structure for consistency."
-        percentage_1rm: 62
-        reps: 5
-        weight: 115kg
-      - notes: Paused variant.
-        percentage_1rm: 57
-        reps: 2
-        weight: 117.5kg
-      - notes: Paused variant.
-        percentage_1rm: 57
-        reps: 2
-        weight: 117.5kg
-      - notes: Explosive variant.
-        percentage_1rm: 57
+      - notes: Single +2.5% from last week.
+        percentage_1rm: 90
+        reps: 1
+        weight: 76.2kg
+      - notes: Back-offs +2.5%. If neck/elbows >4/10, hold last week's load and do
+          3 sets instead of 4.
+        percentage_1rm: 85
         reps: 3
-        weight: 112.5kg
-      - notes: Explosive variant.
-        percentage_1rm: 57
+        weight: 71.2kg
+      - notes: Back-offs +2.5%. If neck/elbows >4/10, hold last week's load and do
+          3 sets instead of 4.
+        percentage_1rm: 85
         reps: 3
-        weight: 112.5kg
-    - name: Leg Press
+        weight: 71.2kg
+      - notes: Back-offs +2.5%. If neck/elbows >4/10, hold last week's load and do
+          3 sets instead of 4.
+        percentage_1rm: 85
+        reps: 3
+        weight: 71.2kg
+      - notes: Back-offs +2.5%. If neck/elbows >4/10, hold last week's load and do
+          3 sets instead of 4.
+        percentage_1rm: 85
+        reps: 3
+        weight: 71.2kg
+    - name: Weighted Pull-Ups
       sets:
-      - notes: Keep volume high; focus on steady form.
-        reps: 12
-      - notes: Keep volume high; focus on steady form.
-        reps: 12
-    - name: Hamstring Leg Curls
-      sets:
-      - notes: Maintain control.
-        reps: 12
-      - notes: Maintain control.
-        reps: 12
-    - name: Leg Extension
-      sets:
-      - notes: Focus on consistency.
-        reps: 12
-      - notes: Focus on consistency.
-        reps: 12
-    - name: Glute Bridges
-      sets:
-      - notes: Focus on a strong hip squeeze.
-        reps: 12
-      - notes: Focus on a strong hip squeeze.
-        reps: 12
-    session: Lower Body (Volume)
-    weekday: Saturday
-  - exercises:
+      - notes: Volume work +2.5%.
+        percentage_1rm: 72.5
+        reps: 5
+        weight: 53.8kg
+      - notes: Volume work +2.5%.
+        percentage_1rm: 72.5
+        reps: 5
+        weight: 53.8kg
+      - notes: Volume work +2.5%.
+        percentage_1rm: 72.5
+        reps: 5
+        weight: 53.8kg
     - name: Weighted Muscle-Ups
       sets:
-      - notes: Continue progression with quality reps.
-        percentage_1rm: 62
-        reps: 5
-        weight: 7.5kg
-      - notes: Continue progression with quality reps.
-        percentage_1rm: 62
-        reps: 5
-        weight: 7.5kg
-      - notes: Continue progression with quality reps.
-        percentage_1rm: 62
-        reps: 5
-        weight: 7.5kg
-    - name: Weighted Pull-Ups
-      sets:
-      - notes: Maintain quality volume.
-        percentage_1rm: 67
-        reps: 5
-        weight: 50kg
-      - notes: Maintain quality volume.
-        percentage_1rm: 67
-        reps: 5
-        weight: 50kg
-      - notes: Maintain quality volume.
-        percentage_1rm: 67
-        reps: 5
-        weight: 50kg
-    - name: Weighted Pull-Ups
-      sets:
-      - notes: "Paused \u2013 focus on peak contraction."
-        percentage_1rm: 67
-        reps: 5
-        weight: 50kg
-      - notes: "Paused \u2013 focus on peak contraction."
-        percentage_1rm: 67
-        reps: 5
-        weight: 50kg
-    - name: Weighted Ring Dips
-      sets:
-      - notes: Keep strict form under volume stress.
-        percentage_1rm: 42
-        reps: 8
-        weight: 25.2kg
-      - notes: Keep strict form under volume stress.
-        percentage_1rm: 42
-        reps: 8
-        weight: 25.2kg
-      - notes: Keep strict form under volume stress.
-        percentage_1rm: 42
-        reps: 8
-        weight: 25.2kg
-    - name: Band Pull-Aparts
-      sets:
-      - notes: Emphasize scapular control.
-        percentage_1rm: 42
-        reps: 8
-        weight: 50kg
-      - notes: Emphasize scapular control.
-        percentage_1rm: 42
-        reps: 8
-        weight: 50kg
-    session: Upper Body (Volume)
-    weekday: Sunday
+      - notes: Technique singles. Long rests, crisp turnover.
+        percentage_1rm: 60
+        reps: 1
+        weight: 16.2kg
+      - notes: Technique singles. Long rests, crisp turnover.
+        percentage_1rm: 60
+        reps: 1
+        weight: 16.2kg
+      - notes: Technique singles. Long rests, crisp turnover.
+        percentage_1rm: 60
+        reps: 1
+        weight: 16.2kg
+      - notes: Technique singles. Long rests, crisp turnover.
+        percentage_1rm: 60
+        reps: 1
+        weight: 16.2kg
+      - notes: Technique singles. Long rests, crisp turnover.
+        percentage_1rm: 60
+        reps: 1
+        weight: 16.2kg
+      - notes: Technique singles. Long rests, crisp turnover.
+        percentage_1rm: 60
+        reps: 1
+        weight: 16.2kg
+    session: Dip Heavy + WP Volume + MU Tech
+    weekday: Saturday
 - week_3:
   - exercises:
     - name: Squat
       sets:
-      - notes: Continue progression while keeping form strict.
-        percentage_1rm: 64
-        reps: 5
-        weight: 120kg
-      - notes: Continue progression while keeping form strict.
-        percentage_1rm: 64
-        reps: 5
-        weight: 120kg
-      - notes: Continue progression while keeping form strict.
-        percentage_1rm: 64
-        reps: 5
-        weight: 120kg
-      - notes: Paused variant.
-        percentage_1rm: 59
-        reps: 2
-        weight: 120kg
-      - notes: Paused variant.
-        percentage_1rm: 59
-        reps: 2
-        weight: 120kg
-      - notes: Explosive variant.
-        percentage_1rm: 59
-        reps: 3
-        weight: 117.5kg
-      - notes: Explosive variant.
-        percentage_1rm: 59
-        reps: 3
-        weight: 117.5kg
-    - name: Leg Press
+      - notes: Single +2.5% from last week.
+        percentage_1rm: 87.5
+        reps: 1
+        weight: 170kg
+      - notes: Top set +2.5%.
+        percentage_1rm: 82.5
+        reps: 4
+        weight: 160kg
+      - notes: Back-offs +2.5%.
+        percentage_1rm: 77.5
+        reps: 4
+        weight: 150kg
+      - notes: Back-offs +2.5%.
+        percentage_1rm: 77.5
+        reps: 4
+        weight: 150kg
+      - notes: Back-offs +2.5%.
+        percentage_1rm: 77.5
+        reps: 4
+        weight: 150kg
+    - name: RDL/SLDL
       sets:
-      - notes: Maintain high volume; focus on smooth movement.
-        reps: 12
-      - notes: Maintain high volume; focus on smooth movement.
-        reps: 12
-    - name: Hamstring Leg Curls
-      sets:
-      - notes: Maintain controlled tempo.
-        reps: 12
-      - notes: Maintain controlled tempo.
-        reps: 12
-    - name: Leg Extension
-      sets:
-      - notes: Emphasize slow eccentrics.
-        reps: 12
-      - notes: Emphasize slow eccentrics.
-        reps: 12
-    - name: Glute Bridges
-      sets:
-      - notes: "Hold for 1\u20132 seconds at peak contraction."
-        reps: 12
-      - notes: "Hold for 1\u20132 seconds at peak contraction."
-        reps: 12
-    session: Lower Body (Volume)
-    weekday: Tuesday
+      - notes: Use a weight leaving 2-3 RIR.
+        reps: 6
+      - notes: Use a weight leaving 2-3 RIR.
+        reps: 6
+    session: Squat Heavy + Hinge
+    weekday: Monday
   - exercises:
+    - name: Weighted Pull-Ups
+      sets:
+      - notes: Single at 90% if bar speed is good; otherwise hold at 87.5%.
+        percentage_1rm: 90
+        reps: 1
+        weight: 67.5kg
+      - notes: Add one extra set ONLY if this is your better-recovering lift. Otherwise
+          do 4x3.
+        percentage_1rm: 82.5
+        reps: 4-5x3
+        weight: 61.2kg
+    - name: Weighted Dips
+      sets:
+      - notes: Volume work.
+        percentage_1rm: 75
+        reps: 5
+        weight: 63.8kg
+      - notes: Volume work.
+        percentage_1rm: 75
+        reps: 5
+        weight: 63.8kg
+      - notes: Volume work.
+        percentage_1rm: 75
+        reps: 5
+        weight: 63.8kg
+      - notes: Volume work.
+        percentage_1rm: 75
+        reps: 5
+        weight: 63.8kg
+    - name: Optional Cuff/Face-Pulls
+      sets:
+      - notes: Focus on shoulder health.
+        reps: 15
+      - notes: Focus on shoulder health.
+        reps: 15
+    session: WP Heavy + Dip Volume
+    weekday: Thursday
+  - exercises:
+    - name: Weighted Dips
+      sets:
+      - notes: Single at 92.5% if bar speed is good; otherwise hold at 90%.
+        percentage_1rm: 92.5
+        reps: 1
+        weight: 77.5kg
+      - notes: Add one extra set ONLY if this is your better-recovering lift. Otherwise
+          do 4x3.
+        percentage_1rm: 85
+        reps: 4-5x3
+        weight: 71.2kg
+    - name: Weighted Pull-Ups
+      sets:
+      - notes: Volume work.
+        percentage_1rm: 72.5
+        reps: 5
+        weight: 53.8kg
+      - notes: Volume work.
+        percentage_1rm: 72.5
+        reps: 5
+        weight: 53.8kg
+      - notes: Volume work.
+        percentage_1rm: 72.5
+        reps: 5
+        weight: 53.8kg
     - name: Weighted Muscle-Ups
       sets:
-      - notes: Continue increasing work capacity.
-        percentage_1rm: 64
-        reps: 5
-        weight: 10kg
-      - notes: Continue increasing work capacity.
-        percentage_1rm: 64
-        reps: 5
-        weight: 10kg
-      - notes: Continue increasing work capacity.
-        percentage_1rm: 64
-        reps: 5
-        weight: 10kg
-    - name: Weighted Pull-Ups
-      sets:
-      - notes: Increase intensity while maintaining quality.
-        percentage_1rm: 69
-        reps: 5
-        weight: 52.5kg
-      - notes: Increase intensity while maintaining quality.
-        percentage_1rm: 69
-        reps: 5
-        weight: 52.5kg
-      - notes: Increase intensity while maintaining quality.
-        percentage_1rm: 69
-        reps: 5
-        weight: 52.5kg
-    - name: Weighted Pull-Ups
-      sets:
-      - notes: "Paused \u2013 focus on peak contraction."
-        percentage_1rm: 69
-        reps: 5
-        weight: 52.5kg
-      - notes: "Paused \u2013 focus on peak contraction."
-        percentage_1rm: 69
-        reps: 5
-        weight: 52.5kg
-    - name: Weighted Ring Dips
-      sets:
-      - notes: Increase intensity slightly.
-        percentage_1rm: 44
-        reps: 8
-        weight: 26.5kg
-      - notes: Increase intensity slightly.
-        percentage_1rm: 44
-        reps: 8
-        weight: 26.5kg
-      - notes: Increase intensity slightly.
-        percentage_1rm: 44
-        reps: 8
-        weight: 26.5kg
-    - name: Band Pull-Aparts
-      sets:
-      - notes: Maintain full range with scapular focus.
-        percentage_1rm: 44
-        reps: 8
-        weight: 52.5kg
-      - notes: Maintain full range with scapular focus.
-        percentage_1rm: 44
-        reps: 8
-        weight: 52.5kg
-    session: Upper Body (Volume)
-    weekday: Thursday
+      - notes: Technique singles. Long rests.
+        percentage_1rm: 65
+        reps: 1
+        weight: 17.5kg
+      - notes: Technique singles. Long rests.
+        percentage_1rm: 65
+        reps: 1
+        weight: 17.5kg
+      - notes: Technique singles. Long rests.
+        percentage_1rm: 65
+        reps: 1
+        weight: 17.5kg
+      - notes: Technique singles. Long rests.
+        percentage_1rm: 65
+        reps: 1
+        weight: 17.5kg
+      - notes: Technique singles. Long rests.
+        percentage_1rm: 65
+        reps: 1
+        weight: 17.5kg
+      - notes: Technique singles. Long rests.
+        percentage_1rm: 65
+        reps: 1
+        weight: 17.5kg
+    session: Dip Heavy + WP Volume + MU Tech
+    weekday: Saturday
+- week_4:
   - exercises:
     - name: Squat
       sets:
-      - notes: "Consistent progression \u2013 maintain quality reps."
-        percentage_1rm: 64
-        reps: 5
-        weight: 120kg
-      - notes: "Consistent progression \u2013 maintain quality reps."
-        percentage_1rm: 64
-        reps: 5
-        weight: 120kg
-      - notes: "Consistent progression \u2013 maintain quality reps."
-        percentage_1rm: 64
-        reps: 5
-        weight: 120kg
-      - notes: Paused variant.
-        percentage_1rm: 59
-        reps: 2
-        weight: 120kg
-      - notes: Paused variant.
-        percentage_1rm: 59
-        reps: 2
-        weight: 120kg
-      - notes: Explosive variant.
-        percentage_1rm: 59
-        reps: 3
-        weight: 117.5kg
-      - notes: Explosive variant.
-        percentage_1rm: 59
-        reps: 3
-        weight: 117.5kg
-    - name: Leg Press
+      - notes: Single at 90% if bar speed is good; otherwise hold at 87.5%.
+        percentage_1rm: 90
+        reps: 1
+        weight: 175kg
+      - notes: Top set.
+        percentage_1rm: 82.5
+        reps: 4
+        weight: 160kg
+      - notes: Back-off sets.
+        percentage_1rm: 77.5
+        reps: 4
+        weight: 150kg
+      - notes: Back-off sets.
+        percentage_1rm: 77.5
+        reps: 4
+        weight: 150kg
+      - notes: Back-off sets.
+        percentage_1rm: 77.5
+        reps: 4
+        weight: 150kg
+    - name: RDL/SLDL
       sets:
-      - notes: Keep volume steady.
-        reps: 12
-      - notes: Keep volume steady.
-        reps: 12
-    - name: Hamstring Leg Curls
-      sets:
-      - notes: Controlled pace.
-        reps: 12
-      - notes: Controlled pace.
-        reps: 12
-    - name: Leg Extension
-      sets:
-      - notes: Focus on technique.
-        reps: 12
-      - notes: Focus on technique.
-        reps: 12
-    - name: Glute Bridges
-      sets:
-      - notes: Maintain a strong hip squeeze.
-        reps: 12
-      - notes: Maintain a strong hip squeeze.
-        reps: 12
-    session: Lower Body (Volume)
-    weekday: Saturday
+      - notes: RIR 2-3.
+        reps: 6
+      - notes: RIR 2-3.
+        reps: 6
+    session: Squat Heavy + Hinge
+    weekday: Monday
   - exercises:
+    - name: Weighted Pull-Ups
+      sets:
+      - notes: Easy single. No sets above RPE 7.
+        percentage_1rm: 80
+        reps: 1
+        weight: 60kg
+      - notes: Reduced volume back-offs.
+        percentage_1rm: 75
+        reps: 3
+        weight: 56.2kg
+      - notes: Reduced volume back-offs.
+        percentage_1rm: 75
+        reps: 3
+        weight: 56.2kg
+    - name: Weighted Dips
+      sets:
+      - notes: Reduced volume. Stay well below RPE 7.
+        percentage_1rm: 65
+        reps: 5
+        weight: 55kg
+      - notes: Reduced volume. Stay well below RPE 7.
+        percentage_1rm: 65
+        reps: 5
+        weight: 55kg
+    session: WP + Dip (Reload)
+    weekday: Thursday
+  - exercises:
+    - name: Weighted Dips
+      sets:
+      - notes: Easy single. No sets above RPE 7.
+        percentage_1rm: 80
+        reps: 1
+        weight: 67.5kg
+      - notes: Reduced volume back-offs.
+        percentage_1rm: 75
+        reps: 3
+        weight: 63.8kg
+      - notes: Reduced volume back-offs.
+        percentage_1rm: 75
+        reps: 3
+        weight: 63.8kg
+    - name: Weighted Pull-Ups
+      sets:
+      - notes: Reduced volume.
+        percentage_1rm: 65
+        reps: 5
+        weight: 48.8kg
+      - notes: Reduced volume.
+        percentage_1rm: 65
+        reps: 5
+        weight: 48.8kg
     - name: Weighted Muscle-Ups
       sets:
-      - notes: Steady progression with quality reps.
-        percentage_1rm: 64
-        reps: 5
-        weight: 10kg
-      - notes: Steady progression with quality reps.
-        percentage_1rm: 64
-        reps: 5
-        weight: 10kg
-      - notes: Steady progression with quality reps.
-        percentage_1rm: 64
-        reps: 5
-        weight: 10kg
+      - notes: Light technique work only.
+        percentage_1rm: 55
+        reps: 1
+        weight: 15kg
+      - notes: Light technique work only.
+        percentage_1rm: 55
+        reps: 1
+        weight: 15kg
+      - notes: Light technique work only.
+        percentage_1rm: 55
+        reps: 1
+        weight: 15kg
+      - notes: Light technique work only.
+        percentage_1rm: 55
+        reps: 1
+        weight: 15kg
+    session: Dip + WP + MU (Reload)
+    weekday: Saturday
+- week_5:
+  - exercises:
+    - name: Squat
+      sets:
+      - notes: Easy single. No sets above RPE 7.
+        percentage_1rm: 80
+        reps: 1
+        weight: 155kg
+      - notes: Reduced volume back-offs.
+        percentage_1rm: 70
+        reps: 4
+        weight: 136.2kg
+      - notes: Reduced volume back-offs.
+        percentage_1rm: 70
+        reps: 4
+        weight: 136.2kg
+    session: Squat (Reload)
+    weekday: Monday
+  - exercises:
     - name: Weighted Pull-Ups
       sets:
-      - notes: Maintain quality under increased load.
-        percentage_1rm: 69
+      - notes: Heavy single.
+        percentage_1rm: 92.5
+        reps: 1
+        weight: 68.8kg
+      - notes: Low-rep strength back-offs.
+        percentage_1rm: 85
+        reps: 3x2-3
+        weight: 63.8kg
+    - name: Weighted Dips
+      sets:
+      - notes: Volume/maintenance work. Keep it snappy.
+        percentage_1rm: 70
         reps: 5
-        weight: 52.5kg
-      - notes: Maintain quality under increased load.
-        percentage_1rm: 69
+        weight: 58.8kg
+      - notes: Volume/maintenance work. Keep it snappy.
+        percentage_1rm: 70
         reps: 5
-        weight: 52.5kg
-      - notes: Maintain quality under increased load.
-        percentage_1rm: 69
+        weight: 58.8kg
+      - notes: Volume/maintenance work. Keep it snappy.
+        percentage_1rm: 70
         reps: 5
-        weight: 52.5kg
+        weight: 58.8kg
+    session: WP Priority
+    weekday: Thursday
+  - exercises:
+    - name: Weighted Dips
+      sets:
+      - notes: Heavy single.
+        percentage_1rm: 92.5
+        reps: 1
+        weight: 77.5kg
+      - notes: Low-rep strength back-offs.
+        percentage_1rm: 85
+        reps: 3x2-3
+        weight: 71.2kg
     - name: Weighted Pull-Ups
       sets:
-      - notes: "Paused \u2013 focus on strong contraction."
-        percentage_1rm: 69
-        reps: 5
-        weight: 52.5kg
-      - notes: "Paused \u2013 focus on strong contraction."
-        percentage_1rm: 69
-        reps: 5
-        weight: 52.5kg
-    - name: Weighted Ring Dips
+      - notes: Volume/maintenance work.
+        percentage_1rm: 72.5
+        reps: 4
+        weight: 53.8kg
+      - notes: Volume/maintenance work.
+        percentage_1rm: 72.5
+        reps: 4
+        weight: 53.8kg
+      - notes: Volume/maintenance work.
+        percentage_1rm: 72.5
+        reps: 4
+        weight: 53.8kg
+    - name: Weighted Muscle-Ups
       sets:
-      - notes: Keep strict form.
-        percentage_1rm: 44
-        reps: 8
-        weight: 26.5kg
-      - notes: Keep strict form.
-        percentage_1rm: 44
-        reps: 8
-        weight: 26.5kg
-      - notes: Keep strict form.
-        percentage_1rm: 44
-        reps: 8
-        weight: 26.5kg
-    - name: Band Pull-Aparts
+      - notes: Crisp singles. Rest as needed.
+        percentage_1rm: 65
+        reps: 1
+        weight: 17.5kg
+      - notes: Crisp singles. Rest as needed.
+        percentage_1rm: 65
+        reps: 1
+        weight: 17.5kg
+      - notes: Crisp singles. Rest as needed.
+        percentage_1rm: 65
+        reps: 1
+        weight: 17.5kg
+      - notes: Crisp singles. Rest as needed.
+        percentage_1rm: 65
+        reps: 1
+        weight: 17.5kg
+      - notes: Crisp singles. Rest as needed.
+        percentage_1rm: 65
+        reps: 1
+        weight: 17.5kg
+    session: Dip Priority
+    weekday: Saturday
+- week_6:
+  - exercises:
+    - name: Squat
       sets:
-      - notes: Emphasize full range and control.
-        percentage_1rm: 44
-        reps: 8
-        weight: 52.5kg
-      - notes: Emphasize full range and control.
-        percentage_1rm: 44
-        reps: 8
-        weight: 52.5kg
-    session: Upper Body (Volume)
-    weekday: Sunday
+      - notes: Heavy single.
+        percentage_1rm: 90
+        reps: 1
+        weight: 175kg
+      - notes: Strength back-off sets.
+        percentage_1rm: 82.5
+        reps: 3
+        weight: 160kg
+      - notes: Strength back-off sets.
+        percentage_1rm: 82.5
+        reps: 3
+        weight: 160kg
+      - notes: Strength back-off sets.
+        percentage_1rm: 82.5
+        reps: 3
+        weight: 160kg
+    - name: Light Hinge (RDL/SLDL)
+      sets:
+      - notes: Light technique focus, RIR 3.
+        percentage_1rm: 70
+        reps: 5
+      - notes: Light technique focus, RIR 3.
+        percentage_1rm: 70
+        reps: 5
+    session: Squat Priority
+    weekday: Monday
+  - exercises:
+    - name: Weighted Pull-Ups
+      sets:
+      - notes: Bump +1-2.5% from W5 single if it was <= RPE 8. Otherwise, repeat W5.
+        percentage_1rm: 95
+        reps: 1
+        weight: 71.2kg
+      - notes: Back-offs are doubles. No grinding.
+        percentage_1rm: 87.5
+        reps: 2
+        weight: 65kg
+      - notes: Back-offs are doubles. No grinding.
+        percentage_1rm: 87.5
+        reps: 2
+        weight: 65kg
+      - notes: Back-offs are doubles. No grinding.
+        percentage_1rm: 87.5
+        reps: 2
+        weight: 65kg
+    - name: Weighted Dips
+      sets:
+      - notes: Volume/maintenance.
+        percentage_1rm: 70
+        reps: 5
+        weight: 58.8kg
+      - notes: Volume/maintenance.
+        percentage_1rm: 70
+        reps: 5
+        weight: 58.8kg
+      - notes: Volume/maintenance.
+        percentage_1rm: 70
+        reps: 5
+        weight: 58.8kg
+    session: WP Priority
+    weekday: Thursday
+  - exercises:
+    - name: Weighted Dips
+      sets:
+      - notes: Bump +1-2.5% from W5 single if it was <= RPE 8. Otherwise, repeat W5.
+        percentage_1rm: 95
+        reps: 1
+        weight: 80kg
+      - notes: Back-offs are doubles. No grinding.
+        percentage_1rm: 87.5
+        reps: 2
+        weight: 73.8kg
+      - notes: Back-offs are doubles. No grinding.
+        percentage_1rm: 87.5
+        reps: 2
+        weight: 73.8kg
+      - notes: Back-offs are doubles. No grinding.
+        percentage_1rm: 87.5
+        reps: 2
+        weight: 73.8kg
+    - name: Weighted Pull-Ups
+      sets:
+      - notes: Volume/maintenance work.
+        percentage_1rm: 72.5
+        reps: 4
+        weight: 53.8kg
+      - notes: Volume/maintenance work.
+        percentage_1rm: 72.5
+        reps: 4
+        weight: 53.8kg
+      - notes: Volume/maintenance work.
+        percentage_1rm: 72.5
+        reps: 4
+        weight: 53.8kg
+    - name: Weighted Muscle-Ups
+      sets:
+      - notes: Light singles only.
+        percentage_1rm: 60
+        reps: 3-4x1
+        weight: 16.2kg
+    - name: Confidence Singles (WP or Dip)
+      sets:
+      - notes: OPTIONAL. Take a single at 92.5-95% ONLY IF it would feel like RPE
+          8 or less.
+        percentage_1rm: 95
+        reps: 1
+    session: Dip Priority
+    weekday: Saturday
+- week_7:
+  - exercises:
+    - name: Squat
+      sets:
+      - notes: Bump +1-2.5% from W5 single if it was <= RPE 8. Otherwise, repeat W5.
+        percentage_1rm: 92.5
+        reps: 1
+        weight: 180kg
+      - notes: Strength back-off sets.
+        percentage_1rm: 85
+        reps: 3
+        weight: 165kg
+      - notes: Strength back-off sets.
+        percentage_1rm: 85
+        reps: 3
+        weight: 165kg
+      - notes: Strength back-off sets.
+        percentage_1rm: 85
+        reps: 3
+        weight: 165kg
+    - name: Light Hinge (RDL/SLDL)
+      sets:
+      - notes: Light technique focus.
+        percentage_1rm: 70
+        reps: 5
+      - notes: Light technique focus.
+        percentage_1rm: 70
+        reps: 5
+    session: Squat Priority
+    weekday: Monday
