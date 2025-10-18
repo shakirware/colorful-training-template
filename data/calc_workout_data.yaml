@@ -5,41 +5,41 @@
       - notes: Heavy single to start the week.
         percentage_1rm: 85
         reps: 1
-        weight: 63.8kg
+        weight: 70kg
       - notes: Back-off sets. Rest 2-3 mins.
         percentage_1rm: 80
         reps: 3
-        weight: 60kg
+        weight: 65kg
       - notes: Back-off sets. Rest 2-3 mins.
         percentage_1rm: 80
         reps: 3
-        weight: 60kg
+        weight: 65kg
       - notes: Back-off sets. Rest 2-3 mins.
         percentage_1rm: 80
         reps: 3
-        weight: 60kg
+        weight: 65kg
       - notes: Back-off sets. Rest 2-3 mins.
         percentage_1rm: 80
         reps: 3
-        weight: 60kg
+        weight: 65kg
     - name: Weighted Dips
       sets:
       - notes: Volume work. Keep reps clean. Rest 2 mins.
         percentage_1rm: 70
         reps: 5
-        weight: 58.8kg
+        weight: 63.8kg
       - notes: Volume work. Keep reps clean. Rest 2 mins.
         percentage_1rm: 70
         reps: 5
-        weight: 58.8kg
+        weight: 63.8kg
       - notes: Volume work. Keep reps clean. Rest 2 mins.
         percentage_1rm: 70
         reps: 5
-        weight: 58.8kg
+        weight: 63.8kg
       - notes: Volume work. Keep reps clean. Rest 2 mins.
         percentage_1rm: 70
         reps: 5
-        weight: 58.8kg
+        weight: 63.8kg
     - name: Optional Cuff/Face-Pulls
       sets:
       - notes: Focus on shoulder health. Not for fatigue.
@@ -54,37 +54,37 @@
       - notes: Heavy single.
         percentage_1rm: 87.5
         reps: 1
-        weight: 73.8kg
+        weight: 80kg
       - notes: Back-off sets. Rest 2-3 mins.
         percentage_1rm: 82.5
         reps: 3
-        weight: 70kg
+        weight: 76.2kg
       - notes: Back-off sets. Rest 2-3 mins.
         percentage_1rm: 82.5
         reps: 3
-        weight: 70kg
+        weight: 76.2kg
       - notes: Back-off sets. Rest 2-3 mins.
         percentage_1rm: 82.5
         reps: 3
-        weight: 70kg
+        weight: 76.2kg
       - notes: Back-off sets. Rest 2-3 mins.
         percentage_1rm: 82.5
         reps: 3
-        weight: 70kg
+        weight: 76.2kg
     - name: Weighted Pull-Ups
       sets:
       - notes: Volume work. Keep reps clean. Rest 2 mins.
         percentage_1rm: 70
         reps: 5
-        weight: 52.5kg
+        weight: 57.5kg
       - notes: Volume work. Keep reps clean. Rest 2 mins.
         percentage_1rm: 70
         reps: 5
-        weight: 52.5kg
+        weight: 57.5kg
       - notes: Volume work. Keep reps clean. Rest 2 mins.
         percentage_1rm: 70
         reps: 5
-        weight: 52.5kg
+        weight: 57.5kg
     - name: Weighted Muscle-Ups
       sets:
       - notes: Technique singles. Take long rests (2-3 mins).
@@ -151,45 +151,45 @@
       - notes: Single +2.5% from last week.
         percentage_1rm: 87.5
         reps: 1
-        weight: 65kg
+        weight: 71.2kg
       - notes: Back-offs +2.5%. If neck/elbows >4/10, hold last week's load and do
           3 sets instead of 4.
         percentage_1rm: 82.5
         reps: 3
-        weight: 61.2kg
+        weight: 67.5kg
       - notes: Back-offs +2.5%. If neck/elbows >4/10, hold last week's load and do
           3 sets instead of 4.
         percentage_1rm: 82.5
         reps: 3
-        weight: 61.2kg
+        weight: 67.5kg
       - notes: Back-offs +2.5%. If neck/elbows >4/10, hold last week's load and do
           3 sets instead of 4.
         percentage_1rm: 82.5
         reps: 3
-        weight: 61.2kg
+        weight: 67.5kg
       - notes: Back-offs +2.5%. If neck/elbows >4/10, hold last week's load and do
           3 sets instead of 4.
         percentage_1rm: 82.5
         reps: 3
-        weight: 61.2kg
+        weight: 67.5kg
     - name: Weighted Dips
       sets:
       - notes: Volume work +2.5%.
         percentage_1rm: 72.5
         reps: 5
-        weight: 61.2kg
+        weight: 66.2kg
       - notes: Volume work +2.5%.
         percentage_1rm: 72.5
         reps: 5
-        weight: 61.2kg
+        weight: 66.2kg
       - notes: Volume work +2.5%.
         percentage_1rm: 72.5
         reps: 5
-        weight: 61.2kg
+        weight: 66.2kg
       - notes: Volume work +2.5%.
         percentage_1rm: 72.5
         reps: 5
-        weight: 61.2kg
+        weight: 66.2kg
     - name: Optional Cuff/Face-Pulls
       sets:
       - notes: Focus on shoulder health.
@@ -204,41 +204,41 @@
       - notes: Single +2.5% from last week.
         percentage_1rm: 90
         reps: 1
-        weight: 76.2kg
+        weight: 82.5kg
       - notes: Back-offs +2.5%. If neck/elbows >4/10, hold last week's load and do
           3 sets instead of 4.
         percentage_1rm: 85
         reps: 3
-        weight: 71.2kg
+        weight: 77.5kg
       - notes: Back-offs +2.5%. If neck/elbows >4/10, hold last week's load and do
           3 sets instead of 4.
         percentage_1rm: 85
         reps: 3
-        weight: 71.2kg
+        weight: 77.5kg
       - notes: Back-offs +2.5%. If neck/elbows >4/10, hold last week's load and do
           3 sets instead of 4.
         percentage_1rm: 85
         reps: 3
-        weight: 71.2kg
+        weight: 77.5kg
       - notes: Back-offs +2.5%. If neck/elbows >4/10, hold last week's load and do
           3 sets instead of 4.
         percentage_1rm: 85
         reps: 3
-        weight: 71.2kg
+        weight: 77.5kg
     - name: Weighted Pull-Ups
       sets:
       - notes: Volume work +2.5%.
         percentage_1rm: 72.5
         reps: 5
-        weight: 53.8kg
+        weight: 58.8kg
       - notes: Volume work +2.5%.
         percentage_1rm: 72.5
         reps: 5
-        weight: 53.8kg
+        weight: 58.8kg
       - notes: Volume work +2.5%.
         percentage_1rm: 72.5
         reps: 5
-        weight: 53.8kg
+        weight: 58.8kg
     - name: Weighted Muscle-Ups
       sets:
       - notes: Technique singles. Long rests, crisp turnover.
@@ -305,30 +305,30 @@
       - notes: Single at 90% if bar speed is good; otherwise hold at 87.5%.
         percentage_1rm: 90
         reps: 1
-        weight: 67.5kg
+        weight: 73.8kg
       - notes: Add one extra set ONLY if this is your better-recovering lift. Otherwise
           do 4x3.
         percentage_1rm: 82.5
         reps: 4-5x3
-        weight: 61.2kg
+        weight: 67.5kg
     - name: Weighted Dips
       sets:
       - notes: Volume work.
         percentage_1rm: 75
         reps: 5
-        weight: 63.8kg
+        weight: 68.8kg
       - notes: Volume work.
         percentage_1rm: 75
         reps: 5
-        weight: 63.8kg
+        weight: 68.8kg
       - notes: Volume work.
         percentage_1rm: 75
         reps: 5
-        weight: 63.8kg
+        weight: 68.8kg
       - notes: Volume work.
         percentage_1rm: 75
         reps: 5
-        weight: 63.8kg
+        weight: 68.8kg
     - name: Optional Cuff/Face-Pulls
       sets:
       - notes: Focus on shoulder health.
@@ -343,26 +343,26 @@
       - notes: Single at 92.5% if bar speed is good; otherwise hold at 90%.
         percentage_1rm: 92.5
         reps: 1
-        weight: 77.5kg
+        weight: 85kg
       - notes: Add one extra set ONLY if this is your better-recovering lift. Otherwise
           do 4x3.
         percentage_1rm: 85
         reps: 4-5x3
-        weight: 71.2kg
+        weight: 77.5kg
     - name: Weighted Pull-Ups
       sets:
       - notes: Volume work.
         percentage_1rm: 72.5
         reps: 5
-        weight: 53.8kg
+        weight: 58.8kg
       - notes: Volume work.
         percentage_1rm: 72.5
         reps: 5
-        weight: 53.8kg
+        weight: 58.8kg
       - notes: Volume work.
         percentage_1rm: 72.5
         reps: 5
-        weight: 53.8kg
+        weight: 58.8kg
     - name: Weighted Muscle-Ups
       sets:
       - notes: Technique singles. Long rests.
@@ -429,25 +429,25 @@
       - notes: Easy single. No sets above RPE 7.
         percentage_1rm: 80
         reps: 1
-        weight: 60kg
+        weight: 65kg
       - notes: Reduced volume back-offs.
         percentage_1rm: 75
         reps: 3
-        weight: 56.2kg
+        weight: 61.2kg
       - notes: Reduced volume back-offs.
         percentage_1rm: 75
         reps: 3
-        weight: 56.2kg
+        weight: 61.2kg
     - name: Weighted Dips
       sets:
       - notes: Reduced volume. Stay well below RPE 7.
         percentage_1rm: 65
         reps: 5
-        weight: 55kg
+        weight: 60kg
       - notes: Reduced volume. Stay well below RPE 7.
         percentage_1rm: 65
         reps: 5
-        weight: 55kg
+        weight: 60kg
     session: WP + Dip (Reload)
     weekday: Thursday
   - exercises:
@@ -456,25 +456,25 @@
       - notes: Easy single. No sets above RPE 7.
         percentage_1rm: 80
         reps: 1
-        weight: 67.5kg
+        weight: 73.8kg
       - notes: Reduced volume back-offs.
         percentage_1rm: 75
         reps: 3
-        weight: 63.8kg
+        weight: 68.8kg
       - notes: Reduced volume back-offs.
         percentage_1rm: 75
         reps: 3
-        weight: 63.8kg
+        weight: 68.8kg
     - name: Weighted Pull-Ups
       sets:
       - notes: Reduced volume.
         percentage_1rm: 65
         reps: 5
-        weight: 48.8kg
+        weight: 52.5kg
       - notes: Reduced volume.
         percentage_1rm: 65
         reps: 5
-        weight: 48.8kg
+        weight: 52.5kg
     - name: Weighted Muscle-Ups
       sets:
       - notes: Light technique work only.
@@ -519,25 +519,25 @@
       - notes: Heavy single.
         percentage_1rm: 92.5
         reps: 1
-        weight: 68.8kg
+        weight: 76.2kg
       - notes: Low-rep strength back-offs.
         percentage_1rm: 85
         reps: 3x2-3
-        weight: 63.8kg
+        weight: 70kg
     - name: Weighted Dips
       sets:
       - notes: Volume/maintenance work. Keep it snappy.
         percentage_1rm: 70
         reps: 5
-        weight: 58.8kg
+        weight: 63.8kg
       - notes: Volume/maintenance work. Keep it snappy.
         percentage_1rm: 70
         reps: 5
-        weight: 58.8kg
+        weight: 63.8kg
       - notes: Volume/maintenance work. Keep it snappy.
         percentage_1rm: 70
         reps: 5
-        weight: 58.8kg
+        weight: 63.8kg
     session: WP Priority
     weekday: Thursday
   - exercises:
@@ -546,25 +546,25 @@
       - notes: Heavy single.
         percentage_1rm: 92.5
         reps: 1
-        weight: 77.5kg
+        weight: 85kg
       - notes: Low-rep strength back-offs.
         percentage_1rm: 85
         reps: 3x2-3
-        weight: 71.2kg
+        weight: 77.5kg
     - name: Weighted Pull-Ups
       sets:
       - notes: Volume/maintenance work.
         percentage_1rm: 72.5
         reps: 4
-        weight: 53.8kg
+        weight: 58.8kg
       - notes: Volume/maintenance work.
         percentage_1rm: 72.5
         reps: 4
-        weight: 53.8kg
+        weight: 58.8kg
       - notes: Volume/maintenance work.
         percentage_1rm: 72.5
         reps: 4
-        weight: 53.8kg
+        weight: 58.8kg
     - name: Weighted Muscle-Ups
       sets:
       - notes: Crisp singles. Rest as needed.
@@ -625,33 +625,33 @@
       - notes: Bump +1-2.5% from W5 single if it was <= RPE 8. Otherwise, repeat W5.
         percentage_1rm: 95
         reps: 1
+        weight: 77.5kg
+      - notes: Back-offs are doubles. No grinding.
+        percentage_1rm: 87.5
+        reps: 2
         weight: 71.2kg
       - notes: Back-offs are doubles. No grinding.
         percentage_1rm: 87.5
         reps: 2
-        weight: 65kg
+        weight: 71.2kg
       - notes: Back-offs are doubles. No grinding.
         percentage_1rm: 87.5
         reps: 2
-        weight: 65kg
-      - notes: Back-offs are doubles. No grinding.
-        percentage_1rm: 87.5
-        reps: 2
-        weight: 65kg
+        weight: 71.2kg
     - name: Weighted Dips
       sets:
       - notes: Volume/maintenance.
         percentage_1rm: 70
         reps: 5
-        weight: 58.8kg
+        weight: 63.8kg
       - notes: Volume/maintenance.
         percentage_1rm: 70
         reps: 5
-        weight: 58.8kg
+        weight: 63.8kg
       - notes: Volume/maintenance.
         percentage_1rm: 70
         reps: 5
-        weight: 58.8kg
+        weight: 63.8kg
     session: WP Priority
     weekday: Thursday
   - exercises:
@@ -660,33 +660,33 @@
       - notes: Bump +1-2.5% from W5 single if it was <= RPE 8. Otherwise, repeat W5.
         percentage_1rm: 95
         reps: 1
+        weight: 87.5kg
+      - notes: Back-offs are doubles. No grinding.
+        percentage_1rm: 87.5
+        reps: 2
         weight: 80kg
       - notes: Back-offs are doubles. No grinding.
         percentage_1rm: 87.5
         reps: 2
-        weight: 73.8kg
+        weight: 80kg
       - notes: Back-offs are doubles. No grinding.
         percentage_1rm: 87.5
         reps: 2
-        weight: 73.8kg
-      - notes: Back-offs are doubles. No grinding.
-        percentage_1rm: 87.5
-        reps: 2
-        weight: 73.8kg
+        weight: 80kg
     - name: Weighted Pull-Ups
       sets:
       - notes: Volume/maintenance work.
         percentage_1rm: 72.5
         reps: 4
-        weight: 53.8kg
+        weight: 58.8kg
       - notes: Volume/maintenance work.
         percentage_1rm: 72.5
         reps: 4
-        weight: 53.8kg
+        weight: 58.8kg
       - notes: Volume/maintenance work.
         percentage_1rm: 72.5
         reps: 4
-        weight: 53.8kg
+        weight: 58.8kg
     - name: Weighted Muscle-Ups
       sets:
       - notes: Light singles only.
@@ -705,7 +705,8 @@
   - exercises:
     - name: Squat
       sets:
-      - notes: Bump +1-2.5% from W5 single if it was <= RPE 8. Otherwise, repeat W5.
+      - notes: "Bump +1\u20132.5% from W5 single if it was <= RPE 8. Otherwise, repeat\
+          \ W5."
         percentage_1rm: 92.5
         reps: 1
         weight: 180kg
@@ -731,3 +732,115 @@
         reps: 5
     session: Squat Priority
     weekday: Monday
+  - exercises:
+    - name: Weighted Pull-Ups
+      sets:
+      - notes: "Heavy-ish speed single (\u2264RPE7). If bar speed is great, you may\
+          \ go up to ~90%. No back-offs."
+        percentage_1rm: 87.5
+        reps: 1
+        weight: 71.2kg
+    - name: Weighted Dips
+      sets:
+      - notes: "Heavy-ish speed single (\u2264RPE7). If bar speed is great, you may\
+          \ go up to ~90%. No back-offs."
+        percentage_1rm: 87.5
+        reps: 1
+        weight: 80kg
+    session: WP + Dip (Taper)
+    weekday: Thursday
+  - exercises:
+    - name: Weighted Muscle-Ups
+      sets:
+      - notes: Crisp technique only (can go up to ~60% if perfect). Long rests.
+        percentage_1rm: 55
+        reps: 2-3x1
+        weight: 15kg
+    session: MU Technique Only
+    weekday: Saturday
+- week_8:
+  - exercises:
+    - name: Squat
+      sets:
+      - notes: Warm-up
+        percentage_1rm: 70
+        reps: 1
+        weight: 136.2kg
+      - notes: Warm-up
+        percentage_1rm: 80
+        reps: 1
+        weight: 155kg
+      - notes: Warm-up
+        percentage_1rm: 90
+        reps: 1
+        weight: 175kg
+      - notes: "Confidence single (92.5\u201395%). Stop here\u2014no maxing to save\
+          \ recovery for WP/Dip."
+        percentage_1rm: 92.5
+        reps: 1
+        weight: 180kg
+    session: Squat Confidence Single (No Max)
+    weekday: Monday
+  - exercises:
+    - name: Weighted Pull-Ups
+      sets:
+      - notes: Warm-up single
+        percentage_1rm: 90
+        reps: 1
+        weight: 73.8kg
+      - notes: Opener
+        percentage_1rm: 95
+        reps: 1
+        weight: 77.5kg
+      - notes: Second (match PB)
+        percentage_1rm: 100
+        reps: 1
+        weight: 82.5kg
+      - notes: "Third (102\u2013103% only if second was clean)"
+        percentage_1rm: 102
+        reps: 1
+        weight: 83.8kg
+    session: Weighted Pull-Ups Test
+    weekday: Wednesday
+  - exercises:
+    - name: Weighted Dips
+      sets:
+      - notes: Warm-up single
+        percentage_1rm: 90
+        reps: 1
+        weight: 82.5kg
+      - notes: Opener
+        percentage_1rm: 95
+        reps: 1
+        weight: 87.5kg
+      - notes: Second (match PB)
+        percentage_1rm: 100
+        reps: 1
+        weight: 92.5kg
+      - notes: "Third (102\u2013103% only if second was clean)"
+        percentage_1rm: 102
+        reps: 1
+        weight: 93.8kg
+    session: Weighted Dips Test
+    weekday: Friday
+  - exercises:
+    - name: Weighted Muscle-Ups
+      sets:
+      - notes: "Warm-up (progress through BW \u2192 ~70\u201380%)"
+        percentage_1rm: 70
+        reps: 1
+        weight: 18.8kg
+      - notes: Last warm-up
+        percentage_1rm: 90
+        reps: 1
+        weight: 25kg
+      - notes: PB attempt
+        percentage_1rm: 100
+        reps: 1
+        weight: 27.5kg
+      - notes: Optional 102% if PB was snappy
+        percentage_1rm: 102
+        reps: 1
+        weight: 27.5kg
+    session: Weighted Muscle-Ups Test
+    weekday: Saturday

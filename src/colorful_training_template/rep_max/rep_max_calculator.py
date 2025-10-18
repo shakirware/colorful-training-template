@@ -24,8 +24,8 @@ ROUNDING_MODE = "down"  # "down" | "nearest"
 
 # Preferred: directamente set Training Maxes per lift (these are THE anchors)
 TRAINING_MAX_OVERRIDE = {
-    "Weighted Pull-Ups": 75.0,  # added load
-    "Weighted Dips": 85.0,  # added load
+    "Weighted Pull-Ups": 82.5,  # added load
+    "Weighted Dips": 92.5,  # added load
     "Weighted Muscle-Ups": 28.0,  # added load
     "Squat": 195.0,  # barbell load
     "Close Grip Bench Press": 115.0,  # barbell load

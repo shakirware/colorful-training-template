@@ -337,7 +337,7 @@
               notes: "OPTIONAL. Take a single at 92.5-95% ONLY IF it would feel like RPE 8 or less."
 
 - week_7:
-    # Week 7 (Calendar): Contains the final session of the 6-week training block.
+    # Final heavy squat day, then minimal taper for upper-body.
     - weekday: Monday
       session: Squat Priority
       exercises:
@@ -345,7 +345,7 @@
           sets:
             - reps: "1x1"
               percentage_1rm: 92.5
-              notes: "Bump +1-2.5% from W5 single if it was <= RPE 8. Otherwise, repeat W5."
+              notes: "Bump +1–2.5% from W5 single if it was <= RPE 8. Otherwise, repeat W5."
             - reps: "3x3"
               percentage_1rm: 85
               notes: "Strength back-off sets."
@@ -354,3 +354,96 @@
             - reps: "2x5"
               percentage_1rm: 70
               notes: "Light technique focus."
+    - weekday: Thursday
+      session: WP + Dip (Taper)
+      exercises:
+        - name: Weighted Pull-Ups
+          sets:
+            - reps: "1x1"
+              percentage_1rm: 87.5
+              notes: "Heavy-ish speed single (≤RPE7). If bar speed is great, you may go up to ~90%. No back-offs."
+        - name: Weighted Dips
+          sets:
+            - reps: "1x1"
+              percentage_1rm: 87.5
+              notes: "Heavy-ish speed single (≤RPE7). If bar speed is great, you may go up to ~90%. No back-offs."
+    - weekday: Saturday
+      session: MU Technique Only
+      exercises:
+        - name: Weighted Muscle-Ups
+          sets:
+            - reps: "2-3x1"
+              percentage_1rm: 55
+              notes: "Crisp technique only (can go up to ~60% if perfect). Long rests."
+        # No WP/Dip singles today—keep freshness for next week’s tests.
+
+- week_8:
+    # Test Week: prioritize WP + Dip; Squat = confidence single only.
+    - weekday: Monday
+      session: Squat Confidence Single (No Max)
+      exercises:
+        - name: Squat
+          sets:
+            - reps: "1x1"
+              percentage_1rm: 70
+              notes: "Warm-up"
+            - reps: "1x1"
+              percentage_1rm: 80
+              notes: "Warm-up"
+            - reps: "1x1"
+              percentage_1rm: 90
+              notes: "Warm-up"
+            - reps: "1x1"
+              percentage_1rm: 92.5
+              notes: "Confidence single (92.5–95%). Stop here—no maxing to save recovery for WP/Dip."
+    - weekday: Wednesday
+      session: Weighted Pull-Ups Test
+      exercises:
+        - name: Weighted Pull-Ups
+          sets:
+            - reps: "1x1"
+              percentage_1rm: 90
+              notes: "Warm-up single"
+            - reps: "1x1"
+              percentage_1rm: 95
+              notes: "Opener"
+            - reps: "1x1"
+              percentage_1rm: 100
+              notes: "Second (match PB)"
+            - reps: "1x1"
+              percentage_1rm: 102
+              notes: "Third (102–103% only if second was clean)"
+    - weekday: Friday
+      session: Weighted Dips Test
+      exercises:
+        - name: Weighted Dips
+          sets:
+            - reps: "1x1"
+              percentage_1rm: 90
+              notes: "Warm-up single"
+            - reps: "1x1"
+              percentage_1rm: 95
+              notes: "Opener"
+            - reps: "1x1"
+              percentage_1rm: 100
+              notes: "Second (match PB)"
+            - reps: "1x1"
+              percentage_1rm: 102
+              notes: "Third (102–103% only if second was clean)"
+    - weekday: Saturday
+      session: Weighted Muscle-Ups Test
+      exercises:
+        - name: Weighted Muscle-Ups
+          sets:
+            - reps: "1x1"
+              percentage_1rm: 70
+              notes: "Warm-up (progress through BW → ~70–80%)"
+            - reps: "1x1"
+              percentage_1rm: 90
+              notes: "Last warm-up"
+            - reps: "1x1"
+              percentage_1rm: 100
+              notes: "PB attempt"
+            - reps: "1x1"
+              percentage_1rm: 102
+              notes: "Optional 102% if PB was snappy"

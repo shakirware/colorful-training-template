@@ -18,7 +18,7 @@ logger = logging.getLogger(__name__)
 
 
 def generate_workout_workbook(updated_workout_data):
-    start_date = datetime.strptime("2025-07-28", "%Y-%m-%d")
+    start_date = datetime.strptime("2025-09-01", "%Y-%m-%d")
     generator = WorkoutTemplateGenerator("workout_plan_new.xlsx", start_date)
     base_color = (random.randint(180, 240), 0.5, 0.7)
     gradient_colors = generate_random_gradient(
