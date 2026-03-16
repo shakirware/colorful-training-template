@@ -16,9 +16,13 @@ from colorful_training_template.rep_table import (
 
 EXERCISE_ALIASES = {
     "Back Squats": "Squat",
+    "Back Squat": "Squat",
     "Paused Squats": "Squat",
+    "Paused Squat": "Squat",
     "Dynamic Effort Squats": "Squat",
+    "Dynamic Effort Squat": "Squat",
     "Weighted (Ring) Dips": "Weighted Dips",
+    "Weighted (Ring) Dip": "Weighted Dips",
 }
 
 

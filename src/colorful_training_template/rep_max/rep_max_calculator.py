@@ -151,9 +151,13 @@ def update_workout_data_with_rep_max():
     }
     exercise_aliases = {
         "Back Squats": "Squat",
+        "Back Squat": "Squat",
         "Paused Squats": "Squat",
+        "Paused Squat": "Squat",
         "Dynamic Effort Squats": "Squat",
+        "Dynamic Effort Squat": "Squat",
         "Weighted (Ring) Dips": "Weighted Dips",
+        "Weighted (Ring) Dip": "Weighted Dips",
     }
 
     rep_max_data = {}
