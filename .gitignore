@@ -30,6 +30,12 @@ pip-delete-this-directory.txt
 .cache
 nosetests.xml
 coverage.xml
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
 
 # Translations
 *.mo
@@ -42,9 +48,26 @@ coverage.xml
 # Rope
 .ropeproject
 
-# Django stuff:
+# Django stuff
 *.log
 *.pot
 
 # Sphinx documentation
 docs/_build/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.~lock.*
+*.swp
+*.swo
+
+# Generated outputs
+output/
+workout_plan_new.xlsx
+data/calc_workout_data.yaml
+
+# Optional local reference/generated files
+# Uncomment if you do not want these tracked
+# reference/rep_max_tables/
+# data/one_rep_max_data_*.xlsx

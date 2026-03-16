@@ -1,0 +1,13 @@
+start_date: "2026-03-18"
+output_yaml: "data/calc_workout_data.yaml"
+output_workbook: "output/workout_plan.xlsx"
+
+calculation_mode: "training_max"
+rep_table_dir: "reference/rep_max_tables"
+
+rounding:
+  default: 1.25
+  Squat: 2.5
+  Weighted Pull-Ups: 1.25
+  Weighted Dips: 1.25
+  Weighted Muscle-Ups: 1.25

@@ -10,10 +10,10 @@ setup(
         "pandas==2.2.3",
         "PyYAML==6.0.2",
     ],
-    python_requires=">=3.7",
+    python_requires=">=3.9",
     entry_points={
         "console_scripts": [
-            "colorful_training_template=colorful_training_template.main:main"
+            "training-plan=colorful_training_template.cli:main",
         ]
     },
 )

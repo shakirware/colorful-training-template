@@ -1,0 +1,114 @@
+- week_1:
+    - weekday: Wednesday
+      session: Pull-Up Heavy + Dip Support
+      exercises:
+        - name: Weighted Pull-Ups
+          calculation_mode: rep_table
+          sets:
+            - reps: "1x3"
+              percentage_1rm: 72.5
+              notes: "Entry wave triple. Target ~RPE 7. Same bar, grip, belt, ROM."
+            - reps: "1x2"
+              percentage_1rm: 82.5
+              notes: "Entry wave double. Target ~RPE 7.5-8."
+            - reps: "1x1"
+              percentage_1rm: 90
+              notes: "Entry wave single. Cap at RPE 8. If overshoots, reduce next set."
+            - reps: "1x2"
+              percentage_1rm: 82.5
+              notes: "Repeat double. Keep clean, no grind."
+            - reps: "1x1"
+              percentage_1rm: 90
+              notes: "Repeat single only if first single was crisp."
+        - name: Weighted Dips
+          calculation_mode: rep_table
+          sets:
+            - reps: "3x5"
+              percentage_1rm: 50
+              notes: "Support volume only. Stop well before pec irritation."
+        - name: Optional Cuff/Face-Pulls
+          sets:
+            - reps: "2x15"
+              notes: "Shoulder health only."
+
+    - weekday: Friday
+      session: Squat Heavy + Muscle-Up Technique
+      exercises:
+        - name: Squat
+          calculation_mode: rep_table
+          sets:
+            - reps: "1x3"
+              percentage_1rm: 80
+              notes: "Entry wave triple. Belt and sleeves. Target ~RPE 6.5-7."
+            - reps: "1x2"
+              percentage_1rm: 84
+              notes: "Entry wave double. Target ~RPE 7-7.5."
+            - reps: "1x1"
+              percentage_1rm: 89.5
+              notes: "Entry wave single. Cap at RPE 8."
+            - reps: "1x2"
+              percentage_1rm: 84
+              notes: "Repeat double. Keep bracing and depth identical."
+            - reps: "1x1"
+              percentage_1rm: 89.5
+              notes: "Repeat single only if first single was crisp."
+            - reps: "2x3"
+              percentage_1rm: 73.5
+              notes: "Back-off work. Around RPE 6.5-7."
+        - name: Weighted Muscle-Ups
+          calculation_mode: rep_table
+          sets:
+            - reps: "4x1"
+              percentage_1rm: 60
+              notes: "Technique only. Keep fast and clean; bodyweight or +5kg max in practice."
+        - name: Trunk
+          sets:
+            - reps: "2x10"
+              notes: "Controlled only."
+
+    - weekday: Sunday
+      session: Pull-Up Support + Dip Heavy
+      exercises:
+        - name: Weighted Pull-Ups
+          calculation_mode: rep_table
+          sets:
+            - reps: "4x4"
+              percentage_1rm: 60
+              notes: "Support volume. Same setup every set. Leave 2-3 reps in reserve."
+        - name: Weighted Dips
+          calculation_mode: rep_table
+          sets:
+            - reps: "1x3"
+              percentage_1rm: 78
+              notes: "Heavy wave triple. Conservative."
+            - reps: "1x2"
+              percentage_1rm: 84
+              notes: "Heavy wave double. Keep clean."
+            - reps: "1x1"
+              percentage_1rm: 89
+              notes: "Heavy wave single. Max RPE 8. Reduce immediately if pec feels sketchy."
+            - reps: "1x2"
+              percentage_1rm: 84
+              notes: "Repeat double only if pec feels normal."
+        - name: Chest-Supported Row
+          sets:
+            - reps: "2x8"
+              notes: "Easy-moderate only."
+
+    - weekday: Tuesday
+      session: Squat Support + Hamstrings/Trunk
+      exercises:
+        - name: Squat
+          calculation_mode: rep_table
+          sets:
+            - reps: "4x4"
+              percentage_1rm: 68.5
+              notes: "Support squat. Technical and restorative, not fatiguing."
+        - name: Hamstring Curls
+          sets:
+            - reps: "2x12"
+              notes: "Easy-moderate."
+        - name: Trunk
+          sets:
+            - reps: "2x10"
+              notes: "Controlled."
