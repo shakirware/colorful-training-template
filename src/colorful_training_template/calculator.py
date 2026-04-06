@@ -23,6 +23,8 @@ EXERCISE_ALIASES = {
     "Dynamic Effort Squat": "Squat",
     "Weighted (Ring) Dips": "Weighted Dips",
     "Weighted (Ring) Dip": "Weighted Dips",
+    "Weighted Ring Dips": "Weighted Dips",
+    "Weighted Ring Dip": "Weighted Dips",
 }
 
 
@@ -167,6 +169,7 @@ def calculate_set_weight_rep_table_mode(
     exercise_name: str,
     reps: int,
     percentage_1rm: float,
+    training_maxes: dict[str, float],
     rounding_cfg: dict[str, float],
     rep_table_dir: str,
 ) -> tuple[str, float]:
@@ -175,17 +178,27 @@ def calculate_set_weight_rep_table_mode(
         (formatted_weight, rep_table_percent_for_reps)
 
     In rep_table mode:
-    - percentage_1rm selects the nearest base-weight row in the .xlsx table
-    - reps selects the reps column
-    - the table cell is the planned weight
+    - percentage_1rm is applied to the exercise training max to get a target e1RM
+    - the requested reps column is searched for the nearest e1RM match
+    - the matching base-weight row becomes the planned weight
     """
     canonical_name = canonical_exercise_name(exercise_name)
+
+    if canonical_name not in training_maxes:
+        raise CalculationError(
+            f"No training max found for exercise '{exercise_name}' "
+            f"(canonical: '{canonical_name}')"
+        )
+
+    training_max = float(training_maxes[canonical_name])
     increment = float(get_rounding_increment(canonical_name, rounding_cfg))
+
+    target_weight = training_max * (percentage_1rm / 100.0)
 
     table_weight = calculate_weight_from_rep_table(
         exercise_name=canonical_name,
         reps=reps,
-        percentage_1rm=percentage_1rm,
+        target_weight=target_weight,
         rep_table_dir=rep_table_dir,
     )
 
@@ -275,6 +288,7 @@ def calculate_program(
                                         exercise_name=exercise_name,
                                         reps=reps_for_set,
                                         percentage_1rm=pct,
+                                        training_maxes=training_maxes,
                                         rounding_cfg=rounding_cfg,
                                         rep_table_dir=rep_table_dir,
                                     )
@@ -282,8 +296,6 @@ def calculate_program(
                                 set_data["weight"] = weight
                                 set_data["rep_table_percent_for_reps"] = rep_table_percent
                             except RepTableError as exc:
-                                # Fallback automatically when rep-table mode cannot handle
-                                # the requested rep count or exercise format.
                                 set_data["weight"] = calculate_set_weight_training_max_mode(
                                     exercise_name=exercise_name,
                                     percentage_1rm=pct,

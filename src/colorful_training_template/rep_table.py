@@ -46,17 +46,12 @@ def load_rep_table_matrix(exercise_name: str, rep_table_dir: str | Path) -> pd.D
     if df.empty or len(df) < 2:
         raise RepTableError(f"Rep table file is empty or malformed: {path}")
 
-    # Expected format:
-    # row 0: ["Weight (kg)", 2, 3, 4, 5, ...]
-    # row 1+: [10, "12.9kg", "15.9kg", ...]
     header_row = df.iloc[0].tolist()
     data_rows = df.iloc[1:].copy()
 
-    # First column = base weight
     first_col_name = df.columns[0]
     data_rows = data_rows.rename(columns={first_col_name: "base_weight"})
 
-    # Rename rep columns using the values from the first row
     rename_map = {}
     for i, col_name in enumerate(df.columns[1:], start=1):
         header_val = header_row[i]
@@ -70,14 +65,11 @@ def load_rep_table_matrix(exercise_name: str, rep_table_dir: str | Path) -> pd.D
 
     data_rows = data_rows.rename(columns=rename_map)
 
-    # Keep only base_weight + rep columns
     valid_cols = ["base_weight"] + sorted(rename_map.values())
     data_rows = data_rows[valid_cols].copy()
 
-    # Parse base weights
     data_rows["base_weight"] = data_rows["base_weight"].apply(_parse_kg)
 
-    # Parse all rep-result cells
     for rep_col in sorted(rename_map.values()):
         data_rows[rep_col] = data_rows[rep_col].apply(_parse_kg)
 
@@ -95,15 +87,6 @@ def get_rep_table_percent_for_reps(
     reps: int,
     rep_table_dir: str | Path,
 ) -> float:
-    """
-    Compatibility helper for existing calculator code.
-
-    Since your current tables are NOT percent tables, this returns the reps column
-    requested as a simple float marker. It's kept only so existing metadata logic
-    does not break.
-
-    If you don't care about this metadata, you can later remove it from calculator.py.
-    """
     supported = get_supported_reps(exercise_name, rep_table_dir)
     if reps not in supported:
         raise RepTableError(
@@ -116,22 +99,19 @@ def get_rep_table_percent_for_reps(
 def calculate_weight_from_rep_table(
     exercise_name: str,
     reps: int,
-    percentage_1rm: float,
+    target_weight: float,
     rep_table_dir: str | Path,
 ) -> float:
     """
-    Use the rep table directly.
+    The rep tables are estimated-1RM tables:
+    - base_weight row = lifted weight
+    - reps column = reps performed
+    - cell value = estimated 1RM
 
-    Logic:
-    - percentage_1rm chooses a row by base weight
-    - reps chooses a column
-    - returned cell is the planned weight
-
-    Example:
-    - percentage_1rm = 82.5
-    - nearest base_weight row = 82.5
-    - reps = 3
-    - result = value in column 3 for row 82.5
+    So to get the planned working weight for a target estimated 1RM:
+    - find the requested reps column
+    - find the row whose estimated-1RM cell is closest to target_weight
+    - return that row's base_weight
     """
     df = load_rep_table_matrix(exercise_name, rep_table_dir)
 
@@ -142,8 +122,7 @@ def calculate_weight_from_rep_table(
             f"Supported reps: {supported}"
         )
 
-    target_base_weight = float(percentage_1rm)
+    target_estimated_1rm = float(target_weight)
 
-    # Nearest row match on base_weight
-    idx = (df["base_weight"] - target_base_weight).abs().idxmin()
-    return float(df.loc[idx, reps])
+    idx = (df[reps] - target_estimated_1rm).abs().idxmin()
+    return float(df.loc[idx, "base_weight"])

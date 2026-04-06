@@ -42,14 +42,18 @@ def render_workbook(
     Expected settings keys:
     - start_date
     - output_workbook
+    - output_yaml
     """
     start_date_raw = settings.get("start_date")
     output_workbook = settings.get("output_workbook")
+    output_yaml = settings.get("output_yaml")
 
     if not start_date_raw:
         raise RenderError("settings is missing 'start_date'")
     if not output_workbook:
         raise RenderError("settings is missing 'output_workbook'")
+    if not output_yaml:
+        raise RenderError("settings is missing 'output_yaml'")
 
     try:
         start_date = datetime.strptime(str(start_date_raw), "%Y-%m-%d")
@@ -88,10 +92,9 @@ def render_workbook(
         grid_fill_color=gradient_colors[5],
     )
 
-    # Charts should never break workbook generation.
     try:
-        add_charts_to_workbook(generator.workbook, yaml_path="data/program.yaml")
-    except Exception:
-        pass
+        add_charts_to_workbook(generator.workbook, yaml_path=output_yaml)
+    except Exception as exc:
+        raise RenderError(f"Failed to add charts: {exc}") from exc
 
     generator.save_workbook()

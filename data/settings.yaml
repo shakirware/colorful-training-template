@@ -1,4 +1,4 @@
-start_date: "2026-03-18"
+start_date: "2026-03-17"
 output_yaml: "data/calc_workout_data.yaml"
 output_workbook: "output/workout_plan.xlsx"
 

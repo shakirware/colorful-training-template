@@ -1,237 +1,850 @@
 - week_1:
-  - weekday: Wednesday
-    session: Pull-Up Heavy + Dip Support
+  - weekday: Tuesday
+    session: Dip Bridge Heavy + Squat Light
+    exercises:
+    - name: Weighted Dips
+      calculation_mode: rep_table
+      sets:
+      - reps: 3
+        percentage_1rm: 83.0
+        notes: Bridge entry session. Top triple. Target RPE 7.
+        weight: 82.5kg
+        rep_table_percent_for_reps: 3.0
+      - reps: 3
+        percentage_1rm: 78.0
+        notes: Back-off triples. Target RPE 6-6.5.
+        weight: 77.5kg
+        rep_table_percent_for_reps: 3.0
+      - reps: 3
+        percentage_1rm: 78.0
+        notes: Back-off triples. Target RPE 6-6.5.
+        weight: 77.5kg
+        rep_table_percent_for_reps: 3.0
+      - reps: 1
+        percentage_1rm: 88.0
+        notes: Optional only if warm-ups feel great and single is clearly crisp. Keep
+          at RPE 7 or below.
+        weight: 98.75kg
+        rep_table_fallback: training_max
+        rep_table_error: 'Reps=1 not supported in rep table for ''Weighted Dips''.
+          Supported reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
+    - name: Squat
+      calculation_mode: rep_table
+      sets:
+      - reps: 4
+        percentage_1rm: 60.0
+        notes: Light support only. Technical and restorative. Target RPE 6.
+        weight: 110kg
+        rep_table_percent_for_reps: 4.0
+      - reps: 4
+        percentage_1rm: 60.0
+        notes: Light support only. Technical and restorative. Target RPE 6.
+        weight: 110kg
+        rep_table_percent_for_reps: 4.0
+    - name: Hamstring Curls
+      sets:
+      - reps: 10
+        notes: Easy-moderate only.
+      - reps: 10
+        notes: Easy-moderate only.
+    - name: Trunk
+      sets:
+      - reps: 10
+        notes: Controlled only.
+      - reps: 10
+        notes: Controlled only.
+  - weekday: Friday
+    session: Pull Heavy + Dip Light + Muscle-Up Technique
     exercises:
     - name: Weighted Pull-Ups
       calculation_mode: rep_table
       sets:
-      - reps: 3
-        percentage_1rm: 72.5
-        notes: Entry wave triple. Target ~RPE 7. Same bar, grip, belt, ROM.
-        weight: 82.5kg
-        rep_table_percent_for_reps: 3.0
-      - reps: 2
-        percentage_1rm: 82.5
-        notes: Entry wave double. Target ~RPE 7.5-8.
-        weight: 87.5kg
-        rep_table_percent_for_reps: 2.0
       - reps: 1
         percentage_1rm: 90.0
-        notes: Entry wave single. Cap at RPE 8. If overshoots, reduce next set.
-        weight: 73.75kg
+        notes: Top single. Keep crisp. Target RPE 7.5.
+        weight: 83.75kg
         rep_table_fallback: training_max
         rep_table_error: 'Reps=1 not supported in rep table for ''Weighted Pull-Ups''.
           Supported reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
-      - reps: 2
-        percentage_1rm: 82.5
-        notes: Repeat double. Keep clean, no grind.
-        weight: 87.5kg
-        rep_table_percent_for_reps: 2.0
-      - reps: 1
-        percentage_1rm: 90.0
-        notes: Repeat single only if first single was crisp.
-        weight: 73.75kg
-        rep_table_fallback: training_max
-        rep_table_error: 'Reps=1 not supported in rep table for ''Weighted Pull-Ups''.
-          Supported reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
-    - name: Weighted Dips
-      calculation_mode: rep_table
-      sets:
-      - reps: 5
-        percentage_1rm: 50.0
-        notes: Support volume only. Stop well before pec irritation.
-        weight: 67.5kg
-        rep_table_percent_for_reps: 5.0
-      - reps: 5
-        percentage_1rm: 50.0
-        notes: Support volume only. Stop well before pec irritation.
-        weight: 67.5kg
-        rep_table_percent_for_reps: 5.0
-      - reps: 5
-        percentage_1rm: 50.0
-        notes: Support volume only. Stop well before pec irritation.
-        weight: 67.5kg
-        rep_table_percent_for_reps: 5.0
-    - name: Optional Cuff/Face-Pulls
-      sets:
-      - reps: 15
-        notes: Shoulder health only.
-      - reps: 15
-        notes: Shoulder health only.
-  - weekday: Friday
-    session: Squat Heavy + Muscle-Up Technique
-    exercises:
-    - name: Squat
-      calculation_mode: rep_table
-      sets:
       - reps: 3
-        percentage_1rm: 80.0
-        notes: Entry wave triple. Belt and sleeves. Target ~RPE 6.5-7.
-        weight: 95kg
-        rep_table_percent_for_reps: 3.0
-      - reps: 2
         percentage_1rm: 84.0
-        notes: Entry wave double. Target ~RPE 7-7.5.
-        weight: 92.5kg
-        rep_table_percent_for_reps: 2.0
-      - reps: 1
-        percentage_1rm: 89.5
-        notes: Entry wave single. Cap at RPE 8.
-        weight: 170kg
-        rep_table_fallback: training_max
-        rep_table_error: 'Reps=1 not supported in rep table for ''Squat''. Supported
-          reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
-      - reps: 2
-        percentage_1rm: 84.0
-        notes: Repeat double. Keep bracing and depth identical.
-        weight: 92.5kg
-        rep_table_percent_for_reps: 2.0
-      - reps: 1
-        percentage_1rm: 89.5
-        notes: Repeat single only if first single was crisp.
-        weight: 170kg
-        rep_table_fallback: training_max
-        rep_table_error: 'Reps=1 not supported in rep table for ''Squat''. Supported
-          reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
-      - reps: 3
-        percentage_1rm: 73.5
-        notes: Back-off work. Around RPE 6.5-7.
-        weight: 95kg
+        notes: Top triple. Target RPE 7-7.5.
+        weight: 67.5kg
         rep_table_percent_for_reps: 3.0
       - reps: 3
-        percentage_1rm: 73.5
-        notes: Back-off work. Around RPE 6.5-7.
-        weight: 95kg
+        percentage_1rm: 79.0
+        notes: Back-off triples. Target RPE 6.5-7.
+        weight: 65kg
+        rep_table_percent_for_reps: 3.0
+      - reps: 3
+        percentage_1rm: 79.0
+        notes: Back-off triples. Target RPE 6.5-7.
+        weight: 65kg
         rep_table_percent_for_reps: 3.0
     - name: Weighted Muscle-Ups
       calculation_mode: rep_table
       sets:
       - reps: 1
-        percentage_1rm: 60.0
-        notes: Technique only. Keep fast and clean; bodyweight or +5kg max in practice.
-        weight: 8.75kg
+        percentage_1rm: 50.0
+        notes: Technique only. Fast and clean. Add 1-2 extra singles only if quality
+          stays high.
+        weight: 15kg
         rep_table_fallback: training_max
         rep_table_error: 'Reps=1 not supported in rep table for ''Weighted Muscle-Ups''.
           Supported reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
       - reps: 1
-        percentage_1rm: 60.0
-        notes: Technique only. Keep fast and clean; bodyweight or +5kg max in practice.
-        weight: 8.75kg
+        percentage_1rm: 50.0
+        notes: Technique only. Fast and clean. Add 1-2 extra singles only if quality
+          stays high.
+        weight: 15kg
         rep_table_fallback: training_max
         rep_table_error: 'Reps=1 not supported in rep table for ''Weighted Muscle-Ups''.
           Supported reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
       - reps: 1
-        percentage_1rm: 60.0
-        notes: Technique only. Keep fast and clean; bodyweight or +5kg max in practice.
-        weight: 8.75kg
+        percentage_1rm: 50.0
+        notes: Technique only. Fast and clean. Add 1-2 extra singles only if quality
+          stays high.
+        weight: 15kg
         rep_table_fallback: training_max
         rep_table_error: 'Reps=1 not supported in rep table for ''Weighted Muscle-Ups''.
           Supported reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
       - reps: 1
-        percentage_1rm: 60.0
-        notes: Technique only. Keep fast and clean; bodyweight or +5kg max in practice.
-        weight: 8.75kg
+        percentage_1rm: 50.0
+        notes: Technique only. Fast and clean. Add 1-2 extra singles only if quality
+          stays high.
+        weight: 15kg
         rep_table_fallback: training_max
         rep_table_error: 'Reps=1 not supported in rep table for ''Weighted Muscle-Ups''.
           Supported reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
-    - name: Trunk
-      sets:
-      - reps: 10
-        notes: Controlled only.
-      - reps: 10
-        notes: Controlled only.
-  - weekday: Sunday
-    session: Pull-Up Support + Dip Heavy
-    exercises:
-    - name: Weighted Pull-Ups
-      calculation_mode: rep_table
-      sets:
-      - reps: 4
-        percentage_1rm: 60.0
-        notes: Support volume. Same setup every set. Leave 2-3 reps in reserve.
-        weight: 73.75kg
-        rep_table_percent_for_reps: 4.0
-      - reps: 4
-        percentage_1rm: 60.0
-        notes: Support volume. Same setup every set. Leave 2-3 reps in reserve.
-        weight: 73.75kg
-        rep_table_percent_for_reps: 4.0
-      - reps: 4
-        percentage_1rm: 60.0
-        notes: Support volume. Same setup every set. Leave 2-3 reps in reserve.
-        weight: 73.75kg
-        rep_table_percent_for_reps: 4.0
-      - reps: 4
-        percentage_1rm: 60.0
-        notes: Support volume. Same setup every set. Leave 2-3 reps in reserve.
-        weight: 73.75kg
-        rep_table_percent_for_reps: 4.0
     - name: Weighted Dips
       calculation_mode: rep_table
       sets:
-      - reps: 3
-        percentage_1rm: 78.0
-        notes: Heavy wave triple. Conservative.
-        weight: 87.5kg
-        rep_table_percent_for_reps: 3.0
-      - reps: 2
-        percentage_1rm: 84.0
-        notes: Heavy wave double. Keep clean.
-        weight: 90kg
-        rep_table_percent_for_reps: 2.0
-      - reps: 1
-        percentage_1rm: 89.0
-        notes: Heavy wave single. Max RPE 8. Reduce immediately if pec feels sketchy.
-        weight: 82.5kg
-        rep_table_fallback: training_max
-        rep_table_error: 'Reps=1 not supported in rep table for ''Weighted Dips''.
-          Supported reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
-      - reps: 2
-        percentage_1rm: 84.0
-        notes: Repeat double only if pec feels normal.
-        weight: 90kg
-        rep_table_percent_for_reps: 2.0
-    - name: Chest-Supported Row
+      - reps: 5
+        percentage_1rm: 60.0
+        notes: Light support only. Target RPE 6.
+        weight: 50kg
+        rep_table_percent_for_reps: 5.0
+      - reps: 5
+        percentage_1rm: 60.0
+        notes: Light support only. Target RPE 6.
+        weight: 50kg
+        rep_table_percent_for_reps: 5.0
+    - name: Face Pulls or Cable External Rotations
       sets:
-      - reps: 8
+      - reps: 12
         notes: Easy-moderate only.
-      - reps: 8
+      - reps: 12
         notes: Easy-moderate only.
-  - weekday: Tuesday
-    session: Squat Support + Hamstrings/Trunk
+  - weekday: Sunday
+    session: Squat Support + Recovery
     exercises:
-    - name: Squat
+    - name: Paused Squat
       calculation_mode: rep_table
       sets:
       - reps: 4
-        percentage_1rm: 68.5
-        notes: Support squat. Technical and restorative, not fatiguing.
-        weight: 97.5kg
+        percentage_1rm: 68.0
+        notes: 1-2 second pause. Technical only. Target RPE 6-6.5.
+        weight: 125kg
         rep_table_percent_for_reps: 4.0
       - reps: 4
-        percentage_1rm: 68.5
-        notes: Support squat. Technical and restorative, not fatiguing.
-        weight: 97.5kg
+        percentage_1rm: 68.0
+        notes: 1-2 second pause. Technical only. Target RPE 6-6.5.
+        weight: 125kg
         rep_table_percent_for_reps: 4.0
       - reps: 4
-        percentage_1rm: 68.5
-        notes: Support squat. Technical and restorative, not fatiguing.
-        weight: 97.5kg
+        percentage_1rm: 68.0
+        notes: 1-2 second pause. Technical only. Target RPE 6-6.5.
+        weight: 125kg
         rep_table_percent_for_reps: 4.0
       - reps: 4
-        percentage_1rm: 68.5
-        notes: Support squat. Technical and restorative, not fatiguing.
-        weight: 97.5kg
+        percentage_1rm: 68.0
+        notes: 1-2 second pause. Technical only. Target RPE 6-6.5.
+        weight: 125kg
         rep_table_percent_for_reps: 4.0
     - name: Hamstring Curls
       sets:
       - reps: 12
-        notes: Easy-moderate.
+        notes: Easy-moderate only.
       - reps: 12
-        notes: Easy-moderate.
+        notes: Easy-moderate only.
     - name: Trunk
       sets:
       - reps: 10
         notes: Controlled.
       - reps: 10
         notes: Controlled.
+- week_2:
+  - weekday: Tuesday
+    session: Pull Heavy + Squat Support
+    exercises:
+    - name: Weighted Pull-Ups
+      calculation_mode: rep_table
+      sets:
+      - reps: 1
+        percentage_1rm: 91.0
+        notes: Top single. Target RPE 7.5-8.
+        weight: 83.75kg
+        rep_table_fallback: training_max
+        rep_table_error: 'Reps=1 not supported in rep table for ''Weighted Pull-Ups''.
+          Supported reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
+      - reps: 3
+        percentage_1rm: 85.0
+        notes: Top triple. Target RPE 7.5.
+        weight: 70kg
+        rep_table_percent_for_reps: 3.0
+      - reps: 3
+        percentage_1rm: 80.0
+        notes: Back-off triples. Target RPE 6.5-7.
+        weight: 65kg
+        rep_table_percent_for_reps: 3.0
+      - reps: 3
+        percentage_1rm: 80.0
+        notes: Back-off triples. Target RPE 6.5-7.
+        weight: 65kg
+        rep_table_percent_for_reps: 3.0
+      - reps: 3
+        percentage_1rm: 80.0
+        notes: Back-off triples. Target RPE 6.5-7.
+        weight: 65kg
+        rep_table_percent_for_reps: 3.0
+    - name: Squat
+      calculation_mode: rep_table
+      sets:
+      - reps: 4
+        percentage_1rm: 63.0
+        notes: Support work only. Target RPE 6.
+        weight: 115kg
+        rep_table_percent_for_reps: 4.0
+      - reps: 4
+        percentage_1rm: 63.0
+        notes: Support work only. Target RPE 6.
+        weight: 115kg
+        rep_table_percent_for_reps: 4.0
+      - reps: 4
+        percentage_1rm: 63.0
+        notes: Support work only. Target RPE 6.
+        weight: 115kg
+        rep_table_percent_for_reps: 4.0
+    - name: Row or Lat Pulldown
+      sets:
+      - reps: 8
+        notes: Easy-moderate only.
+      - reps: 8
+        notes: Easy-moderate only.
+    - name: Face Pulls or Cable External Rotations
+      sets:
+      - reps: 12
+        notes: Shoulder health only.
+      - reps: 12
+        notes: Shoulder health only.
+  - weekday: Thursday
+    session: Dip Heavy
+    exercises:
+    - name: Weighted Dips
+      calculation_mode: rep_table
+      sets:
+      - reps: 1
+        percentage_1rm: 90.0
+        notes: Top single. Target RPE 7-7.5.
+        weight: 101.25kg
+        rep_table_fallback: training_max
+        rep_table_error: 'Reps=1 not supported in rep table for ''Weighted Dips''.
+          Supported reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
+      - reps: 3
+        percentage_1rm: 84.0
+        notes: Top triple. Target RPE 7.
+        weight: 85kg
+        rep_table_percent_for_reps: 3.0
+      - reps: 3
+        percentage_1rm: 79.0
+        notes: Back-off triples. Target RPE 6.5-7.
+        weight: 80kg
+        rep_table_percent_for_reps: 3.0
+      - reps: 3
+        percentage_1rm: 79.0
+        notes: Back-off triples. Target RPE 6.5-7.
+        weight: 80kg
+        rep_table_percent_for_reps: 3.0
+      - reps: 3
+        percentage_1rm: 79.0
+        notes: Back-off triples. Target RPE 6.5-7.
+        weight: 80kg
+        rep_table_percent_for_reps: 3.0
+    - name: Hamstring Curls
+      sets:
+      - reps: 10
+        notes: Easy-moderate.
+      - reps: 10
+        notes: Easy-moderate.
+    - name: Trunk
+      sets:
+      - reps: 10
+        notes: Controlled only.
+      - reps: 10
+        notes: Controlled only.
+  - weekday: Saturday
+    session: Squat Heavy + Pull Support + Muscle-Up Technique
+    exercises:
+    - name: Squat
+      calculation_mode: rep_table
+      sets:
+      - reps: 1
+        percentage_1rm: 89.0
+        notes: Top single. Target RPE 7.5-8.
+        weight: 177.5kg
+        rep_table_fallback: training_max
+        rep_table_error: 'Reps=1 not supported in rep table for ''Squat''. Supported
+          reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
+      - reps: 3
+        percentage_1rm: 83.0
+        notes: Top triple. Target RPE 7.5.
+        weight: 157.5kg
+        rep_table_percent_for_reps: 3.0
+      - reps: 3
+        percentage_1rm: 76.0
+        notes: Back-off triples. Target RPE 6.5-7.
+        weight: 142.5kg
+        rep_table_percent_for_reps: 3.0
+      - reps: 3
+        percentage_1rm: 76.0
+        notes: Back-off triples. Target RPE 6.5-7.
+        weight: 142.5kg
+        rep_table_percent_for_reps: 3.0
+      - reps: 3
+        percentage_1rm: 76.0
+        notes: Back-off triples. Target RPE 6.5-7.
+        weight: 142.5kg
+        rep_table_percent_for_reps: 3.0
+    - name: Weighted Pull-Ups
+      calculation_mode: rep_table
+      sets:
+      - reps: 5
+        percentage_1rm: 69.0
+        notes: Support work only. Target RPE 6.5.
+        weight: 47.5kg
+        rep_table_percent_for_reps: 5.0
+      - reps: 5
+        percentage_1rm: 69.0
+        notes: Support work only. Target RPE 6.5.
+        weight: 47.5kg
+        rep_table_percent_for_reps: 5.0
+      - reps: 5
+        percentage_1rm: 69.0
+        notes: Support work only. Target RPE 6.5.
+        weight: 47.5kg
+        rep_table_percent_for_reps: 5.0
+    - name: Weighted Muscle-Ups
+      calculation_mode: rep_table
+      sets:
+      - reps: 1
+        percentage_1rm: 52.0
+        notes: Technique only. Fast and crisp. Add 1-2 extra singles only if quality
+          stays high.
+        weight: 15kg
+        rep_table_fallback: training_max
+        rep_table_error: 'Reps=1 not supported in rep table for ''Weighted Muscle-Ups''.
+          Supported reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
+      - reps: 1
+        percentage_1rm: 52.0
+        notes: Technique only. Fast and crisp. Add 1-2 extra singles only if quality
+          stays high.
+        weight: 15kg
+        rep_table_fallback: training_max
+        rep_table_error: 'Reps=1 not supported in rep table for ''Weighted Muscle-Ups''.
+          Supported reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
+      - reps: 1
+        percentage_1rm: 52.0
+        notes: Technique only. Fast and crisp. Add 1-2 extra singles only if quality
+          stays high.
+        weight: 15kg
+        rep_table_fallback: training_max
+        rep_table_error: 'Reps=1 not supported in rep table for ''Weighted Muscle-Ups''.
+          Supported reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
+      - reps: 1
+        percentage_1rm: 52.0
+        notes: Technique only. Fast and crisp. Add 1-2 extra singles only if quality
+          stays high.
+        weight: 15kg
+        rep_table_fallback: training_max
+        rep_table_error: 'Reps=1 not supported in rep table for ''Weighted Muscle-Ups''.
+          Supported reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
+    - name: Trunk
+      sets:
+      - reps: 10
+        notes: Controlled.
+      - reps: 10
+        notes: Controlled.
+  - weekday: Sunday
+    session: Dip Support + Squat Support
+    exercises:
+    - name: Weighted Dips
+      calculation_mode: rep_table
+      sets:
+      - reps: 5
+        percentage_1rm: 65.0
+        notes: Support work only. Target RPE 6-6.5.
+        weight: 55kg
+        rep_table_percent_for_reps: 5.0
+      - reps: 5
+        percentage_1rm: 65.0
+        notes: Support work only. Target RPE 6-6.5.
+        weight: 55kg
+        rep_table_percent_for_reps: 5.0
+      - reps: 5
+        percentage_1rm: 65.0
+        notes: Support work only. Target RPE 6-6.5.
+        weight: 55kg
+        rep_table_percent_for_reps: 5.0
+    - name: Paused Squat
+      calculation_mode: rep_table
+      sets:
+      - reps: 4
+        percentage_1rm: 67.0
+        notes: 1-2 second pause. Target RPE 6.
+        weight: 122.5kg
+        rep_table_percent_for_reps: 4.0
+      - reps: 4
+        percentage_1rm: 67.0
+        notes: 1-2 second pause. Target RPE 6.
+        weight: 122.5kg
+        rep_table_percent_for_reps: 4.0
+      - reps: 4
+        percentage_1rm: 67.0
+        notes: 1-2 second pause. Target RPE 6.
+        weight: 122.5kg
+        rep_table_percent_for_reps: 4.0
+    - name: Weighted Muscle-Ups
+      calculation_mode: rep_table
+      sets:
+      - reps: 1
+        percentage_1rm: 45.0
+        notes: Optional. Only if fresh. Speed and technique only.
+        weight: 13.75kg
+        rep_table_fallback: training_max
+        rep_table_error: 'Reps=1 not supported in rep table for ''Weighted Muscle-Ups''.
+          Supported reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
+      - reps: 1
+        percentage_1rm: 45.0
+        notes: Optional. Only if fresh. Speed and technique only.
+        weight: 13.75kg
+        rep_table_fallback: training_max
+        rep_table_error: 'Reps=1 not supported in rep table for ''Weighted Muscle-Ups''.
+          Supported reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
+      - reps: 1
+        percentage_1rm: 45.0
+        notes: Optional. Only if fresh. Speed and technique only.
+        weight: 13.75kg
+        rep_table_fallback: training_max
+        rep_table_error: 'Reps=1 not supported in rep table for ''Weighted Muscle-Ups''.
+          Supported reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
+- week_3:
+  - weekday: Tuesday
+    session: Pull Heavy + Squat Support
+    exercises:
+    - name: Weighted Pull-Ups
+      calculation_mode: rep_table
+      sets:
+      - reps: 1
+        percentage_1rm: 92.0
+        notes: Top single. Target RPE 8.
+        weight: 85kg
+        rep_table_fallback: training_max
+        rep_table_error: 'Reps=1 not supported in rep table for ''Weighted Pull-Ups''.
+          Supported reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
+      - reps: 3
+        percentage_1rm: 86.0
+        notes: Top triple. Target RPE 7.5-8.
+        weight: 70kg
+        rep_table_percent_for_reps: 3.0
+      - reps: 3
+        percentage_1rm: 81.0
+        notes: Back-off triples. Target RPE 6.5-7. Do a third set only if recovery
+          is clearly good.
+        weight: 65kg
+        rep_table_percent_for_reps: 3.0
+      - reps: 3
+        percentage_1rm: 81.0
+        notes: Back-off triples. Target RPE 6.5-7. Do a third set only if recovery
+          is clearly good.
+        weight: 65kg
+        rep_table_percent_for_reps: 3.0
+    - name: Squat
+      calculation_mode: rep_table
+      sets:
+      - reps: 4
+        percentage_1rm: 64.0
+        notes: Support work only. Target RPE 6. Add a third set only if fresh.
+        weight: 117.5kg
+        rep_table_percent_for_reps: 4.0
+      - reps: 4
+        percentage_1rm: 64.0
+        notes: Support work only. Target RPE 6. Add a third set only if fresh.
+        weight: 117.5kg
+        rep_table_percent_for_reps: 4.0
+    - name: Row or Lat Pulldown
+      sets:
+      - reps: 8
+        notes: Easy-moderate only.
+      - reps: 8
+        notes: Easy-moderate only.
+    - name: Face Pulls or Cable External Rotations
+      sets:
+      - reps: 12
+        notes: Shoulder health only.
+      - reps: 12
+        notes: Shoulder health only.
+  - weekday: Thursday
+    session: Dip Heavy
+    exercises:
+    - name: Weighted Dips
+      calculation_mode: rep_table
+      sets:
+      - reps: 1
+        percentage_1rm: 91.0
+        notes: Top single. Target RPE 7.5-8.
+        weight: 102.5kg
+        rep_table_fallback: training_max
+        rep_table_error: 'Reps=1 not supported in rep table for ''Weighted Dips''.
+          Supported reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
+      - reps: 3
+        percentage_1rm: 85.0
+        notes: Top triple. Target RPE 7.5.
+        weight: 85kg
+        rep_table_percent_for_reps: 3.0
+      - reps: 3
+        percentage_1rm: 80.0
+        notes: Back-off triples. Target RPE 6.5-7. Do a third set only if recovery
+          is clearly good.
+        weight: 80kg
+        rep_table_percent_for_reps: 3.0
+      - reps: 3
+        percentage_1rm: 80.0
+        notes: Back-off triples. Target RPE 6.5-7. Do a third set only if recovery
+          is clearly good.
+        weight: 80kg
+        rep_table_percent_for_reps: 3.0
+    - name: Hamstring Curls
+      sets:
+      - reps: 10
+        notes: Easy-moderate.
+      - reps: 10
+        notes: Easy-moderate.
+    - name: Trunk
+      sets:
+      - reps: 10
+        notes: Controlled only.
+      - reps: 10
+        notes: Controlled only.
+  - weekday: Saturday
+    session: Squat Heavy + Pull Support + Muscle-Up Technique
+    exercises:
+    - name: Squat
+      calculation_mode: rep_table
+      sets:
+      - reps: 1
+        percentage_1rm: 90.0
+        notes: Top single. Target RPE 8.
+        weight: 180kg
+        rep_table_fallback: training_max
+        rep_table_error: 'Reps=1 not supported in rep table for ''Squat''. Supported
+          reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
+      - reps: 3
+        percentage_1rm: 84.0
+        notes: Top triple. Target RPE 7.5-8.
+        weight: 157.5kg
+        rep_table_percent_for_reps: 3.0
+      - reps: 3
+        percentage_1rm: 77.0
+        notes: Back-off triples. Target RPE 6.5-7. Do a third set only if recovery
+          is clearly good.
+        weight: 145kg
+        rep_table_percent_for_reps: 3.0
+      - reps: 3
+        percentage_1rm: 77.0
+        notes: Back-off triples. Target RPE 6.5-7. Do a third set only if recovery
+          is clearly good.
+        weight: 145kg
+        rep_table_percent_for_reps: 3.0
+    - name: Weighted Pull-Ups
+      calculation_mode: rep_table
+      sets:
+      - reps: 5
+        percentage_1rm: 70.0
+        notes: Support work only. Target RPE 6.5-7.
+        weight: 47.5kg
+        rep_table_percent_for_reps: 5.0
+      - reps: 5
+        percentage_1rm: 70.0
+        notes: Support work only. Target RPE 6.5-7.
+        weight: 47.5kg
+        rep_table_percent_for_reps: 5.0
+      - reps: 5
+        percentage_1rm: 70.0
+        notes: Support work only. Target RPE 6.5-7.
+        weight: 47.5kg
+        rep_table_percent_for_reps: 5.0
+    - name: Weighted Muscle-Ups
+      calculation_mode: rep_table
+      sets:
+      - reps: 1
+        percentage_1rm: 55.0
+        notes: Technique only. No grinders. Add one extra single only if speed stays
+          high.
+        weight: 16.25kg
+        rep_table_fallback: training_max
+        rep_table_error: 'Reps=1 not supported in rep table for ''Weighted Muscle-Ups''.
+          Supported reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
+      - reps: 1
+        percentage_1rm: 55.0
+        notes: Technique only. No grinders. Add one extra single only if speed stays
+          high.
+        weight: 16.25kg
+        rep_table_fallback: training_max
+        rep_table_error: 'Reps=1 not supported in rep table for ''Weighted Muscle-Ups''.
+          Supported reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
+      - reps: 1
+        percentage_1rm: 55.0
+        notes: Technique only. No grinders. Add one extra single only if speed stays
+          high.
+        weight: 16.25kg
+        rep_table_fallback: training_max
+        rep_table_error: 'Reps=1 not supported in rep table for ''Weighted Muscle-Ups''.
+          Supported reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
+      - reps: 1
+        percentage_1rm: 55.0
+        notes: Technique only. No grinders. Add one extra single only if speed stays
+          high.
+        weight: 16.25kg
+        rep_table_fallback: training_max
+        rep_table_error: 'Reps=1 not supported in rep table for ''Weighted Muscle-Ups''.
+          Supported reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
+    - name: Trunk
+      sets:
+      - reps: 10
+        notes: Controlled.
+      - reps: 10
+        notes: Controlled.
+  - weekday: Sunday
+    session: Dip Support + Squat Support
+    exercises:
+    - name: Weighted Dips
+      calculation_mode: rep_table
+      sets:
+      - reps: 5
+        percentage_1rm: 66.0
+        notes: Support work only. Target RPE 6-6.5.
+        weight: 55kg
+        rep_table_percent_for_reps: 5.0
+      - reps: 5
+        percentage_1rm: 66.0
+        notes: Support work only. Target RPE 6-6.5.
+        weight: 55kg
+        rep_table_percent_for_reps: 5.0
+      - reps: 5
+        percentage_1rm: 66.0
+        notes: Support work only. Target RPE 6-6.5.
+        weight: 55kg
+        rep_table_percent_for_reps: 5.0
+    - name: Paused Squat
+      calculation_mode: rep_table
+      sets:
+      - reps: 4
+        percentage_1rm: 68.0
+        notes: 1-2 second pause. Target RPE 6-6.5.
+        weight: 125kg
+        rep_table_percent_for_reps: 4.0
+      - reps: 4
+        percentage_1rm: 68.0
+        notes: 1-2 second pause. Target RPE 6-6.5.
+        weight: 125kg
+        rep_table_percent_for_reps: 4.0
+      - reps: 4
+        percentage_1rm: 68.0
+        notes: 1-2 second pause. Target RPE 6-6.5.
+        weight: 125kg
+        rep_table_percent_for_reps: 4.0
+    - name: Weighted Muscle-Ups
+      calculation_mode: rep_table
+      sets:
+      - reps: 1
+        percentage_1rm: 45.0
+        notes: Optional. Only if recovery is good. Speed and technique only.
+        weight: 13.75kg
+        rep_table_fallback: training_max
+        rep_table_error: 'Reps=1 not supported in rep table for ''Weighted Muscle-Ups''.
+          Supported reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
+      - reps: 1
+        percentage_1rm: 45.0
+        notes: Optional. Only if recovery is good. Speed and technique only.
+        weight: 13.75kg
+        rep_table_fallback: training_max
+        rep_table_error: 'Reps=1 not supported in rep table for ''Weighted Muscle-Ups''.
+          Supported reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
+      - reps: 1
+        percentage_1rm: 45.0
+        notes: Optional. Only if recovery is good. Speed and technique only.
+        weight: 13.75kg
+        rep_table_fallback: training_max
+        rep_table_error: 'Reps=1 not supported in rep table for ''Weighted Muscle-Ups''.
+          Supported reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
+- week_4:
+  - weekday: Tuesday
+    session: Pull Deload
+    exercises:
+    - name: Weighted Pull-Ups
+      calculation_mode: rep_table
+      sets:
+      - reps: 1
+        percentage_1rm: 81.0
+        notes: Deload single. Target RPE 5.5-6.
+        weight: 75kg
+        rep_table_fallback: training_max
+        rep_table_error: 'Reps=1 not supported in rep table for ''Weighted Pull-Ups''.
+          Supported reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
+      - reps: 3
+        percentage_1rm: 72.0
+        notes: Smooth only.
+        weight: 57.5kg
+        rep_table_percent_for_reps: 3.0
+      - reps: 3
+        percentage_1rm: 72.0
+        notes: Smooth only.
+        weight: 57.5kg
+        rep_table_percent_for_reps: 3.0
+    - name: Squat
+      calculation_mode: rep_table
+      sets:
+      - reps: 4
+        percentage_1rm: 57.0
+        notes: Easy support only.
+        weight: 105kg
+        rep_table_percent_for_reps: 4.0
+      - reps: 4
+        percentage_1rm: 57.0
+        notes: Easy support only.
+        weight: 105kg
+        rep_table_percent_for_reps: 4.0
+    - name: Face Pulls or Cable External Rotations
+      sets:
+      - reps: 15
+        notes: Easy only.
+  - weekday: Thursday
+    session: Dip Deload
+    exercises:
+    - name: Weighted Dips
+      calculation_mode: rep_table
+      sets:
+      - reps: 1
+        percentage_1rm: 80.0
+        notes: Deload single. Target RPE 5.5-6.
+        weight: 90kg
+        rep_table_fallback: training_max
+        rep_table_error: 'Reps=1 not supported in rep table for ''Weighted Dips''.
+          Supported reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
+      - reps: 3
+        percentage_1rm: 70.0
+        notes: Smooth only.
+        weight: 70kg
+        rep_table_percent_for_reps: 3.0
+      - reps: 3
+        percentage_1rm: 70.0
+        notes: Smooth only.
+        weight: 70kg
+        rep_table_percent_for_reps: 3.0
+    - name: Hamstring Curls
+      sets:
+      - reps: 12
+        notes: Easy only.
+    - name: Trunk
+      sets:
+      - reps: 10
+        notes: Controlled only.
+  - weekday: Saturday
+    session: Squat Deload + Pull Light + Muscle-Up Easy
+    exercises:
+    - name: Squat
+      calculation_mode: rep_table
+      sets:
+      - reps: 1
+        percentage_1rm: 80.0
+        notes: Deload single. Target RPE 5.5-6.
+        weight: 160kg
+        rep_table_fallback: training_max
+        rep_table_error: 'Reps=1 not supported in rep table for ''Squat''. Supported
+          reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
+      - reps: 3
+        percentage_1rm: 70.0
+        notes: Crisp only.
+        weight: 132.5kg
+        rep_table_percent_for_reps: 3.0
+      - reps: 3
+        percentage_1rm: 70.0
+        notes: Crisp only.
+        weight: 132.5kg
+        rep_table_percent_for_reps: 3.0
+    - name: Weighted Pull-Ups
+      calculation_mode: rep_table
+      sets:
+      - reps: 5
+        percentage_1rm: 60.0
+        notes: Easy support only.
+        weight: 40kg
+        rep_table_percent_for_reps: 5.0
+      - reps: 5
+        percentage_1rm: 60.0
+        notes: Easy support only.
+        weight: 40kg
+        rep_table_percent_for_reps: 5.0
+    - name: Weighted Muscle-Ups
+      calculation_mode: rep_table
+      sets:
+      - reps: 1
+        percentage_1rm: 45.0
+        notes: Very easy. Technique only.
+        weight: 13.75kg
+        rep_table_fallback: training_max
+        rep_table_error: 'Reps=1 not supported in rep table for ''Weighted Muscle-Ups''.
+          Supported reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
+      - reps: 1
+        percentage_1rm: 45.0
+        notes: Very easy. Technique only.
+        weight: 13.75kg
+        rep_table_fallback: training_max
+        rep_table_error: 'Reps=1 not supported in rep table for ''Weighted Muscle-Ups''.
+          Supported reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
+      - reps: 1
+        percentage_1rm: 45.0
+        notes: Very easy. Technique only.
+        weight: 13.75kg
+        rep_table_fallback: training_max
+        rep_table_error: 'Reps=1 not supported in rep table for ''Weighted Muscle-Ups''.
+          Supported reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
+  - weekday: Sunday
+    session: Support Deload
+    exercises:
+    - name: Weighted Dips
+      calculation_mode: rep_table
+      sets:
+      - reps: 5
+        percentage_1rm: 56.0
+        notes: Easy support only.
+        weight: 45kg
+        rep_table_percent_for_reps: 5.0
+      - reps: 5
+        percentage_1rm: 56.0
+        notes: Easy support only.
+        weight: 45kg
+        rep_table_percent_for_reps: 5.0
+    - name: Paused Squat
+      calculation_mode: rep_table
+      sets:
+      - reps: 3
+        percentage_1rm: 61.0
+        notes: Light technical work only.
+        weight: 115kg
+        rep_table_percent_for_reps: 3.0
+      - reps: 3
+        percentage_1rm: 61.0
+        notes: Light technical work only.
+        weight: 115kg
+        rep_table_percent_for_reps: 3.0
