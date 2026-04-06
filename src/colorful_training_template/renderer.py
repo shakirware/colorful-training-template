@@ -8,6 +8,9 @@ import random
 import yaml
 
 from colorful_training_template.excel_generator.charts import add_charts_to_workbook
+from colorful_training_template.excel_generator.companion_views import (
+    add_companion_views_to_workbook,
+)
 from colorful_training_template.excel_generator.workout_template_generator import (
     WorkoutTemplateGenerator,
 )
@@ -96,5 +99,14 @@ def render_workbook(
         add_charts_to_workbook(generator.workbook, yaml_path=output_yaml)
     except Exception as exc:
         raise RenderError(f"Failed to add charts: {exc}") from exc
+
+    try:
+        add_companion_views_to_workbook(
+            generator.workbook,
+            calculated_program=calculated_program,
+            start_date=start_date,
+        )
+    except Exception as exc:
+        raise RenderError(f"Failed to add week/today views: {exc}") from exc
 
     generator.save_workbook()
