@@ -298,17 +298,458 @@
               notes: "Optional. Only if recovery is good. Speed and technique only."
 
 - week_4:
-    - weekday: Tuesday
+    - weekday: Monday
+      session: Support Deload / Recovery Flush
+      exercises:
+        - name: Weighted Dips
+          calculation_mode: rep_table
+          sets:
+            - reps: "2x5"
+              percentage_1rm: 54
+              notes: "Very easy support only. Keep clearly below RPE 6."
+        - name: Paused Squat
+          calculation_mode: rep_table
+          sets:
+            - reps: "2x3"
+              percentage_1rm: 58
+              notes: "Light technical work only. 1-2 second pause. Very easy."
+        - name: Weighted Muscle-Ups
+          calculation_mode: rep_table
+          sets:
+            - reps: "2x1"
+              percentage_1rm: 40
+              notes: "Optional. Technique only. Skip if fatigue is still present."
+
+    - weekday: Wednesday
       session: Pull Deload
       exercises:
         - name: Weighted Pull-Ups
           calculation_mode: rep_table
           sets:
             - reps: "1x1"
-              percentage_1rm: 81
+              percentage_1rm: 80
               notes: "Deload single. Target RPE 5.5-6."
             - reps: "2x3"
+              percentage_1rm: 71
+              notes: "Smooth only."
+        - name: Squat
+          calculation_mode: rep_table
+          sets:
+            - reps: "2x4"
+              percentage_1rm: 55
+              notes: "Easy support only."
+        - name: Face Pulls or Cable External Rotations
+          sets:
+            - reps: "1x15"
+              notes: "Easy only."
+
+    - weekday: Friday
+      session: Dip Deload
+      exercises:
+        - name: Weighted Dips
+          calculation_mode: rep_table
+          sets:
+            - reps: "1x1"
+              percentage_1rm: 79
+              notes: "Deload single. Target RPE 5.5-6."
+            - reps: "2x3"
+              percentage_1rm: 69
+              notes: "Smooth only."
+        - name: Hamstring Curls
+          sets:
+            - reps: "1x12"
+              notes: "Easy only."
+        - name: Trunk
+          sets:
+            - reps: "1x10"
+              notes: "Controlled only."
+
+    - weekday: Sunday
+      session: Squat Deload + Pull Light + Muscle-Up Easy
+      exercises:
+        - name: Squat
+          calculation_mode: rep_table
+          sets:
+            - reps: "1x1"
+              percentage_1rm: 79
+              notes: "Deload single. Target RPE 5.5-6."
+            - reps: "2x3"
+              percentage_1rm: 69
+              notes: "Crisp only."
+        - name: Weighted Pull-Ups
+          calculation_mode: rep_table
+          sets:
+            - reps: "2x5"
+              percentage_1rm: 58
+              notes: "Easy support only."
+        - name: Weighted Muscle-Ups
+          calculation_mode: rep_table
+          sets:
+            - reps: "2x1"
+              percentage_1rm: 40
+              notes: "Very easy. Technique only. Skip if fatigue is still lingering."
+
+- week_5:
+    - weekday: Tuesday
+      session: Pull Heavy + Squat Support
+      exercises:
+        - name: Weighted Pull-Ups
+          calculation_mode: rep_table
+          sets:
+            - reps: "1x1"
+              percentage_1rm: 92
+              notes: "Top single. Keep crisp. Target RPE 7.5."
+            - reps: "1x3"
+              percentage_1rm: 86
+              notes: "Top triple. Target RPE 7-7.5."
+            - reps: "3x3"
+              percentage_1rm: 81
+              notes: "Back-off triples. Target RPE 6.5-7."
+        - name: Squat
+          calculation_mode: rep_table
+          sets:
+            - reps: "3x4"
+              percentage_1rm: 65
+              notes: "Support work only. Target RPE 6."
+        - name: Row or Lat Pulldown
+          sets:
+            - reps: "2x8"
+              notes: "Easy-moderate only."
+        - name: Face Pulls or Cable External Rotations
+          sets:
+            - reps: "2x12"
+              notes: "Shoulder health only."
+
+    - weekday: Thursday
+      session: Dip Heavy
+      exercises:
+        - name: Weighted Dips
+          calculation_mode: rep_table
+          sets:
+            - reps: "1x1"
+              percentage_1rm: 89
+              notes: "Top single. Keep controlled. Target RPE 7-7.5."
+            - reps: "1x3"
+              percentage_1rm: 83
+              notes: "Top triple. Target RPE 7."
+            - reps: "3x3"
+              percentage_1rm: 78
+              notes: "Back-off triples. Target RPE 6.5-7."
+        - name: Hamstring Curls
+          sets:
+            - reps: "2x10"
+              notes: "Easy-moderate."
+        - name: Trunk
+          sets:
+            - reps: "2x10"
+              notes: "Controlled only."
+
+    - weekday: Saturday
+      session: Squat Heavy + Pull Support + Muscle-Up Technique
+      exercises:
+        - name: Squat
+          calculation_mode: rep_table
+          sets:
+            - reps: "1x1"
+              percentage_1rm: 90
+              notes: "Top single. Target RPE 7.5."
+            - reps: "1x3"
+              percentage_1rm: 84
+              notes: "Top triple. Target RPE 7-7.5."
+            - reps: "3x3"
+              percentage_1rm: 77
+              notes: "Back-off triples. Target RPE 6.5-7."
+        - name: Weighted Pull-Ups
+          calculation_mode: rep_table
+          sets:
+            - reps: "3x5"
+              percentage_1rm: 70
+              notes: "Support work only. Target RPE 6.5."
+        - name: Weighted Muscle-Ups
+          calculation_mode: rep_table
+          sets:
+            - reps: "4x1"
+              percentage_1rm: 52
+              notes: "Technique only. Fast and clean. Add 1-2 extra singles only if quality stays high."
+        - name: Trunk
+          sets:
+            - reps: "2x10"
+              notes: "Controlled."
+
+    - weekday: Sunday
+      session: Dip Support + Squat Support
+      exercises:
+        - name: Weighted Dips
+          calculation_mode: rep_table
+          sets:
+            - reps: "3x5"
+              percentage_1rm: 64
+              notes: "Support work only. Target RPE 6-6.5."
+        - name: Paused Squat
+          calculation_mode: rep_table
+          sets:
+            - reps: "4x4"
+              percentage_1rm: 69
+              notes: "1-2 second pause. Technical only. Target RPE 6-6.5."
+        - name: Weighted Muscle-Ups
+          calculation_mode: rep_table
+          sets:
+            - reps: "3x1"
+              percentage_1rm: 45
+              notes: "Optional. Only if fresh. Speed and technique only."
+
+- week_6:
+    - weekday: Tuesday
+      session: Pull Heavy + Squat Support
+      exercises:
+        - name: Weighted Pull-Ups
+          calculation_mode: rep_table
+          sets:
+            - reps: "1x1"
+              percentage_1rm: 93
+              notes: "Top single. Target RPE 7.5-8."
+            - reps: "1x3"
+              percentage_1rm: 87
+              notes: "Top triple. Target RPE 7.5."
+            - reps: "3x3"
+              percentage_1rm: 82
+              notes: "Back-off triples. Target RPE 6.5-7."
+        - name: Squat
+          calculation_mode: rep_table
+          sets:
+            - reps: "3x4"
+              percentage_1rm: 66
+              notes: "Support work only. Target RPE 6."
+        - name: Row or Lat Pulldown
+          sets:
+            - reps: "2x8"
+              notes: "Easy-moderate only."
+        - name: Face Pulls or Cable External Rotations
+          sets:
+            - reps: "2x12"
+              notes: "Shoulder health only."
+
+    - weekday: Thursday
+      session: Dip Heavy
+      exercises:
+        - name: Weighted Dips
+          calculation_mode: rep_table
+          sets:
+            - reps: "1x1"
+              percentage_1rm: 90
+              notes: "Top single. Target RPE 7.5."
+            - reps: "1x3"
+              percentage_1rm: 84
+              notes: "Top triple. Target RPE 7-7.5."
+            - reps: "3x3"
+              percentage_1rm: 79
+              notes: "Back-off triples. Target RPE 6.5-7."
+        - name: Hamstring Curls
+          sets:
+            - reps: "2x10"
+              notes: "Easy-moderate."
+        - name: Trunk
+          sets:
+            - reps: "2x10"
+              notes: "Controlled only."
+
+    - weekday: Saturday
+      session: Squat Heavy + Pull Support + Muscle-Up Technique
+      exercises:
+        - name: Squat
+          calculation_mode: rep_table
+          sets:
+            - reps: "1x1"
+              percentage_1rm: 91
+              notes: "Top single. Target RPE 7.5-8."
+            - reps: "1x3"
+              percentage_1rm: 85
+              notes: "Top triple. Target RPE 7.5."
+            - reps: "3x3"
+              percentage_1rm: 78
+              notes: "Back-off triples. Target RPE 6.5-7."
+        - name: Weighted Pull-Ups
+          calculation_mode: rep_table
+          sets:
+            - reps: "3x5"
+              percentage_1rm: 71
+              notes: "Support work only. Target RPE 6.5-7."
+        - name: Weighted Muscle-Ups
+          calculation_mode: rep_table
+          sets:
+            - reps: "4x1"
+              percentage_1rm: 54
+              notes: "Technique only. Fast and crisp. Add 1-2 extra singles only if quality stays high."
+        - name: Trunk
+          sets:
+            - reps: "2x10"
+              notes: "Controlled."
+
+    - weekday: Sunday
+      session: Dip Support + Squat Support
+      exercises:
+        - name: Weighted Dips
+          calculation_mode: rep_table
+          sets:
+            - reps: "3x5"
+              percentage_1rm: 65
+              notes: "Support work only. Target RPE 6-6.5."
+        - name: Paused Squat
+          calculation_mode: rep_table
+          sets:
+            - reps: "4x4"
+              percentage_1rm: 70
+              notes: "1-2 second pause. Target RPE 6-6.5."
+        - name: Weighted Muscle-Ups
+          calculation_mode: rep_table
+          sets:
+            - reps: "3x1"
+              percentage_1rm: 45
+              notes: "Optional. Only if fresh. Speed and technique only."
+
+- week_7:
+    - weekday: Tuesday
+      session: Pull Heavy + Squat Support
+      exercises:
+        - name: Weighted Pull-Ups
+          calculation_mode: rep_table
+          sets:
+            - reps: "1x1"
+              percentage_1rm: 94
+              notes: "Top single. Target RPE 8."
+            - reps: "1x3"
+              percentage_1rm: 88
+              notes: "Top triple. Target RPE 7.5-8."
+            - reps: "2x3"
+              percentage_1rm: 83
+              notes: "Back-off triples. Target RPE 6.5-7. Do a third set only if recovery is clearly good."
+        - name: Squat
+          calculation_mode: rep_table
+          sets:
+            - reps: "3x4"
+              percentage_1rm: 67
+              notes: "Support work only. Target RPE 6. Add a fourth set only if very fresh."
+        - name: Row or Lat Pulldown
+          sets:
+            - reps: "2x8"
+              notes: "Easy-moderate only."
+        - name: Face Pulls or Cable External Rotations
+          sets:
+            - reps: "2x12"
+              notes: "Shoulder health only."
+
+    - weekday: Thursday
+      session: Dip Heavy
+      exercises:
+        - name: Weighted Dips
+          calculation_mode: rep_table
+          sets:
+            - reps: "1x1"
+              percentage_1rm: 91
+              notes: "Top single. Target RPE 7.5-8. Stop the load jump if warm-ups feel slow."
+            - reps: "1x3"
+              percentage_1rm: 85
+              notes: "Top triple. Target RPE 7.5."
+            - reps: "2x3"
+              percentage_1rm: 80
+              notes: "Back-off triples. Target RPE 6.5-7. Do a third set only if recovery is clearly good."
+        - name: Hamstring Curls
+          sets:
+            - reps: "2x10"
+              notes: "Easy-moderate."
+        - name: Trunk
+          sets:
+            - reps: "2x10"
+              notes: "Controlled only."
+
+    - weekday: Saturday
+      session: Squat Heavy + Pull Support + Muscle-Up Technique
+      exercises:
+        - name: Squat
+          calculation_mode: rep_table
+          sets:
+            - reps: "1x1"
+              percentage_1rm: 92
+              notes: "Top single. Target RPE 8."
+            - reps: "1x3"
+              percentage_1rm: 86
+              notes: "Top triple. Target RPE 7.5-8."
+            - reps: "2x3"
+              percentage_1rm: 79
+              notes: "Back-off triples. Target RPE 6.5-7. Do a third set only if recovery is clearly good."
+        - name: Weighted Pull-Ups
+          calculation_mode: rep_table
+          sets:
+            - reps: "3x5"
               percentage_1rm: 72
+              notes: "Support work only. Target RPE 6.5-7."
+        - name: Weighted Muscle-Ups
+          calculation_mode: rep_table
+          sets:
+            - reps: "4x1"
+              percentage_1rm: 56
+              notes: "Technique only. No grinders. Add one extra single only if speed stays high."
+        - name: Trunk
+          sets:
+            - reps: "2x10"
+              notes: "Controlled."
+
+    - weekday: Sunday
+      session: Dip Support + Squat Support
+      exercises:
+        - name: Weighted Dips
+          calculation_mode: rep_table
+          sets:
+            - reps: "3x5"
+              percentage_1rm: 66
+              notes: "Support work only. Target RPE 6-6.5."
+        - name: Paused Squat
+          calculation_mode: rep_table
+          sets:
+            - reps: "4x4"
+              percentage_1rm: 71
+              notes: "1-2 second pause. Target RPE 6-6.5."
+        - name: Weighted Muscle-Ups
+          calculation_mode: rep_table
+          sets:
+            - reps: "3x1"
+              percentage_1rm: 45
+              notes: "Optional. Only if recovery is good. Speed and technique only."
+
+- week_8:
+    - weekday: Monday
+      session: Support Deload / Recovery Flush
+      exercises:
+        - name: Weighted Dips
+          calculation_mode: rep_table
+          sets:
+            - reps: "2x5"
+              percentage_1rm: 54
+              notes: "Very easy support only. Keep clearly below RPE 6."
+        - name: Paused Squat
+          calculation_mode: rep_table
+          sets:
+            - reps: "2x3"
+              percentage_1rm: 60
+              notes: "Light technical work only. 1-2 second pause. Very easy."
+        - name: Weighted Muscle-Ups
+          calculation_mode: rep_table
+          sets:
+            - reps: "2x1"
+              percentage_1rm: 40
+              notes: "Optional. Technique only. Skip if fatigue is still present."
+
+    - weekday: Wednesday
+      session: Pull Deload
+      exercises:
+        - name: Weighted Pull-Ups
+          calculation_mode: rep_table
+          sets:
+            - reps: "1x1"
+              percentage_1rm: 82
+              notes: "Deload single. Target RPE 5.5-6."
+            - reps: "2x3"
+              percentage_1rm: 73
               notes: "Smooth only."
         - name: Squat
           calculation_mode: rep_table
@@ -321,17 +762,17 @@
             - reps: "1x15"
               notes: "Easy only."
 
-    - weekday: Thursday
+    - weekday: Friday
       session: Dip Deload
       exercises:
         - name: Weighted Dips
           calculation_mode: rep_table
           sets:
             - reps: "1x1"
-              percentage_1rm: 80
+              percentage_1rm: 78
               notes: "Deload single. Target RPE 5.5-6."
             - reps: "2x3"
-              percentage_1rm: 70
+              percentage_1rm: 68
               notes: "Smooth only."
         - name: Hamstring Curls
           sets:
@@ -342,7 +783,7 @@
             - reps: "1x10"
               notes: "Controlled only."
 
-    - weekday: Saturday
+    - weekday: Sunday
       session: Squat Deload + Pull Light + Muscle-Up Easy
       exercises:
         - name: Squat
@@ -363,22 +804,6 @@
         - name: Weighted Muscle-Ups
           calculation_mode: rep_table
           sets:
-            - reps: "3x1"
-              percentage_1rm: 45
-              notes: "Very easy. Technique only."
-
-    - weekday: Sunday
-      session: Support Deload
-      exercises:
-        - name: Weighted Dips
-          calculation_mode: rep_table
-          sets:
-            - reps: "2x5"
-              percentage_1rm: 56
-              notes: "Easy support only."
-        - name: Paused Squat
-          calculation_mode: rep_table
-          sets:
-            - reps: "2x3"
-              percentage_1rm: 61
-              notes: "Light technical work only."
+            - reps: "2x1"
+              percentage_1rm: 40
+              notes: "Very easy. Technique only. Skip if fatigue is still lingering."
