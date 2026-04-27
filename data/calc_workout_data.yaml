@@ -1,850 +1,1325 @@
 - week_1:
-  - weekday: Tuesday
-    session: Dip Bridge Heavy + Squat Light
+  - weekday: Monday
+    session: Day 1 - Weighted Pull-Up Priority
     exercises:
-    - name: Weighted Dips
-      calculation_mode: rep_table
+    - name: Weighted Pull-Ups
+      calculation_mode: training_max
       sets:
       - reps: 3
+        percentage_1rm: 78.0
+        weight: 72.5kg
+      - reps: 2
         percentage_1rm: 83.0
-        notes: Bridge entry session. Top triple. Target RPE 7.
-        weight: 82.5kg
-        rep_table_percent_for_reps: 3.0
-      - reps: 3
-        percentage_1rm: 78.0
-        notes: Back-off triples. Target RPE 6-6.5.
-        weight: 77.5kg
-        rep_table_percent_for_reps: 3.0
-      - reps: 3
-        percentage_1rm: 78.0
-        notes: Back-off triples. Target RPE 6-6.5.
-        weight: 77.5kg
-        rep_table_percent_for_reps: 3.0
+        weight: 76.25kg
       - reps: 1
         percentage_1rm: 88.0
-        notes: Optional only if warm-ups feel great and single is clearly crisp. Keep
-          at RPE 7 or below.
-        weight: 98.75kg
-        rep_table_fallback: training_max
-        rep_table_error: 'Reps=1 not supported in rep table for ''Weighted Dips''.
-          Supported reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
-    - name: Squat
-      calculation_mode: rep_table
-      sets:
-      - reps: 4
-        percentage_1rm: 60.0
-        notes: Light support only. Technical and restorative. Target RPE 6.
-        weight: 110kg
-        rep_table_percent_for_reps: 4.0
-      - reps: 4
-        percentage_1rm: 60.0
-        notes: Light support only. Technical and restorative. Target RPE 6.
-        weight: 110kg
-        rep_table_percent_for_reps: 4.0
-    - name: Hamstring Curls
-      sets:
-      - reps: 10
-        notes: Easy-moderate only.
-      - reps: 10
-        notes: Easy-moderate only.
-    - name: Trunk
-      sets:
-      - reps: 10
-        notes: Controlled only.
-      - reps: 10
-        notes: Controlled only.
-  - weekday: Friday
-    session: Pull Heavy + Dip Light + Muscle-Up Technique
-    exercises:
-    - name: Weighted Pull-Ups
-      calculation_mode: rep_table
-      sets:
+        weight: 81.25kg
       - reps: 1
         percentage_1rm: 90.0
-        notes: Top single. Keep crisp. Target RPE 7.5.
         weight: 83.75kg
-        rep_table_fallback: training_max
-        rep_table_error: 'Reps=1 not supported in rep table for ''Weighted Pull-Ups''.
-          Supported reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
-      - reps: 3
-        percentage_1rm: 84.0
-        notes: Top triple. Target RPE 7-7.5.
-        weight: 67.5kg
-        rep_table_percent_for_reps: 3.0
-      - reps: 3
-        percentage_1rm: 79.0
-        notes: Back-off triples. Target RPE 6.5-7.
-        weight: 65kg
-        rep_table_percent_for_reps: 3.0
-      - reps: 3
-        percentage_1rm: 79.0
-        notes: Back-off triples. Target RPE 6.5-7.
-        weight: 65kg
-        rep_table_percent_for_reps: 3.0
-    - name: Weighted Muscle-Ups
-      calculation_mode: rep_table
-      sets:
-      - reps: 1
-        percentage_1rm: 50.0
-        notes: Technique only. Fast and clean. Add 1-2 extra singles only if quality
-          stays high.
-        weight: 15kg
-        rep_table_fallback: training_max
-        rep_table_error: 'Reps=1 not supported in rep table for ''Weighted Muscle-Ups''.
-          Supported reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
-      - reps: 1
-        percentage_1rm: 50.0
-        notes: Technique only. Fast and clean. Add 1-2 extra singles only if quality
-          stays high.
-        weight: 15kg
-        rep_table_fallback: training_max
-        rep_table_error: 'Reps=1 not supported in rep table for ''Weighted Muscle-Ups''.
-          Supported reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
-      - reps: 1
-        percentage_1rm: 50.0
-        notes: Technique only. Fast and clean. Add 1-2 extra singles only if quality
-          stays high.
-        weight: 15kg
-        rep_table_fallback: training_max
-        rep_table_error: 'Reps=1 not supported in rep table for ''Weighted Muscle-Ups''.
-          Supported reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
-      - reps: 1
-        percentage_1rm: 50.0
-        notes: Technique only. Fast and clean. Add 1-2 extra singles only if quality
-          stays high.
-        weight: 15kg
-        rep_table_fallback: training_max
-        rep_table_error: 'Reps=1 not supported in rep table for ''Weighted Muscle-Ups''.
-          Supported reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
     - name: Weighted Dips
-      calculation_mode: rep_table
+      calculation_mode: training_max
       sets:
-      - reps: 5
-        percentage_1rm: 60.0
-        notes: Light support only. Target RPE 6.
-        weight: 50kg
-        rep_table_percent_for_reps: 5.0
-      - reps: 5
-        percentage_1rm: 60.0
-        notes: Light support only. Target RPE 6.
-        weight: 50kg
-        rep_table_percent_for_reps: 5.0
-    - name: Face Pulls or Cable External Rotations
-      sets:
-      - reps: 12
-        notes: Easy-moderate only.
-      - reps: 12
-        notes: Easy-moderate only.
-  - weekday: Sunday
-    session: Squat Support + Recovery
-    exercises:
-    - name: Paused Squat
-      calculation_mode: rep_table
-      sets:
-      - reps: 4
-        percentage_1rm: 68.0
-        notes: 1-2 second pause. Technical only. Target RPE 6-6.5.
-        weight: 125kg
-        rep_table_percent_for_reps: 4.0
-      - reps: 4
-        percentage_1rm: 68.0
-        notes: 1-2 second pause. Technical only. Target RPE 6-6.5.
-        weight: 125kg
-        rep_table_percent_for_reps: 4.0
-      - reps: 4
-        percentage_1rm: 68.0
-        notes: 1-2 second pause. Technical only. Target RPE 6-6.5.
-        weight: 125kg
-        rep_table_percent_for_reps: 4.0
-      - reps: 4
-        percentage_1rm: 68.0
-        notes: 1-2 second pause. Technical only. Target RPE 6-6.5.
-        weight: 125kg
-        rep_table_percent_for_reps: 4.0
-    - name: Hamstring Curls
-      sets:
-      - reps: 12
-        notes: Easy-moderate only.
-      - reps: 12
-        notes: Easy-moderate only.
-    - name: Trunk
-      sets:
-      - reps: 10
-        notes: Controlled.
-      - reps: 10
-        notes: Controlled.
-- week_2:
-  - weekday: Tuesday
-    session: Pull Heavy + Squat Support
-    exercises:
-    - name: Weighted Pull-Ups
-      calculation_mode: rep_table
-      sets:
-      - reps: 1
-        percentage_1rm: 91.0
-        notes: Top single. Target RPE 7.5-8.
-        weight: 83.75kg
-        rep_table_fallback: training_max
-        rep_table_error: 'Reps=1 not supported in rep table for ''Weighted Pull-Ups''.
-          Supported reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
-      - reps: 3
-        percentage_1rm: 85.0
-        notes: Top triple. Target RPE 7.5.
-        weight: 70kg
-        rep_table_percent_for_reps: 3.0
-      - reps: 3
-        percentage_1rm: 80.0
-        notes: Back-off triples. Target RPE 6.5-7.
-        weight: 65kg
-        rep_table_percent_for_reps: 3.0
-      - reps: 3
-        percentage_1rm: 80.0
-        notes: Back-off triples. Target RPE 6.5-7.
-        weight: 65kg
-        rep_table_percent_for_reps: 3.0
-      - reps: 3
-        percentage_1rm: 80.0
-        notes: Back-off triples. Target RPE 6.5-7.
-        weight: 65kg
-        rep_table_percent_for_reps: 3.0
-    - name: Squat
-      calculation_mode: rep_table
-      sets:
-      - reps: 4
-        percentage_1rm: 63.0
-        notes: Support work only. Target RPE 6.
-        weight: 115kg
-        rep_table_percent_for_reps: 4.0
-      - reps: 4
-        percentage_1rm: 63.0
-        notes: Support work only. Target RPE 6.
-        weight: 115kg
-        rep_table_percent_for_reps: 4.0
-      - reps: 4
-        percentage_1rm: 63.0
-        notes: Support work only. Target RPE 6.
-        weight: 115kg
-        rep_table_percent_for_reps: 4.0
-    - name: Row or Lat Pulldown
-      sets:
-      - reps: 8
-        notes: Easy-moderate only.
-      - reps: 8
-        notes: Easy-moderate only.
-    - name: Face Pulls or Cable External Rotations
-      sets:
-      - reps: 12
-        notes: Shoulder health only.
-      - reps: 12
-        notes: Shoulder health only.
-  - weekday: Thursday
-    session: Dip Heavy
-    exercises:
-    - name: Weighted Dips
-      calculation_mode: rep_table
-      sets:
-      - reps: 1
-        percentage_1rm: 90.0
-        notes: Top single. Target RPE 7-7.5.
-        weight: 101.25kg
-        rep_table_fallback: training_max
-        rep_table_error: 'Reps=1 not supported in rep table for ''Weighted Dips''.
-          Supported reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
-      - reps: 3
-        percentage_1rm: 84.0
-        notes: Top triple. Target RPE 7.
-        weight: 85kg
-        rep_table_percent_for_reps: 3.0
-      - reps: 3
-        percentage_1rm: 79.0
-        notes: Back-off triples. Target RPE 6.5-7.
-        weight: 80kg
-        rep_table_percent_for_reps: 3.0
-      - reps: 3
-        percentage_1rm: 79.0
-        notes: Back-off triples. Target RPE 6.5-7.
-        weight: 80kg
-        rep_table_percent_for_reps: 3.0
-      - reps: 3
-        percentage_1rm: 79.0
-        notes: Back-off triples. Target RPE 6.5-7.
-        weight: 80kg
-        rep_table_percent_for_reps: 3.0
-    - name: Hamstring Curls
-      sets:
-      - reps: 10
-        notes: Easy-moderate.
-      - reps: 10
-        notes: Easy-moderate.
-    - name: Trunk
-      sets:
-      - reps: 10
-        notes: Controlled only.
-      - reps: 10
-        notes: Controlled only.
-  - weekday: Saturday
-    session: Squat Heavy + Pull Support + Muscle-Up Technique
-    exercises:
-    - name: Squat
-      calculation_mode: rep_table
-      sets:
-      - reps: 1
-        percentage_1rm: 89.0
-        notes: Top single. Target RPE 7.5-8.
-        weight: 177.5kg
-        rep_table_fallback: training_max
-        rep_table_error: 'Reps=1 not supported in rep table for ''Squat''. Supported
-          reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
-      - reps: 3
-        percentage_1rm: 83.0
-        notes: Top triple. Target RPE 7.5.
-        weight: 157.5kg
-        rep_table_percent_for_reps: 3.0
-      - reps: 3
-        percentage_1rm: 76.0
-        notes: Back-off triples. Target RPE 6.5-7.
-        weight: 142.5kg
-        rep_table_percent_for_reps: 3.0
-      - reps: 3
-        percentage_1rm: 76.0
-        notes: Back-off triples. Target RPE 6.5-7.
-        weight: 142.5kg
-        rep_table_percent_for_reps: 3.0
-      - reps: 3
-        percentage_1rm: 76.0
-        notes: Back-off triples. Target RPE 6.5-7.
-        weight: 142.5kg
-        rep_table_percent_for_reps: 3.0
-    - name: Weighted Pull-Ups
-      calculation_mode: rep_table
-      sets:
-      - reps: 5
-        percentage_1rm: 69.0
-        notes: Support work only. Target RPE 6.5.
-        weight: 47.5kg
-        rep_table_percent_for_reps: 5.0
-      - reps: 5
-        percentage_1rm: 69.0
-        notes: Support work only. Target RPE 6.5.
-        weight: 47.5kg
-        rep_table_percent_for_reps: 5.0
-      - reps: 5
-        percentage_1rm: 69.0
-        notes: Support work only. Target RPE 6.5.
-        weight: 47.5kg
-        rep_table_percent_for_reps: 5.0
-    - name: Weighted Muscle-Ups
-      calculation_mode: rep_table
-      sets:
-      - reps: 1
-        percentage_1rm: 52.0
-        notes: Technique only. Fast and crisp. Add 1-2 extra singles only if quality
-          stays high.
-        weight: 15kg
-        rep_table_fallback: training_max
-        rep_table_error: 'Reps=1 not supported in rep table for ''Weighted Muscle-Ups''.
-          Supported reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
-      - reps: 1
-        percentage_1rm: 52.0
-        notes: Technique only. Fast and crisp. Add 1-2 extra singles only if quality
-          stays high.
-        weight: 15kg
-        rep_table_fallback: training_max
-        rep_table_error: 'Reps=1 not supported in rep table for ''Weighted Muscle-Ups''.
-          Supported reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
-      - reps: 1
-        percentage_1rm: 52.0
-        notes: Technique only. Fast and crisp. Add 1-2 extra singles only if quality
-          stays high.
-        weight: 15kg
-        rep_table_fallback: training_max
-        rep_table_error: 'Reps=1 not supported in rep table for ''Weighted Muscle-Ups''.
-          Supported reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
-      - reps: 1
-        percentage_1rm: 52.0
-        notes: Technique only. Fast and crisp. Add 1-2 extra singles only if quality
-          stays high.
-        weight: 15kg
-        rep_table_fallback: training_max
-        rep_table_error: 'Reps=1 not supported in rep table for ''Weighted Muscle-Ups''.
-          Supported reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
-    - name: Trunk
-      sets:
-      - reps: 10
-        notes: Controlled.
-      - reps: 10
-        notes: Controlled.
-  - weekday: Sunday
-    session: Dip Support + Squat Support
-    exercises:
-    - name: Weighted Dips
-      calculation_mode: rep_table
-      sets:
-      - reps: 5
-        percentage_1rm: 65.0
-        notes: Support work only. Target RPE 6-6.5.
-        weight: 55kg
-        rep_table_percent_for_reps: 5.0
-      - reps: 5
-        percentage_1rm: 65.0
-        notes: Support work only. Target RPE 6-6.5.
-        weight: 55kg
-        rep_table_percent_for_reps: 5.0
-      - reps: 5
-        percentage_1rm: 65.0
-        notes: Support work only. Target RPE 6-6.5.
-        weight: 55kg
-        rep_table_percent_for_reps: 5.0
-    - name: Paused Squat
-      calculation_mode: rep_table
-      sets:
-      - reps: 4
-        percentage_1rm: 67.0
-        notes: 1-2 second pause. Target RPE 6.
-        weight: 122.5kg
-        rep_table_percent_for_reps: 4.0
-      - reps: 4
-        percentage_1rm: 67.0
-        notes: 1-2 second pause. Target RPE 6.
-        weight: 122.5kg
-        rep_table_percent_for_reps: 4.0
-      - reps: 4
-        percentage_1rm: 67.0
-        notes: 1-2 second pause. Target RPE 6.
-        weight: 122.5kg
-        rep_table_percent_for_reps: 4.0
-    - name: Weighted Muscle-Ups
-      calculation_mode: rep_table
-      sets:
-      - reps: 1
-        percentage_1rm: 45.0
-        notes: Optional. Only if fresh. Speed and technique only.
-        weight: 13.75kg
-        rep_table_fallback: training_max
-        rep_table_error: 'Reps=1 not supported in rep table for ''Weighted Muscle-Ups''.
-          Supported reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
-      - reps: 1
-        percentage_1rm: 45.0
-        notes: Optional. Only if fresh. Speed and technique only.
-        weight: 13.75kg
-        rep_table_fallback: training_max
-        rep_table_error: 'Reps=1 not supported in rep table for ''Weighted Muscle-Ups''.
-          Supported reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
-      - reps: 1
-        percentage_1rm: 45.0
-        notes: Optional. Only if fresh. Speed and technique only.
-        weight: 13.75kg
-        rep_table_fallback: training_max
-        rep_table_error: 'Reps=1 not supported in rep table for ''Weighted Muscle-Ups''.
-          Supported reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
-- week_3:
-  - weekday: Tuesday
-    session: Pull Heavy + Squat Support
-    exercises:
-    - name: Weighted Pull-Ups
-      calculation_mode: rep_table
-      sets:
-      - reps: 1
-        percentage_1rm: 92.0
-        notes: Top single. Target RPE 8.
-        weight: 85kg
-        rep_table_fallback: training_max
-        rep_table_error: 'Reps=1 not supported in rep table for ''Weighted Pull-Ups''.
-          Supported reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
-      - reps: 3
-        percentage_1rm: 86.0
-        notes: Top triple. Target RPE 7.5-8.
-        weight: 70kg
-        rep_table_percent_for_reps: 3.0
-      - reps: 3
-        percentage_1rm: 81.0
-        notes: Back-off triples. Target RPE 6.5-7. Do a third set only if recovery
-          is clearly good.
-        weight: 65kg
-        rep_table_percent_for_reps: 3.0
-      - reps: 3
-        percentage_1rm: 81.0
-        notes: Back-off triples. Target RPE 6.5-7. Do a third set only if recovery
-          is clearly good.
-        weight: 65kg
-        rep_table_percent_for_reps: 3.0
-    - name: Squat
-      calculation_mode: rep_table
-      sets:
-      - reps: 4
-        percentage_1rm: 64.0
-        notes: Support work only. Target RPE 6. Add a third set only if fresh.
-        weight: 117.5kg
-        rep_table_percent_for_reps: 4.0
-      - reps: 4
-        percentage_1rm: 64.0
-        notes: Support work only. Target RPE 6. Add a third set only if fresh.
-        weight: 117.5kg
-        rep_table_percent_for_reps: 4.0
-    - name: Row or Lat Pulldown
-      sets:
-      - reps: 8
-        notes: Easy-moderate only.
-      - reps: 8
-        notes: Easy-moderate only.
-    - name: Face Pulls or Cable External Rotations
-      sets:
-      - reps: 12
-        notes: Shoulder health only.
-      - reps: 12
-        notes: Shoulder health only.
-  - weekday: Thursday
-    session: Dip Heavy
-    exercises:
-    - name: Weighted Dips
-      calculation_mode: rep_table
-      sets:
-      - reps: 1
-        percentage_1rm: 91.0
-        notes: Top single. Target RPE 7.5-8.
-        weight: 102.5kg
-        rep_table_fallback: training_max
-        rep_table_error: 'Reps=1 not supported in rep table for ''Weighted Dips''.
-          Supported reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
-      - reps: 3
-        percentage_1rm: 85.0
-        notes: Top triple. Target RPE 7.5.
-        weight: 85kg
-        rep_table_percent_for_reps: 3.0
-      - reps: 3
-        percentage_1rm: 80.0
-        notes: Back-off triples. Target RPE 6.5-7. Do a third set only if recovery
-          is clearly good.
-        weight: 80kg
-        rep_table_percent_for_reps: 3.0
-      - reps: 3
-        percentage_1rm: 80.0
-        notes: Back-off triples. Target RPE 6.5-7. Do a third set only if recovery
-          is clearly good.
-        weight: 80kg
-        rep_table_percent_for_reps: 3.0
-    - name: Hamstring Curls
-      sets:
-      - reps: 10
-        notes: Easy-moderate.
-      - reps: 10
-        notes: Easy-moderate.
-    - name: Trunk
-      sets:
-      - reps: 10
-        notes: Controlled only.
-      - reps: 10
-        notes: Controlled only.
-  - weekday: Saturday
-    session: Squat Heavy + Pull Support + Muscle-Up Technique
-    exercises:
-    - name: Squat
-      calculation_mode: rep_table
-      sets:
-      - reps: 1
-        percentage_1rm: 90.0
-        notes: Top single. Target RPE 8.
-        weight: 180kg
-        rep_table_fallback: training_max
-        rep_table_error: 'Reps=1 not supported in rep table for ''Squat''. Supported
-          reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
-      - reps: 3
-        percentage_1rm: 84.0
-        notes: Top triple. Target RPE 7.5-8.
-        weight: 157.5kg
-        rep_table_percent_for_reps: 3.0
-      - reps: 3
-        percentage_1rm: 77.0
-        notes: Back-off triples. Target RPE 6.5-7. Do a third set only if recovery
-          is clearly good.
-        weight: 145kg
-        rep_table_percent_for_reps: 3.0
-      - reps: 3
-        percentage_1rm: 77.0
-        notes: Back-off triples. Target RPE 6.5-7. Do a third set only if recovery
-          is clearly good.
-        weight: 145kg
-        rep_table_percent_for_reps: 3.0
-    - name: Weighted Pull-Ups
-      calculation_mode: rep_table
-      sets:
-      - reps: 5
-        percentage_1rm: 70.0
-        notes: Support work only. Target RPE 6.5-7.
-        weight: 47.5kg
-        rep_table_percent_for_reps: 5.0
-      - reps: 5
-        percentage_1rm: 70.0
-        notes: Support work only. Target RPE 6.5-7.
-        weight: 47.5kg
-        rep_table_percent_for_reps: 5.0
-      - reps: 5
-        percentage_1rm: 70.0
-        notes: Support work only. Target RPE 6.5-7.
-        weight: 47.5kg
-        rep_table_percent_for_reps: 5.0
-    - name: Weighted Muscle-Ups
-      calculation_mode: rep_table
-      sets:
-      - reps: 1
-        percentage_1rm: 55.0
-        notes: Technique only. No grinders. Add one extra single only if speed stays
-          high.
-        weight: 16.25kg
-        rep_table_fallback: training_max
-        rep_table_error: 'Reps=1 not supported in rep table for ''Weighted Muscle-Ups''.
-          Supported reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
-      - reps: 1
-        percentage_1rm: 55.0
-        notes: Technique only. No grinders. Add one extra single only if speed stays
-          high.
-        weight: 16.25kg
-        rep_table_fallback: training_max
-        rep_table_error: 'Reps=1 not supported in rep table for ''Weighted Muscle-Ups''.
-          Supported reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
-      - reps: 1
-        percentage_1rm: 55.0
-        notes: Technique only. No grinders. Add one extra single only if speed stays
-          high.
-        weight: 16.25kg
-        rep_table_fallback: training_max
-        rep_table_error: 'Reps=1 not supported in rep table for ''Weighted Muscle-Ups''.
-          Supported reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
-      - reps: 1
-        percentage_1rm: 55.0
-        notes: Technique only. No grinders. Add one extra single only if speed stays
-          high.
-        weight: 16.25kg
-        rep_table_fallback: training_max
-        rep_table_error: 'Reps=1 not supported in rep table for ''Weighted Muscle-Ups''.
-          Supported reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
-    - name: Trunk
-      sets:
-      - reps: 10
-        notes: Controlled.
-      - reps: 10
-        notes: Controlled.
-  - weekday: Sunday
-    session: Dip Support + Squat Support
-    exercises:
-    - name: Weighted Dips
-      calculation_mode: rep_table
-      sets:
-      - reps: 5
-        percentage_1rm: 66.0
-        notes: Support work only. Target RPE 6-6.5.
-        weight: 55kg
-        rep_table_percent_for_reps: 5.0
-      - reps: 5
-        percentage_1rm: 66.0
-        notes: Support work only. Target RPE 6-6.5.
-        weight: 55kg
-        rep_table_percent_for_reps: 5.0
-      - reps: 5
-        percentage_1rm: 66.0
-        notes: Support work only. Target RPE 6-6.5.
-        weight: 55kg
-        rep_table_percent_for_reps: 5.0
-    - name: Paused Squat
-      calculation_mode: rep_table
-      sets:
-      - reps: 4
-        percentage_1rm: 68.0
-        notes: 1-2 second pause. Target RPE 6-6.5.
-        weight: 125kg
-        rep_table_percent_for_reps: 4.0
-      - reps: 4
-        percentage_1rm: 68.0
-        notes: 1-2 second pause. Target RPE 6-6.5.
-        weight: 125kg
-        rep_table_percent_for_reps: 4.0
-      - reps: 4
-        percentage_1rm: 68.0
-        notes: 1-2 second pause. Target RPE 6-6.5.
-        weight: 125kg
-        rep_table_percent_for_reps: 4.0
-    - name: Weighted Muscle-Ups
-      calculation_mode: rep_table
-      sets:
-      - reps: 1
-        percentage_1rm: 45.0
-        notes: Optional. Only if recovery is good. Speed and technique only.
-        weight: 13.75kg
-        rep_table_fallback: training_max
-        rep_table_error: 'Reps=1 not supported in rep table for ''Weighted Muscle-Ups''.
-          Supported reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
-      - reps: 1
-        percentage_1rm: 45.0
-        notes: Optional. Only if recovery is good. Speed and technique only.
-        weight: 13.75kg
-        rep_table_fallback: training_max
-        rep_table_error: 'Reps=1 not supported in rep table for ''Weighted Muscle-Ups''.
-          Supported reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
-      - reps: 1
-        percentage_1rm: 45.0
-        notes: Optional. Only if recovery is good. Speed and technique only.
-        weight: 13.75kg
-        rep_table_fallback: training_max
-        rep_table_error: 'Reps=1 not supported in rep table for ''Weighted Muscle-Ups''.
-          Supported reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
-- week_4:
-  - weekday: Tuesday
-    session: Pull Deload
-    exercises:
-    - name: Weighted Pull-Ups
-      calculation_mode: rep_table
-      sets:
-      - reps: 1
-        percentage_1rm: 81.0
-        notes: Deload single. Target RPE 5.5-6.
-        weight: 75kg
-        rep_table_fallback: training_max
-        rep_table_error: 'Reps=1 not supported in rep table for ''Weighted Pull-Ups''.
-          Supported reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
       - reps: 3
         percentage_1rm: 72.0
-        notes: Smooth only.
-        weight: 57.5kg
-        rep_table_percent_for_reps: 3.0
-      - reps: 3
-        percentage_1rm: 72.0
-        notes: Smooth only.
-        weight: 57.5kg
-        rep_table_percent_for_reps: 3.0
-    - name: Squat
-      calculation_mode: rep_table
+        notes: Secondary wave
+        weight: 81.25kg
+      - reps: 2
+        percentage_1rm: 78.0
+        notes: Secondary wave
+        weight: 87.5kg
+      - reps: 1
+        percentage_1rm: 82.0
+        notes: Secondary wave
+        weight: 92.5kg
+    - name: DB Back Row
       sets:
-      - reps: 4
-        percentage_1rm: 57.0
-        notes: Easy support only.
-        weight: 105kg
-        rep_table_percent_for_reps: 4.0
-      - reps: 4
-        percentage_1rm: 57.0
-        notes: Easy support only.
-        weight: 105kg
-        rep_table_percent_for_reps: 4.0
-    - name: Face Pulls or Cable External Rotations
+      - reps: 8
+        notes: Controlled accessory; 5-8 target range
+      - reps: 8
+        notes: Controlled accessory; 5-8 target range
+    - name: Cross Lat Cable Pull
+      sets:
+      - reps: 10
+        notes: Arms crossed in X position, pull out and away from body
+      - reps: 10
+        notes: Arms crossed in X position, pull out and away from body
+    - name: Rotator Cuff External Rotation
       sets:
       - reps: 15
-        notes: Easy only.
-  - weekday: Thursday
-    session: Dip Deload
-    exercises:
-    - name: Weighted Dips
-      calculation_mode: rep_table
+        notes: Easy to moderate band work
+      - reps: 15
+        notes: Easy to moderate band work
+    - name: Rotator Cuff Internal Rotation
       sets:
-      - reps: 1
-        percentage_1rm: 80.0
-        notes: Deload single. Target RPE 5.5-6.
-        weight: 90kg
-        rep_table_fallback: training_max
-        rep_table_error: 'Reps=1 not supported in rep table for ''Weighted Dips''.
-          Supported reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
-      - reps: 3
-        percentage_1rm: 70.0
-        notes: Smooth only.
-        weight: 70kg
-        rep_table_percent_for_reps: 3.0
-      - reps: 3
-        percentage_1rm: 70.0
-        notes: Smooth only.
-        weight: 70kg
-        rep_table_percent_for_reps: 3.0
-    - name: Hamstring Curls
+      - reps: 15
+        notes: Easy to moderate band work
+      - reps: 15
+        notes: Easy to moderate band work
+    - name: Ab Rollout
       sets:
-      - reps: 12
-        notes: Easy only.
-    - name: Trunk
-      sets:
-      - reps: 10
-        notes: Controlled only.
-  - weekday: Saturday
-    session: Squat Deload + Pull Light + Muscle-Up Easy
+      - reps: 8
+        notes: Leave reps in reserve
+      - reps: 8
+        notes: Leave reps in reserve
+  - weekday: Tuesday
+    session: Day 2 - Squat Priority
     exercises:
     - name: Squat
-      calculation_mode: rep_table
+      calculation_mode: training_max
+      sets:
+      - reps: 3
+        percentage_1rm: 78.0
+        weight: 165kg
+      - reps: 2
+        percentage_1rm: 83.0
+        weight: 175kg
+      - reps: 1
+        percentage_1rm: 88.0
+        weight: 185kg
+      - reps: 1
+        percentage_1rm: 90.0
+        weight: 190kg
+    - name: Heavy Squat Walkout
+      calculation_mode: training_max
       sets:
       - reps: 1
-        percentage_1rm: 80.0
-        notes: Deload single. Target RPE 5.5-6.
-        weight: 160kg
-        rep_table_fallback: training_max
-        rep_table_error: 'Reps=1 not supported in rep table for ''Squat''. Supported
-          reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
-      - reps: 3
-        percentage_1rm: 70.0
-        notes: Crisp only.
-        weight: 132.5kg
-        rep_table_percent_for_reps: 3.0
-      - reps: 3
-        percentage_1rm: 70.0
-        notes: Crisp only.
-        weight: 132.5kg
-        rep_table_percent_for_reps: 3.0
-    - name: Weighted Pull-Ups
-      calculation_mode: rep_table
-      sets:
-      - reps: 5
-        percentage_1rm: 60.0
-        notes: Easy support only.
-        weight: 40kg
-        rep_table_percent_for_reps: 5.0
-      - reps: 5
-        percentage_1rm: 60.0
-        notes: Easy support only.
-        weight: 40kg
-        rep_table_percent_for_reps: 5.0
+        percentage_1rm: 95.0
+        notes: 8-10 second unrack and hold; conservative exposure
+        weight: 208.75kg
     - name: Weighted Muscle-Ups
-      calculation_mode: rep_table
+      calculation_mode: training_max
       sets:
       - reps: 1
-        percentage_1rm: 45.0
-        notes: Very easy. Technique only.
-        weight: 13.75kg
-        rep_table_fallback: training_max
-        rep_table_error: 'Reps=1 not supported in rep table for ''Weighted Muscle-Ups''.
-          Supported reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
+        percentage_1rm: 60.0
+        notes: Light technique only
+        weight: 17.5kg
       - reps: 1
-        percentage_1rm: 45.0
-        notes: Very easy. Technique only.
-        weight: 13.75kg
-        rep_table_fallback: training_max
-        rep_table_error: 'Reps=1 not supported in rep table for ''Weighted Muscle-Ups''.
-          Supported reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
+        percentage_1rm: 62.0
+        notes: Light technique only
+        weight: 18.75kg
       - reps: 1
-        percentage_1rm: 45.0
-        notes: Very easy. Technique only.
-        weight: 13.75kg
-        rep_table_fallback: training_max
-        rep_table_error: 'Reps=1 not supported in rep table for ''Weighted Muscle-Ups''.
-          Supported reps: [2, 3, 4, 5, 6, 7, 8, 9, 10]'
-  - weekday: Sunday
-    session: Support Deload
+        percentage_1rm: 65.0
+        notes: Light technique only
+        weight: 20kg
+    - name: Back Extension
+      sets:
+      - reps: 8
+        notes: Hold plates; feel hamstrings and lower back
+      - reps: 8
+        notes: Hold plates; feel hamstrings and lower back
+    - name: Leg Press
+      sets:
+      - reps: 10
+        notes: Controlled; do not turn into a high-volume finisher
+      - reps: 10
+        notes: Controlled; do not turn into a high-volume finisher
+    - name: Ab Rollout
+      sets:
+      - reps: 8
+        notes: Leave reps in reserve
+      - reps: 8
+        notes: Leave reps in reserve
+  - weekday: Thursday
+    session: Day 3 - Weighted Dip Priority
     exercises:
     - name: Weighted Dips
-      calculation_mode: rep_table
-      sets:
-      - reps: 5
-        percentage_1rm: 56.0
-        notes: Easy support only.
-        weight: 45kg
-        rep_table_percent_for_reps: 5.0
-      - reps: 5
-        percentage_1rm: 56.0
-        notes: Easy support only.
-        weight: 45kg
-        rep_table_percent_for_reps: 5.0
-    - name: Paused Squat
-      calculation_mode: rep_table
+      calculation_mode: training_max
       sets:
       - reps: 3
-        percentage_1rm: 61.0
-        notes: Light technical work only.
-        weight: 115kg
-        rep_table_percent_for_reps: 3.0
+        percentage_1rm: 78.0
+        weight: 87.5kg
+      - reps: 2
+        percentage_1rm: 83.0
+        weight: 93.75kg
+      - reps: 1
+        percentage_1rm: 88.0
+        weight: 98.75kg
+      - reps: 1
+        percentage_1rm: 90.0
+        weight: 101.25kg
+    - name: Weighted Pull-Ups
+      calculation_mode: training_max
+      sets:
       - reps: 3
-        percentage_1rm: 61.0
-        notes: Light technical work only.
+        percentage_1rm: 72.0
+        notes: Secondary wave
+        weight: 66.25kg
+      - reps: 2
+        percentage_1rm: 78.0
+        notes: Secondary wave
+        weight: 72.5kg
+      - reps: 1
+        percentage_1rm: 82.0
+        notes: Secondary wave
+        weight: 76.25kg
+    - name: DB Chest Press
+      sets:
+      - reps: 8
+        notes: Controlled accessory; do not grind
+      - reps: 8
+        notes: Controlled accessory; do not grind
+    - name: Pec Flye
+      sets:
+      - reps: 10
+        notes: Controlled stretch and squeeze
+      - reps: 10
+        notes: Controlled stretch and squeeze
+    - name: Tricep Pulldown
+      sets:
+      - reps: 10
+        notes: Elbow-friendly accessory
+      - reps: 10
+        notes: Elbow-friendly accessory
+    - name: Scapula Push-Up
+      sets:
+      - reps: 15
+        notes: Easy scapular control
+      - reps: 15
+        notes: Easy scapular control
+    - name: Rotator Cuff External Rotation
+      sets:
+      - reps: 15
+        notes: Easy to moderate band work
+      - reps: 15
+        notes: Easy to moderate band work
+    - name: Rotator Cuff Internal Rotation
+      sets:
+      - reps: 15
+        notes: Easy to moderate band work
+      - reps: 15
+        notes: Easy to moderate band work
+  - weekday: Saturday
+    session: Day 4 - Weighted Muscle-Up Priority and Squat Primer
+    exercises:
+    - name: Weighted Muscle-Ups
+      calculation_mode: training_max
+      sets:
+      - reps: 2
+        percentage_1rm: 70.0
+        weight: 21.25kg
+      - reps: 1
+        percentage_1rm: 76.0
+        weight: 22.5kg
+      - reps: 1
+        percentage_1rm: 82.0
+        weight: 25kg
+      - reps: 1
+        percentage_1rm: 72.0
+        notes: Fast technical rep
+        weight: 21.25kg
+    - name: Squat
+      calculation_mode: training_max
+      sets:
+      - reps: 2
+        percentage_1rm: 65.0
+        notes: Primer wave
+        weight: 137.5kg
+      - reps: 1
+        percentage_1rm: 72.0
+        notes: Primer wave
+        weight: 150kg
+      - reps: 1
+        percentage_1rm: 78.0
+        notes: Primer wave
+        weight: 165kg
+    - name: Heavy Weighted Deadhang
+      sets:
+      - reps: 10
+        notes: 10-second holds; after pulling only
+      - reps: 10
+        notes: 10-second holds; after pulling only
+    - name: DB Shoulder Press
+      sets:
+      - reps: 8
+        notes: Optional; skip if shoulders or triceps feel taxed
+      - reps: 8
+        notes: Optional; skip if shoulders or triceps feel taxed
+    - name: Ab Rollout
+      sets:
+      - reps: 8
+        notes: Leave reps in reserve
+      - reps: 8
+        notes: Leave reps in reserve
+    - name: Rotator Cuff External Rotation
+      sets:
+      - reps: 15
+        notes: Easy to moderate band work
+      - reps: 15
+        notes: Easy to moderate band work
+    - name: Rotator Cuff Internal Rotation
+      sets:
+      - reps: 15
+        notes: Easy to moderate band work
+      - reps: 15
+        notes: Easy to moderate band work
+- week_2:
+  - weekday: Monday
+    session: Day 1 - Weighted Pull-Up Priority
+    exercises:
+    - name: Weighted Pull-Ups
+      calculation_mode: training_max
+      sets:
+      - reps: 3
+        percentage_1rm: 80.0
+        weight: 73.75kg
+      - reps: 2
+        percentage_1rm: 85.0
+        weight: 78.75kg
+      - reps: 1
+        percentage_1rm: 90.0
+        weight: 83.75kg
+      - reps: 1
+        percentage_1rm: 92.0
+        weight: 85kg
+    - name: Weighted Dips
+      calculation_mode: training_max
+      sets:
+      - reps: 3
+        percentage_1rm: 74.0
+        notes: Secondary wave
+        weight: 83.75kg
+      - reps: 2
+        percentage_1rm: 80.0
+        notes: Secondary wave
+        weight: 90kg
+      - reps: 1
+        percentage_1rm: 84.0
+        notes: Secondary wave
+        weight: 95kg
+    - name: DB Back Row
+      sets:
+      - reps: 8
+        notes: Controlled accessory; 5-8 target range
+      - reps: 8
+        notes: Controlled accessory; 5-8 target range
+    - name: Cross Lat Cable Pull
+      sets:
+      - reps: 10
+        notes: Arms crossed in X position, pull out and away from body
+      - reps: 10
+        notes: Arms crossed in X position, pull out and away from body
+    - name: Rotator Cuff External Rotation
+      sets:
+      - reps: 15
+        notes: Easy to moderate band work
+      - reps: 15
+        notes: Easy to moderate band work
+    - name: Rotator Cuff Internal Rotation
+      sets:
+      - reps: 15
+        notes: Easy to moderate band work
+      - reps: 15
+        notes: Easy to moderate band work
+    - name: Ab Rollout
+      sets:
+      - reps: 8
+        notes: Leave reps in reserve
+      - reps: 8
+        notes: Leave reps in reserve
+  - weekday: Tuesday
+    session: Day 2 - Squat Priority
+    exercises:
+    - name: Squat
+      calculation_mode: training_max
+      sets:
+      - reps: 3
+        percentage_1rm: 80.0
+        weight: 167.5kg
+      - reps: 2
+        percentage_1rm: 85.0
+        weight: 177.5kg
+      - reps: 1
+        percentage_1rm: 90.0
+        weight: 190kg
+      - reps: 1
+        percentage_1rm: 92.0
+        weight: 192.5kg
+    - name: Heavy Squat Walkout
+      calculation_mode: training_max
+      sets:
+      - reps: 1
+        percentage_1rm: 100.0
+        notes: 8-10 second unrack and hold; brace hard
+        weight: 220kg
+      - reps: 1
+        percentage_1rm: 105.0
+        notes: 8-10 second hold; only if 100% feels stable
+        weight: 231.25kg
+    - name: Weighted Muscle-Ups
+      calculation_mode: training_max
+      sets:
+      - reps: 1
+        percentage_1rm: 65.0
+        notes: Light technique only
+        weight: 20kg
+      - reps: 1
+        percentage_1rm: 67.0
+        notes: Light technique only
+        weight: 20kg
+      - reps: 1
+        percentage_1rm: 70.0
+        notes: Light technique only
+        weight: 21.25kg
+    - name: Back Extension
+      sets:
+      - reps: 6
+        notes: Controlled; reduced because squat walkouts were added
+      - reps: 6
+        notes: Controlled; reduced because squat walkouts were added
+    - name: Leg Press
+      sets:
+      - reps: 10
+        notes: Easy-moderate only; do not grind
+    - name: Ab Rollout
+      sets:
+      - reps: 8
+        notes: Leave reps in reserve
+      - reps: 8
+        notes: Leave reps in reserve
+  - weekday: Thursday
+    session: Day 3 - Weighted Dip Priority
+    exercises:
+    - name: Weighted Dips
+      calculation_mode: training_max
+      sets:
+      - reps: 3
+        percentage_1rm: 80.0
+        weight: 90kg
+      - reps: 2
+        percentage_1rm: 85.0
+        weight: 95kg
+      - reps: 1
+        percentage_1rm: 90.0
+        weight: 101.25kg
+      - reps: 1
+        percentage_1rm: 92.0
+        weight: 103.75kg
+    - name: Weighted Pull-Ups
+      calculation_mode: training_max
+      sets:
+      - reps: 3
+        percentage_1rm: 74.0
+        notes: Secondary wave
+        weight: 68.75kg
+      - reps: 2
+        percentage_1rm: 80.0
+        notes: Secondary wave
+        weight: 73.75kg
+      - reps: 1
+        percentage_1rm: 84.0
+        notes: Secondary wave
+        weight: 77.5kg
+    - name: DB Chest Press
+      sets:
+      - reps: 8
+        notes: Controlled accessory; do not grind
+      - reps: 8
+        notes: Controlled accessory; do not grind
+    - name: Pec Flye
+      sets:
+      - reps: 10
+        notes: Controlled stretch and squeeze
+      - reps: 10
+        notes: Controlled stretch and squeeze
+    - name: Tricep Pulldown
+      sets:
+      - reps: 10
+        notes: Elbow-friendly accessory
+      - reps: 10
+        notes: Elbow-friendly accessory
+    - name: Scapula Push-Up
+      sets:
+      - reps: 15
+        notes: Easy scapular control
+      - reps: 15
+        notes: Easy scapular control
+    - name: Rotator Cuff External Rotation
+      sets:
+      - reps: 15
+        notes: Easy to moderate band work
+      - reps: 15
+        notes: Easy to moderate band work
+    - name: Rotator Cuff Internal Rotation
+      sets:
+      - reps: 15
+        notes: Easy to moderate band work
+      - reps: 15
+        notes: Easy to moderate band work
+  - weekday: Saturday
+    session: Day 4 - Weighted Muscle-Up Priority and Squat Primer
+    exercises:
+    - name: Weighted Muscle-Ups
+      calculation_mode: training_max
+      sets:
+      - reps: 2
+        percentage_1rm: 72.0
+        weight: 21.25kg
+      - reps: 1
+        percentage_1rm: 78.0
+        weight: 23.75kg
+      - reps: 1
+        percentage_1rm: 84.0
+        weight: 25kg
+      - reps: 1
+        percentage_1rm: 75.0
+        notes: Fast technical rep
+        weight: 22.5kg
+    - name: Squat
+      calculation_mode: training_max
+      sets:
+      - reps: 2
+        percentage_1rm: 67.0
+        notes: Primer wave
+        weight: 140kg
+      - reps: 1
+        percentage_1rm: 75.0
+        notes: Primer wave
+        weight: 157.5kg
+      - reps: 1
+        percentage_1rm: 80.0
+        notes: Primer wave
+        weight: 167.5kg
+    - name: Heavy Weighted Deadhang
+      sets:
+      - reps: 10
+        notes: 10-second holds; after pulling only
+      - reps: 10
+        notes: 10-second holds; after pulling only
+    - name: DB Shoulder Press
+      sets:
+      - reps: 8
+        notes: Optional; skip if shoulders or triceps feel taxed
+      - reps: 8
+        notes: Optional; skip if shoulders or triceps feel taxed
+    - name: Ab Rollout
+      sets:
+      - reps: 8
+        notes: Leave reps in reserve
+      - reps: 8
+        notes: Leave reps in reserve
+    - name: Rotator Cuff External Rotation
+      sets:
+      - reps: 15
+        notes: Easy to moderate band work
+      - reps: 15
+        notes: Easy to moderate band work
+    - name: Rotator Cuff Internal Rotation
+      sets:
+      - reps: 15
+        notes: Easy to moderate band work
+      - reps: 15
+        notes: Easy to moderate band work
+- week_3:
+  - weekday: Monday
+    session: Day 1 - Weighted Pull-Up Priority
+    exercises:
+    - name: Weighted Pull-Ups
+      calculation_mode: training_max
+      sets:
+      - reps: 3
+        percentage_1rm: 82.0
+        weight: 76.25kg
+      - reps: 2
+        percentage_1rm: 86.0
+        weight: 80kg
+      - reps: 1
+        percentage_1rm: 91.0
+        weight: 83.75kg
+      - reps: 1
+        percentage_1rm: 94.0
+        weight: 87.5kg
+    - name: Weighted Dips
+      calculation_mode: training_max
+      sets:
+      - reps: 3
+        percentage_1rm: 76.0
+        notes: Secondary wave
+        weight: 85kg
+      - reps: 2
+        percentage_1rm: 82.0
+        notes: Secondary wave
+        weight: 92.5kg
+      - reps: 1
+        percentage_1rm: 86.0
+        notes: Secondary wave
+        weight: 96.25kg
+    - name: DB Back Row
+      sets:
+      - reps: 8
+        notes: Controlled accessory; 5-8 target range
+      - reps: 8
+        notes: Controlled accessory; 5-8 target range
+    - name: Cross Lat Cable Pull
+      sets:
+      - reps: 10
+        notes: Arms crossed in X position, pull out and away from body
+      - reps: 10
+        notes: Arms crossed in X position, pull out and away from body
+    - name: Rotator Cuff External Rotation
+      sets:
+      - reps: 15
+        notes: Easy to moderate band work
+      - reps: 15
+        notes: Easy to moderate band work
+    - name: Rotator Cuff Internal Rotation
+      sets:
+      - reps: 15
+        notes: Easy to moderate band work
+      - reps: 15
+        notes: Easy to moderate band work
+    - name: Ab Rollout
+      sets:
+      - reps: 8
+        notes: Leave reps in reserve
+      - reps: 8
+        notes: Leave reps in reserve
+  - weekday: Tuesday
+    session: Day 2 - Squat Priority
+    exercises:
+    - name: Squat
+      calculation_mode: training_max
+      sets:
+      - reps: 3
+        percentage_1rm: 82.0
+        weight: 172.5kg
+      - reps: 2
+        percentage_1rm: 86.0
+        weight: 180kg
+      - reps: 1
+        percentage_1rm: 91.0
+        weight: 190kg
+      - reps: 1
+        percentage_1rm: 94.0
+        weight: 197.5kg
+    - name: Heavy Squat Walkout
+      calculation_mode: training_max
+      sets:
+      - reps: 1
+        percentage_1rm: 105.0
+        notes: 8-10 second unrack and hold; no soft knees
+        weight: 231.25kg
+      - reps: 1
+        percentage_1rm: 110.0
+        notes: 8-10 second hold; optional, only if 105% is solid
+        weight: 242.5kg
+    - name: Weighted Muscle-Ups
+      calculation_mode: training_max
+      sets:
+      - reps: 1
+        percentage_1rm: 65.0
+        notes: Light technique only
+        weight: 20kg
+      - reps: 1
+        percentage_1rm: 70.0
+        notes: Light technique only
+        weight: 21.25kg
+      - reps: 1
+        percentage_1rm: 75.0
+        notes: Light technique only
+        weight: 22.5kg
+    - name: Back Extension
+      sets:
+      - reps: 6
+        notes: Controlled; reduced because squat walkouts were added
+      - reps: 6
+        notes: Controlled; reduced because squat walkouts were added
+    - name: Leg Press
+      sets:
+      - reps: 10
+        notes: Easy-moderate only; do not grind
+    - name: Ab Rollout
+      sets:
+      - reps: 8
+        notes: Leave reps in reserve
+      - reps: 8
+        notes: Leave reps in reserve
+  - weekday: Thursday
+    session: Day 3 - Weighted Dip Priority
+    exercises:
+    - name: Weighted Dips
+      calculation_mode: training_max
+      sets:
+      - reps: 3
+        percentage_1rm: 82.0
+        weight: 92.5kg
+      - reps: 2
+        percentage_1rm: 86.0
+        weight: 96.25kg
+      - reps: 1
+        percentage_1rm: 91.0
+        weight: 102.5kg
+      - reps: 1
+        percentage_1rm: 94.0
+        weight: 106.25kg
+    - name: Weighted Pull-Ups
+      calculation_mode: training_max
+      sets:
+      - reps: 3
+        percentage_1rm: 76.0
+        notes: Secondary wave
+        weight: 70kg
+      - reps: 2
+        percentage_1rm: 82.0
+        notes: Secondary wave
+        weight: 76.25kg
+      - reps: 1
+        percentage_1rm: 86.0
+        notes: Secondary wave
+        weight: 80kg
+    - name: DB Chest Press
+      sets:
+      - reps: 8
+        notes: Controlled accessory; do not grind
+      - reps: 8
+        notes: Controlled accessory; do not grind
+    - name: Pec Flye
+      sets:
+      - reps: 10
+        notes: Controlled stretch and squeeze
+      - reps: 10
+        notes: Controlled stretch and squeeze
+    - name: Tricep Pulldown
+      sets:
+      - reps: 10
+        notes: Elbow-friendly accessory
+      - reps: 10
+        notes: Elbow-friendly accessory
+    - name: Scapula Push-Up
+      sets:
+      - reps: 15
+        notes: Easy scapular control
+      - reps: 15
+        notes: Easy scapular control
+    - name: Rotator Cuff External Rotation
+      sets:
+      - reps: 15
+        notes: Easy to moderate band work
+      - reps: 15
+        notes: Easy to moderate band work
+    - name: Rotator Cuff Internal Rotation
+      sets:
+      - reps: 15
+        notes: Easy to moderate band work
+      - reps: 15
+        notes: Easy to moderate band work
+  - weekday: Saturday
+    session: Day 4 - Weighted Muscle-Up Priority and Squat Primer
+    exercises:
+    - name: Weighted Muscle-Ups
+      calculation_mode: training_max
+      sets:
+      - reps: 2
+        percentage_1rm: 75.0
+        weight: 22.5kg
+      - reps: 1
+        percentage_1rm: 80.0
+        weight: 23.75kg
+      - reps: 1
+        percentage_1rm: 88.0
+        weight: 26.25kg
+      - reps: 1
+        percentage_1rm: 76.0
+        notes: Fast technical rep
+        weight: 22.5kg
+    - name: Squat
+      calculation_mode: training_max
+      sets:
+      - reps: 2
+        percentage_1rm: 70.0
+        notes: Primer wave
+        weight: 147.5kg
+      - reps: 1
+        percentage_1rm: 78.0
+        notes: Primer wave
+        weight: 165kg
+      - reps: 1
+        percentage_1rm: 85.0
+        notes: Primer wave
+        weight: 177.5kg
+    - name: Heavy Weighted Deadhang
+      sets:
+      - reps: 10
+        notes: 10-second holds; after pulling only
+      - reps: 10
+        notes: 10-second holds; after pulling only
+    - name: DB Shoulder Press
+      sets:
+      - reps: 8
+        notes: Optional; skip if shoulders or triceps feel taxed
+      - reps: 8
+        notes: Optional; skip if shoulders or triceps feel taxed
+    - name: Ab Rollout
+      sets:
+      - reps: 8
+        notes: Leave reps in reserve
+      - reps: 8
+        notes: Leave reps in reserve
+    - name: Rotator Cuff External Rotation
+      sets:
+      - reps: 15
+        notes: Easy to moderate band work
+      - reps: 15
+        notes: Easy to moderate band work
+    - name: Rotator Cuff Internal Rotation
+      sets:
+      - reps: 15
+        notes: Easy to moderate band work
+      - reps: 15
+        notes: Easy to moderate band work
+- week_4:
+  - weekday: Monday
+    session: Day 1 - Deload Pull
+    exercises:
+    - name: Weighted Pull-Ups
+      calculation_mode: training_max
+      sets:
+      - reps: 3
+        percentage_1rm: 67.0
+        weight: 62.5kg
+      - reps: 2
+        percentage_1rm: 74.0
+        weight: 68.75kg
+      - reps: 1
+        percentage_1rm: 79.0
+        weight: 72.5kg
+      - reps: 1
+        percentage_1rm: 82.0
+        notes: Deload; all reps fast
+        weight: 76.25kg
+    - name: Weighted Dips
+      calculation_mode: training_max
+      sets:
+      - reps: 3
+        percentage_1rm: 65.0
+        notes: Easy secondary deload
+        weight: 72.5kg
+      - reps: 2
+        percentage_1rm: 70.0
+        notes: Easy secondary deload
+        weight: 78.75kg
+    - name: DB Back Row
+      sets:
+      - reps: 8
+        notes: Deload accessory
+    - name: Cross Lat Cable Pull
+      sets:
+      - reps: 10
+        notes: Deload accessory
+    - name: Rotator Cuff External Rotation
+      sets:
+      - reps: 15
+        notes: Easy band work
+      - reps: 15
+        notes: Easy band work
+    - name: Rotator Cuff Internal Rotation
+      sets:
+      - reps: 15
+        notes: Easy band work
+      - reps: 15
+        notes: Easy band work
+  - weekday: Tuesday
+    session: Day 2 - Deload Squat
+    exercises:
+    - name: Squat
+      calculation_mode: training_max
+      sets:
+      - reps: 3
+        percentage_1rm: 67.0
+        weight: 140kg
+      - reps: 2
+        percentage_1rm: 74.0
+        weight: 155kg
+      - reps: 1
+        percentage_1rm: 79.0
+        weight: 165kg
+      - reps: 1
+        percentage_1rm: 82.0
+        notes: Deload; all reps fast
+        weight: 172.5kg
+    - name: Weighted Muscle-Ups
+      calculation_mode: training_max
+      sets:
+      - reps: 2
+        percentage_1rm: 60.0
+        notes: Very easy technique
+        weight: 17.5kg
+      - reps: 1
+        percentage_1rm: 70.0
+        notes: Very easy technique
+        weight: 21.25kg
+      - reps: 1
+        percentage_1rm: 75.0
+        notes: Very easy technique
+        weight: 22.5kg
+    - name: Back Extension
+      sets:
+      - reps: 8
+        notes: Deload accessory
+    - name: Ab Rollout
+      sets:
+      - reps: 8
+        notes: Deload accessory
+  - weekday: Thursday
+    session: Day 3 - Deload Dip
+    exercises:
+    - name: Weighted Dips
+      calculation_mode: training_max
+      sets:
+      - reps: 3
+        percentage_1rm: 67.0
+        weight: 75kg
+      - reps: 2
+        percentage_1rm: 74.0
+        weight: 83.75kg
+      - reps: 1
+        percentage_1rm: 79.0
+        weight: 88.75kg
+      - reps: 1
+        percentage_1rm: 82.0
+        notes: Deload; all reps fast
+        weight: 92.5kg
+    - name: Weighted Pull-Ups
+      calculation_mode: training_max
+      sets:
+      - reps: 3
+        percentage_1rm: 65.0
+        notes: Easy secondary deload
+        weight: 60kg
+      - reps: 2
+        percentage_1rm: 70.0
+        notes: Easy secondary deload
+        weight: 65kg
+    - name: Pec Flye
+      sets:
+      - reps: 10
+        notes: Deload accessory
+    - name: Tricep Pulldown
+      sets:
+      - reps: 10
+        notes: Deload accessory
+    - name: Scapula Push-Up
+      sets:
+      - reps: 15
+        notes: Easy scapular control
+    - name: Rotator Cuff External Rotation
+      sets:
+      - reps: 15
+        notes: Easy band work
+      - reps: 15
+        notes: Easy band work
+    - name: Rotator Cuff Internal Rotation
+      sets:
+      - reps: 15
+        notes: Easy band work
+      - reps: 15
+        notes: Easy band work
+  - weekday: Saturday
+    session: Day 4 - Deload Muscle-Up and Primer
+    exercises:
+    - name: Weighted Muscle-Ups
+      calculation_mode: training_max
+      sets:
+      - reps: 2
+        percentage_1rm: 60.0
+        weight: 17.5kg
+      - reps: 1
+        percentage_1rm: 70.0
+        weight: 21.25kg
+      - reps: 1
+        percentage_1rm: 75.0
+        notes: Easy technical reps only
+        weight: 22.5kg
+    - name: Squat
+      calculation_mode: training_max
+      sets:
+      - reps: 2
+        percentage_1rm: 55.0
+        notes: Very easy primer
         weight: 115kg
-        rep_table_percent_for_reps: 3.0
+      - reps: 1
+        percentage_1rm: 65.0
+        notes: Very easy primer
+        weight: 137.5kg
+    - name: Ab Rollout
+      sets:
+      - reps: 8
+        notes: Deload accessory
+    - name: Rotator Cuff External Rotation
+      sets:
+      - reps: 15
+        notes: Easy band work
+      - reps: 15
+        notes: Easy band work
+    - name: Rotator Cuff Internal Rotation
+      sets:
+      - reps: 15
+        notes: Easy band work
+      - reps: 15
+        notes: Easy band work
+- week_5:
+  - weekday: Monday
+    session: Day 1 - Weighted Pull-Up Peak Exposure
+    exercises:
+    - name: Weighted Pull-Ups
+      calculation_mode: training_max
+      sets:
+      - reps: 2
+        percentage_1rm: 82.0
+        weight: 76.25kg
+      - reps: 1
+        percentage_1rm: 87.0
+        weight: 80kg
+      - reps: 1
+        percentage_1rm: 92.0
+        weight: 85kg
+      - reps: 1
+        percentage_1rm: 95.0
+        notes: Peak exposure; use 96% only if 92% is fast; no grind
+        weight: 87.5kg
+    - name: Weighted Dips
+      calculation_mode: training_max
+      sets:
+      - reps: 2
+        percentage_1rm: 75.0
+        notes: Secondary peak week
+        weight: 85kg
+      - reps: 1
+        percentage_1rm: 82.0
+        notes: Secondary peak week
+        weight: 92.5kg
+      - reps: 1
+        percentage_1rm: 88.0
+        notes: Secondary peak week
+        weight: 98.75kg
+    - name: DB Back Row
+      sets:
+      - reps: 8
+        notes: Easy accessory only
+    - name: Cross Lat Cable Pull
+      sets:
+      - reps: 10
+        notes: Easy accessory only
+    - name: Rotator Cuff External Rotation
+      sets:
+      - reps: 15
+        notes: Easy band work
+      - reps: 15
+        notes: Easy band work
+    - name: Rotator Cuff Internal Rotation
+      sets:
+      - reps: 15
+        notes: Easy band work
+      - reps: 15
+        notes: Easy band work
+  - weekday: Tuesday
+    session: Day 2 - Squat Peak Exposure
+    exercises:
+    - name: Squat
+      calculation_mode: training_max
+      sets:
+      - reps: 2
+        percentage_1rm: 82.0
+        weight: 172.5kg
+      - reps: 1
+        percentage_1rm: 87.0
+        weight: 182.5kg
+      - reps: 1
+        percentage_1rm: 92.0
+        weight: 192.5kg
+      - reps: 1
+        percentage_1rm: 95.0
+        notes: Peak exposure; use 96% only if 92% is fast; no grind
+        weight: 200kg
+    - name: Heavy Squat Walkout
+      calculation_mode: training_max
+      sets:
+      - reps: 1
+        percentage_1rm: 105.0
+        notes: Short 5-8 second exposure; confidence-building, not draining
+        weight: 231.25kg
+    - name: Weighted Muscle-Ups
+      calculation_mode: training_max
+      sets:
+      - reps: 1
+        percentage_1rm: 60.0
+        notes: Light technique only
+        weight: 17.5kg
+      - reps: 1
+        percentage_1rm: 70.0
+        notes: Light technique only
+        weight: 21.25kg
+    - name: Back Extension
+      sets:
+      - reps: 8
+        notes: Easy accessory only
+    - name: Ab Rollout
+      sets:
+      - reps: 8
+        notes: Easy accessory only
+  - weekday: Thursday
+    session: Day 3 - Weighted Dip Peak Exposure
+    exercises:
+    - name: Weighted Dips
+      calculation_mode: training_max
+      sets:
+      - reps: 2
+        percentage_1rm: 82.0
+        weight: 92.5kg
+      - reps: 1
+        percentage_1rm: 87.0
+        weight: 97.5kg
+      - reps: 1
+        percentage_1rm: 92.0
+        weight: 103.75kg
+      - reps: 1
+        percentage_1rm: 95.0
+        notes: Peak exposure; use 96% only if 92% is fast; no grind
+        weight: 107.5kg
+    - name: Weighted Pull-Ups
+      calculation_mode: training_max
+      sets:
+      - reps: 2
+        percentage_1rm: 75.0
+        notes: Secondary peak week
+        weight: 70kg
+      - reps: 1
+        percentage_1rm: 82.0
+        notes: Secondary peak week
+        weight: 76.25kg
+      - reps: 1
+        percentage_1rm: 88.0
+        notes: Secondary peak week
+        weight: 81.25kg
+    - name: Pec Flye
+      sets:
+      - reps: 10
+        notes: Easy accessory only
+    - name: Tricep Pulldown
+      sets:
+      - reps: 10
+        notes: Easy accessory only
+    - name: Scapula Push-Up
+      sets:
+      - reps: 15
+        notes: Easy scapular control
+    - name: Rotator Cuff External Rotation
+      sets:
+      - reps: 15
+        notes: Easy band work
+      - reps: 15
+        notes: Easy band work
+    - name: Rotator Cuff Internal Rotation
+      sets:
+      - reps: 15
+        notes: Easy band work
+      - reps: 15
+        notes: Easy band work
+  - weekday: Saturday
+    session: Day 4 - Weighted Muscle-Up Peak Exposure
+    exercises:
+    - name: Weighted Muscle-Ups
+      calculation_mode: training_max
+      sets:
+      - reps: 1
+        percentage_1rm: 75.0
+        weight: 22.5kg
+      - reps: 1
+        percentage_1rm: 82.0
+        weight: 25kg
+      - reps: 1
+        percentage_1rm: 90.0
+        notes: Peak exposure; only if technique is clean
+        weight: 27.5kg
+      - reps: 1
+        percentage_1rm: 75.0
+        notes: Fast technical rep
+        weight: 22.5kg
+    - name: Squat
+      calculation_mode: training_max
+      sets:
+      - reps: 1
+        percentage_1rm: 65.0
+        notes: Light primer
+        weight: 137.5kg
+      - reps: 1
+        percentage_1rm: 75.0
+        notes: Light primer
+        weight: 157.5kg
+    - name: Heavy Weighted Deadhang
+      sets:
+      - reps: 10
+        notes: 10-second hold; easy enough to recover from
+    - name: Ab Rollout
+      sets:
+      - reps: 8
+        notes: Easy accessory only
+    - name: Rotator Cuff External Rotation
+      sets:
+      - reps: 15
+        notes: Easy band work
+      - reps: 15
+        notes: Easy band work
+    - name: Rotator Cuff Internal Rotation
+      sets:
+      - reps: 15
+        notes: Easy band work
+      - reps: 15
+        notes: Easy band work
+- week_6:
+  - weekday: Monday
+    session: Day 1 - Weighted Pull-Up Test
+    exercises:
+    - name: Weighted Pull-Ups
+      calculation_mode: training_max
+      sets:
+      - reps: 2
+        percentage_1rm: 70.0
+        notes: Primer warm-up
+        weight: 65kg
+      - reps: 1
+        percentage_1rm: 82.0
+        notes: Primer warm-up
+        weight: 76.25kg
+      - reps: 1
+        percentage_1rm: 90.0
+        notes: Primer warm-up
+        weight: 83.75kg
+      - reps: 1
+        percentage_1rm: 96.0
+        notes: Opener
+        weight: 88.75kg
+      - reps: 1
+        percentage_1rm: 102.0
+        notes: PR attempt if opener is clean
+        weight: 93.75kg
+      - reps: 1
+        percentage_1rm: 105.0
+        notes: Optional PR attempt only if 102% is fast
+        weight: 97.5kg
+    - name: Rotator Cuff External Rotation
+      sets:
+      - reps: 15
+        notes: Easy shoulder prep
+    - name: Rotator Cuff Internal Rotation
+      sets:
+      - reps: 15
+        notes: Easy shoulder prep
+  - weekday: Tuesday
+    session: Day 2 - Squat Test
+    exercises:
+    - name: Squat
+      calculation_mode: training_max
+      sets:
+      - reps: 2
+        percentage_1rm: 70.0
+        notes: Primer warm-up
+        weight: 147.5kg
+      - reps: 1
+        percentage_1rm: 82.0
+        notes: Primer warm-up
+        weight: 172.5kg
+      - reps: 1
+        percentage_1rm: 90.0
+        notes: Primer warm-up
+        weight: 190kg
+      - reps: 1
+        percentage_1rm: 96.0
+        notes: Opener
+        weight: 202.5kg
+      - reps: 1
+        percentage_1rm: 102.0
+        notes: PR attempt if opener is clean
+        weight: 215kg
+      - reps: 1
+        percentage_1rm: 105.0
+        notes: Optional PR attempt only if 102% is fast
+        weight: 220kg
+    - name: Back Extension
+      sets:
+      - reps: 8
+        notes: Very easy blood flow only
+  - weekday: Thursday
+    session: Day 3 - Weighted Dip Test
+    exercises:
+    - name: Weighted Dips
+      calculation_mode: training_max
+      sets:
+      - reps: 2
+        percentage_1rm: 70.0
+        notes: Primer warm-up
+        weight: 78.75kg
+      - reps: 1
+        percentage_1rm: 82.0
+        notes: Primer warm-up
+        weight: 92.5kg
+      - reps: 1
+        percentage_1rm: 90.0
+        notes: Primer warm-up
+        weight: 101.25kg
+      - reps: 1
+        percentage_1rm: 96.0
+        notes: Opener
+        weight: 107.5kg
+      - reps: 1
+        percentage_1rm: 102.0
+        notes: PR attempt if opener is clean
+        weight: 115kg
+      - reps: 1
+        percentage_1rm: 105.0
+        notes: Optional PR attempt only if 102% is fast
+        weight: 117.5kg
+    - name: Scapula Push-Up
+      sets:
+      - reps: 15
+        notes: Easy scapular control
+    - name: Rotator Cuff External Rotation
+      sets:
+      - reps: 15
+        notes: Easy shoulder prep
+    - name: Rotator Cuff Internal Rotation
+      sets:
+      - reps: 15
+        notes: Easy shoulder prep
+  - weekday: Saturday
+    session: Day 4 - Weighted Muscle-Up Test
+    exercises:
+    - name: Weighted Muscle-Ups
+      calculation_mode: training_max
+      sets:
+      - reps: 1
+        percentage_1rm: 65.0
+        notes: Technical warm-up
+        weight: 20kg
+      - reps: 1
+        percentage_1rm: 75.0
+        notes: Technical warm-up
+        weight: 22.5kg
+      - reps: 1
+        percentage_1rm: 85.0
+        notes: Heavy technical single
+        weight: 25kg
+      - reps: 1
+        percentage_1rm: 92.0
+        notes: Opener; only continue if transition is clean
+        weight: 27.5kg
+      - reps: 1
+        percentage_1rm: 100.0
+        notes: Current max attempt only if opener is perfect
+        weight: 30kg
+      - reps: 1
+        percentage_1rm: 102.0
+        notes: Small PR attempt only if technique is perfect
+        weight: 30kg
+    - name: Ab Rollout
+      sets:
+      - reps: 8
+        notes: Easy accessory only
+    - name: Rotator Cuff External Rotation
+      sets:
+      - reps: 15
+        notes: Easy shoulder prep
+    - name: Rotator Cuff Internal Rotation
+      sets:
+      - reps: 15
+        notes: Easy shoulder prep
