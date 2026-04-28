@@ -7,31 +7,31 @@
       sets:
       - reps: 3
         percentage_1rm: 78.0
-        weight: 72.5kg
+        weight: 76.25kg
       - reps: 2
         percentage_1rm: 83.0
-        weight: 76.25kg
-      - reps: 1
-        percentage_1rm: 88.0
         weight: 81.25kg
       - reps: 1
+        percentage_1rm: 88.0
+        weight: 86.25kg
+      - reps: 1
         percentage_1rm: 90.0
-        weight: 83.75kg
+        weight: 87.5kg
     - name: Weighted Dips
       calculation_mode: training_max
       sets:
       - reps: 3
         percentage_1rm: 72.0
         notes: Secondary wave
-        weight: 81.25kg
+        weight: 82.5kg
       - reps: 2
         percentage_1rm: 78.0
         notes: Secondary wave
-        weight: 87.5kg
+        weight: 90kg
       - reps: 1
         percentage_1rm: 82.0
         notes: Secondary wave
-        weight: 92.5kg
+        weight: 93.75kg
     - name: DB Back Row
       sets:
       - reps: 8
@@ -93,15 +93,15 @@
       - reps: 1
         percentage_1rm: 60.0
         notes: Light technique only
-        weight: 17.5kg
+        weight: 22.5kg
       - reps: 1
         percentage_1rm: 62.0
         notes: Light technique only
-        weight: 18.75kg
+        weight: 23.75kg
       - reps: 1
         percentage_1rm: 65.0
         notes: Light technique only
-        weight: 20kg
+        weight: 25kg
     - name: Back Extension
       sets:
       - reps: 8
@@ -128,31 +128,31 @@
       sets:
       - reps: 3
         percentage_1rm: 78.0
-        weight: 87.5kg
+        weight: 90kg
       - reps: 2
         percentage_1rm: 83.0
-        weight: 93.75kg
+        weight: 95kg
       - reps: 1
         percentage_1rm: 88.0
-        weight: 98.75kg
+        weight: 101.25kg
       - reps: 1
         percentage_1rm: 90.0
-        weight: 101.25kg
+        weight: 103.75kg
     - name: Weighted Pull-Ups
       calculation_mode: training_max
       sets:
       - reps: 3
         percentage_1rm: 72.0
         notes: Secondary wave
-        weight: 66.25kg
+        weight: 70kg
       - reps: 2
         percentage_1rm: 78.0
         notes: Secondary wave
-        weight: 72.5kg
+        weight: 76.25kg
       - reps: 1
         percentage_1rm: 82.0
         notes: Secondary wave
-        weight: 76.25kg
+        weight: 80kg
     - name: DB Chest Press
       sets:
       - reps: 8
@@ -197,17 +197,17 @@
       sets:
       - reps: 2
         percentage_1rm: 70.0
-        weight: 21.25kg
+        weight: 26.25kg
       - reps: 1
         percentage_1rm: 76.0
-        weight: 22.5kg
+        weight: 28.75kg
       - reps: 1
         percentage_1rm: 82.0
-        weight: 25kg
+        weight: 31.25kg
       - reps: 1
         percentage_1rm: 72.0
         notes: Fast technical rep
-        weight: 21.25kg
+        weight: 27.5kg
     - name: Squat
       calculation_mode: training_max
       sets:
@@ -262,31 +262,31 @@
       sets:
       - reps: 3
         percentage_1rm: 80.0
-        weight: 73.75kg
+        weight: 77.5kg
       - reps: 2
         percentage_1rm: 85.0
-        weight: 78.75kg
+        weight: 82.5kg
       - reps: 1
         percentage_1rm: 90.0
-        weight: 83.75kg
+        weight: 87.5kg
       - reps: 1
         percentage_1rm: 92.0
-        weight: 85kg
+        weight: 90kg
     - name: Weighted Dips
       calculation_mode: training_max
       sets:
       - reps: 3
         percentage_1rm: 74.0
         notes: Secondary wave
-        weight: 83.75kg
+        weight: 85kg
       - reps: 2
         percentage_1rm: 80.0
         notes: Secondary wave
-        weight: 90kg
+        weight: 92.5kg
       - reps: 1
         percentage_1rm: 84.0
         notes: Secondary wave
-        weight: 95kg
+        weight: 96.25kg
     - name: DB Back Row
       sets:
       - reps: 8
@@ -352,15 +352,15 @@
       - reps: 1
         percentage_1rm: 65.0
         notes: Light technique only
-        weight: 20kg
+        weight: 25kg
       - reps: 1
         percentage_1rm: 67.0
         notes: Light technique only
-        weight: 20kg
+        weight: 25kg
       - reps: 1
         percentage_1rm: 70.0
         notes: Light technique only
-        weight: 21.25kg
+        weight: 26.25kg
     - name: Back Extension
       sets:
       - reps: 6
@@ -385,31 +385,31 @@
       sets:
       - reps: 3
         percentage_1rm: 80.0
-        weight: 90kg
+        weight: 92.5kg
       - reps: 2
         percentage_1rm: 85.0
-        weight: 95kg
+        weight: 97.5kg
       - reps: 1
         percentage_1rm: 90.0
-        weight: 101.25kg
+        weight: 103.75kg
       - reps: 1
         percentage_1rm: 92.0
-        weight: 103.75kg
+        weight: 106.25kg
     - name: Weighted Pull-Ups
       calculation_mode: training_max
       sets:
       - reps: 3
         percentage_1rm: 74.0
         notes: Secondary wave
-        weight: 68.75kg
+        weight: 72.5kg
       - reps: 2
         percentage_1rm: 80.0
         notes: Secondary wave
-        weight: 73.75kg
+        weight: 77.5kg
       - reps: 1
         percentage_1rm: 84.0
         notes: Secondary wave
-        weight: 77.5kg
+        weight: 82.5kg
     - name: DB Chest Press
       sets:
       - reps: 8
@@ -454,17 +454,17 @@
       sets:
       - reps: 2
         percentage_1rm: 72.0
-        weight: 21.25kg
+        weight: 27.5kg
       - reps: 1
         percentage_1rm: 78.0
-        weight: 23.75kg
+        weight: 28.75kg
       - reps: 1
         percentage_1rm: 84.0
-        weight: 25kg
+        weight: 31.25kg
       - reps: 1
         percentage_1rm: 75.0
         notes: Fast technical rep
-        weight: 22.5kg
+        weight: 27.5kg
     - name: Squat
       calculation_mode: training_max
       sets:
@@ -519,31 +519,31 @@
       sets:
       - reps: 3
         percentage_1rm: 82.0
-        weight: 76.25kg
+        weight: 80kg
       - reps: 2
         percentage_1rm: 86.0
-        weight: 80kg
-      - reps: 1
-        percentage_1rm: 91.0
         weight: 83.75kg
       - reps: 1
+        percentage_1rm: 91.0
+        weight: 88.75kg
+      - reps: 1
         percentage_1rm: 94.0
-        weight: 87.5kg
+        weight: 91.25kg
     - name: Weighted Dips
       calculation_mode: training_max
       sets:
       - reps: 3
         percentage_1rm: 76.0
         notes: Secondary wave
-        weight: 85kg
+        weight: 87.5kg
       - reps: 2
         percentage_1rm: 82.0
         notes: Secondary wave
-        weight: 92.5kg
+        weight: 93.75kg
       - reps: 1
         percentage_1rm: 86.0
         notes: Secondary wave
-        weight: 96.25kg
+        weight: 98.75kg
     - name: DB Back Row
       sets:
       - reps: 8
@@ -609,15 +609,15 @@
       - reps: 1
         percentage_1rm: 65.0
         notes: Light technique only
-        weight: 20kg
+        weight: 25kg
       - reps: 1
         percentage_1rm: 70.0
         notes: Light technique only
-        weight: 21.25kg
+        weight: 26.25kg
       - reps: 1
         percentage_1rm: 75.0
         notes: Light technique only
-        weight: 22.5kg
+        weight: 27.5kg
     - name: Back Extension
       sets:
       - reps: 6
@@ -642,31 +642,31 @@
       sets:
       - reps: 3
         percentage_1rm: 82.0
-        weight: 92.5kg
+        weight: 93.75kg
       - reps: 2
         percentage_1rm: 86.0
-        weight: 96.25kg
+        weight: 98.75kg
       - reps: 1
         percentage_1rm: 91.0
-        weight: 102.5kg
+        weight: 105kg
       - reps: 1
         percentage_1rm: 94.0
-        weight: 106.25kg
+        weight: 107.5kg
     - name: Weighted Pull-Ups
       calculation_mode: training_max
       sets:
       - reps: 3
         percentage_1rm: 76.0
         notes: Secondary wave
-        weight: 70kg
+        weight: 73.75kg
       - reps: 2
         percentage_1rm: 82.0
         notes: Secondary wave
-        weight: 76.25kg
+        weight: 80kg
       - reps: 1
         percentage_1rm: 86.0
         notes: Secondary wave
-        weight: 80kg
+        weight: 83.75kg
     - name: DB Chest Press
       sets:
       - reps: 8
@@ -711,17 +711,17 @@
       sets:
       - reps: 2
         percentage_1rm: 75.0
-        weight: 22.5kg
+        weight: 27.5kg
       - reps: 1
         percentage_1rm: 80.0
-        weight: 23.75kg
+        weight: 30kg
       - reps: 1
         percentage_1rm: 88.0
-        weight: 26.25kg
+        weight: 32.5kg
       - reps: 1
         percentage_1rm: 76.0
         notes: Fast technical rep
-        weight: 22.5kg
+        weight: 28.75kg
     - name: Squat
       calculation_mode: training_max
       sets:
@@ -776,28 +776,28 @@
       sets:
       - reps: 3
         percentage_1rm: 67.0
-        weight: 62.5kg
+        weight: 65kg
       - reps: 2
         percentage_1rm: 74.0
-        weight: 68.75kg
+        weight: 72.5kg
       - reps: 1
         percentage_1rm: 79.0
-        weight: 72.5kg
+        weight: 77.5kg
       - reps: 1
         percentage_1rm: 82.0
         notes: Deload; all reps fast
-        weight: 76.25kg
+        weight: 80kg
     - name: Weighted Dips
       calculation_mode: training_max
       sets:
       - reps: 3
         percentage_1rm: 65.0
         notes: Easy secondary deload
-        weight: 72.5kg
+        weight: 75kg
       - reps: 2
         percentage_1rm: 70.0
         notes: Easy secondary deload
-        weight: 78.75kg
+        weight: 80kg
     - name: DB Back Row
       sets:
       - reps: 8
@@ -843,15 +843,15 @@
       - reps: 2
         percentage_1rm: 60.0
         notes: Very easy technique
-        weight: 17.5kg
+        weight: 22.5kg
       - reps: 1
         percentage_1rm: 70.0
         notes: Very easy technique
-        weight: 21.25kg
+        weight: 26.25kg
       - reps: 1
         percentage_1rm: 75.0
         notes: Very easy technique
-        weight: 22.5kg
+        weight: 27.5kg
     - name: Back Extension
       sets:
       - reps: 8
@@ -868,28 +868,28 @@
       sets:
       - reps: 3
         percentage_1rm: 67.0
-        weight: 75kg
+        weight: 77.5kg
       - reps: 2
         percentage_1rm: 74.0
-        weight: 83.75kg
+        weight: 85kg
       - reps: 1
         percentage_1rm: 79.0
-        weight: 88.75kg
+        weight: 91.25kg
       - reps: 1
         percentage_1rm: 82.0
         notes: Deload; all reps fast
-        weight: 92.5kg
+        weight: 93.75kg
     - name: Weighted Pull-Ups
       calculation_mode: training_max
       sets:
       - reps: 3
         percentage_1rm: 65.0
         notes: Easy secondary deload
-        weight: 60kg
+        weight: 63.75kg
       - reps: 2
         percentage_1rm: 70.0
         notes: Easy secondary deload
-        weight: 65kg
+        weight: 68.75kg
     - name: Pec Flye
       sets:
       - reps: 10
@@ -922,14 +922,14 @@
       sets:
       - reps: 2
         percentage_1rm: 60.0
-        weight: 17.5kg
+        weight: 22.5kg
       - reps: 1
         percentage_1rm: 70.0
-        weight: 21.25kg
+        weight: 26.25kg
       - reps: 1
         percentage_1rm: 75.0
         notes: Easy technical reps only
-        weight: 22.5kg
+        weight: 27.5kg
     - name: Squat
       calculation_mode: training_max
       sets:
@@ -966,32 +966,32 @@
       sets:
       - reps: 2
         percentage_1rm: 82.0
-        weight: 76.25kg
-      - reps: 1
-        percentage_1rm: 87.0
         weight: 80kg
       - reps: 1
-        percentage_1rm: 92.0
+        percentage_1rm: 87.0
         weight: 85kg
+      - reps: 1
+        percentage_1rm: 92.0
+        weight: 90kg
       - reps: 1
         percentage_1rm: 95.0
         notes: Peak exposure; use 96% only if 92% is fast; no grind
-        weight: 87.5kg
+        weight: 92.5kg
     - name: Weighted Dips
       calculation_mode: training_max
       sets:
       - reps: 2
         percentage_1rm: 75.0
         notes: Secondary peak week
-        weight: 85kg
+        weight: 86.25kg
       - reps: 1
         percentage_1rm: 82.0
         notes: Secondary peak week
-        weight: 92.5kg
+        weight: 93.75kg
       - reps: 1
         percentage_1rm: 88.0
         notes: Secondary peak week
-        weight: 98.75kg
+        weight: 101.25kg
     - name: DB Back Row
       sets:
       - reps: 8
@@ -1044,11 +1044,11 @@
       - reps: 1
         percentage_1rm: 60.0
         notes: Light technique only
-        weight: 17.5kg
+        weight: 22.5kg
       - reps: 1
         percentage_1rm: 70.0
         notes: Light technique only
-        weight: 21.25kg
+        weight: 26.25kg
     - name: Back Extension
       sets:
       - reps: 8
@@ -1065,32 +1065,32 @@
       sets:
       - reps: 2
         percentage_1rm: 82.0
-        weight: 92.5kg
+        weight: 93.75kg
       - reps: 1
         percentage_1rm: 87.0
-        weight: 97.5kg
+        weight: 100kg
       - reps: 1
         percentage_1rm: 92.0
-        weight: 103.75kg
+        weight: 106.25kg
       - reps: 1
         percentage_1rm: 95.0
         notes: Peak exposure; use 96% only if 92% is fast; no grind
-        weight: 107.5kg
+        weight: 108.75kg
     - name: Weighted Pull-Ups
       calculation_mode: training_max
       sets:
       - reps: 2
         percentage_1rm: 75.0
         notes: Secondary peak week
-        weight: 70kg
+        weight: 72.5kg
       - reps: 1
         percentage_1rm: 82.0
         notes: Secondary peak week
-        weight: 76.25kg
+        weight: 80kg
       - reps: 1
         percentage_1rm: 88.0
         notes: Secondary peak week
-        weight: 81.25kg
+        weight: 86.25kg
     - name: Pec Flye
       sets:
       - reps: 10
@@ -1123,18 +1123,18 @@
       sets:
       - reps: 1
         percentage_1rm: 75.0
-        weight: 22.5kg
+        weight: 27.5kg
       - reps: 1
         percentage_1rm: 82.0
-        weight: 25kg
+        weight: 31.25kg
       - reps: 1
         percentage_1rm: 90.0
         notes: Peak exposure; only if technique is clean
-        weight: 27.5kg
+        weight: 33.75kg
       - reps: 1
         percentage_1rm: 75.0
         notes: Fast technical rep
-        weight: 22.5kg
+        weight: 27.5kg
     - name: Squat
       calculation_mode: training_max
       sets:
@@ -1176,27 +1176,27 @@
       - reps: 2
         percentage_1rm: 70.0
         notes: Primer warm-up
-        weight: 65kg
+        weight: 68.75kg
       - reps: 1
         percentage_1rm: 82.0
         notes: Primer warm-up
-        weight: 76.25kg
+        weight: 80kg
       - reps: 1
         percentage_1rm: 90.0
         notes: Primer warm-up
-        weight: 83.75kg
+        weight: 87.5kg
       - reps: 1
         percentage_1rm: 96.0
         notes: Opener
-        weight: 88.75kg
+        weight: 93.75kg
       - reps: 1
         percentage_1rm: 102.0
         notes: PR attempt if opener is clean
-        weight: 93.75kg
+        weight: 100kg
       - reps: 1
         percentage_1rm: 105.0
         notes: Optional PR attempt only if 102% is fast
-        weight: 97.5kg
+        weight: 102.5kg
     - name: Rotator Cuff External Rotation
       sets:
       - reps: 15
@@ -1248,27 +1248,27 @@
       - reps: 2
         percentage_1rm: 70.0
         notes: Primer warm-up
-        weight: 78.75kg
+        weight: 80kg
       - reps: 1
         percentage_1rm: 82.0
         notes: Primer warm-up
-        weight: 92.5kg
+        weight: 93.75kg
       - reps: 1
         percentage_1rm: 90.0
         notes: Primer warm-up
-        weight: 101.25kg
+        weight: 103.75kg
       - reps: 1
         percentage_1rm: 96.0
         notes: Opener
-        weight: 107.5kg
+        weight: 110kg
       - reps: 1
         percentage_1rm: 102.0
         notes: PR attempt if opener is clean
-        weight: 115kg
+        weight: 117.5kg
       - reps: 1
         percentage_1rm: 105.0
         notes: Optional PR attempt only if 102% is fast
-        weight: 117.5kg
+        weight: 121.25kg
     - name: Scapula Push-Up
       sets:
       - reps: 15
@@ -1290,27 +1290,27 @@
       - reps: 1
         percentage_1rm: 65.0
         notes: Technical warm-up
-        weight: 20kg
+        weight: 25kg
       - reps: 1
         percentage_1rm: 75.0
         notes: Technical warm-up
-        weight: 22.5kg
+        weight: 27.5kg
       - reps: 1
         percentage_1rm: 85.0
         notes: Heavy technical single
-        weight: 25kg
+        weight: 32.5kg
       - reps: 1
         percentage_1rm: 92.0
         notes: Opener; only continue if transition is clean
-        weight: 27.5kg
+        weight: 35kg
       - reps: 1
         percentage_1rm: 100.0
         notes: Current max attempt only if opener is perfect
-        weight: 30kg
+        weight: 37.5kg
       - reps: 1
         percentage_1rm: 102.0
         notes: Small PR attempt only if technique is perfect
-        weight: 30kg
+        weight: 38.75kg
     - name: Ab Rollout
       sets:
       - reps: 8
