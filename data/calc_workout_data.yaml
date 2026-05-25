@@ -917,7 +917,7 @@
         notes: Easy band work
 - week_5:
   - weekday: Monday
-    session: Day 1 - Weighted Pull-Up Peak Exposure
+    session: Day 1 - Weighted Pull-Up Peak Exposure - COMPLETED
     exercises:
     - name: Weighted Pull-Ups
       calculation_mode: training_max
@@ -930,66 +930,69 @@
         weight: 85kg
       - reps: 1
         percentage_1rm: 93.0
-        notes: Peak exposure; no grind
+        notes: Already completed; do not add extra work
         weight: 91.25kg
     - name: Weighted Dips
       calculation_mode: training_max
       sets:
       - reps: 2
         percentage_1rm: 75.0
-        notes: Secondary peak week
+        notes: Already completed
         weight: 86.25kg
       - reps: 1
         percentage_1rm: 82.0
-        notes: Secondary peak week
+        notes: Already completed
         weight: 93.75kg
       - reps: 1
         percentage_1rm: 88.0
-        notes: Secondary peak week; optional if fresh
+        notes: Already completed if done; do not repeat
         weight: 101.25kg
     - name: DB Back Row
       sets:
       - reps: 8
-        notes: Easy accessory only
+        notes: Already completed; no extra back work
     - name: Cross Lat Cable Pull
       sets:
       - reps: 10
-        notes: Easy accessory only
+        notes: Already completed; no extra back work
     - name: Rotator Cuff External Rotation
       sets:
       - reps: 15
-        notes: Easy band work
+        notes: Easy band work only
       - reps: 15
-        notes: Easy band work
+        notes: Easy band work only
     - name: Rotator Cuff Internal Rotation
       sets:
       - reps: 15
-        notes: Easy band work
+        notes: Easy band work only
       - reps: 15
-        notes: Easy band work
+        notes: Easy band work only
   - weekday: Tuesday
-    session: Day 2 - Squat Peak Exposure
+    session: Day 2 - Squat Re-Sharpen
     exercises:
     - name: Squat
       calculation_mode: training_max
       sets:
       - reps: 2
+        percentage_1rm: 70.0
+        notes: Fast primer
+        weight: 147.5kg
+      - reps: 1
+        percentage_1rm: 78.0
+        notes: Fast
+        weight: 165kg
+      - reps: 1
         percentage_1rm: 82.0
+        notes: Readiness check
         weight: 172.5kg
       - reps: 1
         percentage_1rm: 87.0
+        notes: Stop here if not sharp
         weight: 182.5kg
       - reps: 1
-        percentage_1rm: 93.0
-        notes: Peak exposure; no grind
-        weight: 195kg
-    - name: Heavy Squat Walkout
-      calculation_mode: training_max
-      sets:
-      - reps: 1
-        percentage_1rm: 105.0
-        notes: Short 5-8 second exposure; confidence-building, not draining
-        weight: 231.25kg
+        percentage_1rm: 90.0
+        notes: Optional only if 87% is fast and confident
+        weight: 190kg
     - name: Weighted Muscle-Ups
       calculation_mode: training_max
       sets:
@@ -999,55 +1002,61 @@
         weight: 22.5kg
       - reps: 1
         percentage_1rm: 70.0
-        notes: Light technique only
+        notes: Light technique only; skip if sluggish
         weight: 26.25kg
     - name: Back Extension
       sets:
       - reps: 8
-        notes: Easy accessory only
+        notes: Optional easy blood flow only
     - name: Ab Rollout
       sets:
       - reps: 8
-        notes: Easy accessory only
+        notes: Optional easy only
   - weekday: Thursday
-    session: Day 3 - Weighted Dip Peak Exposure
+    session: Day 3 - Weighted Dip Re-Sharpen
     exercises:
     - name: Weighted Dips
       calculation_mode: training_max
       sets:
       - reps: 2
-        percentage_1rm: 82.0
-        weight: 93.75kg
+        percentage_1rm: 70.0
+        notes: Fast primer
+        weight: 80kg
       - reps: 1
-        percentage_1rm: 87.0
-        weight: 100kg
+        percentage_1rm: 80.0
+        notes: Fast
+        weight: 92.5kg
       - reps: 1
-        percentage_1rm: 93.0
-        notes: Peak exposure; no grind
-        weight: 107.5kg
+        percentage_1rm: 85.0
+        notes: Readiness check
+        weight: 97.5kg
+      - reps: 1
+        percentage_1rm: 88.0
+        notes: Stop here if not sharp
+        weight: 101.25kg
+      - reps: 1
+        percentage_1rm: 90.0
+        notes: Optional only if 88% is fast and confident
+        weight: 103.75kg
     - name: Weighted Pull-Ups
       calculation_mode: training_max
       sets:
-      - reps: 2
+      - reps: 1
+        percentage_1rm: 70.0
+        notes: Secondary primer only
+        weight: 68.75kg
+      - reps: 1
         percentage_1rm: 75.0
-        notes: Secondary peak week
+        notes: Secondary primer only; no grind
         weight: 72.5kg
-      - reps: 1
-        percentage_1rm: 82.0
-        notes: Secondary peak week
-        weight: 80kg
-      - reps: 1
-        percentage_1rm: 88.0
-        notes: Secondary peak week; optional if fresh
-        weight: 86.25kg
     - name: Pec Flye
       sets:
       - reps: 10
-        notes: Easy accessory only
+        notes: Optional easy only
     - name: Tricep Pulldown
       sets:
       - reps: 10
-        notes: Easy accessory only
+        notes: Optional easy only
     - name: Scapula Push-Up
       sets:
       - reps: 15
@@ -1065,22 +1074,27 @@
       - reps: 15
         notes: Easy band work
   - weekday: Saturday
-    session: Day 4 - Weighted Muscle-Up Peak Exposure
+    session: Day 4 - Weighted Muscle-Up Re-Sharpen and Squat Primer
     exercises:
     - name: Weighted Muscle-Ups
       calculation_mode: training_max
       sets:
       - reps: 1
+        percentage_1rm: 70.0
+        notes: Technical primer
+        weight: 26.25kg
+      - reps: 1
         percentage_1rm: 75.0
+        notes: Clean and fast
         weight: 27.5kg
       - reps: 1
         percentage_1rm: 82.0
+        notes: Readiness check
         weight: 31.25kg
       - reps: 1
-        percentage_1rm: 90.0
-        notes: 'Peak exposure; only if technique is clean. Optional extra: 75% x 1
-          fast'
-        weight: 33.75kg
+        percentage_1rm: 87.0
+        notes: Optional only if transition is clean and explosive
+        weight: 32.5kg
     - name: Squat
       calculation_mode: training_max
       sets:
@@ -1090,16 +1104,16 @@
         weight: 137.5kg
       - reps: 1
         percentage_1rm: 75.0
-        notes: Light primer
+        notes: Light primer; fast only
         weight: 157.5kg
     - name: Heavy Weighted Deadhang
       sets:
       - reps: 10
-        notes: 10-second hold; easy enough to recover from
+        notes: Optional; skip if any grip, elbow, lat, or shoulder fatigue
     - name: Ab Rollout
       sets:
       - reps: 8
-        notes: Easy accessory only
+        notes: Optional easy only
     - name: Rotator Cuff External Rotation
       sets:
       - reps: 15
@@ -1114,12 +1128,209 @@
         notes: Easy band work
 - week_6:
   - weekday: Monday
+    session: Day 1 - Weighted Pull-Up Peak
+    exercises:
+    - name: Weighted Pull-Ups
+      calculation_mode: training_max
+      sets:
+      - reps: 1
+        percentage_1rm: 75.0
+        notes: Fast primer
+        weight: 72.5kg
+      - reps: 1
+        percentage_1rm: 82.0
+        notes: Fast
+        weight: 80kg
+      - reps: 1
+        percentage_1rm: 87.0
+        notes: Readiness check
+        weight: 85kg
+      - reps: 1
+        percentage_1rm: 91.0
+        notes: Peak single; no grind
+        weight: 88.75kg
+      - reps: 1
+        percentage_1rm: 93.0
+        notes: Optional only if 91% flies
+        weight: 91.25kg
+    - name: Weighted Dips
+      calculation_mode: training_max
+      sets:
+      - reps: 1
+        percentage_1rm: 75.0
+        notes: Secondary primer
+        weight: 86.25kg
+      - reps: 1
+        percentage_1rm: 82.0
+        notes: Secondary primer; fast only
+        weight: 93.75kg
+      - reps: 1
+        percentage_1rm: 86.0
+        notes: Optional only if fresh
+        weight: 98.75kg
+    - name: Rotator Cuff External Rotation
+      sets:
+      - reps: 15
+        notes: Easy band work
+    - name: Rotator Cuff Internal Rotation
+      sets:
+      - reps: 15
+        notes: Easy band work
+  - weekday: Tuesday
+    session: Day 2 - Squat Peak
+    exercises:
+    - name: Squat
+      calculation_mode: training_max
+      sets:
+      - reps: 1
+        percentage_1rm: 75.0
+        notes: Fast primer
+        weight: 157.5kg
+      - reps: 1
+        percentage_1rm: 82.0
+        notes: Fast
+        weight: 172.5kg
+      - reps: 1
+        percentage_1rm: 87.0
+        notes: Readiness check
+        weight: 182.5kg
+      - reps: 1
+        percentage_1rm: 91.0
+        notes: Peak single; no grind
+        weight: 190kg
+      - reps: 1
+        percentage_1rm: 93.0
+        notes: Optional only if 91% flies
+        weight: 195kg
+    - name: Heavy Squat Walkout
+      calculation_mode: training_max
+      sets:
+      - reps: 1
+        percentage_1rm: 100.0
+        notes: Optional 5-second confidence walkout only if squat single was sharp;
+          skip if any fatigue
+        weight: 220kg
+    - name: Weighted Muscle-Ups
+      calculation_mode: training_max
+      sets:
+      - reps: 1
+        percentage_1rm: 65.0
+        notes: Light technique only
+        weight: 25kg
+      - reps: 1
+        percentage_1rm: 75.0
+        notes: Light technique only; skip if sluggish
+        weight: 27.5kg
+    - name: Back Extension
+      sets:
+      - reps: 8
+        notes: Optional very easy blood flow only
+  - weekday: Thursday
+    session: Day 3 - Weighted Dip Peak
+    exercises:
+    - name: Weighted Dips
+      calculation_mode: training_max
+      sets:
+      - reps: 1
+        percentage_1rm: 75.0
+        notes: Fast primer
+        weight: 86.25kg
+      - reps: 1
+        percentage_1rm: 82.0
+        notes: Fast
+        weight: 93.75kg
+      - reps: 1
+        percentage_1rm: 87.0
+        notes: Readiness check
+        weight: 100kg
+      - reps: 1
+        percentage_1rm: 91.0
+        notes: Peak single; no grind
+        weight: 105kg
+      - reps: 1
+        percentage_1rm: 93.0
+        notes: Optional only if 91% flies
+        weight: 107.5kg
+    - name: Weighted Pull-Ups
+      calculation_mode: training_max
+      sets:
+      - reps: 1
+        percentage_1rm: 75.0
+        notes: Secondary primer
+        weight: 72.5kg
+      - reps: 1
+        percentage_1rm: 82.0
+        notes: Secondary primer; fast only
+        weight: 80kg
+      - reps: 1
+        percentage_1rm: 86.0
+        notes: Optional only if fresh
+        weight: 83.75kg
+    - name: Scapula Push-Up
+      sets:
+      - reps: 15
+        notes: Easy scapular control
+    - name: Rotator Cuff External Rotation
+      sets:
+      - reps: 15
+        notes: Easy band work
+    - name: Rotator Cuff Internal Rotation
+      sets:
+      - reps: 15
+        notes: Easy band work
+  - weekday: Saturday
+    session: Day 4 - Weighted Muscle-Up Peak and Squat Primer
+    exercises:
+    - name: Weighted Muscle-Ups
+      calculation_mode: training_max
+      sets:
+      - reps: 1
+        percentage_1rm: 75.0
+        notes: Technical primer
+        weight: 27.5kg
+      - reps: 1
+        percentage_1rm: 82.0
+        notes: Clean and fast
+        weight: 31.25kg
+      - reps: 1
+        percentage_1rm: 87.0
+        notes: Peak technical single
+        weight: 32.5kg
+      - reps: 1
+        percentage_1rm: 90.0
+        notes: Optional only if transition is perfect; no grind
+        weight: 33.75kg
+    - name: Squat
+      calculation_mode: training_max
+      sets:
+      - reps: 1
+        percentage_1rm: 65.0
+        notes: Light primer
+        weight: 137.5kg
+      - reps: 1
+        percentage_1rm: 75.0
+        notes: Light primer; fast only
+        weight: 157.5kg
+    - name: Ab Rollout
+      sets:
+      - reps: 8
+        notes: Optional easy only
+    - name: Rotator Cuff External Rotation
+      sets:
+      - reps: 15
+        notes: Easy band work
+    - name: Rotator Cuff Internal Rotation
+      sets:
+      - reps: 15
+        notes: Easy band work
+- week_7:
+  - weekday: Monday
     session: Day 1 - Weighted Pull-Up Test
     exercises:
     - name: Weighted Pull-Ups
       calculation_mode: training_max
       sets:
-      - reps: 2
+      - reps: 1
         percentage_1rm: 70.0
         notes: Primer warm-up
         weight: 68.75kg
@@ -1129,19 +1340,19 @@
         weight: 80kg
       - reps: 1
         percentage_1rm: 90.0
-        notes: Primer warm-up
+        notes: Readiness check
         weight: 87.5kg
       - reps: 1
         percentage_1rm: 96.0
-        notes: Opener
+        notes: Opener; only continue if clean and fast
         weight: 93.75kg
       - reps: 1
         percentage_1rm: 102.0
-        notes: PR attempt if opener is clean
+        notes: PR attempt only if opener is sharp
         weight: 100kg
       - reps: 1
         percentage_1rm: 105.0
-        notes: Optional PR attempt only if 102% is fast
+        notes: Optional only if 102% is fast
         weight: 102.5kg
     - name: Rotator Cuff External Rotation
       sets:
@@ -1157,7 +1368,7 @@
     - name: Squat
       calculation_mode: training_max
       sets:
-      - reps: 2
+      - reps: 1
         percentage_1rm: 70.0
         notes: Primer warm-up
         weight: 147.5kg
@@ -1167,31 +1378,31 @@
         weight: 172.5kg
       - reps: 1
         percentage_1rm: 90.0
-        notes: Primer warm-up
+        notes: Readiness check
         weight: 190kg
       - reps: 1
         percentage_1rm: 96.0
-        notes: Opener
+        notes: Opener; only continue if clean and fast
         weight: 202.5kg
       - reps: 1
         percentage_1rm: 102.0
-        notes: PR attempt if opener is clean
+        notes: PR attempt only if opener is sharp
         weight: 215kg
       - reps: 1
         percentage_1rm: 105.0
-        notes: Optional PR attempt only if 102% is fast
+        notes: Optional only if 102% is fast
         weight: 220kg
     - name: Back Extension
       sets:
       - reps: 8
-        notes: Very easy blood flow only
+        notes: Optional very easy blood flow only
   - weekday: Thursday
     session: Day 3 - Weighted Dip Test
     exercises:
     - name: Weighted Dips
       calculation_mode: training_max
       sets:
-      - reps: 2
+      - reps: 1
         percentage_1rm: 70.0
         notes: Primer warm-up
         weight: 80kg
@@ -1201,19 +1412,19 @@
         weight: 93.75kg
       - reps: 1
         percentage_1rm: 90.0
-        notes: Primer warm-up
+        notes: Readiness check
         weight: 103.75kg
       - reps: 1
         percentage_1rm: 96.0
-        notes: Opener
+        notes: Opener; only continue if clean and fast
         weight: 110kg
       - reps: 1
         percentage_1rm: 102.0
-        notes: PR attempt if opener is clean
+        notes: PR attempt only if opener is sharp
         weight: 117.5kg
       - reps: 1
         percentage_1rm: 105.0
-        notes: Optional PR attempt only if 102% is fast
+        notes: Optional only if 102% is fast
         weight: 121.25kg
     - name: Scapula Push-Up
       sets:
@@ -1260,7 +1471,7 @@
     - name: Ab Rollout
       sets:
       - reps: 8
-        notes: Easy accessory only
+        notes: Optional easy only
     - name: Rotator Cuff External Rotation
       sets:
       - reps: 15

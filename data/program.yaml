@@ -803,7 +803,7 @@
 
 - week_5:
     - weekday: Monday
-      session: Day 1 - Weighted Pull-Up Peak Exposure
+      session: Day 1 - Weighted Pull-Up Peak Exposure - COMPLETED
       exercises:
         - name: Weighted Pull-Ups
           calculation_mode: training_max
@@ -814,61 +814,62 @@
               percentage_1rm: 87
             - reps: 1
               percentage_1rm: 93
-              notes: "Peak exposure; no grind"
+              notes: "Already completed; do not add extra work"
 
         - name: Weighted Dips
           calculation_mode: training_max
           sets:
             - reps: 2
               percentage_1rm: 75
-              notes: "Secondary peak week"
+              notes: "Already completed"
             - reps: 1
               percentage_1rm: 82
-              notes: "Secondary peak week"
+              notes: "Already completed"
             - reps: 1
               percentage_1rm: 88
-              notes: "Secondary peak week; optional if fresh"
+              notes: "Already completed if done; do not repeat"
 
         - name: DB Back Row
           sets:
             - reps: "1x8"
-              notes: "Easy accessory only"
+              notes: "Already completed; no extra back work"
 
         - name: Cross Lat Cable Pull
           sets:
             - reps: "1x10"
-              notes: "Easy accessory only"
+              notes: "Already completed; no extra back work"
 
         - name: Rotator Cuff External Rotation
           sets:
             - reps: "2x15"
-              notes: "Easy band work"
+              notes: "Easy band work only"
 
         - name: Rotator Cuff Internal Rotation
           sets:
             - reps: "2x15"
-              notes: "Easy band work"
+              notes: "Easy band work only"
 
     - weekday: Tuesday
-      session: Day 2 - Squat Peak Exposure
+      session: Day 2 - Squat Re-Sharpen
       exercises:
         - name: Squat
           calculation_mode: training_max
           sets:
             - reps: 2
+              percentage_1rm: 70
+              notes: "Fast primer"
+            - reps: 1
+              percentage_1rm: 78
+              notes: "Fast"
+            - reps: 1
               percentage_1rm: 82
+              notes: "Readiness check"
             - reps: 1
               percentage_1rm: 87
+              notes: "Stop here if not sharp"
             - reps: 1
-              percentage_1rm: 93
-              notes: "Peak exposure; no grind"
-
-        - name: Heavy Squat Walkout
-          calculation_mode: training_max
-          sets:
-            - reps: 1
-              percentage_1rm: 105
-              notes: "Short 5-8 second exposure; confidence-building, not draining"
+              percentage_1rm: 90
+              notes: "Optional only if 87% is fast and confident"
 
         - name: Weighted Muscle-Ups
           calculation_mode: training_max
@@ -878,54 +879,59 @@
               notes: "Light technique only"
             - reps: 1
               percentage_1rm: 70
-              notes: "Light technique only"
+              notes: "Light technique only; skip if sluggish"
 
         - name: Back Extension
           sets:
             - reps: "1x8"
-              notes: "Easy accessory only"
+              notes: "Optional easy blood flow only"
 
         - name: Ab Rollout
           sets:
             - reps: "1x8"
-              notes: "Easy accessory only"
+              notes: "Optional easy only"
 
     - weekday: Thursday
-      session: Day 3 - Weighted Dip Peak Exposure
+      session: Day 3 - Weighted Dip Re-Sharpen
       exercises:
         - name: Weighted Dips
           calculation_mode: training_max
           sets:
             - reps: 2
-              percentage_1rm: 82
+              percentage_1rm: 70
+              notes: "Fast primer"
             - reps: 1
-              percentage_1rm: 87
+              percentage_1rm: 80
+              notes: "Fast"
             - reps: 1
-              percentage_1rm: 93
-              notes: "Peak exposure; no grind"
+              percentage_1rm: 85
+              notes: "Readiness check"
+            - reps: 1
+              percentage_1rm: 88
+              notes: "Stop here if not sharp"
+            - reps: 1
+              percentage_1rm: 90
+              notes: "Optional only if 88% is fast and confident"
 
         - name: Weighted Pull-Ups
           calculation_mode: training_max
           sets:
-            - reps: 2
+            - reps: 1
+              percentage_1rm: 70
+              notes: "Secondary primer only"
+            - reps: 1
               percentage_1rm: 75
-              notes: "Secondary peak week"
-            - reps: 1
-              percentage_1rm: 82
-              notes: "Secondary peak week"
-            - reps: 1
-              percentage_1rm: 88
-              notes: "Secondary peak week; optional if fresh"
+              notes: "Secondary primer only; no grind"
 
         - name: Pec Flye
           sets:
             - reps: "1x10"
-              notes: "Easy accessory only"
+              notes: "Optional easy only"
 
         - name: Tricep Pulldown
           sets:
             - reps: "1x10"
-              notes: "Easy accessory only"
+              notes: "Optional easy only"
 
         - name: Scapula Push-Up
           sets:
@@ -943,18 +949,23 @@
               notes: "Easy band work"
 
     - weekday: Saturday
-      session: Day 4 - Weighted Muscle-Up Peak Exposure
+      session: Day 4 - Weighted Muscle-Up Re-Sharpen and Squat Primer
       exercises:
         - name: Weighted Muscle-Ups
           calculation_mode: training_max
           sets:
             - reps: 1
+              percentage_1rm: 70
+              notes: "Technical primer"
+            - reps: 1
               percentage_1rm: 75
+              notes: "Clean and fast"
             - reps: 1
               percentage_1rm: 82
+              notes: "Readiness check"
             - reps: 1
-              percentage_1rm: 90
-              notes: "Peak exposure; only if technique is clean. Optional extra: 75% x 1 fast"
+              percentage_1rm: 87
+              notes: "Optional only if transition is clean and explosive"
 
         - name: Squat
           calculation_mode: training_max
@@ -964,17 +975,17 @@
               notes: "Light primer"
             - reps: 1
               percentage_1rm: 75
-              notes: "Light primer"
+              notes: "Light primer; fast only"
 
         - name: Heavy Weighted Deadhang
           sets:
             - reps: "1x10"
-              notes: "10-second hold; easy enough to recover from"
+              notes: "Optional; skip if any grip, elbow, lat, or shoulder fatigue"
 
         - name: Ab Rollout
           sets:
             - reps: "1x8"
-              notes: "Easy accessory only"
+              notes: "Optional easy only"
 
         - name: Rotator Cuff External Rotation
           sets:
@@ -988,12 +999,196 @@
 
 - week_6:
     - weekday: Monday
+      session: Day 1 - Weighted Pull-Up Peak
+      exercises:
+        - name: Weighted Pull-Ups
+          calculation_mode: training_max
+          sets:
+            - reps: 1
+              percentage_1rm: 75
+              notes: "Fast primer"
+            - reps: 1
+              percentage_1rm: 82
+              notes: "Fast"
+            - reps: 1
+              percentage_1rm: 87
+              notes: "Readiness check"
+            - reps: 1
+              percentage_1rm: 91
+              notes: "Peak single; no grind"
+            - reps: 1
+              percentage_1rm: 93
+              notes: "Optional only if 91% flies"
+
+        - name: Weighted Dips
+          calculation_mode: training_max
+          sets:
+            - reps: 1
+              percentage_1rm: 75
+              notes: "Secondary primer"
+            - reps: 1
+              percentage_1rm: 82
+              notes: "Secondary primer; fast only"
+            - reps: 1
+              percentage_1rm: 86
+              notes: "Optional only if fresh"
+
+        - name: Rotator Cuff External Rotation
+          sets:
+            - reps: "1x15"
+              notes: "Easy band work"
+
+        - name: Rotator Cuff Internal Rotation
+          sets:
+            - reps: "1x15"
+              notes: "Easy band work"
+
+    - weekday: Tuesday
+      session: Day 2 - Squat Peak
+      exercises:
+        - name: Squat
+          calculation_mode: training_max
+          sets:
+            - reps: 1
+              percentage_1rm: 75
+              notes: "Fast primer"
+            - reps: 1
+              percentage_1rm: 82
+              notes: "Fast"
+            - reps: 1
+              percentage_1rm: 87
+              notes: "Readiness check"
+            - reps: 1
+              percentage_1rm: 91
+              notes: "Peak single; no grind"
+            - reps: 1
+              percentage_1rm: 93
+              notes: "Optional only if 91% flies"
+
+        - name: Heavy Squat Walkout
+          calculation_mode: training_max
+          sets:
+            - reps: 1
+              percentage_1rm: 100
+              notes: "Optional 5-second confidence walkout only if squat single was sharp; skip if any fatigue"
+
+        - name: Weighted Muscle-Ups
+          calculation_mode: training_max
+          sets:
+            - reps: 1
+              percentage_1rm: 65
+              notes: "Light technique only"
+            - reps: 1
+              percentage_1rm: 75
+              notes: "Light technique only; skip if sluggish"
+
+        - name: Back Extension
+          sets:
+            - reps: "1x8"
+              notes: "Optional very easy blood flow only"
+
+    - weekday: Thursday
+      session: Day 3 - Weighted Dip Peak
+      exercises:
+        - name: Weighted Dips
+          calculation_mode: training_max
+          sets:
+            - reps: 1
+              percentage_1rm: 75
+              notes: "Fast primer"
+            - reps: 1
+              percentage_1rm: 82
+              notes: "Fast"
+            - reps: 1
+              percentage_1rm: 87
+              notes: "Readiness check"
+            - reps: 1
+              percentage_1rm: 91
+              notes: "Peak single; no grind"
+            - reps: 1
+              percentage_1rm: 93
+              notes: "Optional only if 91% flies"
+
+        - name: Weighted Pull-Ups
+          calculation_mode: training_max
+          sets:
+            - reps: 1
+              percentage_1rm: 75
+              notes: "Secondary primer"
+            - reps: 1
+              percentage_1rm: 82
+              notes: "Secondary primer; fast only"
+            - reps: 1
+              percentage_1rm: 86
+              notes: "Optional only if fresh"
+
+        - name: Scapula Push-Up
+          sets:
+            - reps: "1x15"
+              notes: "Easy scapular control"
+
+        - name: Rotator Cuff External Rotation
+          sets:
+            - reps: "1x15"
+              notes: "Easy band work"
+
+        - name: Rotator Cuff Internal Rotation
+          sets:
+            - reps: "1x15"
+              notes: "Easy band work"
+
+    - weekday: Saturday
+      session: Day 4 - Weighted Muscle-Up Peak and Squat Primer
+      exercises:
+        - name: Weighted Muscle-Ups
+          calculation_mode: training_max
+          sets:
+            - reps: 1
+              percentage_1rm: 75
+              notes: "Technical primer"
+            - reps: 1
+              percentage_1rm: 82
+              notes: "Clean and fast"
+            - reps: 1
+              percentage_1rm: 87
+              notes: "Peak technical single"
+            - reps: 1
+              percentage_1rm: 90
+              notes: "Optional only if transition is perfect; no grind"
+
+        - name: Squat
+          calculation_mode: training_max
+          sets:
+            - reps: 1
+              percentage_1rm: 65
+              notes: "Light primer"
+            - reps: 1
+              percentage_1rm: 75
+              notes: "Light primer; fast only"
+
+        - name: Ab Rollout
+          sets:
+            - reps: "1x8"
+              notes: "Optional easy only"
+
+        - name: Rotator Cuff External Rotation
+          sets:
+            - reps: "1x15"
+              notes: "Easy band work"
+
+        - name: Rotator Cuff Internal Rotation
+          sets:
+            - reps: "1x15"
+              notes: "Easy band work"
+
+- week_7:
+    - weekday: Monday
       session: Day 1 - Weighted Pull-Up Test
       exercises:
         - name: Weighted Pull-Ups
           calculation_mode: training_max
           sets:
-            - reps: 2
+            - reps: 1
               percentage_1rm: 70
               notes: "Primer warm-up"
             - reps: 1
@@ -1001,16 +1196,16 @@
               notes: "Primer warm-up"
             - reps: 1
               percentage_1rm: 90
-              notes: "Primer warm-up"
+              notes: "Readiness check"
             - reps: 1
               percentage_1rm: 96
-              notes: "Opener"
+              notes: "Opener; only continue if clean and fast"
             - reps: 1
               percentage_1rm: 102
-              notes: "PR attempt if opener is clean"
+              notes: "PR attempt only if opener is sharp"
             - reps: 1
               percentage_1rm: 105
-              notes: "Optional PR attempt only if 102% is fast"
+              notes: "Optional only if 102% is fast"
 
         - name: Rotator Cuff External Rotation
           sets:
@@ -1028,7 +1223,7 @@
         - name: Squat
           calculation_mode: training_max
           sets:
-            - reps: 2
+            - reps: 1
               percentage_1rm: 70
               notes: "Primer warm-up"
             - reps: 1
@@ -1036,21 +1231,21 @@
               notes: "Primer warm-up"
             - reps: 1
               percentage_1rm: 90
-              notes: "Primer warm-up"
+              notes: "Readiness check"
             - reps: 1
               percentage_1rm: 96
-              notes: "Opener"
+              notes: "Opener; only continue if clean and fast"
             - reps: 1
               percentage_1rm: 102
-              notes: "PR attempt if opener is clean"
+              notes: "PR attempt only if opener is sharp"
             - reps: 1
               percentage_1rm: 105
-              notes: "Optional PR attempt only if 102% is fast"
+              notes: "Optional only if 102% is fast"
 
         - name: Back Extension
           sets:
             - reps: "1x8"
-              notes: "Very easy blood flow only"
+              notes: "Optional very easy blood flow only"
 
     - weekday: Thursday
       session: Day 3 - Weighted Dip Test
@@ -1058,7 +1253,7 @@
         - name: Weighted Dips
           calculation_mode: training_max
           sets:
-            - reps: 2
+            - reps: 1
               percentage_1rm: 70
               notes: "Primer warm-up"
             - reps: 1
@@ -1066,16 +1261,16 @@
               notes: "Primer warm-up"
             - reps: 1
               percentage_1rm: 90
-              notes: "Primer warm-up"
+              notes: "Readiness check"
             - reps: 1
               percentage_1rm: 96
-              notes: "Opener"
+              notes: "Opener; only continue if clean and fast"
             - reps: 1
               percentage_1rm: 102
-              notes: "PR attempt if opener is clean"
+              notes: "PR attempt only if opener is sharp"
             - reps: 1
               percentage_1rm: 105
-              notes: "Optional PR attempt only if 102% is fast"
+              notes: "Optional only if 102% is fast"
 
         - name: Scapula Push-Up
           sets:
@@ -1120,7 +1315,7 @@
         - name: Ab Rollout
           sets:
             - reps: "1x8"
-              notes: "Easy accessory only"
+              notes: "Optional easy only"
 
         - name: Rotator Cuff External Rotation
           sets:
