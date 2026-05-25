@@ -14,9 +14,6 @@
       - reps: 1
         percentage_1rm: 88.0
         weight: 86.25kg
-      - reps: 1
-        percentage_1rm: 90.0
-        weight: 87.5kg
     - name: Weighted Dips
       calculation_mode: training_max
       sets:
@@ -30,7 +27,7 @@
         weight: 90kg
       - reps: 1
         percentage_1rm: 82.0
-        notes: Secondary wave
+        notes: Secondary wave; optional if fresh
         weight: 93.75kg
     - name: DB Back Row
       sets:
@@ -77,9 +74,6 @@
       - reps: 1
         percentage_1rm: 88.0
         weight: 185kg
-      - reps: 1
-        percentage_1rm: 90.0
-        weight: 190kg
     - name: Heavy Squat Walkout
       calculation_mode: training_max
       sets:
@@ -135,9 +129,6 @@
       - reps: 1
         percentage_1rm: 88.0
         weight: 101.25kg
-      - reps: 1
-        percentage_1rm: 90.0
-        weight: 103.75kg
     - name: Weighted Pull-Ups
       calculation_mode: training_max
       sets:
@@ -151,7 +142,7 @@
         weight: 76.25kg
       - reps: 1
         percentage_1rm: 82.0
-        notes: Secondary wave
+        notes: Secondary wave; optional if fresh
         weight: 80kg
     - name: DB Chest Press
       sets:
@@ -203,11 +194,8 @@
         weight: 28.75kg
       - reps: 1
         percentage_1rm: 82.0
+        notes: 'Optional extra: 72% x 1 fast only if technique is sharp'
         weight: 31.25kg
-      - reps: 1
-        percentage_1rm: 72.0
-        notes: Fast technical rep
-        weight: 27.5kg
     - name: Squat
       calculation_mode: training_max
       sets:
@@ -269,9 +257,6 @@
       - reps: 1
         percentage_1rm: 90.0
         weight: 87.5kg
-      - reps: 1
-        percentage_1rm: 92.0
-        weight: 90kg
     - name: Weighted Dips
       calculation_mode: training_max
       sets:
@@ -285,7 +270,7 @@
         weight: 92.5kg
       - reps: 1
         percentage_1rm: 84.0
-        notes: Secondary wave
+        notes: Secondary wave; optional if fresh
         weight: 96.25kg
     - name: DB Back Row
       sets:
@@ -332,9 +317,6 @@
       - reps: 1
         percentage_1rm: 90.0
         weight: 190kg
-      - reps: 1
-        percentage_1rm: 92.0
-        weight: 192.5kg
     - name: Heavy Squat Walkout
       calculation_mode: training_max
       sets:
@@ -344,7 +326,7 @@
         weight: 220kg
       - reps: 1
         percentage_1rm: 105.0
-        notes: 8-10 second hold; only if 100% feels stable
+        notes: Optional 8-10 second hold; only if 100% feels stable
         weight: 231.25kg
     - name: Weighted Muscle-Ups
       calculation_mode: training_max
@@ -392,9 +374,6 @@
       - reps: 1
         percentage_1rm: 90.0
         weight: 103.75kg
-      - reps: 1
-        percentage_1rm: 92.0
-        weight: 106.25kg
     - name: Weighted Pull-Ups
       calculation_mode: training_max
       sets:
@@ -408,7 +387,7 @@
         weight: 77.5kg
       - reps: 1
         percentage_1rm: 84.0
-        notes: Secondary wave
+        notes: Secondary wave; optional if fresh
         weight: 82.5kg
     - name: DB Chest Press
       sets:
@@ -460,11 +439,8 @@
         weight: 28.75kg
       - reps: 1
         percentage_1rm: 84.0
+        notes: 'Optional extra: 75% x 1 fast only if technique is sharp'
         weight: 31.25kg
-      - reps: 1
-        percentage_1rm: 75.0
-        notes: Fast technical rep
-        weight: 27.5kg
     - name: Squat
       calculation_mode: training_max
       sets:
@@ -524,11 +500,9 @@
         percentage_1rm: 86.0
         weight: 83.75kg
       - reps: 1
-        percentage_1rm: 91.0
-        weight: 88.75kg
-      - reps: 1
-        percentage_1rm: 94.0
-        weight: 91.25kg
+        percentage_1rm: 92.0
+        notes: Heavy single; no grind
+        weight: 90kg
     - name: Weighted Dips
       calculation_mode: training_max
       sets:
@@ -542,7 +516,7 @@
         weight: 93.75kg
       - reps: 1
         percentage_1rm: 86.0
-        notes: Secondary wave
+        notes: Secondary wave; optional if fresh
         weight: 98.75kg
     - name: DB Back Row
       sets:
@@ -587,11 +561,9 @@
         percentage_1rm: 86.0
         weight: 180kg
       - reps: 1
-        percentage_1rm: 91.0
-        weight: 190kg
-      - reps: 1
-        percentage_1rm: 94.0
-        weight: 197.5kg
+        percentage_1rm: 92.0
+        notes: Heavy single; no grind
+        weight: 192.5kg
     - name: Heavy Squat Walkout
       calculation_mode: training_max
       sets:
@@ -601,7 +573,7 @@
         weight: 231.25kg
       - reps: 1
         percentage_1rm: 110.0
-        notes: 8-10 second hold; optional, only if 105% is solid
+        notes: Optional 8-10 second hold; only if 105% is solid
         weight: 242.5kg
     - name: Weighted Muscle-Ups
       calculation_mode: training_max
@@ -647,11 +619,9 @@
         percentage_1rm: 86.0
         weight: 98.75kg
       - reps: 1
-        percentage_1rm: 91.0
-        weight: 105kg
-      - reps: 1
-        percentage_1rm: 94.0
-        weight: 107.5kg
+        percentage_1rm: 92.0
+        notes: Heavy single; no grind
+        weight: 106.25kg
     - name: Weighted Pull-Ups
       calculation_mode: training_max
       sets:
@@ -665,7 +635,7 @@
         weight: 80kg
       - reps: 1
         percentage_1rm: 86.0
-        notes: Secondary wave
+        notes: Secondary wave; optional if fresh
         weight: 83.75kg
     - name: DB Chest Press
       sets:
@@ -717,11 +687,8 @@
         weight: 30kg
       - reps: 1
         percentage_1rm: 88.0
+        notes: 'Optional extra: 76% x 1 fast only if technique is sharp'
         weight: 32.5kg
-      - reps: 1
-        percentage_1rm: 76.0
-        notes: Fast technical rep
-        weight: 28.75kg
     - name: Squat
       calculation_mode: training_max
       sets:
@@ -735,7 +702,7 @@
         weight: 165kg
       - reps: 1
         percentage_1rm: 85.0
-        notes: Primer wave
+        notes: Primer wave; should still move fast
         weight: 177.5kg
     - name: Heavy Weighted Deadhang
       sets:
@@ -782,11 +749,8 @@
         weight: 72.5kg
       - reps: 1
         percentage_1rm: 79.0
-        weight: 77.5kg
-      - reps: 1
-        percentage_1rm: 82.0
         notes: Deload; all reps fast
-        weight: 80kg
+        weight: 77.5kg
     - name: Weighted Dips
       calculation_mode: training_max
       sets:
@@ -832,11 +796,8 @@
         weight: 155kg
       - reps: 1
         percentage_1rm: 79.0
-        weight: 165kg
-      - reps: 1
-        percentage_1rm: 82.0
         notes: Deload; all reps fast
-        weight: 172.5kg
+        weight: 165kg
     - name: Weighted Muscle-Ups
       calculation_mode: training_max
       sets:
@@ -850,7 +811,7 @@
         weight: 26.25kg
       - reps: 1
         percentage_1rm: 75.0
-        notes: Very easy technique
+        notes: Very easy technique; optional if sharp
         weight: 27.5kg
     - name: Back Extension
       sets:
@@ -874,11 +835,8 @@
         weight: 85kg
       - reps: 1
         percentage_1rm: 79.0
-        weight: 91.25kg
-      - reps: 1
-        percentage_1rm: 82.0
         notes: Deload; all reps fast
-        weight: 93.75kg
+        weight: 91.25kg
     - name: Weighted Pull-Ups
       calculation_mode: training_max
       sets:
@@ -928,7 +886,7 @@
         weight: 26.25kg
       - reps: 1
         percentage_1rm: 75.0
-        notes: Easy technical reps only
+        notes: Easy technical reps only; optional if sharp
         weight: 27.5kg
     - name: Squat
       calculation_mode: training_max
@@ -971,12 +929,9 @@
         percentage_1rm: 87.0
         weight: 85kg
       - reps: 1
-        percentage_1rm: 92.0
-        weight: 90kg
-      - reps: 1
-        percentage_1rm: 95.0
-        notes: Peak exposure; use 96% only if 92% is fast; no grind
-        weight: 92.5kg
+        percentage_1rm: 93.0
+        notes: Peak exposure; no grind
+        weight: 91.25kg
     - name: Weighted Dips
       calculation_mode: training_max
       sets:
@@ -990,7 +945,7 @@
         weight: 93.75kg
       - reps: 1
         percentage_1rm: 88.0
-        notes: Secondary peak week
+        notes: Secondary peak week; optional if fresh
         weight: 101.25kg
     - name: DB Back Row
       sets:
@@ -1025,12 +980,9 @@
         percentage_1rm: 87.0
         weight: 182.5kg
       - reps: 1
-        percentage_1rm: 92.0
-        weight: 192.5kg
-      - reps: 1
-        percentage_1rm: 95.0
-        notes: Peak exposure; use 96% only if 92% is fast; no grind
-        weight: 200kg
+        percentage_1rm: 93.0
+        notes: Peak exposure; no grind
+        weight: 195kg
     - name: Heavy Squat Walkout
       calculation_mode: training_max
       sets:
@@ -1070,12 +1022,9 @@
         percentage_1rm: 87.0
         weight: 100kg
       - reps: 1
-        percentage_1rm: 92.0
-        weight: 106.25kg
-      - reps: 1
-        percentage_1rm: 95.0
-        notes: Peak exposure; use 96% only if 92% is fast; no grind
-        weight: 108.75kg
+        percentage_1rm: 93.0
+        notes: Peak exposure; no grind
+        weight: 107.5kg
     - name: Weighted Pull-Ups
       calculation_mode: training_max
       sets:
@@ -1089,7 +1038,7 @@
         weight: 80kg
       - reps: 1
         percentage_1rm: 88.0
-        notes: Secondary peak week
+        notes: Secondary peak week; optional if fresh
         weight: 86.25kg
     - name: Pec Flye
       sets:
@@ -1129,12 +1078,9 @@
         weight: 31.25kg
       - reps: 1
         percentage_1rm: 90.0
-        notes: Peak exposure; only if technique is clean
+        notes: 'Peak exposure; only if technique is clean. Optional extra: 75% x 1
+          fast'
         weight: 33.75kg
-      - reps: 1
-        percentage_1rm: 75.0
-        notes: Fast technical rep
-        weight: 27.5kg
     - name: Squat
       calculation_mode: training_max
       sets:

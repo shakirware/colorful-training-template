@@ -11,8 +11,6 @@
               percentage_1rm: 83
             - reps: 1
               percentage_1rm: 88
-            - reps: 1
-              percentage_1rm: 90
 
         - name: Weighted Dips
           calculation_mode: training_max
@@ -25,7 +23,7 @@
               notes: "Secondary wave"
             - reps: 1
               percentage_1rm: 82
-              notes: "Secondary wave"
+              notes: "Secondary wave; optional if fresh"
 
         - name: DB Back Row
           sets:
@@ -64,8 +62,6 @@
               percentage_1rm: 83
             - reps: 1
               percentage_1rm: 88
-            - reps: 1
-              percentage_1rm: 90
 
         - name: Heavy Squat Walkout
           calculation_mode: training_max
@@ -114,8 +110,6 @@
               percentage_1rm: 83
             - reps: 1
               percentage_1rm: 88
-            - reps: 1
-              percentage_1rm: 90
 
         - name: Weighted Pull-Ups
           calculation_mode: training_max
@@ -128,7 +122,7 @@
               notes: "Secondary wave"
             - reps: 1
               percentage_1rm: 82
-              notes: "Secondary wave"
+              notes: "Secondary wave; optional if fresh"
 
         - name: DB Chest Press
           sets:
@@ -172,9 +166,7 @@
               percentage_1rm: 76
             - reps: 1
               percentage_1rm: 82
-            - reps: 1
-              percentage_1rm: 72
-              notes: "Fast technical rep"
+              notes: "Optional extra: 72% x 1 fast only if technique is sharp"
 
         - name: Squat
           calculation_mode: training_max
@@ -227,8 +219,6 @@
               percentage_1rm: 85
             - reps: 1
               percentage_1rm: 90
-            - reps: 1
-              percentage_1rm: 92
 
         - name: Weighted Dips
           calculation_mode: training_max
@@ -241,7 +231,7 @@
               notes: "Secondary wave"
             - reps: 1
               percentage_1rm: 84
-              notes: "Secondary wave"
+              notes: "Secondary wave; optional if fresh"
 
         - name: DB Back Row
           sets:
@@ -280,8 +270,6 @@
               percentage_1rm: 85
             - reps: 1
               percentage_1rm: 90
-            - reps: 1
-              percentage_1rm: 92
 
         - name: Heavy Squat Walkout
           calculation_mode: training_max
@@ -291,7 +279,7 @@
               notes: "8-10 second unrack and hold; brace hard"
             - reps: 1
               percentage_1rm: 105
-              notes: "8-10 second hold; only if 100% feels stable"
+              notes: "Optional 8-10 second hold; only if 100% feels stable"
 
         - name: Weighted Muscle-Ups
           calculation_mode: training_max
@@ -333,8 +321,6 @@
               percentage_1rm: 85
             - reps: 1
               percentage_1rm: 90
-            - reps: 1
-              percentage_1rm: 92
 
         - name: Weighted Pull-Ups
           calculation_mode: training_max
@@ -347,7 +333,7 @@
               notes: "Secondary wave"
             - reps: 1
               percentage_1rm: 84
-              notes: "Secondary wave"
+              notes: "Secondary wave; optional if fresh"
 
         - name: DB Chest Press
           sets:
@@ -391,9 +377,7 @@
               percentage_1rm: 78
             - reps: 1
               percentage_1rm: 84
-            - reps: 1
-              percentage_1rm: 75
-              notes: "Fast technical rep"
+              notes: "Optional extra: 75% x 1 fast only if technique is sharp"
 
         - name: Squat
           calculation_mode: training_max
@@ -445,9 +429,8 @@
             - reps: 2
               percentage_1rm: 86
             - reps: 1
-              percentage_1rm: 91
-            - reps: 1
-              percentage_1rm: 94
+              percentage_1rm: 92
+              notes: "Heavy single; no grind"
 
         - name: Weighted Dips
           calculation_mode: training_max
@@ -460,7 +443,7 @@
               notes: "Secondary wave"
             - reps: 1
               percentage_1rm: 86
-              notes: "Secondary wave"
+              notes: "Secondary wave; optional if fresh"
 
         - name: DB Back Row
           sets:
@@ -498,9 +481,8 @@
             - reps: 2
               percentage_1rm: 86
             - reps: 1
-              percentage_1rm: 91
-            - reps: 1
-              percentage_1rm: 94
+              percentage_1rm: 92
+              notes: "Heavy single; no grind"
 
         - name: Heavy Squat Walkout
           calculation_mode: training_max
@@ -510,7 +492,7 @@
               notes: "8-10 second unrack and hold; no soft knees"
             - reps: 1
               percentage_1rm: 110
-              notes: "8-10 second hold; optional, only if 105% is solid"
+              notes: "Optional 8-10 second hold; only if 105% is solid"
 
         - name: Weighted Muscle-Ups
           calculation_mode: training_max
@@ -551,9 +533,8 @@
             - reps: 2
               percentage_1rm: 86
             - reps: 1
-              percentage_1rm: 91
-            - reps: 1
-              percentage_1rm: 94
+              percentage_1rm: 92
+              notes: "Heavy single; no grind"
 
         - name: Weighted Pull-Ups
           calculation_mode: training_max
@@ -566,7 +547,7 @@
               notes: "Secondary wave"
             - reps: 1
               percentage_1rm: 86
-              notes: "Secondary wave"
+              notes: "Secondary wave; optional if fresh"
 
         - name: DB Chest Press
           sets:
@@ -610,9 +591,7 @@
               percentage_1rm: 80
             - reps: 1
               percentage_1rm: 88
-            - reps: 1
-              percentage_1rm: 76
-              notes: "Fast technical rep"
+              notes: "Optional extra: 76% x 1 fast only if technique is sharp"
 
         - name: Squat
           calculation_mode: training_max
@@ -625,7 +604,7 @@
               notes: "Primer wave"
             - reps: 1
               percentage_1rm: 85
-              notes: "Primer wave"
+              notes: "Primer wave; should still move fast"
 
         - name: Heavy Weighted Deadhang
           sets:
@@ -665,8 +644,6 @@
               percentage_1rm: 74
             - reps: 1
               percentage_1rm: 79
-            - reps: 1
-              percentage_1rm: 82
               notes: "Deload; all reps fast"
 
         - name: Weighted Dips
@@ -711,8 +688,6 @@
               percentage_1rm: 74
             - reps: 1
               percentage_1rm: 79
-            - reps: 1
-              percentage_1rm: 82
               notes: "Deload; all reps fast"
 
         - name: Weighted Muscle-Ups
@@ -726,7 +701,7 @@
               notes: "Very easy technique"
             - reps: 1
               percentage_1rm: 75
-              notes: "Very easy technique"
+              notes: "Very easy technique; optional if sharp"
 
         - name: Back Extension
           sets:
@@ -750,8 +725,6 @@
               percentage_1rm: 74
             - reps: 1
               percentage_1rm: 79
-            - reps: 1
-              percentage_1rm: 82
               notes: "Deload; all reps fast"
 
         - name: Weighted Pull-Ups
@@ -801,7 +774,7 @@
               percentage_1rm: 70
             - reps: 1
               percentage_1rm: 75
-              notes: "Easy technical reps only"
+              notes: "Easy technical reps only; optional if sharp"
 
         - name: Squat
           calculation_mode: training_max
@@ -840,10 +813,8 @@
             - reps: 1
               percentage_1rm: 87
             - reps: 1
-              percentage_1rm: 92
-            - reps: 1
-              percentage_1rm: 95
-              notes: "Peak exposure; use 96% only if 92% is fast; no grind"
+              percentage_1rm: 93
+              notes: "Peak exposure; no grind"
 
         - name: Weighted Dips
           calculation_mode: training_max
@@ -856,7 +827,7 @@
               notes: "Secondary peak week"
             - reps: 1
               percentage_1rm: 88
-              notes: "Secondary peak week"
+              notes: "Secondary peak week; optional if fresh"
 
         - name: DB Back Row
           sets:
@@ -889,10 +860,8 @@
             - reps: 1
               percentage_1rm: 87
             - reps: 1
-              percentage_1rm: 92
-            - reps: 1
-              percentage_1rm: 95
-              notes: "Peak exposure; use 96% only if 92% is fast; no grind"
+              percentage_1rm: 93
+              notes: "Peak exposure; no grind"
 
         - name: Heavy Squat Walkout
           calculation_mode: training_max
@@ -932,10 +901,8 @@
             - reps: 1
               percentage_1rm: 87
             - reps: 1
-              percentage_1rm: 92
-            - reps: 1
-              percentage_1rm: 95
-              notes: "Peak exposure; use 96% only if 92% is fast; no grind"
+              percentage_1rm: 93
+              notes: "Peak exposure; no grind"
 
         - name: Weighted Pull-Ups
           calculation_mode: training_max
@@ -948,7 +915,7 @@
               notes: "Secondary peak week"
             - reps: 1
               percentage_1rm: 88
-              notes: "Secondary peak week"
+              notes: "Secondary peak week; optional if fresh"
 
         - name: Pec Flye
           sets:
@@ -987,10 +954,7 @@
               percentage_1rm: 82
             - reps: 1
               percentage_1rm: 90
-              notes: "Peak exposure; only if technique is clean"
-            - reps: 1
-              percentage_1rm: 75
-              notes: "Fast technical rep"
+              notes: "Peak exposure; only if technique is clean. Optional extra: 75% x 1 fast"
 
         - name: Squat
           calculation_mode: training_max
