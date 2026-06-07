@@ -1,1482 +1,726 @@
 - week_1:
   - weekday: Monday
-    session: Day 1 - Weighted Pull-Up Priority
+    session: Day 1 - Weighted Muscle-Up Wave and Weighted Dip AMRAP
     exercises:
-    - name: Weighted Pull-Ups
+    - name: Weighted Muscle-Ups
       calculation_mode: training_max
       sets:
       - reps: 3
-        percentage_1rm: 78.0
-        weight: 76.25kg
+        percentage_1rm: 82.5
+        notes: Wave set 1; crisp and technically clean
+        weight: 31.25kg
       - reps: 2
-        percentage_1rm: 83.0
-        weight: 81.25kg
+        percentage_1rm: 87.5
+        notes: Wave set 2; strong, no transition breakdown
+        weight: 32.5kg
       - reps: 1
-        percentage_1rm: 88.0
-        weight: 86.25kg
+        percentage_1rm: 92.5
+        notes: Wave set 3; fast heavy single, no grind
+        weight: 35kg
     - name: Weighted Dips
       calculation_mode: training_max
       sets:
-      - reps: 3
-        percentage_1rm: 72.0
-        notes: Secondary wave
-        weight: 82.5kg
-      - reps: 2
-        percentage_1rm: 78.0
-        notes: Secondary wave
-        weight: 90kg
+      - reps: 10
+        percentage_1rm: 85.0
+        notes: 'PLACEHOLDER REPS: perform one capped AMRAP set for 3-8 clean reps,
+          stopping at 1-2 RIR'
+        weight: 97.5kg
+    - name: Dumbbell Bench Press
+      sets:
+      - reps: 8
+        notes: Controlled eccentric; 1-2 RIR; no excessive pec stretch
+      - reps: 8
+        notes: Controlled eccentric; 1-2 RIR; no excessive pec stretch
+      - reps: 8
+        notes: Controlled eccentric; 1-2 RIR; no excessive pec stretch
+    - name: Cable Flyes
+      sets:
+      - reps: 15
+        notes: Controlled stretch and squeeze; RPE 7-8
+      - reps: 15
+        notes: Controlled stretch and squeeze; RPE 7-8
+      - reps: 15
+        notes: Controlled stretch and squeeze; RPE 7-8
+    - name: Scapular Push-Ups
+      sets:
+      - reps: 15
+        notes: Full protraction at the top; ribs controlled
+      - reps: 15
+        notes: Full protraction at the top; ribs controlled
+      - reps: 15
+        notes: Full protraction at the top; ribs controlled
+    - name: External Rotations
+      sets:
+      - reps: 15
+        notes: Light and controlled
+      - reps: 15
+        notes: Light and controlled
+    - name: Internal Rotations
+      sets:
+      - reps: 15
+        notes: Light and controlled
+      - reps: 15
+        notes: Light and controlled
+    - name: Stretching
+      sets:
       - reps: 1
-        percentage_1rm: 82.0
-        notes: Secondary wave; optional if fresh
-        weight: 93.75kg
-    - name: DB Back Row
-      sets:
-      - reps: 8
-        notes: Controlled accessory; 5-8 target range
-      - reps: 8
-        notes: Controlled accessory; 5-8 target range
-    - name: Cross Lat Cable Pull
-      sets:
-      - reps: 10
-        notes: Arms crossed in X position, pull out and away from body
-      - reps: 10
-        notes: Arms crossed in X position, pull out and away from body
-    - name: Rotator Cuff External Rotation
-      sets:
-      - reps: 15
-        notes: Easy to moderate band work
-      - reps: 15
-        notes: Easy to moderate band work
-    - name: Rotator Cuff Internal Rotation
-      sets:
-      - reps: 15
-        notes: Easy to moderate band work
-      - reps: 15
-        notes: Easy to moderate band work
-    - name: Ab Rollout
-      sets:
-      - reps: 8
-        notes: Leave reps in reserve
-      - reps: 8
-        notes: Leave reps in reserve
+        notes: Stretching at end of session
   - weekday: Tuesday
-    session: Day 2 - Squat Priority
+    session: Day 2 - Squat Wave and Weighted Pull-Up AMRAP
     exercises:
     - name: Squat
       calculation_mode: training_max
       sets:
       - reps: 3
-        percentage_1rm: 78.0
-        weight: 165kg
+        percentage_1rm: 80.0
+        notes: Wave set 1; crisp brace and clean bar path
+        weight: 167.5kg
       - reps: 2
-        percentage_1rm: 83.0
-        weight: 175kg
+        percentage_1rm: 85.0
+        notes: Wave set 2; strong, no back-pain escalation
+        weight: 177.5kg
       - reps: 1
-        percentage_1rm: 88.0
-        weight: 185kg
-    - name: Heavy Squat Walkout
+        percentage_1rm: 90.0
+        notes: Wave set 3; no grind; stop if back does not feel clean
+        weight: 190kg
+    - name: Weighted Pull-Ups
       calculation_mode: training_max
       sets:
-      - reps: 1
-        percentage_1rm: 95.0
-        notes: 8-10 second unrack and hold; conservative exposure
-        weight: 208.75kg
-    - name: Weighted Muscle-Ups
-      calculation_mode: training_max
-      sets:
-      - reps: 1
-        percentage_1rm: 60.0
-        notes: Light technique only
-        weight: 22.5kg
-      - reps: 1
-        percentage_1rm: 62.0
-        notes: Light technique only
-        weight: 23.75kg
-      - reps: 1
-        percentage_1rm: 65.0
-        notes: Light technique only
-        weight: 25kg
-    - name: Back Extension
-      sets:
-      - reps: 8
-        notes: Hold plates; feel hamstrings and lower back
-      - reps: 8
-        notes: Hold plates; feel hamstrings and lower back
+      - reps: 10
+        percentage_1rm: 85.0
+        notes: 'PLACEHOLDER REPS: perform one capped AMRAP set for 3-8 clean reps,
+          stopping at 1-2 RIR'
+        weight: 82.5kg
     - name: Leg Press
       sets:
       - reps: 10
-        notes: Controlled; do not turn into a high-volume finisher
-      - reps: 10
-        notes: Controlled; do not turn into a high-volume finisher
-    - name: Ab Rollout
+        notes: Heavy top set at RPE 8-9 with 1 RIR; controlled depth and no pelvic
+          tuck
+      - reps: 12
+        notes: Back-off sets at about 90% of the top-set load
+      - reps: 12
+        notes: Back-off sets at about 90% of the top-set load
+    - name: Back Extensions
       sets:
       - reps: 8
-        notes: Leave reps in reserve
+        notes: Heavy; neutral spine, controlled eccentric, no hyperextension; RPE
+          8
       - reps: 8
-        notes: Leave reps in reserve
+        notes: Heavy; neutral spine, controlled eccentric, no hyperextension; RPE
+          8
+      - reps: 8
+        notes: Heavy; neutral spine, controlled eccentric, no hyperextension; RPE
+          8
+      - reps: 8
+        notes: Heavy; neutral spine, controlled eccentric, no hyperextension; RPE
+          8
+    - name: Hamstring Curls
+      sets:
+      - reps: 10
+        notes: Controlled hard sets; 1-2 RIR
+      - reps: 10
+        notes: Controlled hard sets; 1-2 RIR
+      - reps: 10
+        notes: Controlled hard sets; 1-2 RIR
+    - name: Stretching
+      sets:
+      - reps: 1
+        notes: Stretching at end of session
   - weekday: Thursday
-    session: Day 3 - Weighted Dip Priority
-    exercises:
-    - name: Weighted Dips
-      calculation_mode: training_max
-      sets:
-      - reps: 3
-        percentage_1rm: 78.0
-        weight: 90kg
-      - reps: 2
-        percentage_1rm: 83.0
-        weight: 95kg
-      - reps: 1
-        percentage_1rm: 88.0
-        weight: 101.25kg
-    - name: Weighted Pull-Ups
-      calculation_mode: training_max
-      sets:
-      - reps: 3
-        percentage_1rm: 72.0
-        notes: Secondary wave
-        weight: 70kg
-      - reps: 2
-        percentage_1rm: 78.0
-        notes: Secondary wave
-        weight: 76.25kg
-      - reps: 1
-        percentage_1rm: 82.0
-        notes: Secondary wave; optional if fresh
-        weight: 80kg
-    - name: DB Chest Press
-      sets:
-      - reps: 8
-        notes: Controlled accessory; do not grind
-      - reps: 8
-        notes: Controlled accessory; do not grind
-    - name: Pec Flye
-      sets:
-      - reps: 10
-        notes: Controlled stretch and squeeze
-      - reps: 10
-        notes: Controlled stretch and squeeze
-    - name: Tricep Pulldown
-      sets:
-      - reps: 10
-        notes: Elbow-friendly accessory
-      - reps: 10
-        notes: Elbow-friendly accessory
-    - name: Scapula Push-Up
-      sets:
-      - reps: 15
-        notes: Easy scapular control
-      - reps: 15
-        notes: Easy scapular control
-    - name: Rotator Cuff External Rotation
-      sets:
-      - reps: 15
-        notes: Easy to moderate band work
-      - reps: 15
-        notes: Easy to moderate band work
-    - name: Rotator Cuff Internal Rotation
-      sets:
-      - reps: 15
-        notes: Easy to moderate band work
-      - reps: 15
-        notes: Easy to moderate band work
-  - weekday: Saturday
-    session: Day 4 - Weighted Muscle-Up Priority and Squat Primer
+    session: Day 3 - Weighted Muscle-Up AMRAP and Weighted Pull-Up Wave
     exercises:
     - name: Weighted Muscle-Ups
       calculation_mode: training_max
       sets:
+      - reps: 10
+        percentage_1rm: 85.0
+        notes: 'PLACEHOLDER REPS: perform one capped AMRAP set for 3-8 perfect reps,
+          stopping at 1-2 RIR; end set when transition quality changes'
+        weight: 32.5kg
+    - name: Weighted Pull-Ups
+      calculation_mode: training_max
+      sets:
+      - reps: 3
+        percentage_1rm: 82.5
+        notes: Wave set 1; crisp
+        weight: 80kg
       - reps: 2
-        percentage_1rm: 70.0
-        weight: 26.25kg
+        percentage_1rm: 87.5
+        notes: Wave set 2; strong
+        weight: 85kg
       - reps: 1
-        percentage_1rm: 76.0
-        weight: 28.75kg
+        percentage_1rm: 92.5
+        notes: Wave set 3; no grind; reduce to 90% if muscle-up AMRAP was unusually
+          fatiguing
+        weight: 90kg
+    - name: Dumbbell Bench Press
+      sets:
+      - reps: 10
+        notes: Volume-focused; controlled eccentric; 1-2 RIR
+      - reps: 10
+        notes: Volume-focused; controlled eccentric; 1-2 RIR
+      - reps: 10
+        notes: Volume-focused; controlled eccentric; 1-2 RIR
+    - name: Cable Flyes
+      sets:
+      - reps: 15
+        notes: Smooth reps; no aggressive stretch
+      - reps: 15
+        notes: Smooth reps; no aggressive stretch
+      - reps: 15
+        notes: Smooth reps; no aggressive stretch
+    - name: Back Extensions
+      sets:
+      - reps: 15
+        notes: Lighter tolerance work than Tuesday; controlled throughout
+      - reps: 15
+        notes: Lighter tolerance work than Tuesday; controlled throughout
+      - reps: 15
+        notes: Lighter tolerance work than Tuesday; controlled throughout
+    - name: Stretching
+      sets:
       - reps: 1
-        percentage_1rm: 82.0
-        notes: 'Optional extra: 72% x 1 fast only if technique is sharp'
-        weight: 31.25kg
+        notes: Stretching at end of session
+  - weekday: Saturday
+    session: Day 4 - Squat AMRAP and Weighted Dip Wave
+    exercises:
     - name: Squat
       calculation_mode: training_max
       sets:
+      - reps: 10
+        percentage_1rm: 82.5
+        notes: 'PLACEHOLDER REPS: perform one capped AMRAP set for 3-8 clean reps,
+          stopping at 1-2 RIR; if back pain appears or increases, replace with 3x3-5
+          at 70-75%'
+        weight: 172.5kg
+    - name: Weighted Dips
+      calculation_mode: training_max
+      sets:
+      - reps: 3
+        percentage_1rm: 82.5
+        notes: Wave set 1; controlled depth
+        weight: 95kg
       - reps: 2
-        percentage_1rm: 65.0
-        notes: Primer wave
-        weight: 137.5kg
+        percentage_1rm: 87.5
+        notes: Wave set 2; strong shoulder position
+        weight: 100kg
       - reps: 1
-        percentage_1rm: 72.0
-        notes: Primer wave
-        weight: 150kg
-      - reps: 1
-        percentage_1rm: 78.0
-        notes: Primer wave
-        weight: 165kg
-    - name: Heavy Weighted Deadhang
+        percentage_1rm: 92.5
+        notes: Wave set 3; no grind or pec/front-shoulder irritation
+        weight: 106.25kg
+    - name: Leg Press
+      sets:
+      - reps: 12
+        notes: Volume day; controlled deep reps; RPE 8; no pelvic tuck
+      - reps: 12
+        notes: Volume day; controlled deep reps; RPE 8; no pelvic tuck
+      - reps: 12
+        notes: Volume day; controlled deep reps; RPE 8; no pelvic tuck
+      - reps: 12
+        notes: Volume day; controlled deep reps; RPE 8; no pelvic tuck
+    - name: Back Extensions
+      sets:
+      - reps: 12
+        notes: Moderate volume; neutral spine and controlled eccentric
+      - reps: 12
+        notes: Moderate volume; neutral spine and controlled eccentric
+      - reps: 12
+        notes: Moderate volume; neutral spine and controlled eccentric
+    - name: Hamstring Curls
       sets:
       - reps: 10
-        notes: 10-second holds; after pulling only
+        notes: Controlled hard sets; 1-2 RIR
       - reps: 10
-        notes: 10-second holds; after pulling only
-    - name: DB Shoulder Press
-      sets:
-      - reps: 8
-        notes: Optional; skip if shoulders or triceps feel taxed
-      - reps: 8
-        notes: Optional; skip if shoulders or triceps feel taxed
-    - name: Ab Rollout
-      sets:
-      - reps: 8
-        notes: Leave reps in reserve
-      - reps: 8
-        notes: Leave reps in reserve
-    - name: Rotator Cuff External Rotation
+        notes: Controlled hard sets; 1-2 RIR
+      - reps: 10
+        notes: Controlled hard sets; 1-2 RIR
+    - name: Cable Flyes
       sets:
       - reps: 15
-        notes: Easy to moderate band work
+        notes: Lighter pump work; no aggressive stretch
       - reps: 15
-        notes: Easy to moderate band work
-    - name: Rotator Cuff Internal Rotation
+        notes: Lighter pump work; no aggressive stretch
+    - name: Stretching
       sets:
-      - reps: 15
-        notes: Easy to moderate band work
-      - reps: 15
-        notes: Easy to moderate band work
+      - reps: 1
+        notes: Stretching at end of session
 - week_2:
   - weekday: Monday
-    session: Day 1 - Weighted Pull-Up Priority
+    session: Day 1 - Weighted Muscle-Up Wave and Weighted Dip AMRAP
     exercises:
-    - name: Weighted Pull-Ups
+    - name: Weighted Muscle-Ups
       calculation_mode: training_max
       sets:
       - reps: 3
-        percentage_1rm: 80.0
-        weight: 77.5kg
+        percentage_1rm: 82.5
+        notes: Match week 1 load with better speed and cleaner technique
+        weight: 31.25kg
       - reps: 2
-        percentage_1rm: 85.0
-        weight: 82.5kg
+        percentage_1rm: 87.5
+        notes: Strong, no transition breakdown
+        weight: 32.5kg
       - reps: 1
-        percentage_1rm: 90.0
-        weight: 87.5kg
+        percentage_1rm: 92.5
+        notes: Fast heavy single, no grind
+        weight: 35kg
     - name: Weighted Dips
       calculation_mode: training_max
       sets:
-      - reps: 3
-        percentage_1rm: 74.0
-        notes: Secondary wave
-        weight: 85kg
-      - reps: 2
-        percentage_1rm: 80.0
-        notes: Secondary wave
-        weight: 92.5kg
+      - reps: 10
+        percentage_1rm: 85.0
+        notes: 'PLACEHOLDER REPS: beat week 1 by one clean rep if possible while still
+          stopping at 1-2 RIR'
+        weight: 97.5kg
+    - name: Dumbbell Bench Press
+      sets:
+      - reps: 9
+        notes: Same load as week 1 if possible; controlled; 1-2 RIR
+      - reps: 9
+        notes: Same load as week 1 if possible; controlled; 1-2 RIR
+      - reps: 9
+        notes: Same load as week 1 if possible; controlled; 1-2 RIR
+    - name: Cable Flyes
+      sets:
+      - reps: 17
+        notes: Controlled stretch and squeeze
+      - reps: 17
+        notes: Controlled stretch and squeeze
+      - reps: 17
+        notes: Controlled stretch and squeeze
+    - name: Scapular Push-Ups
+      sets:
+      - reps: 18
+        notes: Full protraction at the top
+      - reps: 18
+        notes: Full protraction at the top
+      - reps: 18
+        notes: Full protraction at the top
+    - name: External Rotations
+      sets:
+      - reps: 18
+        notes: Light and controlled
+      - reps: 18
+        notes: Light and controlled
+    - name: Internal Rotations
+      sets:
+      - reps: 18
+        notes: Light and controlled
+      - reps: 18
+        notes: Light and controlled
+    - name: Stretching
+      sets:
       - reps: 1
-        percentage_1rm: 84.0
-        notes: Secondary wave; optional if fresh
-        weight: 96.25kg
-    - name: DB Back Row
-      sets:
-      - reps: 8
-        notes: Controlled accessory; 5-8 target range
-      - reps: 8
-        notes: Controlled accessory; 5-8 target range
-    - name: Cross Lat Cable Pull
-      sets:
-      - reps: 10
-        notes: Arms crossed in X position, pull out and away from body
-      - reps: 10
-        notes: Arms crossed in X position, pull out and away from body
-    - name: Rotator Cuff External Rotation
-      sets:
-      - reps: 15
-        notes: Easy to moderate band work
-      - reps: 15
-        notes: Easy to moderate band work
-    - name: Rotator Cuff Internal Rotation
-      sets:
-      - reps: 15
-        notes: Easy to moderate band work
-      - reps: 15
-        notes: Easy to moderate band work
-    - name: Ab Rollout
-      sets:
-      - reps: 8
-        notes: Leave reps in reserve
-      - reps: 8
-        notes: Leave reps in reserve
+        notes: Stretching at end of session
   - weekday: Tuesday
-    session: Day 2 - Squat Priority
+    session: Day 2 - Squat Wave and Weighted Pull-Up AMRAP
     exercises:
     - name: Squat
       calculation_mode: training_max
       sets:
       - reps: 3
-        percentage_1rm: 80.0
-        weight: 167.5kg
+        percentage_1rm: 82.5
+        notes: Only use this increase if the back has been calm
+        weight: 172.5kg
       - reps: 2
+        percentage_1rm: 87.5
+        notes: Strong brace; no pain escalation
+        weight: 185kg
+      - reps: 1
+        percentage_1rm: 92.5
+        notes: No grind; use week 1 percentages instead if readiness is poor
+        weight: 195kg
+    - name: Weighted Pull-Ups
+      calculation_mode: training_max
+      sets:
+      - reps: 10
         percentage_1rm: 85.0
-        weight: 177.5kg
-      - reps: 1
-        percentage_1rm: 90.0
-        weight: 190kg
-    - name: Heavy Squat Walkout
-      calculation_mode: training_max
-      sets:
-      - reps: 1
-        percentage_1rm: 100.0
-        notes: 8-10 second unrack and hold; brace hard
-        weight: 220kg
-      - reps: 1
-        percentage_1rm: 105.0
-        notes: Optional 8-10 second hold; only if 100% feels stable
-        weight: 231.25kg
-    - name: Weighted Muscle-Ups
-      calculation_mode: training_max
-      sets:
-      - reps: 1
-        percentage_1rm: 65.0
-        notes: Light technique only
-        weight: 25kg
-      - reps: 1
-        percentage_1rm: 67.0
-        notes: Light technique only
-        weight: 25kg
-      - reps: 1
-        percentage_1rm: 70.0
-        notes: Light technique only
-        weight: 26.25kg
-    - name: Back Extension
-      sets:
-      - reps: 6
-        notes: Controlled; reduced because squat walkouts were added
-      - reps: 6
-        notes: Controlled; reduced because squat walkouts were added
+        notes: 'PLACEHOLDER REPS: beat week 1 by one clean rep if possible while still
+          stopping at 1-2 RIR'
+        weight: 82.5kg
     - name: Leg Press
       sets:
-      - reps: 10
-        notes: Easy-moderate only; do not grind
-    - name: Ab Rollout
+      - reps: 11
+        notes: Heavy top set at RPE 8-9; add load only if week 1 was clean
+      - reps: 13
+        notes: Back-off sets at about 90% of the top-set load
+      - reps: 13
+        notes: Back-off sets at about 90% of the top-set load
+    - name: Back Extensions
       sets:
-      - reps: 8
-        notes: Leave reps in reserve
-      - reps: 8
-        notes: Leave reps in reserve
+      - reps: 10
+        notes: Heavy; add reps or a small load increase; no hyperextension
+      - reps: 10
+        notes: Heavy; add reps or a small load increase; no hyperextension
+      - reps: 10
+        notes: Heavy; add reps or a small load increase; no hyperextension
+      - reps: 10
+        notes: Heavy; add reps or a small load increase; no hyperextension
+    - name: Hamstring Curls
+      sets:
+      - reps: 12
+        notes: Controlled hard sets; 1-2 RIR
+      - reps: 12
+        notes: Controlled hard sets; 1-2 RIR
+      - reps: 12
+        notes: Controlled hard sets; 1-2 RIR
+    - name: Stretching
+      sets:
+      - reps: 1
+        notes: Stretching at end of session
   - weekday: Thursday
-    session: Day 3 - Weighted Dip Priority
-    exercises:
-    - name: Weighted Dips
-      calculation_mode: training_max
-      sets:
-      - reps: 3
-        percentage_1rm: 80.0
-        weight: 92.5kg
-      - reps: 2
-        percentage_1rm: 85.0
-        weight: 97.5kg
-      - reps: 1
-        percentage_1rm: 90.0
-        weight: 103.75kg
-    - name: Weighted Pull-Ups
-      calculation_mode: training_max
-      sets:
-      - reps: 3
-        percentage_1rm: 74.0
-        notes: Secondary wave
-        weight: 72.5kg
-      - reps: 2
-        percentage_1rm: 80.0
-        notes: Secondary wave
-        weight: 77.5kg
-      - reps: 1
-        percentage_1rm: 84.0
-        notes: Secondary wave; optional if fresh
-        weight: 82.5kg
-    - name: DB Chest Press
-      sets:
-      - reps: 8
-        notes: Controlled accessory; do not grind
-      - reps: 8
-        notes: Controlled accessory; do not grind
-    - name: Pec Flye
-      sets:
-      - reps: 10
-        notes: Controlled stretch and squeeze
-      - reps: 10
-        notes: Controlled stretch and squeeze
-    - name: Tricep Pulldown
-      sets:
-      - reps: 10
-        notes: Elbow-friendly accessory
-      - reps: 10
-        notes: Elbow-friendly accessory
-    - name: Scapula Push-Up
-      sets:
-      - reps: 15
-        notes: Easy scapular control
-      - reps: 15
-        notes: Easy scapular control
-    - name: Rotator Cuff External Rotation
-      sets:
-      - reps: 15
-        notes: Easy to moderate band work
-      - reps: 15
-        notes: Easy to moderate band work
-    - name: Rotator Cuff Internal Rotation
-      sets:
-      - reps: 15
-        notes: Easy to moderate band work
-      - reps: 15
-        notes: Easy to moderate band work
-  - weekday: Saturday
-    session: Day 4 - Weighted Muscle-Up Priority and Squat Primer
+    session: Day 3 - Weighted Muscle-Up AMRAP and Weighted Pull-Up Wave
     exercises:
     - name: Weighted Muscle-Ups
       calculation_mode: training_max
       sets:
+      - reps: 10
+        percentage_1rm: 85.0
+        notes: 'PLACEHOLDER REPS: beat week 1 by one perfect rep if possible while
+          still stopping at 1-2 RIR'
+        weight: 32.5kg
+    - name: Weighted Pull-Ups
+      calculation_mode: training_max
+      sets:
+      - reps: 3
+        percentage_1rm: 82.5
+        notes: Match week 1 with better speed
+        weight: 80kg
       - reps: 2
-        percentage_1rm: 72.0
-        weight: 27.5kg
+        percentage_1rm: 87.5
+        notes: Strong
+        weight: 85kg
       - reps: 1
-        percentage_1rm: 78.0
-        weight: 28.75kg
+        percentage_1rm: 92.5
+        notes: No grind; reduce to 90% if muscle-up AMRAP was unusually fatiguing
+        weight: 90kg
+    - name: Dumbbell Bench Press
+      sets:
+      - reps: 11
+        notes: Same load as week 1 if possible; controlled; 1-2 RIR
+      - reps: 11
+        notes: Same load as week 1 if possible; controlled; 1-2 RIR
+      - reps: 11
+        notes: Same load as week 1 if possible; controlled; 1-2 RIR
+    - name: Cable Flyes
+      sets:
+      - reps: 17
+        notes: Smooth reps; no aggressive stretch
+      - reps: 17
+        notes: Smooth reps; no aggressive stretch
+      - reps: 17
+        notes: Smooth reps; no aggressive stretch
+    - name: Back Extensions
+      sets:
+      - reps: 17
+        notes: Lighter tolerance work; controlled throughout
+      - reps: 17
+        notes: Lighter tolerance work; controlled throughout
+      - reps: 17
+        notes: Lighter tolerance work; controlled throughout
+    - name: Stretching
+      sets:
       - reps: 1
-        percentage_1rm: 84.0
-        notes: 'Optional extra: 75% x 1 fast only if technique is sharp'
-        weight: 31.25kg
+        notes: Stretching at end of session
+  - weekday: Saturday
+    session: Day 4 - Squat AMRAP and Weighted Dip Wave
+    exercises:
     - name: Squat
       calculation_mode: training_max
       sets:
+      - reps: 10
+        percentage_1rm: 82.5
+        notes: 'PLACEHOLDER REPS: beat week 1 by one clean rep if possible while stopping
+          at 1-2 RIR; abort AMRAP if back pain appears or increases'
+        weight: 172.5kg
+    - name: Weighted Dips
+      calculation_mode: training_max
+      sets:
+      - reps: 3
+        percentage_1rm: 82.5
+        notes: Match week 1 with cleaner speed
+        weight: 95kg
       - reps: 2
-        percentage_1rm: 67.0
-        notes: Primer wave
-        weight: 140kg
+        percentage_1rm: 87.5
+        notes: Strong shoulder position
+        weight: 100kg
       - reps: 1
-        percentage_1rm: 75.0
-        notes: Primer wave
-        weight: 157.5kg
+        percentage_1rm: 92.5
+        notes: No grind or pec/front-shoulder irritation
+        weight: 106.25kg
+    - name: Leg Press
+      sets:
+      - reps: 15
+        notes: Volume day; use same load as week 1 if possible; RPE 8
+      - reps: 15
+        notes: Volume day; use same load as week 1 if possible; RPE 8
+      - reps: 15
+        notes: Volume day; use same load as week 1 if possible; RPE 8
+      - reps: 15
+        notes: Volume day; use same load as week 1 if possible; RPE 8
+    - name: Back Extensions
+      sets:
+      - reps: 15
+        notes: Moderate volume; add load only if all reps remain clean
+      - reps: 15
+        notes: Moderate volume; add load only if all reps remain clean
+      - reps: 15
+        notes: Moderate volume; add load only if all reps remain clean
+    - name: Hamstring Curls
+      sets:
+      - reps: 12
+        notes: Controlled hard sets; 1-2 RIR
+      - reps: 12
+        notes: Controlled hard sets; 1-2 RIR
+      - reps: 12
+        notes: Controlled hard sets; 1-2 RIR
+    - name: Cable Flyes
+      sets:
+      - reps: 18
+        notes: Lighter pump work
+      - reps: 18
+        notes: Lighter pump work
+    - name: Stretching
+      sets:
       - reps: 1
-        percentage_1rm: 80.0
-        notes: Primer wave
-        weight: 167.5kg
-    - name: Heavy Weighted Deadhang
-      sets:
-      - reps: 10
-        notes: 10-second holds; after pulling only
-      - reps: 10
-        notes: 10-second holds; after pulling only
-    - name: DB Shoulder Press
-      sets:
-      - reps: 8
-        notes: Optional; skip if shoulders or triceps feel taxed
-      - reps: 8
-        notes: Optional; skip if shoulders or triceps feel taxed
-    - name: Ab Rollout
-      sets:
-      - reps: 8
-        notes: Leave reps in reserve
-      - reps: 8
-        notes: Leave reps in reserve
-    - name: Rotator Cuff External Rotation
-      sets:
-      - reps: 15
-        notes: Easy to moderate band work
-      - reps: 15
-        notes: Easy to moderate band work
-    - name: Rotator Cuff Internal Rotation
-      sets:
-      - reps: 15
-        notes: Easy to moderate band work
-      - reps: 15
-        notes: Easy to moderate band work
+        notes: Stretching at end of session
 - week_3:
   - weekday: Monday
-    session: Day 1 - Weighted Pull-Up Priority
+    session: Day 1 - Weighted Muscle-Up Wave and Weighted Dip AMRAP
     exercises:
-    - name: Weighted Pull-Ups
+    - name: Weighted Muscle-Ups
       calculation_mode: training_max
       sets:
       - reps: 3
-        percentage_1rm: 82.0
-        weight: 80kg
+        percentage_1rm: 82.5
+        notes: Crisp opening wave set
+        weight: 31.25kg
       - reps: 2
-        percentage_1rm: 86.0
-        weight: 83.75kg
+        percentage_1rm: 90.0
+        notes: Only if readiness is good
+        weight: 33.75kg
       - reps: 1
-        percentage_1rm: 92.0
-        notes: Heavy single; no grind
-        weight: 90kg
+        percentage_1rm: 95.0
+        notes: Optional high-intensity single only if the double is fast and technique
+          is perfect
+        weight: 35kg
     - name: Weighted Dips
       calculation_mode: training_max
       sets:
-      - reps: 3
-        percentage_1rm: 76.0
-        notes: Secondary wave
-        weight: 87.5kg
-      - reps: 2
-        percentage_1rm: 82.0
-        notes: Secondary wave
-        weight: 93.75kg
+      - reps: 10
+        percentage_1rm: 85.0
+        notes: 'PLACEHOLDER REPS: beat week 2 by one clean rep if possible while still
+          stopping at 1-2 RIR'
+        weight: 97.5kg
+    - name: Dumbbell Bench Press
+      sets:
+      - reps: 10
+        notes: Add a small load only if week 2 was clean; 1-2 RIR
+      - reps: 10
+        notes: Add a small load only if week 2 was clean; 1-2 RIR
+      - reps: 10
+        notes: Add a small load only if week 2 was clean; 1-2 RIR
+    - name: Cable Flyes
+      sets:
+      - reps: 20
+        notes: Controlled stretch and squeeze
+      - reps: 20
+        notes: Controlled stretch and squeeze
+      - reps: 20
+        notes: Controlled stretch and squeeze
+    - name: Scapular Push-Ups
+      sets:
+      - reps: 20
+        notes: Full protraction at the top
+      - reps: 20
+        notes: Full protraction at the top
+      - reps: 20
+        notes: Full protraction at the top
+    - name: External Rotations
+      sets:
+      - reps: 20
+        notes: Light and controlled
+      - reps: 20
+        notes: Light and controlled
+    - name: Internal Rotations
+      sets:
+      - reps: 20
+        notes: Light and controlled
+      - reps: 20
+        notes: Light and controlled
+    - name: Stretching
+      sets:
       - reps: 1
-        percentage_1rm: 86.0
-        notes: Secondary wave; optional if fresh
-        weight: 98.75kg
-    - name: DB Back Row
-      sets:
-      - reps: 8
-        notes: Controlled accessory; 5-8 target range
-      - reps: 8
-        notes: Controlled accessory; 5-8 target range
-    - name: Cross Lat Cable Pull
-      sets:
-      - reps: 10
-        notes: Arms crossed in X position, pull out and away from body
-      - reps: 10
-        notes: Arms crossed in X position, pull out and away from body
-    - name: Rotator Cuff External Rotation
-      sets:
-      - reps: 15
-        notes: Easy to moderate band work
-      - reps: 15
-        notes: Easy to moderate band work
-    - name: Rotator Cuff Internal Rotation
-      sets:
-      - reps: 15
-        notes: Easy to moderate band work
-      - reps: 15
-        notes: Easy to moderate band work
-    - name: Ab Rollout
-      sets:
-      - reps: 8
-        notes: Leave reps in reserve
-      - reps: 8
-        notes: Leave reps in reserve
+        notes: Stretching at end of session
   - weekday: Tuesday
-    session: Day 2 - Squat Priority
+    session: Day 2 - Squat Wave and Weighted Pull-Up AMRAP
     exercises:
     - name: Squat
       calculation_mode: training_max
       sets:
       - reps: 3
-        percentage_1rm: 82.0
+        percentage_1rm: 82.5
+        notes: Only if the back is completely calm
         weight: 172.5kg
       - reps: 2
-        percentage_1rm: 86.0
-        weight: 180kg
+        percentage_1rm: 87.5
+        notes: Strong brace and clean bar path
+        weight: 185kg
       - reps: 1
-        percentage_1rm: 92.0
-        notes: Heavy single; no grind
-        weight: 192.5kg
-    - name: Heavy Squat Walkout
+        percentage_1rm: 92.5
+        notes: No grind; do not increase to 95% in this bridge block
+        weight: 195kg
+    - name: Weighted Pull-Ups
       calculation_mode: training_max
       sets:
-      - reps: 1
-        percentage_1rm: 105.0
-        notes: 8-10 second unrack and hold; no soft knees
-        weight: 231.25kg
-      - reps: 1
-        percentage_1rm: 110.0
-        notes: Optional 8-10 second hold; only if 105% is solid
-        weight: 242.5kg
-    - name: Weighted Muscle-Ups
-      calculation_mode: training_max
-      sets:
-      - reps: 1
-        percentage_1rm: 65.0
-        notes: Light technique only
-        weight: 25kg
-      - reps: 1
-        percentage_1rm: 70.0
-        notes: Light technique only
-        weight: 26.25kg
-      - reps: 1
-        percentage_1rm: 75.0
-        notes: Light technique only
-        weight: 27.5kg
-    - name: Back Extension
-      sets:
-      - reps: 6
-        notes: Controlled; reduced because squat walkouts were added
-      - reps: 6
-        notes: Controlled; reduced because squat walkouts were added
+      - reps: 10
+        percentage_1rm: 85.0
+        notes: 'PLACEHOLDER REPS: beat week 2 by one clean rep if possible while still
+          stopping at 1-2 RIR'
+        weight: 82.5kg
     - name: Leg Press
       sets:
-      - reps: 10
-        notes: Easy-moderate only; do not grind
-    - name: Ab Rollout
+      - reps: 12
+        notes: Heavy top set; add load only after reaching 12 clean reps with 1 RIR
+      - reps: 15
+        notes: Back-off sets at about 90% of the top-set load
+      - reps: 15
+        notes: Back-off sets at about 90% of the top-set load
+    - name: Back Extensions
       sets:
-      - reps: 8
-        notes: Leave reps in reserve
-      - reps: 8
-        notes: Leave reps in reserve
+      - reps: 12
+        notes: Heavy; add a small load if week 2 was clean; no hyperextension
+      - reps: 12
+        notes: Heavy; add a small load if week 2 was clean; no hyperextension
+      - reps: 12
+        notes: Heavy; add a small load if week 2 was clean; no hyperextension
+      - reps: 12
+        notes: Heavy; add a small load if week 2 was clean; no hyperextension
+    - name: Hamstring Curls
+      sets:
+      - reps: 15
+        notes: Controlled hard sets; 1-2 RIR
+      - reps: 15
+        notes: Controlled hard sets; 1-2 RIR
+      - reps: 15
+        notes: Controlled hard sets; 1-2 RIR
+    - name: Stretching
+      sets:
+      - reps: 1
+        notes: Stretching at end of session
   - weekday: Thursday
-    session: Day 3 - Weighted Dip Priority
-    exercises:
-    - name: Weighted Dips
-      calculation_mode: training_max
-      sets:
-      - reps: 3
-        percentage_1rm: 82.0
-        weight: 93.75kg
-      - reps: 2
-        percentage_1rm: 86.0
-        weight: 98.75kg
-      - reps: 1
-        percentage_1rm: 92.0
-        notes: Heavy single; no grind
-        weight: 106.25kg
-    - name: Weighted Pull-Ups
-      calculation_mode: training_max
-      sets:
-      - reps: 3
-        percentage_1rm: 76.0
-        notes: Secondary wave
-        weight: 73.75kg
-      - reps: 2
-        percentage_1rm: 82.0
-        notes: Secondary wave
-        weight: 80kg
-      - reps: 1
-        percentage_1rm: 86.0
-        notes: Secondary wave; optional if fresh
-        weight: 83.75kg
-    - name: DB Chest Press
-      sets:
-      - reps: 8
-        notes: Controlled accessory; do not grind
-      - reps: 8
-        notes: Controlled accessory; do not grind
-    - name: Pec Flye
-      sets:
-      - reps: 10
-        notes: Controlled stretch and squeeze
-      - reps: 10
-        notes: Controlled stretch and squeeze
-    - name: Tricep Pulldown
-      sets:
-      - reps: 10
-        notes: Elbow-friendly accessory
-      - reps: 10
-        notes: Elbow-friendly accessory
-    - name: Scapula Push-Up
-      sets:
-      - reps: 15
-        notes: Easy scapular control
-      - reps: 15
-        notes: Easy scapular control
-    - name: Rotator Cuff External Rotation
-      sets:
-      - reps: 15
-        notes: Easy to moderate band work
-      - reps: 15
-        notes: Easy to moderate band work
-    - name: Rotator Cuff Internal Rotation
-      sets:
-      - reps: 15
-        notes: Easy to moderate band work
-      - reps: 15
-        notes: Easy to moderate band work
-  - weekday: Saturday
-    session: Day 4 - Weighted Muscle-Up Priority and Squat Primer
+    session: Day 3 - Weighted Muscle-Up AMRAP and Weighted Pull-Up Wave
     exercises:
     - name: Weighted Muscle-Ups
       calculation_mode: training_max
       sets:
-      - reps: 2
-        percentage_1rm: 75.0
-        weight: 27.5kg
-      - reps: 1
-        percentage_1rm: 80.0
-        weight: 30kg
-      - reps: 1
-        percentage_1rm: 88.0
-        notes: 'Optional extra: 76% x 1 fast only if technique is sharp'
-        weight: 32.5kg
-    - name: Squat
-      calculation_mode: training_max
-      sets:
-      - reps: 2
-        percentage_1rm: 70.0
-        notes: Primer wave
-        weight: 147.5kg
-      - reps: 1
-        percentage_1rm: 78.0
-        notes: Primer wave
-        weight: 165kg
-      - reps: 1
+      - reps: 10
         percentage_1rm: 85.0
-        notes: Primer wave; should still move fast
-        weight: 177.5kg
-    - name: Heavy Weighted Deadhang
-      sets:
-      - reps: 10
-        notes: 10-second holds; after pulling only
-      - reps: 10
-        notes: 10-second holds; after pulling only
-    - name: DB Shoulder Press
-      sets:
-      - reps: 8
-        notes: Optional; skip if shoulders or triceps feel taxed
-      - reps: 8
-        notes: Optional; skip if shoulders or triceps feel taxed
-    - name: Ab Rollout
-      sets:
-      - reps: 8
-        notes: Leave reps in reserve
-      - reps: 8
-        notes: Leave reps in reserve
-    - name: Rotator Cuff External Rotation
-      sets:
-      - reps: 15
-        notes: Easy to moderate band work
-      - reps: 15
-        notes: Easy to moderate band work
-    - name: Rotator Cuff Internal Rotation
-      sets:
-      - reps: 15
-        notes: Easy to moderate band work
-      - reps: 15
-        notes: Easy to moderate band work
-- week_4:
-  - weekday: Monday
-    session: Day 1 - Deload Pull
-    exercises:
-    - name: Weighted Pull-Ups
-      calculation_mode: training_max
-      sets:
-      - reps: 3
-        percentage_1rm: 67.0
-        weight: 65kg
-      - reps: 2
-        percentage_1rm: 74.0
-        weight: 72.5kg
-      - reps: 1
-        percentage_1rm: 79.0
-        notes: Deload; all reps fast
-        weight: 77.5kg
-    - name: Weighted Dips
-      calculation_mode: training_max
-      sets:
-      - reps: 3
-        percentage_1rm: 65.0
-        notes: Easy secondary deload
-        weight: 75kg
-      - reps: 2
-        percentage_1rm: 70.0
-        notes: Easy secondary deload
-        weight: 80kg
-    - name: DB Back Row
-      sets:
-      - reps: 8
-        notes: Deload accessory
-    - name: Cross Lat Cable Pull
-      sets:
-      - reps: 10
-        notes: Deload accessory
-    - name: Rotator Cuff External Rotation
-      sets:
-      - reps: 15
-        notes: Easy band work
-      - reps: 15
-        notes: Easy band work
-    - name: Rotator Cuff Internal Rotation
-      sets:
-      - reps: 15
-        notes: Easy band work
-      - reps: 15
-        notes: Easy band work
-  - weekday: Tuesday
-    session: Day 2 - Deload Squat
-    exercises:
-    - name: Squat
-      calculation_mode: training_max
-      sets:
-      - reps: 3
-        percentage_1rm: 67.0
-        weight: 140kg
-      - reps: 2
-        percentage_1rm: 74.0
-        weight: 155kg
-      - reps: 1
-        percentage_1rm: 79.0
-        notes: Deload; all reps fast
-        weight: 165kg
-    - name: Weighted Muscle-Ups
-      calculation_mode: training_max
-      sets:
-      - reps: 2
-        percentage_1rm: 60.0
-        notes: Very easy technique
-        weight: 22.5kg
-      - reps: 1
-        percentage_1rm: 70.0
-        notes: Very easy technique
-        weight: 26.25kg
-      - reps: 1
-        percentage_1rm: 75.0
-        notes: Very easy technique; optional if sharp
-        weight: 27.5kg
-    - name: Back Extension
-      sets:
-      - reps: 8
-        notes: Deload accessory
-    - name: Ab Rollout
-      sets:
-      - reps: 8
-        notes: Deload accessory
-  - weekday: Thursday
-    session: Day 3 - Deload Dip
-    exercises:
-    - name: Weighted Dips
-      calculation_mode: training_max
-      sets:
-      - reps: 3
-        percentage_1rm: 67.0
-        weight: 77.5kg
-      - reps: 2
-        percentage_1rm: 74.0
-        weight: 85kg
-      - reps: 1
-        percentage_1rm: 79.0
-        notes: Deload; all reps fast
-        weight: 91.25kg
-    - name: Weighted Pull-Ups
-      calculation_mode: training_max
-      sets:
-      - reps: 3
-        percentage_1rm: 65.0
-        notes: Easy secondary deload
-        weight: 63.75kg
-      - reps: 2
-        percentage_1rm: 70.0
-        notes: Easy secondary deload
-        weight: 68.75kg
-    - name: Pec Flye
-      sets:
-      - reps: 10
-        notes: Deload accessory
-    - name: Tricep Pulldown
-      sets:
-      - reps: 10
-        notes: Deload accessory
-    - name: Scapula Push-Up
-      sets:
-      - reps: 15
-        notes: Easy scapular control
-    - name: Rotator Cuff External Rotation
-      sets:
-      - reps: 15
-        notes: Easy band work
-      - reps: 15
-        notes: Easy band work
-    - name: Rotator Cuff Internal Rotation
-      sets:
-      - reps: 15
-        notes: Easy band work
-      - reps: 15
-        notes: Easy band work
-  - weekday: Saturday
-    session: Day 4 - Deload Muscle-Up and Primer
-    exercises:
-    - name: Weighted Muscle-Ups
-      calculation_mode: training_max
-      sets:
-      - reps: 2
-        percentage_1rm: 60.0
-        weight: 22.5kg
-      - reps: 1
-        percentage_1rm: 70.0
-        weight: 26.25kg
-      - reps: 1
-        percentage_1rm: 75.0
-        notes: Easy technical reps only; optional if sharp
-        weight: 27.5kg
-    - name: Squat
-      calculation_mode: training_max
-      sets:
-      - reps: 2
-        percentage_1rm: 55.0
-        notes: Very easy primer
-        weight: 115kg
-      - reps: 1
-        percentage_1rm: 65.0
-        notes: Very easy primer
-        weight: 137.5kg
-    - name: Ab Rollout
-      sets:
-      - reps: 8
-        notes: Deload accessory
-    - name: Rotator Cuff External Rotation
-      sets:
-      - reps: 15
-        notes: Easy band work
-      - reps: 15
-        notes: Easy band work
-    - name: Rotator Cuff Internal Rotation
-      sets:
-      - reps: 15
-        notes: Easy band work
-      - reps: 15
-        notes: Easy band work
-- week_5:
-  - weekday: Monday
-    session: Day 1 - Weighted Pull-Up Peak Exposure - COMPLETED
-    exercises:
-    - name: Weighted Pull-Ups
-      calculation_mode: training_max
-      sets:
-      - reps: 2
-        percentage_1rm: 82.0
-        weight: 80kg
-      - reps: 1
-        percentage_1rm: 87.0
-        weight: 85kg
-      - reps: 1
-        percentage_1rm: 93.0
-        notes: Already completed; do not add extra work
-        weight: 91.25kg
-    - name: Weighted Dips
-      calculation_mode: training_max
-      sets:
-      - reps: 2
-        percentage_1rm: 75.0
-        notes: Already completed
-        weight: 86.25kg
-      - reps: 1
-        percentage_1rm: 82.0
-        notes: Already completed
-        weight: 93.75kg
-      - reps: 1
-        percentage_1rm: 88.0
-        notes: Already completed if done; do not repeat
-        weight: 101.25kg
-    - name: DB Back Row
-      sets:
-      - reps: 8
-        notes: Already completed; no extra back work
-    - name: Cross Lat Cable Pull
-      sets:
-      - reps: 10
-        notes: Already completed; no extra back work
-    - name: Rotator Cuff External Rotation
-      sets:
-      - reps: 15
-        notes: Easy band work only
-      - reps: 15
-        notes: Easy band work only
-    - name: Rotator Cuff Internal Rotation
-      sets:
-      - reps: 15
-        notes: Easy band work only
-      - reps: 15
-        notes: Easy band work only
-  - weekday: Tuesday
-    session: Day 2 - Squat Re-Sharpen
-    exercises:
-    - name: Squat
-      calculation_mode: training_max
-      sets:
-      - reps: 2
-        percentage_1rm: 70.0
-        notes: Fast primer
-        weight: 147.5kg
-      - reps: 1
-        percentage_1rm: 78.0
-        notes: Fast
-        weight: 165kg
-      - reps: 1
-        percentage_1rm: 82.0
-        notes: Readiness check
-        weight: 172.5kg
-      - reps: 1
-        percentage_1rm: 87.0
-        notes: Stop here if not sharp
-        weight: 182.5kg
-      - reps: 1
-        percentage_1rm: 90.0
-        notes: Optional only if 87% is fast and confident
-        weight: 190kg
-    - name: Weighted Muscle-Ups
-      calculation_mode: training_max
-      sets:
-      - reps: 1
-        percentage_1rm: 60.0
-        notes: Light technique only
-        weight: 22.5kg
-      - reps: 1
-        percentage_1rm: 70.0
-        notes: Light technique only; skip if sluggish
-        weight: 26.25kg
-    - name: Back Extension
-      sets:
-      - reps: 8
-        notes: Optional easy blood flow only
-    - name: Ab Rollout
-      sets:
-      - reps: 8
-        notes: Optional easy only
-  - weekday: Thursday
-    session: Day 3 - Weighted Dip Re-Sharpen
-    exercises:
-    - name: Weighted Dips
-      calculation_mode: training_max
-      sets:
-      - reps: 2
-        percentage_1rm: 70.0
-        notes: Fast primer
-        weight: 80kg
-      - reps: 1
-        percentage_1rm: 80.0
-        notes: Fast
-        weight: 92.5kg
-      - reps: 1
-        percentage_1rm: 85.0
-        notes: Readiness check
-        weight: 97.5kg
-      - reps: 1
-        percentage_1rm: 88.0
-        notes: Stop here if not sharp
-        weight: 101.25kg
-      - reps: 1
-        percentage_1rm: 90.0
-        notes: Optional only if 88% is fast and confident
-        weight: 103.75kg
-    - name: Weighted Pull-Ups
-      calculation_mode: training_max
-      sets:
-      - reps: 1
-        percentage_1rm: 70.0
-        notes: Secondary primer only
-        weight: 68.75kg
-      - reps: 1
-        percentage_1rm: 75.0
-        notes: Secondary primer only; no grind
-        weight: 72.5kg
-    - name: Pec Flye
-      sets:
-      - reps: 10
-        notes: Optional easy only
-    - name: Tricep Pulldown
-      sets:
-      - reps: 10
-        notes: Optional easy only
-    - name: Scapula Push-Up
-      sets:
-      - reps: 15
-        notes: Easy scapular control
-    - name: Rotator Cuff External Rotation
-      sets:
-      - reps: 15
-        notes: Easy band work
-      - reps: 15
-        notes: Easy band work
-    - name: Rotator Cuff Internal Rotation
-      sets:
-      - reps: 15
-        notes: Easy band work
-      - reps: 15
-        notes: Easy band work
-  - weekday: Saturday
-    session: Day 4 - Weighted Muscle-Up Re-Sharpen and Squat Primer
-    exercises:
-    - name: Weighted Muscle-Ups
-      calculation_mode: training_max
-      sets:
-      - reps: 1
-        percentage_1rm: 70.0
-        notes: Technical primer
-        weight: 26.25kg
-      - reps: 1
-        percentage_1rm: 75.0
-        notes: Clean and fast
-        weight: 27.5kg
-      - reps: 1
-        percentage_1rm: 82.0
-        notes: Readiness check
-        weight: 31.25kg
-      - reps: 1
-        percentage_1rm: 87.0
-        notes: Optional only if transition is clean and explosive
+        notes: 'PLACEHOLDER REPS: beat week 2 by one perfect rep if possible while
+          stopping at 1-2 RIR'
         weight: 32.5kg
-    - name: Squat
-      calculation_mode: training_max
-      sets:
-      - reps: 1
-        percentage_1rm: 65.0
-        notes: Light primer
-        weight: 137.5kg
-      - reps: 1
-        percentage_1rm: 75.0
-        notes: Light primer; fast only
-        weight: 157.5kg
-    - name: Heavy Weighted Deadhang
-      sets:
-      - reps: 10
-        notes: Optional; skip if any grip, elbow, lat, or shoulder fatigue
-    - name: Ab Rollout
-      sets:
-      - reps: 8
-        notes: Optional easy only
-    - name: Rotator Cuff External Rotation
-      sets:
-      - reps: 15
-        notes: Easy band work
-      - reps: 15
-        notes: Easy band work
-    - name: Rotator Cuff Internal Rotation
-      sets:
-      - reps: 15
-        notes: Easy band work
-      - reps: 15
-        notes: Easy band work
-- week_6:
-  - weekday: Monday
-    session: Day 1 - Weighted Pull-Up Peak
-    exercises:
     - name: Weighted Pull-Ups
       calculation_mode: training_max
       sets:
-      - reps: 1
-        percentage_1rm: 75.0
-        notes: Fast primer
-        weight: 72.5kg
-      - reps: 1
-        percentage_1rm: 82.0
-        notes: Fast
+      - reps: 3
+        percentage_1rm: 82.5
+        notes: Crisp opening wave set
         weight: 80kg
-      - reps: 1
-        percentage_1rm: 87.0
-        notes: Readiness check
-        weight: 85kg
-      - reps: 1
-        percentage_1rm: 91.0
-        notes: Peak single; no grind
-        weight: 88.75kg
-      - reps: 1
-        percentage_1rm: 93.0
-        notes: Optional only if 91% flies
-        weight: 91.25kg
-    - name: Weighted Dips
-      calculation_mode: training_max
-      sets:
-      - reps: 1
-        percentage_1rm: 75.0
-        notes: Secondary primer
-        weight: 86.25kg
-      - reps: 1
-        percentage_1rm: 82.0
-        notes: Secondary primer; fast only
-        weight: 93.75kg
-      - reps: 1
-        percentage_1rm: 86.0
-        notes: Optional only if fresh
-        weight: 98.75kg
-    - name: Rotator Cuff External Rotation
-      sets:
-      - reps: 15
-        notes: Easy band work
-    - name: Rotator Cuff Internal Rotation
-      sets:
-      - reps: 15
-        notes: Easy band work
-  - weekday: Tuesday
-    session: Day 2 - Squat Peak
-    exercises:
-    - name: Squat
-      calculation_mode: training_max
-      sets:
-      - reps: 1
-        percentage_1rm: 75.0
-        notes: Fast primer
-        weight: 157.5kg
-      - reps: 1
-        percentage_1rm: 82.0
-        notes: Fast
-        weight: 172.5kg
-      - reps: 1
-        percentage_1rm: 87.0
-        notes: Readiness check
-        weight: 182.5kg
-      - reps: 1
-        percentage_1rm: 91.0
-        notes: Peak single; no grind
-        weight: 190kg
-      - reps: 1
-        percentage_1rm: 93.0
-        notes: Optional only if 91% flies
-        weight: 195kg
-    - name: Heavy Squat Walkout
-      calculation_mode: training_max
-      sets:
-      - reps: 1
-        percentage_1rm: 100.0
-        notes: Optional 5-second confidence walkout only if squat single was sharp;
-          skip if any fatigue
-        weight: 220kg
-    - name: Weighted Muscle-Ups
-      calculation_mode: training_max
-      sets:
-      - reps: 1
-        percentage_1rm: 65.0
-        notes: Light technique only
-        weight: 25kg
-      - reps: 1
-        percentage_1rm: 75.0
-        notes: Light technique only; skip if sluggish
-        weight: 27.5kg
-    - name: Back Extension
-      sets:
-      - reps: 8
-        notes: Optional very easy blood flow only
-  - weekday: Thursday
-    session: Day 3 - Weighted Dip Peak
-    exercises:
-    - name: Weighted Dips
-      calculation_mode: training_max
-      sets:
-      - reps: 1
-        percentage_1rm: 75.0
-        notes: Fast primer
-        weight: 86.25kg
-      - reps: 1
-        percentage_1rm: 82.0
-        notes: Fast
-        weight: 93.75kg
-      - reps: 1
-        percentage_1rm: 87.0
-        notes: Readiness check
-        weight: 100kg
-      - reps: 1
-        percentage_1rm: 91.0
-        notes: Peak single; no grind
-        weight: 105kg
-      - reps: 1
-        percentage_1rm: 93.0
-        notes: Optional only if 91% flies
-        weight: 107.5kg
-    - name: Weighted Pull-Ups
-      calculation_mode: training_max
-      sets:
-      - reps: 1
-        percentage_1rm: 75.0
-        notes: Secondary primer
-        weight: 72.5kg
-      - reps: 1
-        percentage_1rm: 82.0
-        notes: Secondary primer; fast only
-        weight: 80kg
-      - reps: 1
-        percentage_1rm: 86.0
-        notes: Optional only if fresh
-        weight: 83.75kg
-    - name: Scapula Push-Up
-      sets:
-      - reps: 15
-        notes: Easy scapular control
-    - name: Rotator Cuff External Rotation
-      sets:
-      - reps: 15
-        notes: Easy band work
-    - name: Rotator Cuff Internal Rotation
-      sets:
-      - reps: 15
-        notes: Easy band work
-  - weekday: Saturday
-    session: Day 4 - Weighted Muscle-Up Peak and Squat Primer
-    exercises:
-    - name: Weighted Muscle-Ups
-      calculation_mode: training_max
-      sets:
-      - reps: 1
-        percentage_1rm: 75.0
-        notes: Technical primer
-        weight: 27.5kg
-      - reps: 1
-        percentage_1rm: 82.0
-        notes: Clean and fast
-        weight: 31.25kg
-      - reps: 1
-        percentage_1rm: 87.0
-        notes: Peak technical single
-        weight: 32.5kg
-      - reps: 1
+      - reps: 2
         percentage_1rm: 90.0
-        notes: Optional only if transition is perfect; no grind
-        weight: 33.75kg
-    - name: Squat
-      calculation_mode: training_max
-      sets:
-      - reps: 1
-        percentage_1rm: 65.0
-        notes: Light primer
-        weight: 137.5kg
-      - reps: 1
-        percentage_1rm: 75.0
-        notes: Light primer; fast only
-        weight: 157.5kg
-    - name: Ab Rollout
-      sets:
-      - reps: 8
-        notes: Optional easy only
-    - name: Rotator Cuff External Rotation
-      sets:
-      - reps: 15
-        notes: Easy band work
-    - name: Rotator Cuff Internal Rotation
-      sets:
-      - reps: 15
-        notes: Easy band work
-- week_7:
-  - weekday: Monday
-    session: Day 1 - Weighted Pull-Up Test
-    exercises:
-    - name: Weighted Pull-Ups
-      calculation_mode: training_max
-      sets:
-      - reps: 1
-        percentage_1rm: 70.0
-        notes: Primer warm-up
-        weight: 68.75kg
-      - reps: 1
-        percentage_1rm: 82.0
-        notes: Primer warm-up
-        weight: 80kg
-      - reps: 1
-        percentage_1rm: 90.0
-        notes: Readiness check
+        notes: Only if readiness is good
         weight: 87.5kg
       - reps: 1
-        percentage_1rm: 96.0
-        notes: Opener; only continue if clean and fast
-        weight: 93.75kg
-      - reps: 1
-        percentage_1rm: 102.0
-        notes: PR attempt only if opener is sharp
-        weight: 100kg
-      - reps: 1
-        percentage_1rm: 105.0
-        notes: Optional only if 102% is fast
-        weight: 102.5kg
-    - name: Rotator Cuff External Rotation
+        percentage_1rm: 95.0
+        notes: Optional only if the double is fast and the muscle-up AMRAP did not
+          create excess fatigue
+        weight: 92.5kg
+    - name: Dumbbell Bench Press
       sets:
-      - reps: 15
-        notes: Easy shoulder prep
-    - name: Rotator Cuff Internal Rotation
+      - reps: 12
+        notes: Add a small load next block after all reps are clean; 1-2 RIR
+      - reps: 12
+        notes: Add a small load next block after all reps are clean; 1-2 RIR
+      - reps: 12
+        notes: Add a small load next block after all reps are clean; 1-2 RIR
+    - name: Cable Flyes
       sets:
-      - reps: 15
-        notes: Easy shoulder prep
-  - weekday: Tuesday
-    session: Day 2 - Squat Test
+      - reps: 20
+        notes: Smooth reps; no aggressive stretch
+      - reps: 20
+        notes: Smooth reps; no aggressive stretch
+      - reps: 20
+        notes: Smooth reps; no aggressive stretch
+    - name: Back Extensions
+      sets:
+      - reps: 20
+        notes: Lighter tolerance work; controlled throughout
+      - reps: 20
+        notes: Lighter tolerance work; controlled throughout
+      - reps: 20
+        notes: Lighter tolerance work; controlled throughout
+    - name: Stretching
+      sets:
+      - reps: 1
+        notes: Stretching at end of session
+  - weekday: Saturday
+    session: Day 4 - Squat AMRAP and Weighted Dip Wave
     exercises:
     - name: Squat
       calculation_mode: training_max
       sets:
-      - reps: 1
-        percentage_1rm: 70.0
-        notes: Primer warm-up
-        weight: 147.5kg
-      - reps: 1
-        percentage_1rm: 82.0
-        notes: Primer warm-up
+      - reps: 10
+        percentage_1rm: 82.5
+        notes: 'PLACEHOLDER REPS: beat week 2 by one clean rep if possible while stopping
+          at 1-2 RIR; abort AMRAP if back pain appears or increases'
         weight: 172.5kg
-      - reps: 1
-        percentage_1rm: 90.0
-        notes: Readiness check
-        weight: 190kg
-      - reps: 1
-        percentage_1rm: 96.0
-        notes: Opener; only continue if clean and fast
-        weight: 202.5kg
-      - reps: 1
-        percentage_1rm: 102.0
-        notes: PR attempt only if opener is sharp
-        weight: 215kg
-      - reps: 1
-        percentage_1rm: 105.0
-        notes: Optional only if 102% is fast
-        weight: 220kg
-    - name: Back Extension
-      sets:
-      - reps: 8
-        notes: Optional very easy blood flow only
-  - weekday: Thursday
-    session: Day 3 - Weighted Dip Test
-    exercises:
     - name: Weighted Dips
       calculation_mode: training_max
       sets:
-      - reps: 1
-        percentage_1rm: 70.0
-        notes: Primer warm-up
-        weight: 80kg
-      - reps: 1
-        percentage_1rm: 82.0
-        notes: Primer warm-up
-        weight: 93.75kg
-      - reps: 1
+      - reps: 3
+        percentage_1rm: 82.5
+        notes: Crisp opening wave set
+        weight: 95kg
+      - reps: 2
         percentage_1rm: 90.0
-        notes: Readiness check
+        notes: Only if readiness and pec/shoulder feel good
         weight: 103.75kg
       - reps: 1
-        percentage_1rm: 96.0
-        notes: Opener; only continue if clean and fast
-        weight: 110kg
-      - reps: 1
-        percentage_1rm: 102.0
-        notes: PR attempt only if opener is sharp
-        weight: 117.5kg
-      - reps: 1
-        percentage_1rm: 105.0
-        notes: Optional only if 102% is fast
-        weight: 121.25kg
-    - name: Scapula Push-Up
+        percentage_1rm: 95.0
+        notes: Optional only if the double is fast; no grind
+        weight: 108.75kg
+    - name: Leg Press
+      sets:
+      - reps: 18
+        notes: Volume day; controlled deep reps; stop at RPE 8-9
+      - reps: 18
+        notes: Volume day; controlled deep reps; stop at RPE 8-9
+      - reps: 18
+        notes: Volume day; controlled deep reps; stop at RPE 8-9
+      - reps: 18
+        notes: Volume day; controlled deep reps; stop at RPE 8-9
+    - name: Back Extensions
+      sets:
+      - reps: 18
+        notes: Moderate volume; clean reps only
+      - reps: 18
+        notes: Moderate volume; clean reps only
+      - reps: 18
+        notes: Moderate volume; clean reps only
+    - name: Hamstring Curls
       sets:
       - reps: 15
-        notes: Easy scapular control
-    - name: Rotator Cuff External Rotation
-      sets:
+        notes: Controlled hard sets; 1-2 RIR
       - reps: 15
-        notes: Easy shoulder prep
-    - name: Rotator Cuff Internal Rotation
-      sets:
+        notes: Controlled hard sets; 1-2 RIR
       - reps: 15
-        notes: Easy shoulder prep
-  - weekday: Saturday
-    session: Day 4 - Weighted Muscle-Up Test
-    exercises:
-    - name: Weighted Muscle-Ups
-      calculation_mode: training_max
+        notes: Controlled hard sets; 1-2 RIR
+    - name: Cable Flyes
+      sets:
+      - reps: 20
+        notes: Lighter pump work; no aggressive stretch
+      - reps: 20
+        notes: Lighter pump work; no aggressive stretch
+    - name: Stretching
       sets:
       - reps: 1
-        percentage_1rm: 65.0
-        notes: Technical warm-up
-        weight: 25kg
-      - reps: 1
-        percentage_1rm: 75.0
-        notes: Technical warm-up
-        weight: 27.5kg
-      - reps: 1
-        percentage_1rm: 85.0
-        notes: Heavy technical single
-        weight: 32.5kg
-      - reps: 1
-        percentage_1rm: 92.0
-        notes: Opener; only continue if transition is clean
-        weight: 35kg
-      - reps: 1
-        percentage_1rm: 100.0
-        notes: Current max attempt only if opener is perfect
-        weight: 37.5kg
-      - reps: 1
-        percentage_1rm: 102.0
-        notes: Small PR attempt only if technique is perfect
-        weight: 38.75kg
-    - name: Ab Rollout
-      sets:
-      - reps: 8
-        notes: Optional easy only
-    - name: Rotator Cuff External Rotation
-      sets:
-      - reps: 15
-        notes: Easy shoulder prep
-    - name: Rotator Cuff Internal Rotation
-      sets:
-      - reps: 15
-        notes: Easy shoulder prep
+        notes: Stretching at end of session
