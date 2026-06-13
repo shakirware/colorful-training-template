@@ -18,6 +18,9 @@ WEEKDAY_TO_DAY_NUM = {
 
 DAY_LABELS = [f"Day {i}" for i in range(1, 8)]
 
+REST_DAYS_BETWEEN_SESSIONS = 1
+TRAINING_DAY_GAP = REST_DAYS_BETWEEN_SESSIONS + 1
+
 THIN = Side(style="thin", color="000000")
 THIN_BORDER = Border(left=THIN, right=THIN, top=THIN, bottom=THIN)
 
@@ -73,24 +76,45 @@ def _flatten_program(
     rows: list[dict[str, Any]] = []
     week_labels: list[str] = []
     max_exercises = 1
+    global_session_index = 0
 
     for week_index, week_dict in enumerate(calculated_program, start=1):
-        week_start = start_date + timedelta(weeks=week_index - 1)
-        week_label = _week_label(week_index, week_start)
-        week_labels.append(week_label)
-
         if not isinstance(week_dict, dict):
             raise CompanionViewError(
                 f"Each week must be a mapping, got {type(week_dict).__name__}"
             )
 
         week_days = next(iter(week_dict.values()), [])
-        for day in week_days:
-            weekday = day.get("weekday")
-            if weekday not in WEEKDAY_TO_DAY_NUM:
+
+        if not isinstance(week_days, list):
+            raise CompanionViewError(
+                f"Each week value must be a list of days, got {type(week_days).__name__}"
+            )
+
+        week_start = start_date + timedelta(
+            days=global_session_index * TRAINING_DAY_GAP
+        )
+        week_label = _week_label(week_index, week_start)
+        week_labels.append(week_label)
+
+        # Day numbers are based on YAML order, not weekday label.
+        # Actual training dates are calculated from the start_date using the
+        # rolling training rhythm defined by TRAINING_DAY_GAP.
+        for day_num, day in enumerate(week_days, start=1):
+            if day_num > 7:
                 continue
 
-            day_num = WEEKDAY_TO_DAY_NUM[weekday]
+            if not isinstance(day, dict):
+                continue
+
+            training_date = start_date + timedelta(
+                days=global_session_index * TRAINING_DAY_GAP
+            )
+            training_date_text = training_date.strftime("%d-%m-%Y")
+            training_weekday_text = training_date.strftime("%A")
+            short_day_label = training_date.strftime("%a %d-%m-%Y")
+            day_label = f"Day {day_num} - {short_day_label}"
+
             exercises = day.get("exercises", [])
             max_exercises = max(max_exercises, len(exercises) or 1)
 
@@ -101,7 +125,9 @@ def _flatten_program(
                         "week_label": week_label,
                         "week_start": week_start.strftime("%d-%m-%Y"),
                         "day_num": day_num,
-                        "day_label": f"Day {day_num}",
+                        "day_label": day_label,
+                        "training_date": training_date_text,
+                        "training_weekday": training_weekday_text,
                         "exercise_index": exercise_index,
                         "exercise": exercise.get("name", ""),
                         "prescription": _build_prescription_summary(
@@ -111,6 +137,8 @@ def _flatten_program(
                         "key": week_index * 1000 + day_num * 100 + exercise_index,
                     }
                 )
+
+            global_session_index += 1
 
     return rows, week_labels, max_exercises
 
@@ -174,7 +202,7 @@ def _format_percentage(value: Any) -> str:
 
 
 def _week_label(week_num: int, week_start: datetime) -> str:
-    return f"Week {week_num} - Week Commencing {week_start.strftime('%d-%m-%Y')}"
+    return f"Block Week {week_num} - Starts {week_start.strftime('%d-%m-%Y')}"
 
 
 def _populate_program_data_sheet(sheet, rows: list[dict[str, Any]]) -> None:
@@ -184,6 +212,8 @@ def _populate_program_data_sheet(sheet, rows: list[dict[str, Any]]) -> None:
         "Week Start",
         "Day Num",
         "Day Label",
+        "Training Date",
+        "Training Weekday",
         "Exercise Index",
         "Exercise",
         "Prescription",
@@ -206,6 +236,8 @@ def _populate_program_data_sheet(sheet, rows: list[dict[str, Any]]) -> None:
                 row["week_start"],
                 row["day_num"],
                 row["day_label"],
+                row["training_date"],
+                row["training_weekday"],
                 row["exercise_index"],
                 row["exercise"],
                 row["prescription"],
@@ -219,12 +251,14 @@ def _populate_program_data_sheet(sheet, rows: list[dict[str, Any]]) -> None:
         "B": 34,
         "C": 14,
         "D": 10,
-        "E": 10,
-        "F": 14,
-        "G": 28,
-        "H": 58,
-        "I": 80,
-        "J": 12,
+        "E": 24,
+        "F": 16,
+        "G": 18,
+        "H": 14,
+        "I": 28,
+        "J": 58,
+        "K": 80,
+        "L": 12,
     }
     for col, width in widths.items():
         sheet.column_dimensions[col].width = width
@@ -286,13 +320,22 @@ def _build_week_view_sheet(sheet, max_exercises: int, week_labels: list[str]) ->
 
     for day_num in range(1, 8):
         day_row = start_row + (day_num - 1) * block_height
+
         sheet.merge_cells(
             start_row=day_row,
             start_column=1,
             end_row=day_row,
             end_column=3,
         )
-        sheet.cell(day_row, 1).value = f"Day {day_num}"
+
+        day_label_range = "_Program_Data!$E$2:$E$1048576"
+        data_range_key = "_Program_Data!$L$2:$L$1048576"
+        header_key_expr = f"IFERROR($B$2*1000+{day_num}*100+1,0)"
+
+        sheet.cell(day_row, 1).value = (
+            f"=IFERROR(INDEX({day_label_range},MATCH({header_key_expr},{data_range_key},0)),"
+            f'"Day {day_num} - Rest")'
+        )
         _style_cell(sheet.cell(day_row, 1), fill=SECTION_FILL, font=SECTION_FONT)
 
         headers_row = day_row + 1
@@ -310,10 +353,10 @@ def _build_week_view_sheet(sheet, max_exercises: int, week_labels: list[str]) ->
         for exercise_index in range(1, max_exercises + 1):
             row = first_data_row + exercise_index - 1
             key_expr = f"IFERROR($B$2*1000+{day_num}*100+{exercise_index},0)"
-            data_range_key = "_Program_Data!$J$2:$J$1048576"
-            data_range_ex = "_Program_Data!$G$2:$G$1048576"
-            data_range_plan = "_Program_Data!$H$2:$H$1048576"
-            data_range_notes = "_Program_Data!$I$2:$I$1048576"
+            data_range_key = "_Program_Data!$L$2:$L$1048576"
+            data_range_ex = "_Program_Data!$I$2:$I$1048576"
+            data_range_plan = "_Program_Data!$J$2:$J$1048576"
+            data_range_notes = "_Program_Data!$K$2:$K$1048576"
 
             if exercise_index == 1:
                 exercise_formula = (
@@ -382,7 +425,12 @@ def _build_today_sheet(sheet, max_exercises: int, week_labels: list[str]) -> Non
         vertical="center",
     )
 
-    sheet["C3"] = '=IFERROR(IF(AND(B3>=1,B3<=7),"Day "&B3,"Type 1-7"),"Type 1-7")'
+    sheet["C3"] = (
+        "=IFERROR("
+        "INDEX(_Program_Data!$E$2:$E$1048576,"
+        "MATCH($B$2*1000+$B$3*100+1,_Program_Data!$L$2:$L$1048576,0)),"
+        '"Day "&B3&" - Rest")'
+    )
     _style_cell(sheet["C3"], fill=CONTROL_FILL, font=BODY_FONT, border=True)
 
     sheet.merge_cells("A4:C4")
@@ -433,10 +481,10 @@ def _build_today_sheet(sheet, max_exercises: int, week_labels: list[str]) -> Non
     for exercise_index in range(1, max_exercises + 1):
         row = 6 + exercise_index
         key_expr = f"IFERROR($B$2*1000+$B$3*100+{exercise_index},0)"
-        data_range_key = "_Program_Data!$J$2:$J$1048576"
-        data_range_ex = "_Program_Data!$G$2:$G$1048576"
-        data_range_plan = "_Program_Data!$H$2:$H$1048576"
-        data_range_notes = "_Program_Data!$I$2:$I$1048576"
+        data_range_key = "_Program_Data!$L$2:$L$1048576"
+        data_range_ex = "_Program_Data!$I$2:$I$1048576"
+        data_range_plan = "_Program_Data!$J$2:$J$1048576"
+        data_range_notes = "_Program_Data!$K$2:$K$1048576"
 
         if exercise_index == 1:
             exercise_formula = (
@@ -485,14 +533,25 @@ def _write_day_legend(sheet, start_row: int, start_col: int) -> None:
     label_col = start_col + 1
 
     header_left = sheet.cell(start_row, number_col, value="Day #")
-    header_right = sheet.cell(start_row, label_col, value="Day label")
+    header_right = sheet.cell(start_row, label_col, value="Training date")
     _style_cell(header_left, fill=HEADER_FILL, font=HEADER_FONT, align="center")
     _style_cell(header_right, fill=HEADER_FILL, font=HEADER_FONT, align="center")
 
-    for idx, label in enumerate(DAY_LABELS, start=1):
+    for idx in range(1, 8):
         row = start_row + idx
+
         left = sheet.cell(row, number_col, value=idx)
-        right = sheet.cell(row, label_col, value=label)
+        right = sheet.cell(
+            row,
+            label_col,
+            value=(
+                "=IFERROR("
+                "INDEX(_Program_Data!$E$2:$E$1048576,"
+                f"MATCH($B$2*1000+{idx}*100+1,_Program_Data!$L$2:$L$1048576,0)),"
+                f'"Day {idx} - Rest")'
+            ),
+        )
+
         _style_cell(left, fill=DATA_FILL, font=BODY_FONT, align="center")
         _style_cell(right, fill=DATA_FILL, font=BODY_FONT)
 
